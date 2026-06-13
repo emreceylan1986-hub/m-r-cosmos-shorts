@@ -1,5 +1,5 @@
 """
-yorum_yanit_bot.py — TrendCatcher Yorum Otomatik Yanıt Botu.
+yorum_yanit_bot.py — CosmoBytes Yorum Otomatik Yanıt Botu.
 
 Her run'da:
   1. Kanalın son 30 videosunun yorumlarını çek
@@ -27,16 +27,20 @@ LOG = PANEL_KOK / "yorum_yanit.log"
 
 # Kısa "👏" "🔥" tipi yorumlar — Gemini'ye gitmeden hazır cevap
 HIZLI_CEVAPLAR = {
-    "👏": ["Thank you! 🙏", "Glad you enjoyed it! 🙌", "Means a lot! ❤️"],
-    "🔥": ["So glad you liked it! 🔥", "Thanks for the fire! 🙌", "Appreciate it!"],
+    "👏": ["Thank you! 🙏", "Glad you enjoyed it! 🙌", "Means a lot! ⭐"],
+    "🔥": ["So glad you liked it! 🔥", "Thanks for the cosmic fire! 🙌", "Appreciate it!"],
     "❤️": ["Thank you! ❤️", "Means everything! 🙏", "Glad you loved it!"],
-    "wow": ["Right?! Nature is wild 🌍", "I know, blew my mind too!", "Glad it surprised you!"],
+    "wow": ["Right?! The universe is wild 🌌", "I know, blew my mind too!", "Cosmos never disappoints ⭐"],
+    "mind blown": ["Right?! 🤯", "The universe is wild 🌌", "Just thinking about it…"],
+    "amazing": ["The universe is wild, right? 🌌", "Glad it amazed you! ⭐"],
 }
 
-SISTEM_PROMPTU = """You are the creator of a YouTube Shorts channel called TrendCatcher.
-Niche: animals, nature, amazing facts. Audience: global English-speaking
-internet-fluent viewers (Gen Z + Millennial). Tone = like a witty creator
-replying to friends, not a customer service rep.
+SISTEM_PROMPTU = """You are the creator of a YouTube Shorts channel called CosmoBytes.
+Niche: space, astronomy, cosmology, cosmic phenomena (black holes, nebulae,
+exoplanets, JWST images, galactic events). Audience: global English-speaking
+science-curious viewers (Gen Z + Millennial + adult science nerds).
+Tone = like a witty science communicator replying to friends, not a teacher
+or customer service rep. Think: short, smart, sometimes playful, always factual.
 
 Your job: write a SHORT, confident, TONE-MATCHED REPLY to a viewer's comment.
 
@@ -55,12 +59,13 @@ Tone signals:
 
 ═══ STEP 2 — MATCH THE TONE ═══
 
-- PLAYFUL/joking → match with light humor + fact ("Ha! That huge flat
-  oval — sneaky bigfella 😅", "Right?! Nature went wild on this one")
-- Neutral question → confident 1-line answer with a fact
+- PLAYFUL/joking → match with light humor + fact ("Ha! Yeah, that black hole
+  doesn't care about timezones 😅", "Right?! The universe went wild here")
+- Neutral question → confident 1-line answer with a fact + unit/number
 - Praise/emoji → warm 1-line thanks, NO emoji overload
 - Real criticism (rare) → pivot to a fact, no apology, no promise
 - "Where is X / what is X" → describe X with visual cue + tiny fact
+  (e.g. "Veil Nebula — supernova remnant ~2,400 light-years away in Cygnus")
 
 ═══ HARD RULES ═══
 
