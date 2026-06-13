@@ -26,27 +26,33 @@ from pathlib import Path
 
 PANEL_KOK = Path(__file__).parent
 
-# Niş — hayvan/doğa — anahtar kelime → product arama eşlemesi
+# Niş — uzay/astronomi — anahtar kelime → product arama eşlemesi
 NIS_PRODUCT_HARITASI = {
-    "telescope": "beginner telescope astronomy",
-    "planet": "planetarium book",
-    "galaxy": "astronomy coffee table book",
-    "blackhole": "black hole science book",
-    "space": "astronomy field guide",
-    "astronomy": "stargazing for beginners",
-    "stars": "star map atlas",
-    "universe": "astrophysics popular science",
-    "nebula": "Hubble Webb photography book",
-    "saturn": "planet observation book",
-    "jupiter": "Jupiter moons book",
-    "mars": "Mars exploration book",
-    "moon": "moon observation guide",
-    "sun": "solar observation safe filter",
-    "nasa": "NASA history coffee table book",
+    "black hole": "black hole physics book",
+    "neutron star": "neutron stars astrophysics book",
+    "nebula": "nebula photography book",
+    "galaxy": "galaxy photography coffee table book",
     "exoplanet": "exoplanet discovery book",
-    "comet": "comet observation guide",
-    "meteor": "meteor shower guide",
+    "saturn": "saturn telescope amateur",
+    "jupiter": "planetary science book",
+    "mars": "mars exploration book",
+    "moon": "moon photography book",
+    "supernova": "astrophysics textbook",
+    "jwst": "james webb space telescope book",
+    "hubble": "hubble photography book",
+    "telescope": "amateur telescope beginner",
+    "cosmos": "cosmos carl sagan book",
+    "universe": "universe documentary blu-ray",
+    "astronomy": "astronomy beginners guide",
+    "astrophysics": "astrophysics textbook beginner",
+    "meteor": "meteorite collection",
+    "comet": "stargazing guide book",
+    "asteroid": "asteroid impact book",
+    "dark matter": "dark matter physics book",
+    "stargazing": "stargazing for beginners book",
+    "space": "stargazing star chart",
     "cosmology": "cosmology textbook beginner",
+    "milky way": "milky way photography book",
 }
 
 
@@ -107,8 +113,8 @@ def aciklama_zenginleştir(aciklama: str, baslik: str, tags: list[str] = None) -
 if __name__ == "__main__":
     # Self test
     test = aciklama_zenginleştir(
-        "Glass sponges live for 15000 years.",
-        "Glass Sponges Live for 15,000 Years in the Deep Ocean",
-        ["nature", "ocean", "biology"],
+        "The Veil Nebula is expanding at 370,000 mph.",
+        "Veil Nebula: A Cosmic Firework Expanding at 370,000 MPH",
+        ["nebula", "supernova", "astronomy"],
     )
     print(test)
