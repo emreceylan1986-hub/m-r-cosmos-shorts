@@ -59,7 +59,7 @@ TONE: Warm, awe-struck, fascinated. Imagine a calm narrator showing the
 viewer something beautiful and surprising about the natural world. Conversational,
 not academic. NO clickbait words (shocking, insane, crazy, you won't believe).
 
-Required structure (100-130 words total (60sn)):
+Required structure (60-75 words total):
 - HOOK (first sentence, MAX 8 words): a punchy, curiosity-gap opener about
   the space/cosmic subject. Truthful. Feel: "Jupiter has 95 known moons."
   / "This star explodes every year." / "Black holes spin near light speed." NO question marks.
@@ -84,7 +84,7 @@ Required structure (100-130 words total (60sn)):
   ── NO hashtags, NO emojis in the script body.
 
 Constraints:
-- Total length: STRICT 100–130 words (subscribe CTA dahil). Never above 75.
+- Total length: STRICT 60–75 words (subscribe CTA dahil). Never above 75.
 - Very short, punchy sentences. Spoken rhythm. Contractions OK.
 - Output ONLY the spoken script text — no headings, no labels, no quotation marks
 """
@@ -119,8 +119,8 @@ def senaryo_uret(haber: dict) -> str:
         hedef_kelime = "70-85"
         min_kelime = 60
     else:
-        hedef_kelime = "100-130"
-        min_kelime = 90
+        hedef_kelime = "60-75"
+        min_kelime = 50
 
     temel_prompt = (
         f"Headline: {haber['baslik']}\n"

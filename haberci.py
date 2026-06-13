@@ -323,15 +323,6 @@ def gemini_konu_uret(blokli_url: set[str], adet: int = 3) -> list[dict]:
         pass
 
     # FAZ 8: Real-Time Trending Detector — competitor'lardan VIRAL (10K+ izl) konular
-    viral_radar_blok = ""
-    try:
-        vr = Path(__file__).parent / "viral_targets.json"
-        if vr.exists():
-            vr_data = json.loads(vr.read_text())
-            angles = vr_data.get("angles_for_haberci", [])[:8]
-            if angles:
-                viral_radar_blok = ("\n🔥 YOUTUBE TRENDING NOW (last 72h, 50K+ views — PROVEN VIRAL):\n" + "\n".join(f"  • {a}" for a in angles) + "\n  → Adapt one angle to a different cosmic subject.\n")
-    except Exception: pass
     trending_blok = ""
     try:
         cs = Path(__file__).parent / "competitor_signals.json"
@@ -370,7 +361,7 @@ def gemini_konu_uret(blokli_url: set[str], adet: int = 3) -> list[dict]:
                 prompt=(
                     f"BLOCKED Wikipedia URLs (do not reuse):\n{bloklar}\n\n"
                     f"BLOCKED TITLES (do not produce semantically similar topics):\n{baslik_bloklari}"
-                    f"{trend_blok}{tema_blok}{sequel_blok}{viral_radar_blok}{trending_blok}{ek_uyari}\n\n"
+                    f"{trend_blok}{tema_blok}{sequel_blok}{trending_blok}{ek_uyari}\n\n"
                     f"Produce exactly {adet} fresh viral space/astronomy topics now."
                 ),
                 sistem_promptu=GEMINI_KONU_SISTEM,
