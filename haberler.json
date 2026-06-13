@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-13T05:59:54.237059+00:00",
+  "uretim_zamani": "2026-06-13T15:02:29.576786+00:00",
   "haberler": [
     {
-      "baslik": "The Pillars of Creation are stellar nurseries, not fully formed stars!",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "The Veil Nebula: A Cosmic Shroud of Explosive Beauty",
+      "url": "https://en.wikipedia.org/wiki/Veil_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "A 'cosmic reef' of stars and gas forms the Carina Nebula!",
-      "url": "https://en.wikipedia.org/wiki/Carina_Nebula",
+      "baslik": "The Crab Nebula: A Star's Violent End, Still Expanding Today",
+      "url": "https://en.wikipedia.org/wiki/Crab_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Southern Ring Nebula is a dying star expelling its outer layers!",
-      "url": "https://en.wikipedia.org/wiki/Southern_Ring_Nebula",
+      "baslik": "The Horsehead Nebula: A Dark Cloud Sculpted by Starlight",
+      "url": "https://en.wikipedia.org/wiki/Horsehead_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
