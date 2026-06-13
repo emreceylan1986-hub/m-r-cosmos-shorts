@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-13T18:09:02.491568+00:00",
+  "uretim_zamani": "2026-06-13T21:18:04.004148+00:00",
   "haberler": [
     {
-      "baslik": "The Sombrero Galaxy: A Cosmic Hat with a Supermassive Black Hole!",
-      "url": "https://en.wikipedia.org/wiki/Sombrero_Galaxy",
+      "baslik": "A Cosmic Web: How Gravity Connects the Universe!",
+      "url": "https://en.wikipedia.org/wiki/Cosmic_web",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Andromeda Galaxy is on a collision course with the Milky Way!",
-      "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+      "baslik": "The Bullet Cluster: When Galaxies Collide, Dark Matter Reveals Itself!",
+      "url": "https://en.wikipedia.org/wiki/Bullet_Cluster",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "A Quasar is the brightest object in the Universe!",
-      "url": "https://en.wikipedia.org/wiki/Quasar",
+      "baslik": "Hubble Deep Field: Gaze Into 13 Billion Years of Cosmic History!",
+      "url": "https://en.wikipedia.org/wiki/Hubble_Deep_Field",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
