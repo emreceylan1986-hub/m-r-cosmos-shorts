@@ -1,0 +1,191 @@
+name: CosmoBytes Otonom Pipeline
+
+# TrendCatcher cron'undan 1 saat kaymalı (quota çakışmasın):
+# TrendCatcher: 12,16,19 UTC  →  CosmoBytes: 13,17,20 UTC
+# TR saatleri: 16:00, 20:00, 23:00
+on:
+  schedule:
+    - cron: "0 13,17,20 * * *"
+  workflow_dispatch:
+    inputs:
+      gizlilik:
+        description: "Yayın gizliliği"
+        required: false
+        default: "public"
+        type: choice
+        options: [public, unlisted, private]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  shorts-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Write secrets to runtime files
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          JAMENDO_CLIENT_ID: ${{ secrets.JAMENDO_CLIENT_ID }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          PINTEREST_TOKEN: ${{ secrets.PINTEREST_TOKEN }}
+          PINTEREST_BOARD_ID: ${{ secrets.PINTEREST_BOARD_ID }}
+          AMAZON_ASSOCIATES_TAG: ${{ secrets.AMAZON_ASSOCIATES_TAG }}
+          CLIENT_SECRET_JSON: ${{ secrets.CLIENT_SECRET_JSON }}
+          TOKEN_JSON: ${{ secrets.TOKEN_JSON }}
+        run: |
+          {
+            echo "GEMINI_API_KEY=${GEMINI_API_KEY}"
+            echo "PEXELS_API_KEY=${PEXELS_API_KEY}"
+            echo "PIXABAY_API_KEY=${PIXABAY_API_KEY}"
+            echo "JAMENDO_CLIENT_ID=${JAMENDO_CLIENT_ID}"
+            echo "REDDIT_CLIENT_ID=${REDDIT_CLIENT_ID}"
+            echo "REDDIT_CLIENT_SECRET=${REDDIT_CLIENT_SECRET}"
+            echo "PINTEREST_TOKEN=${PINTEREST_TOKEN}"
+            echo "PINTEREST_BOARD_ID=${PINTEREST_BOARD_ID}"
+            echo "AMAZON_ASSOCIATES_TAG=${AMAZON_ASSOCIATES_TAG}"
+          } > .env
+          printf '%s' "$CLIENT_SECRET_JSON" > client_secret.json
+          printf '%s' "$TOKEN_JSON" > token.json
+          python -c "import json; json.load(open('client_secret.json')); json.load(open('token.json')); print('secrets OK')"
+
+      - name: 0) Trend Signal Mixer
+        continue-on-error: true
+        run: |
+          python competitor_scan.py || true
+          python trend_signal_mixer.py || true
+
+      - name: 1) Haberci — Reddit (r/space, r/astronomy) + Gemini fallback
+        run: python haberci.py
+
+      - name: 2) Seslendirici — Hook predictor + Voice CTA
+        run: python seslendirici.py
+
+      - name: 3) Montajcı — Pexels + Wikimedia + Vision QC
+        run: python montajci.py
+
+      - name: 4) Yükleyici — kategori science (28) + affiliate
+        env:
+          GIZLILIK: ${{ github.event.inputs.gizlilik || 'public' }}
+        run: python yukleyici.py --gizlilik "$GIZLILIK" --kategori tech
+
+      - name: 4b) Post-Upload — Thumbnail A/B + Pinterest + Multilang
+        if: success()
+        continue-on-error: true
+        run: python post_upload.py
+
+      - name: 5) Pattern Detector
+        if: success()
+        continue-on-error: true
+        run: python pattern_detector.py --esik 500
+
+      - name: 5b) Retention Learner
+        if: success()
+        continue-on-error: true
+        run: python retention_learner.py
+
+      - name: 6) Analytics
+        if: success()
+        continue-on-error: true
+        run: python analytics.py --gun 14
+
+      - name: 7) Dashboard
+        if: success()
+        continue-on-error: true
+        run: python dashboard.py
+
+      - name: 8) A/B Title karşılaştır
+        if: success()
+        continue-on-error: true
+        run: python ab_title_test.py --karsilastir
+
+      - name: 8b) Thumbnail A/B karşılaştır
+        if: success()
+        continue-on-error: true
+        run: python thumbnail_ab.py --karsilastir
+
+      - name: 9) YPP Tracker
+        if: success()
+        continue-on-error: true
+        run: python ypp_tracker.py
+
+      - name: 10) Sponsor Kit
+        if: success()
+        continue-on-error: true
+        run: python sponsor_kit.py
+
+      - name: 11) Yorum Yanıt Bot
+        if: success()
+        continue-on-error: true
+        run: python yorum_yanit_bot.py --max-cevap 15 --min-yas 5
+
+      - name: 12) Schedule Optimizer
+        if: success()
+        continue-on-error: true
+        run: python schedule_optimizer.py
+
+      - name: 13) Community Post Kuyruğu
+        if: success()
+        continue-on-error: true
+        run: python community_post.py
+
+      - name: State commit (JSON-aware merge)
+        if: always()
+        env:
+          GITHUB_RUN_NUMBER: ${{ github.run_number }}
+        run: bash state_push.sh
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-output-${{ github.run_number }}
+          path: |
+            ses_ciktilari/
+            shorts_ciktilari/
+            yuklemeler.json
+            haberler.json
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Başarılı yayın bildirimi
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f .basarili_yayin ]; then
+            VID=$(python3 -c "import json; print(json.load(open('.basarili_yayin'))['video_id'])")
+            TITLE=$(python3 -c "import json; print(json.load(open('.basarili_yayin'))['title'])")
+            gh issue create \
+              --title "✅ CosmoBytes yayın — $TITLE" \
+              --body "Run #${{ github.run_number }} otomatik yayın tamamlandı. https://youtu.be/$VID"
+            rm -f .basarili_yayin
+          fi
+
+      - name: Hata bildirimi
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "🚨 CosmoBytes FAIL — run #${{ github.run_number }}" \
+            --body "Run failed: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"

@@ -1,0 +1,10 @@
+.env
+client_secret.json
+token.json
+.DS_Store
+yedekler/
+gecici_video/
+ses_ciktilari/
+shorts_ciktilari/
+__pycache__/
+*.pyc
