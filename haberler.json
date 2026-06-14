@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-14T15:08:20.863313+00:00",
+  "uretim_zamani": "2026-06-14T18:15:24.071146+00:00",
   "haberler": [
     {
-      "baslik": "A Diamond as Big as a Planet? Meet 55 Cancri e!",
-      "url": "https://en.wikipedia.org/wiki/55_Cancri_e",
+      "baslik": "Jupiter's Moon Io is the Most Volcanically Active World in Our Solar System",
+      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Sun's Atmosphere is Hotter Than its Surface. Why?",
-      "url": "https://en.wikipedia.org/wiki/Solar_corona",
+      "baslik": "A Day on Venus is Longer Than Its Year",
+      "url": "https://en.wikipedia.org/wiki/Venus",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Jupiter's Great Red Spot is Shrinking. What's Happening?",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "baslik": "The Sun's Corona is Millions of Degrees Hotter Than Its Surface",
+      "url": "https://en.wikipedia.org/wiki/Corona",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
