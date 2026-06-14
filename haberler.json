@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-14T18:15:24.071146+00:00",
+  "uretim_zamani": "2026-06-14T21:14:31.887766+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Moon Io is the Most Volcanically Active World in Our Solar System",
-      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
+      "baslik": "There's a Planet Entirely Covered in Burning Ice!",
+      "url": "https://en.wikipedia.org/wiki/Gliese_436_b",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "A Day on Venus is Longer Than Its Year",
-      "url": "https://en.wikipedia.org/wiki/Venus",
+      "baslik": "Our Sun Has a Twin We Can't See (and it's not Nemesis!)",
+      "url": "https://en.wikipedia.org/wiki/Heliosphere",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Sun's Corona is Millions of Degrees Hotter Than Its Surface",
-      "url": "https://en.wikipedia.org/wiki/Corona",
+      "baslik": "Why Are Some Asteroids Called 'Trojans'?",
+      "url": "https://en.wikipedia.org/wiki/Trojan_(astronomy)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
