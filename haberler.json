@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-13T21:18:04.004148+00:00",
+  "uretim_zamani": "2026-06-14T15:08:20.863313+00:00",
   "haberler": [
     {
-      "baslik": "A Cosmic Web: How Gravity Connects the Universe!",
-      "url": "https://en.wikipedia.org/wiki/Cosmic_web",
+      "baslik": "A Diamond as Big as a Planet? Meet 55 Cancri e!",
+      "url": "https://en.wikipedia.org/wiki/55_Cancri_e",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Bullet Cluster: When Galaxies Collide, Dark Matter Reveals Itself!",
-      "url": "https://en.wikipedia.org/wiki/Bullet_Cluster",
+      "baslik": "The Sun's Atmosphere is Hotter Than its Surface. Why?",
+      "url": "https://en.wikipedia.org/wiki/Solar_corona",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Hubble Deep Field: Gaze Into 13 Billion Years of Cosmic History!",
-      "url": "https://en.wikipedia.org/wiki/Hubble_Deep_Field",
+      "baslik": "Jupiter's Great Red Spot is Shrinking. What's Happening?",
+      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
