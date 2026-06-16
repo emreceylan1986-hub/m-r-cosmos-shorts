@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-15T22:21:02.685229+00:00",
+  "uretim_zamani": "2026-06-16T18:06:14.698313+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Moon Ganymede: Bigger Than Mercury AND Has Its OWN Magnetic Field!",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "A Black Hole's Event Horizon: The Point of No Return",
+      "url": "https://en.wikipedia.org/wiki/Event_horizon",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Enceladus: Saturn's Moon That Sprays Water into Space, Hiding a Subsurface Ocean!",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Neutron Stars: Objects So Dense, a Teaspoon Weighs a Billion Tons!",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Uranus's Moons Are Named After Shakespeare and Pope Characters! Here's Why.",
-      "url": "https://en.wikipedia.org/wiki/Moons_of_Uranus",
+      "baslik": "Gravitational Lensing: When Gravity Bends Light, Creating Cosmic Mirages",
+      "url": "https://en.wikipedia.org/wiki/Gravitational_lensing",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
