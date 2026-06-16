@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-16T18:06:14.698313+00:00",
+  "uretim_zamani": "2026-06-16T22:13:49.295299+00:00",
   "haberler": [
     {
-      "baslik": "A Black Hole's Event Horizon: The Point of No Return",
-      "url": "https://en.wikipedia.org/wiki/Event_horizon",
+      "baslik": "Rogue Planets: Worlds Without a Sun, Drifting Through Space",
+      "url": "https://en.wikipedia.org/wiki/Rogue_planet",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Neutron Stars: Objects So Dense, a Teaspoon Weighs a Billion Tons!",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
+      "baslik": "Space-Time Warps: How Gravity Bends the Fabric of the Universe",
+      "url": "https://en.wikipedia.org/wiki/Spacetime",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Gravitational Lensing: When Gravity Bends Light, Creating Cosmic Mirages",
-      "url": "https://en.wikipedia.org/wiki/Gravitational_lensing",
+      "baslik": "Supermassive Black Holes: The Engines at the Heart of Most Galaxies",
+      "url": "https://en.wikipedia.org/wiki/Supermassive_black_hole",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
