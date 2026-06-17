@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-17T15:59:12.508527+00:00",
+  "uretim_zamani": "2026-06-17T16:33:12.894888+00:00",
   "haberler": [
     {
-      "baslik": "The Milky Way is on a Collision Course with Andromeda!",
-      "url": "https://en.wikipedia.org/wiki/Milky_Way",
+      "baslik": "Dark Flow: A Mysterious Force Pulling Galaxy Clusters!",
+      "url": "https://en.wikipedia.org/wiki/Dark_flow",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Dark Matter: The Mysterious Invisible Glue of the Universe",
-      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "baslik": "What If The Universe Was a Donut? The Shape of Space-Time!",
+      "url": "https://en.wikipedia.org/wiki/Shape_of_the_universe",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Great Attractor: A Cosmic Anomaly Pulling Galaxies In!",
-      "url": "https://en.wikipedia.org/wiki/Great_Attractor",
+      "baslik": "The Sloan Great Wall: One of the Universe's Largest Structures!",
+      "url": "https://en.wikipedia.org/wiki/Sloan_Great_Wall",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
