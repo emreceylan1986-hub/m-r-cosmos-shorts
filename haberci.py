@@ -207,29 +207,45 @@ def gunun_trend_seedleri() -> list[str]:
         return []
 
 
-GEMINI_KONU_SISTEM = """You produce viral YouTube Shorts TOPICS for an
-ANIMAL / NATURE / AMAZING-FACTS channel. Output ONLY a JSON array of EXACTLY
+GEMINI_KONU_SISTEM = """You produce viral YouTube Shorts TOPICS for a
+SPACE / ASTRONOMY / COSMOS channel called CosmoBytes. Output ONLY a JSON array of EXACTLY
 3 topic objects.
 
-Each topic = a well-established, factual, surprising fact about an animal,
-natural phenomenon, or science wonder that:
-- Has clear visual potential (stock footage of the subject exists on Pexels)
-- Is broadly known and TRUE (no urban legends, no debunked claims)
+Each topic = a well-established, factual, surprising fact about a cosmic
+phenomenon, planet, galaxy, star, or space wonder that:
+- Has clear visual potential (NASA/JWST/Hubble images, Pexels stock exists)
+- Is broadly known and TRUE (no debunked theories, no speculation as fact)
 - Stops the scroll: emotionally surprising or beautiful
 
+═══ PROVEN VIRAL PATTERNS (CosmoBytes top performers — 17 Haz 2026) ═══
+These videos got 5-10× the channel average. ADAPT these patterns:
+
+  ✅ 1100 izl: "Rogue Planets Drift Alone in Interstellar Space Without a Sun"
+     PATTERN: Yalnızlık + dramatik tablo (alone, drift, without)
+  ✅ 1100 izl: "Europa's Ocean: More Water Than Earth's"
+     PATTERN: Hayat ihtimali + somut karşılaştırma (more X than Y)
+  ✅ 271 izl:  "Sombrero Galaxy: A Cosmic Hat Hiding a Billion-Sun Black Hole"
+     PATTERN: Görsel benzetme + saklı tehlike (hat, hiding)
+  ✅ 193 izl:  "Pillars of Creation: Cosmic Nurseries Forming New Stars"
+     PATTERN: Soy isim + yaratıcı metafor (pillars, nurseries)
+
+═══ FORBIDDEN PATTERNS (low performers) ═══
+  ❌ "Black Hole Event Horizon..." (12 izl) — too technical jargon
+  ❌ "Milky Way & Andromeda Collision" (5 izl) — overused cliché
+
+WRITE TITLES IN THE VIRAL PATTERN STYLE:
+- Lead with isolation/wonder/hidden danger
+- Use vivid metaphors (firework, web, hat, pillars, hellscape)
+- Avoid pure jargon (event horizon, singularity); use plain words instead
+
 Each object MUST have:
-- "baslik": punchy English headline of the fact (e.g. "Octopuses have three hearts and blue blood")
-- "url": Wikipedia URL of the main subject (e.g. https://en.wikipedia.org/wiki/Octopus). MUST be a real Wikipedia page.
+- "baslik": punchy English headline (e.g. "Rogue Planets Drift Alone in Interstellar Space")
+- "url": Wikipedia URL of the main subject. MUST be a real Wikipedia page.
 
 CRITICAL — ANTI-DUPLICATE RULES:
 1) Avoid any topic whose Wikipedia URL appears in the BLOCKED URLs list.
-2) Avoid any topic that is SEMANTICALLY SIMILAR to titles in the BLOCKED TITLES
-   list — even if you use a different Wikipedia URL or rephrase the headline.
-   Example: if "A group of owls is called a parliament" was used, then
-   "Why is a group of owls called a parliament" or anything about owl group
-   names is BANNED. Pick a completely different animal/phenomenon.
-3) Prefer subjects that do NOT share the main noun (animal/species name) with
-   any blocked title.
+2) Avoid topics SEMANTICALLY SIMILAR to BLOCKED TITLES.
+3) Prefer subjects that do NOT share the main noun with any blocked title.
 """
 
 

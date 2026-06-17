@@ -1,0 +1,29 @@
+{
+  "guncelleme_tarihi": "2026-06-17",
+  "viral": {
+    "ornek_basliklar": [
+      "Rogue Planets Drift Alone in Interstellar Space Without a Sun",
+      "Europa's Ocean: More Water Than Earth's",
+      "Sombrero Galaxy: A Cosmic Hat Hiding a Billion-Sun Black Hole",
+      "Pillars of Creation: Cosmic Nurseries Forming New Stars",
+      "Veil Nebula: A Cosmic Firework Expanding at 370,000 MPH"
+    ],
+    "ortak_paternler": [
+      "Yalnızlık/yalıtım — 'alone', 'drift', 'without a Sun', 'isolated'",
+      "Hayat ihtimali — 'water', 'ocean', 'habitable', 'life potential'",
+      "Görsel benzetme — 'hat', 'firework', 'nurseries', 'web', 'pillars'",
+      "Soy isim — Sombrero, Pillars of Creation, Veil — kolay hatırlanır",
+      "Süpersıfat + yer — 'cosmic', 'rogue', 'super-Earth', 'hellscape'"
+    ],
+    "yasak_paternler": [
+      "Pure technical jargon — 'event horizon', 'singularity', 'gravitational wave'",
+      "Cliche space collisions — 'milky way andromeda collision' (5 view)",
+      "Generic 'incredible' / 'amazing' başlangıçları — herkes kullanıyor"
+    ]
+  },
+  "metric": {
+    "top_5_ortalama_izlenme": 555,
+    "kanal_ortalama_izlenme": 200,
+    "carpan": 2.8
+  }
+}
