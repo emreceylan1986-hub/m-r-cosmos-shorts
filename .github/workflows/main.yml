@@ -1,11 +1,12 @@
 name: CosmoBytes Otonom Pipeline
 
 # TrendCatcher cron'undan 1 saat kaymalı (quota çakışmasın):
-# TrendCatcher: 12,16,19 UTC  →  CosmoBytes: 13,17,20 UTC
-# TR saatleri: 16:00, 20:00, 23:00
+# TrendCatcher: 12,16,19,22 UTC  →  CosmoBytes: 13,17,20,23 UTC
+# TR saatleri: 16:00, 20:00, 23:00, 02:00
+# Faz 10 (16 Haz): 3 → 4 video. 23 UTC = ABD East 19:00 + Asya 07:00.
 on:
   schedule:
-    - cron: "0 13,17,20 * * *"
+    - cron: "0 13,17,20,23 * * *"
   workflow_dispatch:
     inputs:
       gizlilik:
