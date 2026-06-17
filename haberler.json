@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-17T19:17:26.326780+00:00",
+  "uretim_zamani": "2026-06-17T21:53:33.615133+00:00",
   "haberler": [
     {
-      "baslik": "The Large Magellanic Cloud: A Galactic Satellite Orbiting Our Milky Way, Ripping Itself Apart",
-      "url": "https://en.wikipedia.org/wiki/Large_Magellanic_Cloud",
+      "baslik": "The Magellanic Stream: A Cosmic River Tearing Through Space",
+      "url": "https://en.wikipedia.org/wiki/Magellanic_Stream",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Hercules-Corona Borealis Great Wall: A Cosmic Structure So Vast, Light Takes Billions of Years to Cross It",
-      "url": "https://en.wikipedia.org/wiki/Hercules%E2%80%93Corona_Borealis_Great_Wall",
+      "baslik": "Spiral Galaxies: Cosmic Pinwheels Hiding Secrets in Their Arms",
+      "url": "https://en.wikipedia.org/wiki/Spiral_galaxy",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Galaxy Mergers: When Two Cosmic Islands Become One, Igniting Billions of Stars",
-      "url": "https://en.wikipedia.org/wiki/Galaxy_merger",
+      "baslik": "Dark Matter Halos: Invisible Scaffolding Holding Galaxies Together",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter_halo",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
