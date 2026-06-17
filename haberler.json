@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-16T22:13:49.295299+00:00",
+  "uretim_zamani": "2026-06-17T15:59:12.508527+00:00",
   "haberler": [
     {
-      "baslik": "Rogue Planets: Worlds Without a Sun, Drifting Through Space",
-      "url": "https://en.wikipedia.org/wiki/Rogue_planet",
+      "baslik": "The Milky Way is on a Collision Course with Andromeda!",
+      "url": "https://en.wikipedia.org/wiki/Milky_Way",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Space-Time Warps: How Gravity Bends the Fabric of the Universe",
-      "url": "https://en.wikipedia.org/wiki/Spacetime",
+      "baslik": "Dark Matter: The Mysterious Invisible Glue of the Universe",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Supermassive Black Holes: The Engines at the Heart of Most Galaxies",
-      "url": "https://en.wikipedia.org/wiki/Supermassive_black_hole",
+      "baslik": "The Great Attractor: A Cosmic Anomaly Pulling Galaxies In!",
+      "url": "https://en.wikipedia.org/wiki/Great_Attractor",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
