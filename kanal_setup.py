@@ -138,6 +138,12 @@ def banner_yukle_set(yt, kanal_id):
         body = {
             "id": kanal_id,
             "brandingSettings": {
+                "channel": {
+                    "description": KANAL_DESCRIPTION,
+                    "keywords": KANAL_KEYWORDS,
+                    "defaultLanguage": "en",
+                    "country": "TR",
+                },
                 "image": {"bannerExternalUrl": banner_url},
             },
         }
@@ -234,6 +240,14 @@ def playlistleri_olustur_ve_doldur(yt):
     return True
 
 
+def mevcut_playlistler_var_mi(yt):
+    """Bu script'in 3 ana playlist'i zaten oluşturulmuş mu kontrol et."""
+    r = yt.playlists().list(part="snippet", mine=True, maxResults=50).execute()
+    mevcut = {pl["snippet"]["title"] for pl in r.get("items", [])}
+    benim = {pl["title"] for pl in PLAYLISTS}
+    return benim.issubset(mevcut)
+
+
 def main():
     log("=== CosmoBytes kanal kurulumu başladı ===")
     yt = yt_istemci()
@@ -247,7 +261,13 @@ def main():
     sonuc = []
     sonuc.append(("Description + Keywords", description_ve_keywords_set(yt, kanal_id, mevcut_branding)))
     sonuc.append(("Banner upload + set", banner_yukle_set(yt, kanal_id)))
-    sonuc.append(("Playlist oluştur + doldur", playlistleri_olustur_ve_doldur(yt)))
+
+    # Playlist'ler önceden oluşturulmuşsa tekrar oluşturma
+    if mevcut_playlistler_var_mi(yt):
+        log("3) Playlist'ler ZATEN VAR — atlanıyor (duplikasyon önleme)")
+        sonuc.append(("Playlist (zaten var)", True))
+    else:
+        sonuc.append(("Playlist oluştur + doldur", playlistleri_olustur_ve_doldur(yt)))
 
     log("")
     log("=== ÖZET ===")
