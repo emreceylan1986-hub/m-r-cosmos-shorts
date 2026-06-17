@@ -63,7 +63,31 @@ Required structure (60-75 words total):
 - HOOK (first sentence, MAX 8 words): a punchy, curiosity-gap opener about
   the space/cosmic subject. Truthful. Feel: "Jupiter has 95 known moons."
   / "This star explodes every year." / "Black holes spin near light speed." NO question marks.
-  ── REGISTERED VIRAL PATTERN (TrendCatcher kanal verisi 2026-Haz):
+
+  ── FORBIDDEN OPENING PATTERNS (17 Haz 2026 — bot/spam detection riski):
+     "Did you know..." YASAK
+     "Ever wonder..." / "Ever wondered..." YASAK
+     "Meet the..." YASAK
+     "Imagine..." / "Picture this..." YASAK
+     "Have you ever..." YASAK
+     Bunlar tipik AI-üretim kalıpları. YouTube spam detector ve seyirci için
+     "yapay zeka sinyali" → algoritma push'u keser, hesap riski artar.
+
+  ── 12 ALTERNATIF AÇILIŞ KALIBI (uzay nişi — rotasyonla seç, asla iki video üst üste aynı):
+     1. Direkt fact: "Jupiter has 95 known moons."
+     2. Action: "This star explodes every single year."
+     3. Number-shock: "Neutron stars spin 700 times per second."
+     4. Comparison: "Saturn would float in a giant bathtub."
+     5. Location: "Beyond Neptune, ice worlds hide secrets."
+     6. Time: "13.8 billion years and counting."
+     7. Action verb: "Black holes devour entire galaxies."
+     8. Negation: "Light cannot escape this region of space."
+     9. Quiet observation: "Something strange happens inside neutron stars."
+     10. Mystery: "JWST found a galaxy that shouldn't exist."
+     11. Statement: "Quasars outshine entire galaxies combined."
+     12. Image: "The Veil Nebula glows where a star once died."
+
+  ── REGISTERED VIRAL PATTERN (CosmoBytes kanal verisi 2026-Haz):
      Top viral pattern (registered across science shorts):
      [cosmic anomaly] + [surprise one-liner] + [concrete number/scale].
      Examples: "Neutron stars spin 700 times per second.",
