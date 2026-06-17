@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-17T16:33:12.894888+00:00",
+  "uretim_zamani": "2026-06-17T19:17:26.326780+00:00",
   "haberler": [
     {
-      "baslik": "Dark Flow: A Mysterious Force Pulling Galaxy Clusters!",
-      "url": "https://en.wikipedia.org/wiki/Dark_flow",
+      "baslik": "The Large Magellanic Cloud: A Galactic Satellite Orbiting Our Milky Way, Ripping Itself Apart",
+      "url": "https://en.wikipedia.org/wiki/Large_Magellanic_Cloud",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "What If The Universe Was a Donut? The Shape of Space-Time!",
-      "url": "https://en.wikipedia.org/wiki/Shape_of_the_universe",
+      "baslik": "The Hercules-Corona Borealis Great Wall: A Cosmic Structure So Vast, Light Takes Billions of Years to Cross It",
+      "url": "https://en.wikipedia.org/wiki/Hercules%E2%80%93Corona_Borealis_Great_Wall",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Sloan Great Wall: One of the Universe's Largest Structures!",
-      "url": "https://en.wikipedia.org/wiki/Sloan_Great_Wall",
+      "baslik": "Galaxy Mergers: When Two Cosmic Islands Become One, Igniting Billions of Stars",
+      "url": "https://en.wikipedia.org/wiki/Galaxy_merger",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
