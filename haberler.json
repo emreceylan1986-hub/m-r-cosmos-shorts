@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-06-18T00:07:26.019056+00:00",
+  "uretim_zamani": "2026-06-18T16:22:15.712558+00:00",
   "haberler": [
     {
-      "baslik": "TRAPPIST-1 System: Seven Worlds, Three in the Habitable Zone",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1",
+      "baslik": "Kepler-16b: A Real-Life Tatooine With Two Suns Setting!",
+      "url": "https://en.wikipedia.org/wiki/Kepler-16b",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-186f: The First Earth-Sized Exoplanet in Another Star's Habitable Zone",
-      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
+      "baslik": "Exoplanet K2-18b: A Water World with Potential for Alien Life!",
+      "url": "https://en.wikipedia.org/wiki/K2-18b",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Proxima Centauri b: Our Nearest Exoplanet Neighbor, a Potential Ocean World?",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
