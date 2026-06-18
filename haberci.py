@@ -238,6 +238,15 @@ WRITE TITLES IN THE VIRAL PATTERN STYLE:
 - Use vivid metaphors (firework, web, hat, pillars, hellscape)
 - Avoid pure jargon (event horizon, singularity); use plain words instead
 
+═══ VIRAL TITLE FORMULA: "X Vs Y" (Outlawgaming 235M view kanıtı) ═══
+Every 4th-5th video, try the "Vs" battle/comparison format:
+  • "Black Hole Vs Light Speed: Who Wins?"
+  • "Neutron Star Vs Sun: A Density Battle"
+  • "Saturn's Rings Vs A Bathtub"
+  • "JWST Vs Hubble: Image Battle"
+  • "Quasar Vs Pulsar: Brightness War"
+The "Vs" word is an algorithm trigger — comparison content gets 3-5x click-through.
+
 Each object MUST have:
 - "baslik": punchy English headline (e.g. "Rogue Planets Drift Alone in Interstellar Space")
 - "url": Wikipedia URL of the main subject. MUST be a real Wikipedia page.
