@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-06-18T19:16:16.037402+00:00",
+  "uretim_zamani": "2026-06-18T21:57:16.734706+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-22b: The First Alien World Found in a Star's Habitable Zone",
-      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
+      "baslik": "WASP-12b: A Planet Being Eaten Alive by its Star!",
+      "url": "https://en.wikipedia.org/wiki/WASP-12b",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Exoplanets: Are There More Stars Than Grains of Sand on Earth?",
-      "url": "https://en.wikipedia.org/wiki/Exoplanet",
+      "baslik": "Proxima Centauri vs. Our Sun: A Tale of Two Stars",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "The Goldilocks Zone: Where Alien Life Might Be Hiding",
+      "url": "https://en.wikipedia.org/wiki/Circumstellar_habitable_zone",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
