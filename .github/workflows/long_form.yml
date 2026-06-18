@@ -1,0 +1,94 @@
+name: Cosmos Long-Form Haftalık (Pazar 02:00 UTC = 05:00 TR)
+
+on:
+  schedule:
+    # Pazar 02:00 UTC = Pazar 05:00 TR — düşük trafik saati
+    - cron: "0 2 * * 0"
+  workflow_dispatch:
+    inputs:
+      konu:
+        description: "Konu zorla (boş = rotasyondan otomatik)"
+        required: false
+        default: ""
+      kuru:
+        description: "Kuru mod (test, upload yok)"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+
+permissions:
+  contents: write
+
+jobs:
+  uret:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          # ffmpeg
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Write OAuth + API secrets
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          JAMENDO_CLIENT_ID: ${{ secrets.JAMENDO_CLIENT_ID }}
+          CLIENT_SECRET_JSON: ${{ secrets.CLIENT_SECRET_JSON }}
+          TOKEN_JSON: ${{ secrets.TOKEN_JSON }}
+        run: |
+          {
+            echo "GEMINI_API_KEY=${GEMINI_API_KEY}"
+            echo "PEXELS_API_KEY=${PEXELS_API_KEY}"
+            echo "PIXABAY_API_KEY=${PIXABAY_API_KEY}"
+            echo "JAMENDO_CLIENT_ID=${JAMENDO_CLIENT_ID}"
+          } > .env
+          printf '%s' "$CLIENT_SECRET_JSON" > client_secret.json
+          printf '%s' "$TOKEN_JSON" > token.json
+
+      - name: Long-form üretim
+        run: |
+          KONU="${{ github.event.inputs.konu }}"
+          KURU_ARG=""
+          if [ "${{ github.event.inputs.kuru }}" = "true" ]; then
+            KURU_ARG="--kuru"
+          fi
+          if [ -n "$KONU" ]; then
+            python long_form_uretici.py --konu "$KONU" $KURU_ARG
+          else
+            python long_form_uretici.py $KURU_ARG
+          fi
+
+      - name: State commit (long_form_gecmis.json)
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add long_form_gecmis.json long_form.log 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "long-form: ${{ github.run_number }}"
+          git push || true
+
+      - name: Hata bildirimi
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "🚨 Long-form FAIL — run #${{ github.run_number }}" \
+            --body "Long-form üretimi başarısız: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
