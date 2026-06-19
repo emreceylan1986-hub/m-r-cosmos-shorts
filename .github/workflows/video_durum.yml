@@ -1,0 +1,25 @@
+name: Video Durum Sorgu (manuel)
+
+on:
+  workflow_dispatch:
+    inputs:
+      video_id:
+        description: "Sorgulanacak YouTube video ID"
+        required: true
+
+jobs:
+  sorgu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install google-auth google-auth-oauthlib google-api-python-client
+      - name: Write token
+        env:
+          TOKEN_JSON: ${{ secrets.TOKEN_JSON }}
+        run: printf '%s' "$TOKEN_JSON" > token.json
+      - name: Sorgula
+        run: python video_durum.py "${{ github.event.inputs.video_id }}"
