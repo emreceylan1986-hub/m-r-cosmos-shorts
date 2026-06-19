@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-18T21:57:16.734706+00:00",
+  "uretim_zamani": "2026-06-19T00:20:40.936678+00:00",
   "haberler": [
     {
-      "baslik": "WASP-12b: A Planet Being Eaten Alive by its Star!",
-      "url": "https://en.wikipedia.org/wiki/WASP-12b",
+      "baslik": "Betelgeuse: A Dying Star So Vast, It Would Swallow Our Solar System",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Proxima Centauri vs. Our Sun: A Tale of Two Stars",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri",
+      "baslik": "Wolf-Rayet Stars: Cosmic Engines Forging the Universe's Heaviest Elements",
+      "url": "https://en.wikipedia.org/wiki/Wolf%E2%80%93Rayet_star",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Goldilocks Zone: Where Alien Life Might Be Hiding",
-      "url": "https://en.wikipedia.org/wiki/Circumstellar_habitable_zone",
+      "baslik": "Supernova Vs. Hypernova: Which Cosmic Explosion Wins?",
+      "url": "https://en.wikipedia.org/wiki/Hypernova",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
