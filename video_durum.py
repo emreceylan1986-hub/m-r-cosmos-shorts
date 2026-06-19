@@ -18,13 +18,26 @@ SCOPES = [
 
 def main():
     if len(sys.argv) < 2:
-        print("Kullanım: python video_durum.py <video_id>"); sys.exit(1)
+        print("Kullanım: python video_durum.py <video_id> [--public]"); sys.exit(1)
     video_id = sys.argv[1]
+    public_yap = "--public" in sys.argv
 
     creds = Credentials.from_authorized_user_file("token.json", SCOPES)
     if creds.expired and creds.refresh_token:
         creds.refresh(Request())
     yt = build("youtube", "v3", credentials=creds, cache_discovery=False)
+
+    if public_yap:
+        print(f"🔓 {video_id} → PUBLIC yapılıyor...")
+        yt.videos().update(
+            part="status",
+            body={
+                "id": video_id,
+                "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False},
+            },
+        ).execute()
+        print(f"✅ Video PUBLIC oldu: https://youtu.be/{video_id}")
+        return
 
     r = yt.videos().list(
         part="snippet,status,statistics,contentDetails,suggestions,processingDetails,topicDetails",
