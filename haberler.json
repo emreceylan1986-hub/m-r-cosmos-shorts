@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-06-19T15:56:29.638062+00:00",
+  "uretim_zamani": "2026-06-19T18:28:43.075598+00:00",
   "haberler": [
     {
-      "baslik": "Stephenson 2-18: The Universe's Biggest Star Vs Our Sun",
-      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
+      "baslik": "Cosmic Rebirth: Supernova Remnants Forge New Star Seeds",
+      "url": "https://en.wikipedia.org/wiki/Supernova",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Supernova Remnants: The Ethereal Echoes of Dying Stars",
-      "url": "https://en.wikipedia.org/wiki/Supernova_remnant",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Red Supergiants: Cosmic Monsters That Dwarf Our Sun",
-      "url": "https://en.wikipedia.org/wiki/Red_supergiant",
+      "baslik": "Pulsars: Cosmic Lighthouses Spinning Faster Than a Blender",
+      "url": "https://en.wikipedia.org/wiki/Pulsar",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
