@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-06-19T18:28:43.075598+00:00",
+  "uretim_zamani": "2026-06-19T21:01:18.558622+00:00",
   "haberler": [
     {
-      "baslik": "Cosmic Rebirth: Supernova Remnants Forge New Star Seeds",
-      "url": "https://en.wikipedia.org/wiki/Supernova",
+      "baslik": "Vela Pulsar: A Spinning Star's Ghostly Rings of Energy",
+      "url": "https://en.wikipedia.org/wiki/Vela_Pulsar",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pulsars: Cosmic Lighthouses Spinning Faster Than a Blender",
-      "url": "https://en.wikipedia.org/wiki/Pulsar",
+      "baslik": "Hypervelocity Stars: The Universe's Runaways Shot From a Black Hole",
+      "url": "https://en.wikipedia.org/wiki/Hypervelocity_star",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ant Nebula: A Cosmic Ant Trapped in a Dying Star's Gaseous Web",
+      "url": "https://en.wikipedia.org/wiki/Ant_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
