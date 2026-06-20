@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-06-20T00:00:29.377860+00:00",
+  "uretim_zamani": "2026-06-20T15:00:26.216775+00:00",
   "haberler": [
     {
-      "baslik": "Cosmic Cliffs: Stellar Canyons Carved by Young Stars",
-      "url": "https://en.wikipedia.org/wiki/NGC_3324",
+      "baslik": "The Orion Nebula: A Star Factory Where Worlds Are Born",
+      "url": "https://en.wikipedia.org/wiki/Orion_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Tarantula Nebula: A Spiderweb of Star Birth",
-      "url": "https://en.wikipedia.org/wiki/Tarantula_Nebula",
+      "baslik": "Helix Nebula: A Cosmic Eye Staring Back At Us",
+      "url": "https://en.wikipedia.org/wiki/Helix_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Jupiter's Swirling Storms: An Artistic Symphony of Chaos",
-      "url": "https://en.wikipedia.org/wiki/Jupiter",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
