@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-19T21:01:18.558622+00:00",
+  "uretim_zamani": "2026-06-20T00:00:29.377860+00:00",
   "haberler": [
     {
-      "baslik": "Vela Pulsar: A Spinning Star's Ghostly Rings of Energy",
-      "url": "https://en.wikipedia.org/wiki/Vela_Pulsar",
+      "baslik": "Cosmic Cliffs: Stellar Canyons Carved by Young Stars",
+      "url": "https://en.wikipedia.org/wiki/NGC_3324",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Hypervelocity Stars: The Universe's Runaways Shot From a Black Hole",
-      "url": "https://en.wikipedia.org/wiki/Hypervelocity_star",
+      "baslik": "The Tarantula Nebula: A Spiderweb of Star Birth",
+      "url": "https://en.wikipedia.org/wiki/Tarantula_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ant Nebula: A Cosmic Ant Trapped in a Dying Star's Gaseous Web",
-      "url": "https://en.wikipedia.org/wiki/Ant_Nebula",
+      "baslik": "Jupiter's Swirling Storms: An Artistic Symphony of Chaos",
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
