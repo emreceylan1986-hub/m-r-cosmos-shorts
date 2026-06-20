@@ -48,9 +48,13 @@ Schema:
   "title": "60-95 characters. FRONT-LOAD the main keyword in the first 50 chars (critical for search). No emojis, no ALL CAPS. BANNED clickbait words/phrases — never use any of: shocking, secretly, secret, hidden, they don't want you to know, you won't believe, this is why, the truth about, exposed, will blow your mind, insane, crazy. The title must be a calm factual statement of what happened.",
   "description": "200-400 characters TOTAL. Structure:
     - LINE 1 (most important — first 100 chars get strongest SEO weight):
-      Start with a curiosity question containing the main keyword.
-      Example: 'Did you know Saturn's rings are mostly water ice?'
+      Start with a CONCRETE FACT statement that contains the main keyword.
+      Example: 'Saturn's rings are made mostly of water ice, some pieces sub-millimeter.'
       The keyword MUST appear in the first 80 characters.
+      ⚠️ BANNED OPENINGS (AI signal / bot detection risk):
+        'Did you know' / 'Ever wonder' / 'Ever wondered' / 'Ever imagine'
+        'Do you know' / 'Have you ever' / 'Imagine' / 'Picture this' / 'Meet the'
+      Start with a STATEMENT, not a question. Calm factual tone.
     - Lines 2-3: 1-2 short sentences expanding the fact with a concrete number
       or comparison (e.g. '1,000× hotter than the Sun's surface').
     - Last line: 4-6 hashtags. ALWAYS include #Shorts, then 3-5 niche tags
@@ -137,6 +141,18 @@ def _metadata_dogrula(veri: dict) -> dict:
         veri["title"] = veri["title"][:97] + "..."
     if "#Shorts" not in veri["description"]:
         veri["description"] = veri["description"].rstrip() + "\n\n#Shorts"
+    # 20 Haz: CTA + Playlist sonek (abone toplama + iç trafik)
+    cta_sonek = (
+        "\n\n━━━━━━━━━━━━━━━━━━━━\n"
+        "🌌 Subscribe for daily cosmic facts:\n"
+        "https://youtube.com/@CosmoBytes?sub_confirmation=1\n\n"
+        "🚀 More cosmic deep-dives:\n"
+        "• Black Holes & Neutron Stars: https://www.youtube.com/playlist?list=PLRxPs6vwqN3snP-nGLY9s4InczC0DG2rI\n"
+        "• Galaxies & Deep Space: https://www.youtube.com/playlist?list=PLRxPs6vwqN3vabuxgl2BQo0hd4O0Mujtq\n"
+        "• Planets & Moons: https://www.youtube.com/playlist?list=PLRxPs6vwqN3ugcbOmyrX-9IM_3oi52MAe"
+    )
+    if "sub_confirmation" not in veri["description"]:
+        veri["description"] = veri["description"].rstrip() + cta_sonek
     return veri
 
 
