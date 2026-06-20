@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-06-20T18:05:37.489239+00:00",
+  "uretim_zamani": "2026-06-20T21:04:27.866108+00:00",
   "haberler": [
     {
-      "baslik": "Cosmic 'Spider's Web': Galaxies Trapped in a Supercluster",
-      "url": "https://en.wikipedia.org/wiki/Supercluster",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "The Boomerang Nebula: Colder Than Space Itself!",
-      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
+      "baslik": "Saturn's Moon Mimas: The 'Death Star' With a Hidden Ocean",
+      "url": "https://en.wikipedia.org/wiki/Mimas",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Earth's Twin: TRAPPIST-1e Has Liquid Water Potential",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
+      "baslik": "Phantom Galaxy M74: A Celestial Pinwheel Hiding Dark Secrets",
+      "url": "https://en.wikipedia.org/wiki/Messier_74",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
