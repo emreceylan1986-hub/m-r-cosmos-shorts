@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-06-20T15:00:26.216775+00:00",
+  "uretim_zamani": "2026-06-20T18:05:37.489239+00:00",
   "haberler": [
     {
-      "baslik": "The Orion Nebula: A Star Factory Where Worlds Are Born",
-      "url": "https://en.wikipedia.org/wiki/Orion_Nebula",
+      "baslik": "Cosmic 'Spider's Web': Galaxies Trapped in a Supercluster",
+      "url": "https://en.wikipedia.org/wiki/Supercluster",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Helix Nebula: A Cosmic Eye Staring Back At Us",
-      "url": "https://en.wikipedia.org/wiki/Helix_Nebula",
+      "baslik": "The Boomerang Nebula: Colder Than Space Itself!",
+      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Earth's Twin: TRAPPIST-1e Has Liquid Water Potential",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
