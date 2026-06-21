@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-21T15:06:27.738526+00:00",
+  "uretim_zamani": "2026-06-21T18:15:18.927912+00:00",
   "haberler": [
     {
-      "baslik": "Valles Marineris: Grand Canyon of Mars, 10 Times Longer Than Earth's!",
-      "url": "https://en.wikipedia.org/wiki/Valles_Marineris",
+      "baslik": "Jupiter's Moon Callisto: A Dead World Hiding a Secret Ocean?",
+      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Sun's Magnetic Field: A Twisted Web Controlling Space Weather",
-      "url": "https://en.wikipedia.org/wiki/Solar_magnetic_field",
+      "baslik": "Io's Plasma Torus: A Cosmic Donut of Volcanic Fire",
+      "url": "https://en.wikipedia.org/wiki/Io_plasma_torus",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ceres: A Dwarf Planet with a Hidden Ocean and Mysterious Bright Spots",
-      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
+      "baslik": "Haumea: The Fast-Spinning Dwarf Planet Shaped Like a Football",
+      "url": "https://en.wikipedia.org/wiki/Haumea",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
