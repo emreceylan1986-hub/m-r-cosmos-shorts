@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-21T18:15:18.927912+00:00",
+  "uretim_zamani": "2026-06-21T21:04:59.225885+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Moon Callisto: A Dead World Hiding a Secret Ocean?",
-      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
+      "baslik": "Sun's Hellish Core Vs. Its Calm Surface: A Temperature Battle",
+      "url": "https://en.wikipedia.org/wiki/Sun",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Io's Plasma Torus: A Cosmic Donut of Volcanic Fire",
-      "url": "https://en.wikipedia.org/wiki/Io_plasma_torus",
+      "baslik": "Vesta: A Cosmic 'Protoplanet' Hiding a Violent Past",
+      "url": "https://en.wikipedia.org/wiki/4_Vesta",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Haumea: The Fast-Spinning Dwarf Planet Shaped Like a Football",
-      "url": "https://en.wikipedia.org/wiki/Haumea",
+      "baslik": "Comet 67P: A Rosetta Stone Carrying the Solar System's Secrets",
+      "url": "https://en.wikipedia.org/wiki/67P/Churyumov%E2%80%93Gerasimenko",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
