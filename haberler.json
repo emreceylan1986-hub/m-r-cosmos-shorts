@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-06-20T21:04:27.866108+00:00",
+  "uretim_zamani": "2026-06-20T23:59:20.000035+00:00",
   "haberler": [
     {
-      "baslik": "Saturn's Moon Mimas: The 'Death Star' With a Hidden Ocean",
-      "url": "https://en.wikipedia.org/wiki/Mimas",
+      "baslik": "Cosmic Dust Bunnies: The Little-Known Clouds Birthing Stars",
+      "url": "https://en.wikipedia.org/wiki/Bok_globule",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Phantom Galaxy M74: A Celestial Pinwheel Hiding Dark Secrets",
-      "url": "https://en.wikipedia.org/wiki/Messier_74",
+      "baslik": "A Cosmic Diamond Mine? White Dwarfs Might Crystallize",
+      "url": "https://en.wikipedia.org/wiki/White_dwarf",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
