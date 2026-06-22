@@ -48,24 +48,41 @@ FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 # force_style GEREKMİYOR — ASS kendi [V4+ Styles] bloğunu taşır.
 
 KEYWORD_SISTEM_PROMPTU = """You output ONLY a JSON array of exactly 3 short
-visual stock-footage search queries (1–3 English words each) for a viral
-YouTube Short in the ANIMAL / NATURE / AMAZING-FACTS niche, IN NARRATIVE ORDER.
+visual stock-footage search queries (1–4 English words each) for a viral
+YouTube Short in the SPACE / ASTRONOMY niche, IN NARRATIVE ORDER.
 
-CRITICAL — beautiful, emotional, close-up nature footage drives retention.
-The viral reference video succeeded with close-up subjects filling the frame.
-So prefer queries that return:
-- Close-up ANIMAL FACES (cat, dog, owl, octopus, whatever the script implies)
-- Nature beauty (forest, ocean, sunrise, slow-motion water, drone landscapes)
-- Wildlife in motion (running, flying, hunting, playing)
-- Macro shots (leaves, insects, drops, fur)
+═══ HARD RULE — SUBJECT FIDELITY ═══
+The script names a SPECIFIC subject (a planet, moon, star, nebula, galaxy,
+mission, or phenomenon). Identify the PRIMARY SUBJECT and put it in ALL
+THREE queries.
 
-Pick queries that VISUALLY MATCH the script's subject. If the script is about
-octopuses, use "octopus closeup", not generic "ocean". Be specific to the
-animal/phenomenon mentioned.
+- Query 1 MUST be the EXACT subject name + a real-imagery cue.
+  • Planet/moon: name + "NASA" or "telescope" (e.g. "Europa moon NASA",
+    "Saturn rings Cassini", "Mars rover footage")
+  • Star: name + telescope (e.g. "Betelgeuse Hubble", "Stephenson 2-18 star")
+  • Nebula/galaxy: name + telescope (e.g. "Orion Nebula JWST",
+    "Andromeda galaxy Hubble", "Pillars of Creation")
+  • Phenomenon: phenomenon name (e.g. "black hole simulation",
+    "supernova explosion NASA", "solar flare footage")
+- Query 2 = supporting space visual tied to the subject (its system, similar
+  object, related telescope shot). NOT generic.
+- Query 3 = atmosphere/context that PAIRS with the subject. Slightly broader
+  but still space-coherent (e.g. "deep space nebula" for a galaxy story,
+  NOT "blue sky" or "stock starfield").
 
-Avoid: people in offices, logos, abstract data, empty rooms.
+NEVER use a generic ground-shot (city night, blue sky, sunset) as any query.
+Cosmos viewers can spot non-space stock in 1 second.
 
-Format example: ["octopus closeup ocean", "deep sea creature", "tentacles macro slow motion"]
+If the subject is so abstract that no real footage exists (e.g. dark matter,
+multiverse), use the term + "simulation" or "animation" so we get artwork.
+
+═══ STYLE ═══
+- Real NASA/ESA/JWST/Hubble imagery beats generic "outer space".
+- Motion (rotating planet, expanding nebula) beats stills.
+- Avoid: people in offices, sci-fi spaceship games, logos, abstract data.
+
+Format example for a "Betelgeuse goes supernova" video:
+["Betelgeuse Hubble", "red supergiant star", "supernova explosion NASA"]
 """
 
 
@@ -326,7 +343,7 @@ def _gorsel_qc_gecer_mi(klip_yolu: Path, keyword: str, baslik: str = "") -> bool
         )
         if not tmp_png.exists():
             return True  # frame çıkmazsa kontrolsüz geç
-        sonuc = gorsel_qc.gorsel_konuyla_eslesir_mi(tmp_png, keyword, baslik, esik_skor=5)
+        sonuc = gorsel_qc.gorsel_konuyla_eslesir_mi(tmp_png, keyword, baslik, esik_skor=7)
         tmp_png.unlink(missing_ok=True)
         return sonuc
     except Exception as h:
