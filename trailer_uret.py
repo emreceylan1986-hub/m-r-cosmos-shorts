@@ -28,6 +28,9 @@ BRANDING = PANEL / "branding"
 GECICI = PANEL / "trailer_gecici"
 GECICI.mkdir(parents=True, exist_ok=True)
 BRANDING.mkdir(exist_ok=True)
+# montajci'nin GECICI_KLASOR'ünü oluştur (altyazi_yak + klipleri_birlestir kullanır)
+Path(montajci.GECICI_KLASOR).mkdir(exist_ok=True)
+Path(montajci.CIKTI_KLASOR).mkdir(exist_ok=True) if hasattr(montajci, "CIKTI_KLASOR") else None
 
 SCRIPT = """Welcome to CosmoBytes.
 
