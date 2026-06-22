@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-06-22T17:26:05.320647+00:00",
+  "uretim_zamani": "2026-06-22T21:55:48.868521+00:00",
   "haberler": [
     {
-      "baslik": "Diamond Rain on Ice Giants: Uranus Vs Neptune",
-      "url": "https://en.wikipedia.org/wiki/Diamond_rain",
+      "baslik": "Saturn's Moon Dione: A Frozen World Hiding a Deep Ocean?",
+      "url": "https://en.wikipedia.org/wiki/Dione_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mars' Moons: Deimos and Phobos - Captured Asteroids or Martian Babies?",
-      "url": "https://en.wikipedia.org/wiki/Moons_of_Mars",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
