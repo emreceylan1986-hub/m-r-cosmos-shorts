@@ -96,11 +96,12 @@ def video_yukle(yt, mp4: Path) -> str:
 
 
 def trailer_set(yt, video_id: str):
-    log("2) Kanal trailer set ediliyor (unsubscribedTrailer)...")
+    log("2) Kanal trailer set ediliyor + eski trailer siliniyor...")
     r = yt.channels().list(part="brandingSettings", mine=True).execute()
     kanal = r["items"][0]
     kanal_id = kanal["id"]
     mevcut = kanal.get("brandingSettings", {})
+    eski_trailer = mevcut.get("channel", {}).get("unsubscribedTrailer")
 
     body = {
         "id": kanal_id,
@@ -113,7 +114,14 @@ def trailer_set(yt, video_id: str):
     }
     try:
         yt.channels().update(part="brandingSettings", body=body).execute()
-        log(f"   ✓ Trailer set: {video_id}")
+        log(f"   ✓ Yeni trailer set: {video_id}")
+        # Eski trailer'ı sil (eğer farklıysa)
+        if eski_trailer and eski_trailer != video_id:
+            try:
+                yt.videos().delete(id=eski_trailer).execute()
+                log(f"   ✓ Eski trailer silindi: {eski_trailer}")
+            except HttpError as e:
+                log(f"   ⚠ Eski trailer silinemedi ({eski_trailer}): {str(e)[:80]}")
         return True
     except HttpError as e:
         log(f"   ❌ Trailer set hata: {e}")
