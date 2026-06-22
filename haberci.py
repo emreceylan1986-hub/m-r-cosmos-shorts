@@ -239,7 +239,11 @@ WRITE TITLES IN THE VIRAL PATTERN STYLE:
 - Avoid pure jargon (event horizon, singularity); use plain words instead
 
 ═══ VIRAL TITLE FORMULA: "X Vs Y" (Outlawgaming 235M view kanıtı) ═══
-Every 4th-5th video, try the "Vs" battle/comparison format:
+MANDATORY ROTATION: Every 4th topic title MUST use "Vs" battle/comparison format.
+Count blocked titles — if (len(blocked)+1) % 4 == 0, the next title is FORCED to be Vs style.
+Otherwise, you may still use Vs for variety but it's optional.
+
+Vs format examples:
   • "Black Hole Vs Light Speed: Who Wins?"
   • "Neutron Star Vs Sun: A Density Battle"
   • "Saturn's Rings Vs A Bathtub"

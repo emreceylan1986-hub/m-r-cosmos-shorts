@@ -36,6 +36,14 @@ GEMINI_LONG_FORM_SISTEM = """You produce LONG-FORM (8-12 minute) deep-dive YouTu
 SCIENCE / COSMOS scripts. Output ONLY a JSON object with keys: title, hook, intro,
 chapters (array of {title, content}), conclusion, description, tags.
 
+═══ TITLE RULES (CRITICAL for CTR) ═══
+- 60-80 characters
+- Use DRAMATIC nouns: 'The Lonely Wanderer', 'The Cosmic Tomb', 'Last Light'
+- Optional bracket subtitle: 'Rogue Planets: Earth's Forgotten Cousins'
+- AVOID 'Imagine', 'Did you know', 'Ever wonder'
+- USE bold language: 'Hidden', 'Forbidden', 'Forgotten', 'Last', 'Final', 'Doomed'
+- Reference scale: '8 Light-Years Wide', 'Older Than Time', '100,000 Galaxies'
+
 ═══ STRUCTURE (target 1500-2000 words total) ═══
 1. HOOK (1 paragraph, 80-120 words) — punchy opening that asks "what if" or
    states a mind-bending fact. NO 'Did you know' / 'Ever wonder' / 'Imagine'.
@@ -286,11 +294,21 @@ def video_render(mp3, gorseller_klasor, hedef_mp4):
         "-c", "copy", str(birlesik_video)
     ], check=True)
 
-    # Ses ekle
+    # Ses ekle + son 18 saniyede END SCREEN overlay (SUBSCRIBE CTA)
+    # Toplam süre - 18 saniyeden itibaren ortada büyük "↓ SUBSCRIBE ↓" yazısı
+    cta_filtre = (
+        f"drawtext=text='SUBSCRIBE FOR MORE COSMIC DEEP DIVES':"
+        f"fontsize=64:fontcolor=yellow:fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:"
+        f"x=(w-text_w)/2:y=h-200:"
+        f"box=1:boxcolor=black@0.7:boxborderw=20:"
+        f"enable='gte(t,{max(0, sure-18)})'"
+    )
     subprocess.run([
         "ffmpeg", "-y", "-loglevel", "error",
         "-i", str(birlesik_video), "-i", str(mp3),
-        "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+        "-vf", cta_filtre,
+        "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p",
+        "-c:a", "aac", "-b:a", "192k",
         "-shortest", str(hedef_mp4)
     ], check=True)
 
@@ -301,7 +319,7 @@ def video_render(mp3, gorseller_klasor, hedef_mp4):
     birlesik_video.unlink()
     tmp_dir.rmdir()
 
-    log(f"  ✓ Video render bitti: {hedef_mp4.name}")
+    log(f"  ✓ Video render bitti: {hedef_mp4.name} (son 18sn SUBSCRIBE CTA dahil)")
 
 
 def thumbnail_uret(baslik, hedef_png):
@@ -340,11 +358,32 @@ def thumbnail_uret(baslik, hedef_png):
     except Exception:
         bg = Image.new("RGB", (1280, 720), (10, 10, 30))
 
-    # Karanlıklaştır (text okunabilsin)
-    karaltma = Image.new("RGBA", bg.size, (0, 0, 0, 120))
+    # Karanlıklaştır — bottom gradient (üst görsel kalsın, alt metin alanı koyu)
+    karaltma = Image.new("RGBA", bg.size, (0, 0, 0, 0))
+    karaltma_draw = ImageDraw.Draw(karaltma)
+    for y_grad in range(720):
+        if y_grad < 360:
+            alpha = int(60 * (y_grad / 360))  # üst hafif
+        else:
+            alpha = int(60 + 140 * ((y_grad - 360) / 360))  # alt koyu
+        karaltma_draw.line([(0, y_grad), (1280, y_grad)], fill=(0, 0, 0, alpha))
     bg = bg.convert("RGBA")
     bg = Image.alpha_composite(bg, karaltma)
     draw = ImageDraw.Draw(bg)
+
+    # DEEP DIVE badge — sol-üst kırmızı kutu
+    try:
+        badge_font = ImageFont.truetype("/System/Library/Fonts/Supplemental/Impact.ttf", 38)
+    except Exception:
+        try: badge_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 38)
+        except: badge_font = ImageFont.load_default()
+    badge = "🌌 DEEP DIVE"
+    bbox = draw.textbbox((0, 0), badge, font=badge_font)
+    bw = bbox[2] - bbox[0]
+    bh = bbox[3] - bbox[1]
+    # Kırmızı arka kutu
+    draw.rectangle([30, 30, 30 + bw + 30, 30 + bh + 25], fill=(220, 30, 30, 255))
+    draw.text((45, 35), badge, fill=(255, 255, 255), font=badge_font)
 
     # Font yükle
     font_yollari = [
