@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-06-21T21:04:59.225885+00:00",
+  "uretim_zamani": "2026-06-22T00:03:53.773032+00:00",
   "haberler": [
     {
-      "baslik": "Sun's Hellish Core Vs. Its Calm Surface: A Temperature Battle",
-      "url": "https://en.wikipedia.org/wiki/Sun",
+      "baslik": "Neptune's Moon Triton: A Backwards Orbit and Ice Volcanoes",
+      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Vesta: A Cosmic 'Protoplanet' Hiding a Violent Past",
-      "url": "https://en.wikipedia.org/wiki/4_Vesta",
+      "baslik": "Miranda: Uranus's Frankenstein Moon of Cosmic Scars",
+      "url": "https://en.wikipedia.org/wiki/Miranda_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Comet 67P: A Rosetta Stone Carrying the Solar System's Secrets",
-      "url": "https://en.wikipedia.org/wiki/67P/Churyumov%E2%80%93Gerasimenko",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
