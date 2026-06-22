@@ -13,3 +13,8 @@ __pycache__/
 *.pyc
 *.log
 .vision_sayac.json
+branding/trailer.mp4
+branding/trailer.mp3
+branding/trailer.wav
+branding/trailer_bg.png
+.DS_Store

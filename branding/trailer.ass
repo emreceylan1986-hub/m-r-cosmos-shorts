@@ -1,0 +1,34 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Black,72,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,1,0,0,0,100,100,0,0,1,5,2,5,80,80,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.64,Default,,0,0,0,,WELCOME TO
+Dialogue: 0,0:00:01.64,0:00:03.28,Default,,0,0,0,,COSMOBYTES
+Dialogue: 0,0:00:03.28,0:00:04.74,Default,,0,0,0,,YOUR DAILY DOSE
+Dialogue: 0,0:00:04.74,0:00:06.38,Default,,0,0,0,,OF COSMIC WONDER
+Dialogue: 0,0:00:06.38,0:00:07.84,Default,,0,0,0,,IN 30 SECONDS
+Dialogue: 0,0:00:07.84,0:00:09.20,Default,,0,0,0,,BLACK HOLES
+Dialogue: 0,0:00:09.20,0:00:10.75,Default,,0,0,0,,THAT BEND TIME
+Dialogue: 0,0:00:10.75,0:00:12.03,Default,,0,0,0,,GALAXIES
+Dialogue: 0,0:00:12.03,0:00:13.85,Default,,0,0,0,,OLDER THAN MEMORY
+Dialogue: 0,0:00:13.85,0:00:15.22,Default,,0,0,0,,EXOPLANETS
+Dialogue: 0,0:00:15.22,0:00:16.59,Default,,0,0,0,,TOO STRANGE
+Dialogue: 0,0:00:16.59,0:00:18.04,Default,,0,0,0,,TO IMAGINE
+Dialogue: 0,0:00:18.04,0:00:19.59,Default,,0,0,0,,THREE NEW SHORTS
+Dialogue: 0,0:00:19.59,0:00:20.87,Default,,0,0,0,,EVERY DAY
+Dialogue: 0,0:00:20.87,0:00:22.69,Default,,0,0,0,,AT 3 PM, 7 PM
+Dialogue: 0,0:00:22.69,0:00:24.24,Default,,0,0,0,,AND 10 PM
+Dialogue: 0,0:00:24.24,0:00:25.79,Default,,0,0,0,,FOR THE DREAMERS
+Dialogue: 0,0:00:25.79,0:00:27.34,Default,,0,0,0,,FOR THE WANDERERS
+Dialogue: 0,0:00:27.34,0:00:29.16,Default,,0,0,0,,FOR THE CURIOUS MIND
+Dialogue: 0,0:00:29.16,0:00:30.99,Default,,0,0,0,,HIT SUBSCRIBE
+Dialogue: 0,0:00:30.99,0:00:33.26,Default,,0,0,0,,SEE YOU IN THE COSMOS
