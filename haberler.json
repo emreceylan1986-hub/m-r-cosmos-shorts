@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-06-23T15:44:17.328087+00:00",
+  "uretim_zamani": "2026-06-23T19:02:57.938870+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A* Vs. The Galaxy: A Tug-of-War for Stars",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Vortex of Doom: How Stellar Black Holes Shred Stars Into Cosmic Spaghetti!",
+      "url": "https://en.wikipedia.org/wiki/Stellar_black_hole",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Spaghettification: What Happens When a Black Hole Stretches You to Infinity?",
+      "url": "https://en.wikipedia.org/wiki/Spaghettification",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Runaway Black Holes: Lone Wanderers Tearing Through Galaxies!",
+      "url": "https://en.wikipedia.org/wiki/Runaway_star",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
