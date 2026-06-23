@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-06-23T19:02:57.938870+00:00",
+  "uretim_zamani": "2026-06-23T21:23:45.344179+00:00",
   "haberler": [
     {
-      "baslik": "Vortex of Doom: How Stellar Black Holes Shred Stars Into Cosmic Spaghetti!",
-      "url": "https://en.wikipedia.org/wiki/Stellar_black_hole",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Spaghettification: What Happens When a Black Hole Stretches You to Infinity?",
-      "url": "https://en.wikipedia.org/wiki/Spaghettification",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Runaway Black Holes: Lone Wanderers Tearing Through Galaxies!",
-      "url": "https://en.wikipedia.org/wiki/Runaway_star",
+      "baslik": "Cosmic Strings: One-Dimensional Tears in the Fabric of Spacetime",
+      "url": "https://en.wikipedia.org/wiki/cosmic_string",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
