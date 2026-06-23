@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-06-23T08:27:25.012592+00:00",
+  "uretim_zamani": "2026-06-23T15:44:17.328087+00:00",
   "haberler": [
     {
-      "baslik": "Kilonova Vs Supernova: The Gold Factory Battle!",
-      "url": "https://en.wikipedia.org/wiki/Kilonova",
+      "baslik": "Sagittarius A* Vs. The Galaxy: A Tug-of-War for Stars",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gravitational Lensing: Cosmic Telescopes That Bend Light",
-      "url": "https://en.wikipedia.org/wiki/Gravitational_lens",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Blazar: A Cosmic Jet Aimed Directly At Us",
-      "url": "https://en.wikipedia.org/wiki/Blazar",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
