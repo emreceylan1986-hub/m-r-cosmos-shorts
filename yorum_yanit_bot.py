@@ -24,6 +24,12 @@ PANEL_KOK = Path(__file__).parent
 TOKEN = PANEL_KOK / "token.json"
 DURUM = PANEL_KOK / "comment_replies.json"
 LOG = PANEL_KOK / "yorum_yanit.log"
+KOTA_STATE = PANEL_KOK / "kota_state.json"
+
+# YouTube Data API günlük kota: 10.000 unit, Pacific gece yarısı (≈UTC 07:00 PDT) sıfırlanır.
+# Yorum bot kalan kotayı video upload için saklar — %85 doluysa hiç başlamaz.
+KOTA_LIMIT = 10000
+KOTA_GUARD_ESIK = 8500  # %85 dolduğunda bot dur
 
 # Kısa "👏" "🔥" tipi yorumlar — Gemini'ye gitmeden hazır cevap
 HIZLI_CEVAPLAR = {
@@ -127,6 +133,40 @@ def durum_yaz(d: dict):
     DURUM.write_text(json.dumps(d, ensure_ascii=False, indent=2))
 
 
+# ─── KOTA GUARD ───────────────────────────────────────────────────────────
+def _pacific_bugun() -> str:
+    """Pacific date (PDT = UTC-7 yaz, PST = UTC-8 kış). Yaklaşıklık: UTC-8 sabit
+    güvenli (PST = midnight UTC 08:00; PDT olsa bile 1 saat erken sıfırlanır)."""
+    return (datetime.now(timezone.utc) - timedelta(hours=8)).date().isoformat()
+
+
+def kota_oku() -> dict:
+    if not KOTA_STATE.exists():
+        return {"pacific_tarih": _pacific_bugun(), "tahmini_unit": 0}
+    try:
+        d = json.loads(KOTA_STATE.read_text())
+        if d.get("pacific_tarih") != _pacific_bugun():
+            return {"pacific_tarih": _pacific_bugun(), "tahmini_unit": 0}
+        return d
+    except Exception:
+        return {"pacific_tarih": _pacific_bugun(), "tahmini_unit": 0}
+
+
+def kota_ekle(unit: int):
+    d = kota_oku()
+    d["tahmini_unit"] = d.get("tahmini_unit", 0) + unit
+    try:
+        KOTA_STATE.write_text(json.dumps(d, ensure_ascii=False, indent=2))
+    except Exception:
+        pass
+
+
+def kota_dolu_mu() -> tuple[bool, int]:
+    d = kota_oku()
+    unit = d.get("tahmini_unit", 0)
+    return (unit > KOTA_GUARD_ESIK, unit)
+
+
 def kanal_bilgisi(yt) -> dict:
     """Kanal sahibi ID — kendi yorumlarımıza cevap vermeyelim."""
     ch = yt.channels().list(part="id,snippet,contentDetails", mine=True).execute()
@@ -147,6 +187,7 @@ def son_video_idleri(yt, uploads_playlist: str, limit: int = 30) -> list[str]:
             part="contentDetails", playlistId=uploads_playlist,
             maxResults=min(50, limit - len(out)), pageToken=nxt
         ).execute()
+        kota_ekle(1)
         out.extend(it["contentDetails"]["videoId"] for it in r.get("items", []))
         nxt = r.get("nextPageToken")
         if not nxt: break
@@ -161,6 +202,7 @@ def video_yorumlari(yt, video_id: str) -> list[dict]:
             part="snippet", videoId=video_id, maxResults=100,
             order="time", textFormat="plainText",
         ).execute()
+        kota_ekle(1)
         for it in r.get("items", []):
             s = it["snippet"]["topLevelComment"]["snippet"]
             out.append({
@@ -220,15 +262,21 @@ def gemini_cevap_uret(yorum: str, video_baslik: str = "") -> str | None:
 
 
 def reply_gonder(yt, parent_comment_id: str, metin: str) -> bool:
-    """YouTube'a reply gönder."""
+    """YouTube'a reply gönder. (50 unit/çağrı)"""
     try:
         r = yt.comments().insert(
             part="snippet",
             body={"snippet": {"parentId": parent_comment_id, "textOriginal": metin}},
         ).execute()
+        kota_ekle(50)
         return True
     except Exception as h:
-        log(f"  Reply gönderim fail: {str(h)[:180]}")
+        msg = str(h)
+        log(f"  Reply gönderim fail: {msg[:180]}")
+        # Quota exceeded yakalandıysa: state'i tam doluya yaz, erken çık
+        if "quotaExceeded" in msg or "exceeded your" in msg.lower():
+            kota_ekle(KOTA_LIMIT)  # bot'u bugün için kilitle
+            log(f"  ⚠️ QUOTA EXCEEDED — bugün için kilitlendi.")
         return False
 
 
@@ -240,9 +288,16 @@ def main() -> int:
     p.add_argument("--video-sayisi", type=int, default=30, help="Son N video taranır")
     args = p.parse_args()
 
+    # KOTA GUARD: kalan kotayı video upload için sakla
+    dolu, mevcut = kota_dolu_mu()
+    if dolu:
+        log(f"⚠️ Kota guard: tahmini {mevcut}/{KOTA_LIMIT} unit dolu (>%85). Bot bugün skip — video upload için saklanıyor.")
+        return 0
+
     yt = yt_istemci()
     kanal = kanal_bilgisi(yt)
-    log(f"=== Bot başladı — Kanal: {kanal['title']} ===")
+    kota_ekle(1)  # channels.list
+    log(f"=== Bot başladı — Kanal: {kanal['title']} (tahmini kota: {mevcut}u) ===")
 
     durum = durum_oku()
     replied = durum.get("replied", {})
@@ -281,6 +336,12 @@ def main() -> int:
 
     cevaplanan = 0
     for yorum in aday_yorumlar[:args.max_cevap]:
+        # Cevap loop'unda da guard — kota dolarsa erken çık
+        dolu, mevcut = kota_dolu_mu()
+        if dolu:
+            log(f"⚠️ Kota mid-run %85+ ({mevcut}u) — kalan {len(aday_yorumlar) - cevaplanan} yorum yarına bırakıldı.")
+            break
+
         log(f"\n→ Yorum: {yorum['author']}: {yorum['metin'][:80]}")
         # Önce hızlı cevap dene
         cevap = hizli_cevap_var_mi(yorum["metin"])
@@ -289,6 +350,7 @@ def main() -> int:
             # Video başlığını al — daha iyi prompt
             try:
                 vr = yt.videos().list(part="snippet", id=yorum["video_id"]).execute()
+                kota_ekle(1)
                 baslik = vr["items"][0]["snippet"]["title"] if vr.get("items") else ""
             except Exception:
                 baslik = ""
