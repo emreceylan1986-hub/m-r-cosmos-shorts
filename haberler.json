@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-06-24T15:29:30.335071+00:00",
+  "uretim_zamani": "2026-06-24T18:27:47.435016+00:00",
   "haberler": [
     {
-      "baslik": "Dark Energy: The Invisible Force Tearing the Universe Apart",
-      "url": "https://en.wikipedia.org/wiki/Dark_energy",
+      "baslik": "Coma Cluster: A Gravitational War Zone Devouring Galaxies!",
+      "url": "https://en.wikipedia.org/wiki/Coma_Cluster",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Large Quasar Group: A Cosmic Structure So Big It Challenges Physics",
-      "url": "https://en.wikipedia.org/wiki/Large_quasar_group",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Cosmic Void Vs. Galaxy Clusters: An Empty Battleground",
-      "url": "https://en.wikipedia.org/wiki/Void_(astronomy)",
+      "baslik": "Cosmic Filaments: The Universe's Invisible Skeleton Guiding Galaxies!",
+      "url": "https://en.wikipedia.org/wiki/Galaxy_filament",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
