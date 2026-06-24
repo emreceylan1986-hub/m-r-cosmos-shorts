@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-06-23T23:48:44.491968+00:00",
+  "uretim_zamani": "2026-06-24T15:29:30.335071+00:00",
   "haberler": [
     {
-      "baslik": "VY Canis Majoris: A Red Hypergiant So Large It Would Engulf Saturn's Orbit",
-      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
+      "baslik": "Dark Energy: The Invisible Force Tearing the Universe Apart",
+      "url": "https://en.wikipedia.org/wiki/Dark_energy",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "The Large Quasar Group: A Cosmic Structure So Big It Challenges Physics",
+      "url": "https://en.wikipedia.org/wiki/Large_quasar_group",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Cosmic Void Vs. Galaxy Clusters: An Empty Battleground",
+      "url": "https://en.wikipedia.org/wiki/Void_(astronomy)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
