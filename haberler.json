@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-06-24T18:27:47.435016+00:00",
+  "uretim_zamani": "2026-06-24T21:17:02.046589+00:00",
   "haberler": [
     {
-      "baslik": "Coma Cluster: A Gravitational War Zone Devouring Galaxies!",
-      "url": "https://en.wikipedia.org/wiki/Coma_Cluster",
+      "baslik": "Centaurus A: A Galaxy With a Mysterious Jet That Spans Millions of Light-Years!",
+      "url": "https://en.wikipedia.org/wiki/centaurus_a",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Cosmic Filaments: The Universe's Invisible Skeleton Guiding Galaxies!",
-      "url": "https://en.wikipedia.org/wiki/Galaxy_filament",
+      "baslik": "Dragonfly 44: A Galaxy Made Almost Entirely of Dark Matter!",
+      "url": "https://en.wikipedia.org/wiki/dragonfly_44",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
