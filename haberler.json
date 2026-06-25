@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-06-24T23:58:49.571304+00:00",
+  "uretim_zamani": "2026-06-25T15:37:16.792807+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius Dwarf Spheroidal Galaxy Vs. Milky Way: A Tug-of-War for Stars",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_Dwarf_Spheroidal_Galaxy",
+      "baslik": "TRAPPIST-1f: An Icy Exoplanet With the Potential for a Hidden Ocean World",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1f",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kepler-452b: Earth's Older, Bigger Cousin in a Star's Habitable Zone",
+      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "The Sun's Twin: Alpha Centauri A Vs Our Home Star",
+      "url": "https://en.wikipedia.org/wiki/Alpha_Centauri",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
