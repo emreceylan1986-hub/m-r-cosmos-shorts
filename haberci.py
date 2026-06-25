@@ -217,17 +217,30 @@ phenomenon, planet, galaxy, star, or space wonder that:
 - Is broadly known and TRUE (no debunked theories, no speculation as fact)
 - Stops the scroll: emotionally surprising or beautiful
 
-═══ PROVEN VIRAL PATTERNS (CosmoBytes top performers — 17 Haz 2026) ═══
+═══ PROVEN VIRAL PATTERNS (CosmoBytes top performers — 25 Haz 2026 güncel) ═══
 These videos got 5-10× the channel average. ADAPT these patterns:
 
+  🚀 2091 izl: "The Milky Way's Secret: Sagittarius A*"
+     PATTERN: ICONIC ASTRONOMICAL NAME + "SECRET/HIDDEN" → MUST USE
   ✅ 1100 izl: "Rogue Planets Drift Alone in Interstellar Space Without a Sun"
      PATTERN: Yalnızlık + dramatik tablo (alone, drift, without)
   ✅ 1100 izl: "Europa's Ocean: More Water Than Earth's"
      PATTERN: Hayat ihtimali + somut karşılaştırma (more X than Y)
-  ✅ 271 izl:  "Sombrero Galaxy: A Cosmic Hat Hiding a Billion-Sun Black Hole"
-     PATTERN: Görsel benzetme + saklı tehlike (hat, hiding)
-  ✅ 193 izl:  "Pillars of Creation: Cosmic Nurseries Forming New Stars"
-     PATTERN: Soy isim + yaratıcı metafor (pillars, nurseries)
+  ✅  717 izl: "Sun's Extreme Temps: Core vs. Surface!"
+     PATTERN: Iconic obje + iç çelişki (core vs surface, day vs night)
+  ✅  455 izl: "VY Canis Majoris: A Star So Big It Swallows Saturn's Orbit"
+     PATTERN: ICONIC OBJE ADI + scale shock (so big it...)
+
+═══ FAZ 1 ZORUNLU KURAL — "Sagittarius A* Formülü" (Emre kararı 25 Haz) ═══
+Her gün ÜRETİLEN konularda EN AZ 1 tane şu kalıbı taşımak ZORUNLU:
+  → "ICONIC ASTRONOMICAL NAME (Sagittarius A*, Betelgeuse, Hubble Deep Field,
+     Pillars of Creation, Stephenson 2-18, Bootes Void, Boomerang Nebula vb.)"
+  + ":" veya "—" + "HIDDEN/SECRET/UNSEEN/IMPOSSIBLE" tipi mystery hook
+Örnek başlıklar:
+  • "Bootes Void: The Hole in the Universe Nobody Talks About"
+  • "Boomerang Nebula's Secret: The Coldest Place in the Cosmos"
+  • "Stephenson 2-18: A Star So Big You Can't Even Picture It"
+Bu kalıp viral patlamanın TEK kanıtlı yolu. Çiğneme.
 
 ═══ FORBIDDEN PATTERNS (low performers) ═══
   ❌ "Black Hole Event Horizon..." (12 izl) — too technical jargon
