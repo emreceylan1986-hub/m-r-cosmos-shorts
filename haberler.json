@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-06-25T19:01:33.266185+00:00",
+  "uretim_zamani": "2026-06-25T21:21:51.599582+00:00",
   "haberler": [
     {
-      "baslik": "BOÖTES VOID: The Hole in the Universe Nobody Talks About",
-      "url": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_Void",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gliese 581g: An Exoplanet Debate That Rocked Astronomy!",
-      "url": "https://en.wikipedia.org/wiki/Gliese_581g",
+      "baslik": "Psyche 16: An Asteroid Made Entirely of Precious Metals",
+      "url": "https://en.wikipedia.org/wiki/16_Psyche",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "HD 189733 b: Where It Rains Glass Sideways!",
-      "url": "https://en.wikipedia.org/wiki/HD_189733_b",
+      "baslik": "Cosmic Microwave Background: The Universe's Eerie Echo!",
+      "url": "https://en.wikipedia.org/wiki/Cosmic_microwave_background",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
