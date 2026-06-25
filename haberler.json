@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-06-24T21:17:02.046589+00:00",
+  "uretim_zamani": "2026-06-24T23:58:49.571304+00:00",
   "haberler": [
     {
-      "baslik": "Centaurus A: A Galaxy With a Mysterious Jet That Spans Millions of Light-Years!",
-      "url": "https://en.wikipedia.org/wiki/centaurus_a",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Dragonfly 44: A Galaxy Made Almost Entirely of Dark Matter!",
-      "url": "https://en.wikipedia.org/wiki/dragonfly_44",
+      "baslik": "Sagittarius Dwarf Spheroidal Galaxy Vs. Milky Way: A Tug-of-War for Stars",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_Dwarf_Spheroidal_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
