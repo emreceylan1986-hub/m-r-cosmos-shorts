@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-06-25T15:37:16.792807+00:00",
+  "uretim_zamani": "2026-06-25T19:01:33.266185+00:00",
   "haberler": [
     {
-      "baslik": "TRAPPIST-1f: An Icy Exoplanet With the Potential for a Hidden Ocean World",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1f",
+      "baslik": "BOÖTES VOID: The Hole in the Universe Nobody Talks About",
+      "url": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_Void",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-452b: Earth's Older, Bigger Cousin in a Star's Habitable Zone",
-      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
+      "baslik": "Gliese 581g: An Exoplanet Debate That Rocked Astronomy!",
+      "url": "https://en.wikipedia.org/wiki/Gliese_581g",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Sun's Twin: Alpha Centauri A Vs Our Home Star",
-      "url": "https://en.wikipedia.org/wiki/Alpha_Centauri",
+      "baslik": "HD 189733 b: Where It Rains Glass Sideways!",
+      "url": "https://en.wikipedia.org/wiki/HD_189733_b",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
