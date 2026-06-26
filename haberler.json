@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-06-26T00:04:41.431392+00:00",
+  "uretim_zamani": "2026-06-26T15:20:26.739379+00:00",
   "haberler": [
     {
-      "baslik": "Pistol Star's Unseen Power: The Most Luminous Star Known!",
-      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
+      "baslik": "Stephenson 2-18 Vs. UY Scuti: The True King of Stars!",
+      "url": "https://en.wikipedia.org/wiki/UY_Scuti",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Antares: A Red Supergiant So Big It Could SWALLOW Mars' Orbit!",
+      "url": "https://en.wikipedia.org/wiki/Antares",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Messier 87: A Supermassive Black Hole Eating Galaxies Alive!",
+      "url": "https://en.wikipedia.org/wiki/Messier_87",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
