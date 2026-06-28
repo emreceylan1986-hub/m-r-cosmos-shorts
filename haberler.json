@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-06-28T17:59:15.486111+00:00",
+  "uretim_zamani": "2026-06-28T20:52:19.482108+00:00",
   "haberler": [
     {
-      "baslik": "Oort Cloud's Secret: Where Comets Really Come From!",
-      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
+      "baslik": "Chicxulub Asteroid: The Hidden Impact That Changed Earth Forever!",
+      "url": "https://en.wikipedia.org/wiki/Chicxulub_impactor",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sedna: The Solar System's Most Distant and Mysterious Dwarf Planet",
-      "url": "https://en.wikipedia.org/wiki/90377_Sedna",
+      "baslik": "Asteroid Vs. Comet: What's the Difference and Why Does it Matter?",
+      "url": "https://en.wikipedia.org/wiki/Asteroid",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
