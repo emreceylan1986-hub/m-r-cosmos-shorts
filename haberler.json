@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-06-27T14:23:05.445046+00:00",
+  "uretim_zamani": "2026-06-28T12:05:36.512624+00:00",
   "haberler": [
     {
-      "baslik": "The Red Spider Nebula: A Star's Violent Death Creates Cosmic Art",
-      "url": "https://en.wikipedia.org/wiki/Red_Spider_Nebula",
+      "baslik": "Jupiter's Swirling Storms Vs. Earth's Entire Surface!",
+      "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Jupiter",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Antennae Galaxies: A Cosmic Collision Creating Billions of Stars",
-      "url": "https://en.wikipedia.org/wiki/Antennae_Galaxies",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Messier 81: A Galactic Spiral Hiding a Supermassive Secret",
-      "url": "https://en.wikipedia.org/wiki/Messier_81",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
