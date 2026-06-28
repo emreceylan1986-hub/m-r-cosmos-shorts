@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-06-28T14:42:57.927894+00:00",
+  "uretim_zamani": "2026-06-28T17:59:15.486111+00:00",
   "haberler": [
     {
-      "baslik": "Oumuamua Vs. Comets: The Interstellar Anomaly No One Can Explain",
-      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
+      "baslik": "Oort Cloud's Secret: Where Comets Really Come From!",
+      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sedna: The Solar System's Most Distant and Mysterious Dwarf Planet",
+      "url": "https://en.wikipedia.org/wiki/90377_Sedna",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
