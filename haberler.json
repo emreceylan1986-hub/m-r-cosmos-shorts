@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-06-29T21:17:06.165275+00:00",
+  "uretim_zamani": "2026-06-29T23:54:05.015063+00:00",
   "haberler": [
     {
-      "baslik": "Messier 82: A Starburst Galaxy Exploding with New Suns!",
-      "url": "https://en.wikipedia.org/wiki/messier_82",
+      "baslik": "Juno vs Europa: A Fight for the Future of Ocean Worlds",
+      "url": "https://en.wikipedia.org/wiki/Juno_(spacecraft)",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Theia: The Hidden Planet That Created Earth's Moon",
+      "url": "https://en.wikipedia.org/wiki/Theia_(planet)",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
