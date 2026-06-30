@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-06-29T23:54:05.015063+00:00",
+  "uretim_zamani": "2026-06-30T09:54:46.183671+00:00",
   "haberler": [
     {
-      "baslik": "Juno vs Europa: A Fight for the Future of Ocean Worlds",
-      "url": "https://en.wikipedia.org/wiki/Juno_(spacecraft)",
+      "baslik": "Vela X-1: A Neutron Star's Hidden Heartbeat",
+      "url": "https://en.wikipedia.org/wiki/Vela_X-1",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Theia: The Hidden Planet That Created Earth's Moon",
-      "url": "https://en.wikipedia.org/wiki/Theia_(planet)",
+      "baslik": "Globular Clusters: Billions of Stars Trapped by Gravity!",
+      "url": "https://en.wikipedia.org/wiki/Globular_cluster",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Cygnus X-1: The Black Hole That Proved Einstein Right!",
+      "url": "https://en.wikipedia.org/wiki/Cygnus_X-1",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
