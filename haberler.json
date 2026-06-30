@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-06-30T15:26:26.985036+00:00",
+  "uretim_zamani": "2026-06-30T19:53:55.810338+00:00",
   "haberler": [
     {
-      "baslik": "Black Widow Pulsar: The Neutron Star That Eats Its Companion Alive!",
-      "url": "https://en.wikipedia.org/wiki/Black_Widow_Pulsar",
+      "baslik": "Black Hole Vs. Neutron Star: A Cosmic Density Battle",
+      "url": "https://en.wikipedia.org/wiki/black_hole",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
