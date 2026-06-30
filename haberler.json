@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-06-30T09:54:46.183671+00:00",
+  "uretim_zamani": "2026-06-30T15:26:26.985036+00:00",
   "haberler": [
     {
-      "baslik": "Vela X-1: A Neutron Star's Hidden Heartbeat",
-      "url": "https://en.wikipedia.org/wiki/Vela_X-1",
+      "baslik": "Black Widow Pulsar: The Neutron Star That Eats Its Companion Alive!",
+      "url": "https://en.wikipedia.org/wiki/Black_Widow_Pulsar",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Globular Clusters: Billions of Stars Trapped by Gravity!",
-      "url": "https://en.wikipedia.org/wiki/Globular_cluster",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Cygnus X-1: The Black Hole That Proved Einstein Right!",
-      "url": "https://en.wikipedia.org/wiki/Cygnus_X-1",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
