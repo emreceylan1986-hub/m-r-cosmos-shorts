@@ -24,7 +24,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           NOW_UTC=$(date -u +%H)
-          ANA_SAATLER="13 17 20 23"
+          ANA_SAATLER="13 18 23"
 
           SAAT_KACIRILDI=""
           for SAAT in $ANA_SAATLER; do
@@ -44,7 +44,7 @@ jobs:
 
           ONCE_UTC=$(date -u -d '70 minutes ago' +%Y-%m-%dT%H:%M:%SZ)
 
-          BASARILI=$(gh api "/repos/${{ github.repository }}/actions/workflows/main.yml/runs?event=schedule&status=success&created=>${ONCE_UTC}" \
+          BASARILI=$(gh api "/repos/${{ github.repository }}/actions/workflows/main.yml/runs?created=>${ONCE_UTC}" \
             --jq '.total_count')
 
           echo "Son 70 dk başarılı schedule run sayısı: $BASARILI"
