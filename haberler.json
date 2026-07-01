@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-07-01T15:40:32.537440+00:00",
+  "uretim_zamani": "2026-07-01T19:52:16.896395+00:00",
   "haberler": [
     {
-      "baslik": "The Local Group: Our Galaxy's Cosmic Neighborhood",
-      "url": "https://en.wikipedia.org/wiki/Local_Group",
+      "baslik": "Dark Matter: The Unseen Glue Holding Galaxies Together",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "The Great Attractor: A Hidden Force Pulling Our Galaxy",
+      "url": "https://en.wikipedia.org/wiki/Great_Attractor",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Cosmic Web: Galaxies Woven into a Universe-Spanning Network",
+      "url": "https://en.wikipedia.org/wiki/Cosmic_web",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
