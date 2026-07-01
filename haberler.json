@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-07-01T00:09:44.779613+00:00",
+  "uretim_zamani": "2026-07-01T15:40:32.537440+00:00",
   "haberler": [
     {
-      "baslik": "Phoenix Cluster's Secret: A Galactic City Fueled by a Black Hole",
-      "url": "https://en.wikipedia.org/wiki/Phoenix_Cluster",
+      "baslik": "The Local Group: Our Galaxy's Cosmic Neighborhood",
+      "url": "https://en.wikipedia.org/wiki/Local_Group",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
