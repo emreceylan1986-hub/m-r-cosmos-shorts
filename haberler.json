@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-07-01T19:52:16.896395+00:00",
+  "uretim_zamani": "2026-07-02T00:06:22.844431+00:00",
   "haberler": [
     {
-      "baslik": "Dark Matter: The Unseen Glue Holding Galaxies Together",
-      "url": "https://en.wikipedia.org/wiki/Dark_matter",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "The Great Attractor: A Hidden Force Pulling Our Galaxy",
-      "url": "https://en.wikipedia.org/wiki/Great_Attractor",
+      "baslik": "WASP-39b: A 'Puffy' Exoplanet With Water Vapor and Carbon Dioxide",
+      "url": "https://en.wikipedia.org/wiki/WASP-39b",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Cosmic Web: Galaxies Woven into a Universe-Spanning Network",
-      "url": "https://en.wikipedia.org/wiki/Cosmic_web",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
