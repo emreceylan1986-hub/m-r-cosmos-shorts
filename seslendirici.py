@@ -96,15 +96,23 @@ Required structure (60-75 words total):
 - CONTEXT (1-2 sentences): the actual space/cosmos behind it, plain language.
   ── 8-12. saniye drop-off riski yüksek — bu cümlede SOMUT bir SAYI veya
      karşılaştırma kullan (kaç kat, kaç yıl, kaç metre). Sayı = retention boost.
-- PAYOFF (1 short sentence): a wonder-inducing closing thought before the CTA.
+- RE-HOOK (max 6 words, right after CONTEXT — only if the 75-word budget
+  allows): re-open curiosity at mid-point. "And it gets stranger." /
+  "But that's not the mystery." — still 100% true.
+- PAYOFF (1 short sentence): a wonder-inducing closing thought.
   Örnek: "The universe still hides countless wonders like this one."
-- SUBSCRIBE CTA (final sentence, MANDATORY, exactly 1 short line, max 7 words):
-  ── A casual, warm, NOT pushy subscribe ask. Examples:
+- FINAL LINE (MANDATORY, exactly 1 short line, max 8 words) — pick ONE by topic:
+  A) COMMENT QUESTION (prefer when topic invites opinion/choice — aim ~2 of 3
+     videos): concrete, effortless to answer. Examples:
+     "Would you visit this planet?" / "Mars or Europa — where first?" /
+     "Which cosmic mystery should we cover next?"
+     NEVER the words "comment below" — the bare question IS the invitation.
+  B) SUBSCRIBE ASK (otherwise): casual, warm, NOT pushy. Examples:
      "Hit subscribe for daily cosmic facts."
-     "Subscribe — more cosmic wonders daily."
      "Subscribe for one cosmic fact daily."
-     "Follow for daily cosmic facts."
-  ── Variation per video. NEVER say "like", "share", "comment below".
+  ── Variation per video. NEVER say "like" or "share".
+  ── LOOP RULE: the ending must NOT feel like a goodbye — when the Short
+     restarts, the flow should feel seamless (loop = rewatch = algorithm boost).
   ── NO hashtags, NO emojis in the script body.
 
 Constraints:
