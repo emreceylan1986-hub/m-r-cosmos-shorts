@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-07-02T15:14:19.695126+00:00",
+  "uretim_zamani": "2026-07-02T19:22:05.438008+00:00",
   "haberler": [
     {
-      "baslik": "TRAPPIST-1d Vs. Earth: Which Planet is More Habitable?",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1d",
+      "baslik": "Black Hole Vs. Habitable Zone: The Impossible Battle for Life",
+      "url": "https://en.wikipedia.org/wiki/Habitability_of_exoplanets",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "The Great Filter: Why Haven't We Found Alien Life Yet?",
+      "url": "https://en.wikipedia.org/wiki/Great_Filter",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Extremophiles: Earth's Toughest Life Forms Pushing Habitable Limits",
+      "url": "https://en.wikipedia.org/wiki/Extremophile",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
