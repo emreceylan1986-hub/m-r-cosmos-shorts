@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-07-03T15:10:16.800317+00:00",
+  "uretim_zamani": "2026-07-03T19:19:15.005002+00:00",
   "haberler": [
     {
-      "baslik": "Canis Major Dwarf Galaxy: The Milky Way's Secret Snack",
-      "url": "https://en.wikipedia.org/wiki/Canis_Major_Dwarf_Galaxy",
+      "baslik": "Stephenson 2-18 Vs UY Scuti: Who's the True King of Stars?",
+      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pillars of Creation: A Stellar Nursery Under Constant Destruction",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
