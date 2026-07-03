@@ -71,8 +71,16 @@
       "cevap": "It's truly mind-bending, right?",
       "kaynak": "gemini",
       "ts": "2026-07-01T08:47:39+00:00"
+    },
+    "UgzmvmLUaULbRlPzLwZ4AaABAg": {
+      "video_id": "Al14yIT6Zuc",
+      "author": "@terryhancock",
+      "asıl_yorum": "I thought Andromeda was closedest to us",
+      "cevap": "Andromeda is bigger, but Canis Major is closer.",
+      "kaynak": "gemini",
+      "ts": "2026-07-03T17:48:24+00:00"
     }
   },
-  "last_run": "2026-07-03T16:01:35+00:00",
-  "last_replied_count": 0
+  "last_run": "2026-07-03T17:48:24+00:00",
+  "last_replied_count": 1
 }
