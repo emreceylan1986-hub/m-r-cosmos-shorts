@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-07-03T19:19:15.005002+00:00",
+  "uretim_zamani": "2026-07-04T00:03:32.799075+00:00",
   "haberler": [
     {
-      "baslik": "Stephenson 2-18 Vs UY Scuti: Who's the True King of Stars?",
-      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
+      "baslik": "Pillars of Creation: Star Nurseries Being Destroyed by Their Own Offspring",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pillars of Creation: A Stellar Nursery Under Constant Destruction",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "The Crab Nebula's Secret: A Spinning Pulsar Heartbeat",
+      "url": "https://en.wikipedia.org/wiki/Crab_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Cosmic Web: Galaxies Are Strung Along Invisible Filaments",
+      "url": "https://en.wikipedia.org/wiki/Cosmic_web",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
