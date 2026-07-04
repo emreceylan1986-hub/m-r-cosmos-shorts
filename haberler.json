@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-07-04T14:28:55.377027+00:00",
+  "uretim_zamani": "2026-07-04T19:09:19.083654+00:00",
   "haberler": [
     {
-      "baslik": "Helix Nebula: The Eye of God Stares Back",
-      "url": "https://en.wikipedia.org/wiki/Helix_Nebula",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Cartwheel Galaxy's Secret: A Cosmic Collision Rings True",
-      "url": "https://en.wikipedia.org/wiki/Cartwheel_Galaxy",
+      "baslik": "Lagrangian Points: The Universe's Secret Parking Spots",
+      "url": "https://en.wikipedia.org/wiki/Lagrangian_point",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Crab Nebula: A Star's Violent Death Still Lights Up the Cosmos",
-      "url": "https://en.wikipedia.org/wiki/Crab_Nebula",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
