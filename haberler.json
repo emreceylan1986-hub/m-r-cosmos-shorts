@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-04T00:03:32.799075+00:00",
+  "uretim_zamani": "2026-07-04T14:28:55.377027+00:00",
   "haberler": [
     {
-      "baslik": "Pillars of Creation: Star Nurseries Being Destroyed by Their Own Offspring",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "Helix Nebula: The Eye of God Stares Back",
+      "url": "https://en.wikipedia.org/wiki/Helix_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Crab Nebula's Secret: A Spinning Pulsar Heartbeat",
-      "url": "https://en.wikipedia.org/wiki/Crab_Nebula",
+      "baslik": "Cartwheel Galaxy's Secret: A Cosmic Collision Rings True",
+      "url": "https://en.wikipedia.org/wiki/Cartwheel_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Cosmic Web: Galaxies Are Strung Along Invisible Filaments",
-      "url": "https://en.wikipedia.org/wiki/Cosmic_web",
+      "baslik": "Crab Nebula: A Star's Violent Death Still Lights Up the Cosmos",
+      "url": "https://en.wikipedia.org/wiki/Crab_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
