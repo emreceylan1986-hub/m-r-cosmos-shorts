@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-07-04T19:09:19.083654+00:00",
+  "uretim_zamani": "2026-07-05T00:00:52.418558+00:00",
   "haberler": [
     {
-      "baslik": "Lagrangian Points: The Universe's Secret Parking Spots",
-      "url": "https://en.wikipedia.org/wiki/Lagrangian_point",
+      "baslik": "Sun's Hellscape: A Million Earths Could Fit Inside!",
+      "url": "https://en.wikipedia.org/wiki/Sun",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Vesta Vs Ceres: Two Asteroids, One Dwarf Planet",
+      "url": "https://en.wikipedia.org/wiki/4_Vesta",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Haumea's Secret: The Fastest Spinning Dwarf Planet",
+      "url": "https://en.wikipedia.org/wiki/Haumea",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
