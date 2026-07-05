@@ -1,16 +1,8 @@
 {
-  "uretim_zamani": "2026-07-05T00:00:52.418558+00:00",
+  "uretim_zamani": "2026-07-05T14:42:03.417074+00:00",
   "haberler": [
     {
-      "baslik": "Sun's Hellscape: A Million Earths Could Fit Inside!",
-      "url": "https://en.wikipedia.org/wiki/Sun",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Vesta Vs Ceres: Two Asteroids, One Dwarf Planet",
+      "baslik": "Vesta Vs Ceres: The Dwarf Planet Battle Royale!",
       "url": "https://en.wikipedia.org/wiki/4_Vesta",
       "kaynak": "gemini-fallback",
       "skor": 999,
@@ -18,8 +10,8 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Haumea's Secret: The Fastest Spinning Dwarf Planet",
-      "url": "https://en.wikipedia.org/wiki/Haumea",
+      "baslik": "Enceladus' Secret: Hidden Hydrothermal Vents Powering Life?",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
