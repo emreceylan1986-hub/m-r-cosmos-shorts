@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-07-05T14:42:03.417074+00:00",
+  "uretim_zamani": "2026-07-05T19:15:09.536094+00:00",
   "haberler": [
     {
-      "baslik": "Vesta Vs Ceres: The Dwarf Planet Battle Royale!",
-      "url": "https://en.wikipedia.org/wiki/4_Vesta",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Enceladus' Secret: Hidden Hydrothermal Vents Powering Life?",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "The Kuiper Belt: A Cosmic Graveyard Beyond Neptune",
+      "url": "https://en.wikipedia.org/wiki/Kuiper_belt",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
