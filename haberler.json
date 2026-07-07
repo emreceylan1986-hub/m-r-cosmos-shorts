@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-07-06T19:53:34.583791+00:00",
+  "uretim_zamani": "2026-07-07T00:07:11.722702+00:00",
   "haberler": [
     {
-      "baslik": "Protoplanetary Discs: Where Baby Planets Form in Cosmic Dust",
-      "url": "https://en.wikipedia.org/wiki/Protoplanetary_disk",
+      "baslik": "M87's Jet: A Black Hole's Cosmic Finger Blasting Energy Across 5,000 Light-Years",
+      "url": "https://en.wikipedia.org/wiki/Messier_87_galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Charon Vs Pluto: A Binary Dance in the Kuiper Belt",
-      "url": "https://en.wikipedia.org/wiki/Charon_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mercury's Core: Still Molten and More Iron Than Earth's!",
-      "url": "https://en.wikipedia.org/wiki/Mercury_(planet)",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
