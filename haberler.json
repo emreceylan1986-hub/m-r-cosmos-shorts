@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-07-07T15:43:42.527046+00:00",
+  "uretim_zamani": "2026-07-07T19:52:57.409436+00:00",
   "haberler": [
     {
-      "baslik": "Cygnus X-1: The Black Hole That Eats a Star Alive",
-      "url": "https://en.wikipedia.org/wiki/Cygnus_X-1",
+      "baslik": "M87's Black Hole: A Shadow Larger Than Our Solar System",
+      "url": "https://en.wikipedia.org/wiki/Messier_87#Supermassive_black_hole",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "GW150914: The Cosmic Collision That Shook Spacetime",
-      "url": "https://en.wikipedia.org/wiki/GW150914",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
