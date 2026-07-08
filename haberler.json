@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-07-08T15:21:10.907629+00:00",
+  "uretim_zamani": "2026-07-08T19:22:59.665880+00:00",
   "haberler": [
     {
-      "baslik": "Quasar Vs. Pulsar: Which Cosmic Lighthouse Shines Brighter?",
-      "url": "https://en.wikipedia.org/wiki/Quasar",
+      "baslik": "Andromeda Galaxy: Our Cosmic Neighbor on a Collision Course",
+      "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Messier 81 vs. Messier 82: A Cosmic Dance of Gravitational Tug-of-War",
+      "url": "https://en.wikipedia.org/wiki/Messier_81",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Galaxy Clusters: Where Thousands of Galaxies Form Cosmic Cities",
+      "url": "https://en.wikipedia.org/wiki/Galaxy_cluster",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
