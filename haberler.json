@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-08T19:22:59.665880+00:00",
+  "uretim_zamani": "2026-07-09T00:08:03.836532+00:00",
   "haberler": [
     {
-      "baslik": "Andromeda Galaxy: Our Cosmic Neighbor on a Collision Course",
-      "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+      "baslik": "Kepler-186f: The First Earth-Sized Exoplanet in a Habitable Zone",
+      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Proxima Centauri b: Our Closest Neighboring Exoplanet May Have Liquid Water",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Messier 81 vs. Messier 82: A Cosmic Dance of Gravitational Tug-of-War",
-      "url": "https://en.wikipedia.org/wiki/Messier_81",
+      "baslik": "Gliese 581g: A Controversial Exoplanet That Could Be a Super-Earth With Oceans",
+      "url": "https://en.wikipedia.org/wiki/Gliese_581g",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Galaxy Clusters: Where Thousands of Galaxies Form Cosmic Cities",
-      "url": "https://en.wikipedia.org/wiki/Galaxy_cluster",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
