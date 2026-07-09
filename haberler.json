@@ -1,24 +1,16 @@
 {
-  "uretim_zamani": "2026-07-09T12:03:27.429731+00:00",
+  "uretim_zamani": "2026-07-09T15:55:40.006527+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-16b: A Real-Life Tatooine With Two Suns",
-      "url": "https://en.wikipedia.org/wiki/Kepler-16b",
+      "baslik": "Kepler-22b's Secret: A Waterworld with Earth-like Temperatures?",
+      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Exoplanet K2-18b: A Water World with Possible Life Signs",
-      "url": "https://en.wikipedia.org/wiki/K2-18b",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Proxima Centauri b: Our Closest Habitable Exoplanet",
+      "baslik": "Proxima Centauri b Vs. Earth: Which Planet Could Host Life?",
       "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
       "kaynak": "gemini-fallback",
       "skor": 998,
