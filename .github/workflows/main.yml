@@ -6,7 +6,7 @@ name: CosmoBytes Otonom Pipeline
 # Faz 10 (16 Haz): 3 → 4 video. 23 UTC = ABD East 19:00 + Asya 07:00.
 on:
   schedule:
-    - cron: "0 13,18,23 * * *"
+    - cron: "0 13,17,20,23 * * *"
   workflow_dispatch:
     inputs:
       gizlilik:
