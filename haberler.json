@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-07-09T15:55:40.006527+00:00",
+  "uretim_zamani": "2026-07-09T21:21:19.692360+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-22b's Secret: A Waterworld with Earth-like Temperatures?",
-      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
+      "baslik": "Corot-7b Vs. Earth: A Hellish Lava World Showdown!",
+      "url": "https://en.wikipedia.org/wiki/COROT-7b",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Proxima Centauri b Vs. Earth: Which Planet Could Host Life?",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "baslik": "Black Holes Vs. White Holes: A Cosmic Paradox Battle!",
+      "url": "https://en.wikipedia.org/wiki/White_hole",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
