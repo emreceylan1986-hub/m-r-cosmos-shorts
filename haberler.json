@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-07-10T00:02:33.482773+00:00",
+  "uretim_zamani": "2026-07-10T18:31:20.341606+00:00",
   "haberler": [
     {
-      "baslik": "Planet Nine: Is There a Hidden Planet Tugging at Our Solar System?",
-      "url": "https://en.wikipedia.org/wiki/Planet_Nine",
+      "baslik": "Mira Vs The Sun: The Deadly Cosmic Tail Battle",
+      "url": "https://en.wikipedia.org/wiki/Mira",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "R136a1: A Star So Brutal It Tears Itself Apart",
+      "url": "https://en.wikipedia.org/wiki/R136a1",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sirius B: The Tiny White Dwarf with Back-Breaking Gravity",
+      "url": "https://en.wikipedia.org/wiki/Sirius_B",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
