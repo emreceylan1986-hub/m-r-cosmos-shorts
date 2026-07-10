@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-10T18:31:20.341606+00:00",
+  "uretim_zamani": "2026-07-10T21:04:40.255663+00:00",
   "haberler": [
     {
-      "baslik": "Mira Vs The Sun: The Deadly Cosmic Tail Battle",
-      "url": "https://en.wikipedia.org/wiki/Mira",
+      "baslik": "White Dwarf Vs Iron Star: The Ultimate Death Battle of the Cosmos",
+      "url": "https://en.wikipedia.org/wiki/Iron_star",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "R136a1: A Star So Brutal It Tears Itself Apart",
-      "url": "https://en.wikipedia.org/wiki/R136a1",
+      "baslik": "Eta Carinae: The Star So Unstable It Survived Its Own Death",
+      "url": "https://en.wikipedia.org/wiki/Eta_Carinae",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sirius B: The Tiny White Dwarf with Back-Breaking Gravity",
-      "url": "https://en.wikipedia.org/wiki/Sirius_B",
+      "baslik": "Neutron Star Vs Quark Star: The Ultimate Density Battle",
+      "url": "https://en.wikipedia.org/wiki/Quark_star",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
