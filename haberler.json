@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-07-09T21:21:19.692360+00:00",
+  "uretim_zamani": "2026-07-10T00:02:33.482773+00:00",
   "haberler": [
     {
-      "baslik": "Corot-7b Vs. Earth: A Hellish Lava World Showdown!",
-      "url": "https://en.wikipedia.org/wiki/COROT-7b",
+      "baslik": "Planet Nine: Is There a Hidden Planet Tugging at Our Solar System?",
+      "url": "https://en.wikipedia.org/wiki/Planet_Nine",
       "kaynak": "gemini-fallback",
-      "skor": 993,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Black Holes Vs. White Holes: A Cosmic Paradox Battle!",
-      "url": "https://en.wikipedia.org/wiki/White_hole",
-      "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
