@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-10T23:56:24.996578+00:00",
+  "uretim_zamani": "2026-07-11T14:21:38.964002+00:00",
   "haberler": [
     {
-      "baslik": "Thorne-Żytkow Object: A Star Hidden Inside Another Star",
-      "url": "https://en.wikipedia.org/wiki/Thorne%E2%80%93%C5%BBytkow_object",
+      "baslik": "Eagle Nebula Vs Earth: The Ultimate Scale Battle",
+      "url": "https://en.wikipedia.org/wiki/Eagle_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Wolf-Rayet 124: A Beautiful Star Facing Impending Doom",
-      "url": "https://en.wikipedia.org/wiki/WR_124",
+      "baslik": "Witch Head Nebula: The Spooky Cloud Lit by a Supergiant Star",
+      "url": "https://en.wikipedia.org/wiki/IC_2118",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Blue Stragglers: The Stars That Keep Stealing Youth",
-      "url": "https://en.wikipedia.org/wiki/Blue_straggler",
+      "baslik": "Lagoon Nebula: A Glowing Space Nursery Hiding Dark Secrets",
+      "url": "https://en.wikipedia.org/wiki/Lagoon_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
