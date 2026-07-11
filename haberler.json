@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-11T17:53:35.838924+00:00",
+  "uretim_zamani": "2026-07-11T20:44:04.565086+00:00",
   "haberler": [
     {
-      "baslik": "Abell 2744: JWST Captures a Mega-Cluster Warping Spacetime",
-      "url": "https://en.wikipedia.org/wiki/Abell_2744",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Wolf-Lundmark-Melotte Vs Milky Way: The Ultimate Isolation Battle",
-      "url": "https://en.wikipedia.org/wiki/Wolf%E2%80%93Lundmark%E2%80%93Melotte",
+      "baslik": "Gliese 581c: What's It Like to Stand on the World with Red Skies?",
+      "url": "https://en.wikipedia.org/wiki/Gliese_581c",
       "kaynak": "gemini-fallback",
       "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Stephan's Quintet: Five Galaxies Trapped in a Cosmic Dance",
-      "url": "https://en.wikipedia.org/wiki/Stephan%27s_Quintet",
+      "baslik": "Eridanus Supervoid: The Coldest Hole in the Universe Nobody Can Explain",
+      "url": "https://en.wikipedia.org/wiki/Eridanus_Supervoid",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 990,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sagittarius B2 Vs A Distillery: The Giant Alcohol Cloud in Space",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_B2",
+      "kaynak": "gemini-fallback",
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
