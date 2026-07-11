@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-11T20:44:04.565086+00:00",
+  "uretim_zamani": "2026-07-11T23:53:28.781248+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 581c: What's It Like to Stand on the World with Red Skies?",
-      "url": "https://en.wikipedia.org/wiki/Gliese_581c",
+      "baslik": "Tarantula Nebula: The Giant Cosmic Spider Producing Millions of Stars",
+      "url": "https://en.wikipedia.org/wiki/Tarantula_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Eridanus Supervoid: The Coldest Hole in the Universe Nobody Can Explain",
-      "url": "https://en.wikipedia.org/wiki/Eridanus_Supervoid",
+      "baslik": "Pillars of Creation Vs Webb's Mid-Infrared: The Dust Battle",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sagittarius B2 Vs A Distillery: The Giant Alcohol Cloud in Space",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_B2",
+      "baslik": "Lagoon Nebula's Secret: The Hidden Tornadoes of Fire and Gas",
+      "url": "https://en.wikipedia.org/wiki/Lagoon_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
