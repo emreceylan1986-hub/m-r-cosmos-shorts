@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-10T21:04:40.255663+00:00",
+  "uretim_zamani": "2026-07-10T23:56:24.996578+00:00",
   "haberler": [
     {
-      "baslik": "White Dwarf Vs Iron Star: The Ultimate Death Battle of the Cosmos",
-      "url": "https://en.wikipedia.org/wiki/Iron_star",
+      "baslik": "Thorne-Żytkow Object: A Star Hidden Inside Another Star",
+      "url": "https://en.wikipedia.org/wiki/Thorne%E2%80%93%C5%BBytkow_object",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Eta Carinae: The Star So Unstable It Survived Its Own Death",
-      "url": "https://en.wikipedia.org/wiki/Eta_Carinae",
+      "baslik": "Wolf-Rayet 124: A Beautiful Star Facing Impending Doom",
+      "url": "https://en.wikipedia.org/wiki/WR_124",
       "kaynak": "gemini-fallback",
       "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Neutron Star Vs Quark Star: The Ultimate Density Battle",
-      "url": "https://en.wikipedia.org/wiki/Quark_star",
+      "baslik": "Blue Stragglers: The Stars That Keep Stealing Youth",
+      "url": "https://en.wikipedia.org/wiki/Blue_straggler",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
