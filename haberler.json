@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-11T14:21:38.964002+00:00",
+  "uretim_zamani": "2026-07-11T17:53:35.838924+00:00",
   "haberler": [
     {
-      "baslik": "Eagle Nebula Vs Earth: The Ultimate Scale Battle",
-      "url": "https://en.wikipedia.org/wiki/Eagle_Nebula",
+      "baslik": "Abell 2744: JWST Captures a Mega-Cluster Warping Spacetime",
+      "url": "https://en.wikipedia.org/wiki/Abell_2744",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Witch Head Nebula: The Spooky Cloud Lit by a Supergiant Star",
-      "url": "https://en.wikipedia.org/wiki/IC_2118",
+      "baslik": "Wolf-Lundmark-Melotte Vs Milky Way: The Ultimate Isolation Battle",
+      "url": "https://en.wikipedia.org/wiki/Wolf%E2%80%93Lundmark%E2%80%93Melotte",
       "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Lagoon Nebula: A Glowing Space Nursery Hiding Dark Secrets",
-      "url": "https://en.wikipedia.org/wiki/Lagoon_Nebula",
+      "baslik": "Stephan's Quintet: Five Galaxies Trapped in a Cosmic Dance",
+      "url": "https://en.wikipedia.org/wiki/Stephan%27s_Quintet",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
