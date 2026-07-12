@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-07-12T17:58:22.724324+00:00",
+  "uretim_zamani": "2026-07-12T20:42:35.218139+00:00",
   "haberler": [
     {
-      "baslik": "What’s It Like to Be Blown Away by the Sun's Most Brutal Solar Storm",
-      "url": "https://en.wikipedia.org/wiki/Carrington_Event",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Jupiter's Magnetosphere Vs Earth: The Ultimate Radiation Shield Battle",
-      "url": "https://en.wikipedia.org/wiki/Magnetosphere_of_Jupiter",
+      "baslik": "Hoag's Object: The Impossible Ring Galaxy That Defies Physics",
+      "url": "https://en.wikipedia.org/wiki/Hoag%27s_Object",
       "kaynak": "gemini-fallback",
       "skor": 993,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Chiron's Secret: The Impossible Ice Rings of a Solar System Hybrid",
-      "url": "https://en.wikipedia.org/wiki/2060_Chiron",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
