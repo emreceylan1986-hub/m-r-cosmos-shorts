@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-07-12T14:25:54.253874+00:00",
+  "uretim_zamani": "2026-07-12T17:58:22.724324+00:00",
   "haberler": [
     {
-      "baslik": "Halley's Comet: The Icy Messenger That Lives in Total Darkness",
-      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
+      "baslik": "What’s It Like to Be Blown Away by the Sun's Most Brutal Solar Storm",
+      "url": "https://en.wikipedia.org/wiki/Carrington_Event",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Jupiter's Magnetosphere Vs Earth: The Ultimate Radiation Shield Battle",
+      "url": "https://en.wikipedia.org/wiki/Magnetosphere_of_Jupiter",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Chiron's Secret: The Impossible Ice Rings of a Solar System Hybrid",
+      "url": "https://en.wikipedia.org/wiki/2060_Chiron",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
