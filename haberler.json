@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-07-11T23:53:28.781248+00:00",
+  "uretim_zamani": "2026-07-12T14:25:54.253874+00:00",
   "haberler": [
     {
-      "baslik": "Tarantula Nebula: The Giant Cosmic Spider Producing Millions of Stars",
-      "url": "https://en.wikipedia.org/wiki/Tarantula_Nebula",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Pillars of Creation Vs Webb's Mid-Infrared: The Dust Battle",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Lagoon Nebula's Secret: The Hidden Tornadoes of Fire and Gas",
-      "url": "https://en.wikipedia.org/wiki/Lagoon_Nebula",
+      "baslik": "Halley's Comet: The Icy Messenger That Lives in Total Darkness",
+      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
