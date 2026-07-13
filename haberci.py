@@ -505,12 +505,50 @@ def en_populer_3() -> list[dict]:
     return secilen[:3]
 
 
+# 11 Tem 2026 — EVERGREEN YEDEK: Gemini kotası biter + Reddit 403 olursa haberci
+# ASLA boş dönmesin (pipeline exit-1 çökme kökü). Footage-bol, niş-özel, kanıtlı konular.
+EVERGREEN_KONULAR = [
+    {"baslik": "A black hole's gravity is so strong not even light escapes", "url": 'https://en.wikipedia.org/wiki/Black_hole', "ozet": 'Event horizon: the point of no return', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": "Saturn's rings are made of billions of ice chunks", "url": 'https://en.wikipedia.org/wiki/Rings_of_Saturn', "ozet": 'From dust grains to house-sized boulders', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'A neutron star teaspoon would weigh a billion tons', "url": 'https://en.wikipedia.org/wiki/Neutron_star', "ozet": 'The densest matter in the universe', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": "Jupiter's Great Red Spot is a storm bigger than Earth", "url": 'https://en.wikipedia.org/wiki/Great_Red_Spot', "ozet": 'Raging for over 350 years', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": "The Sun makes up 99.8% of the Solar System's mass", "url": 'https://en.wikipedia.org/wiki/Sun', "ozet": 'Everything else is a rounding error', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'A day on Venus is longer than its year', "url": 'https://en.wikipedia.org/wiki/Venus', "ozet": 'It spins backwards, too', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'The Milky Way and Andromeda will collide in 4 billion years', "url": 'https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision', "ozet": 'A galactic merger already begun', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Neutron stars can spin 700 times per second', "url": 'https://en.wikipedia.org/wiki/Pulsar', "ozet": 'Cosmic lighthouses called pulsars', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'A supernova can briefly outshine an entire galaxy', "url": 'https://en.wikipedia.org/wiki/Supernova', "ozet": "A dying star's final flash", "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Mars has the tallest volcano in the Solar System', "url": 'https://en.wikipedia.org/wiki/Olympus_Mons', "ozet": 'Olympus Mons is three times Everest', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": "Saturn's moon Titan has lakes of liquid methane", "url": 'https://en.wikipedia.org/wiki/Titan_(moon)', "ozet": 'The only other world with surface liquid', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'The observable universe is 93 billion light years across', "url": 'https://en.wikipedia.org/wiki/Observable_universe', "ozet": "And that's just what we can see", "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'Light from the Sun takes 8 minutes to reach Earth', "url": 'https://en.wikipedia.org/wiki/Sunlight', "ozet": 'You always see the Sun in the past', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": "A comet's tail always points away from the Sun", "url": 'https://en.wikipedia.org/wiki/Comet_tail', "ozet": 'Solar wind blows it back', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+    {"baslik": 'The Moon is drifting away from Earth every year', "url": 'https://en.wikipedia.org/wiki/Orbit_of_the_Moon', "ozet": '3.8 cm farther, every single year', "kaynak": "evergreen", "skor": 900, "yas_saat": 0, "yorum_sayisi": 0},
+]
+
+
+def _evergreen_sec(adet: int = 3) -> list:
+    """Gemini+Reddit boş dönerse evergreen havuzdan geçmişte-olmayan konu seç."""
+    import random
+    try:
+        gecmis = _gecmisi_oku()
+    except Exception:
+        gecmis = set()
+    taze = [k for k in EVERGREEN_KONULAR if _normalize_url(k["url"]) not in gecmis]
+    havuz = taze if len(taze) >= adet else list(EVERGREEN_KONULAR)
+    random.shuffle(havuz)
+    return [dict(k) for k in havuz[:adet]]
+
+
 def main() -> int:
     print("[haberci] Uzay/astronomi nişi — Reddit + Gemini fallback taranıyor...\n")
     secilenler = en_populer_3()
 
     if not secilenler:
-        print("[haberci] Hiç haber bulunamadı.")
+        print("[haberci] Gemini+Reddit boş → EVERGREEN havuzdan seçiliyor (pipeline korunur)", flush=True)
+        secilenler = _evergreen_sec(3)
+
+    if not secilenler:
+        print("[haberci] Hiç haber bulunamadı (evergreen de boş?!).")
         return 1
 
     cikti = {
