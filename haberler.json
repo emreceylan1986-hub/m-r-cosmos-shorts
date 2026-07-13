@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-13T20:55:36.598604+00:00",
+  "uretim_zamani": "2026-07-13T23:53:12.986811+00:00",
   "haberler": [
     {
-      "baslik": "Tethys Vs Saturn: The Giant Ice Ball Devoured by Cosmic Radiation",
-      "url": "https://en.wikipedia.org/wiki/Tethys_(moon)",
+      "baslik": "Bootes Void: The Unseen Hole in the Universe That Shouldn't Exist",
+      "url": "https://en.wikipedia.org/wiki/B%C3%B6otes_Void",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Uranus's Extreme Seasons: Where Night Drifts Alone for 42 Years",
+      "url": "https://en.wikipedia.org/wiki/Uranus",
       "kaynak": "gemini-fallback",
       "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Hyperion's Chaos: The Sponge Moon That Rotates Without a Plan",
-      "url": "https://en.wikipedia.org/wiki/Hyperion_(moon)",
+      "baslik": "Titan's Atmosphere Vs Earth's Air: The Heavy Orange Mystery",
+      "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Titan",
       "kaynak": "gemini-fallback",
-      "skor": 991,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Umbriel's Secret: The Darkest Moon Orbiting Uranus",
-      "url": "https://en.wikipedia.org/wiki/Umbriel_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
