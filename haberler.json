@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-13T15:56:51.510916+00:00",
+  "uretim_zamani": "2026-07-13T20:55:36.598604+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter Vs Earth's Oceans: The Liquid Metallic Hydrogen War",
-      "url": "https://en.wikipedia.org/wiki/Jupiter",
+      "baslik": "Tethys Vs Saturn: The Giant Ice Ball Devoured by Cosmic Radiation",
+      "url": "https://en.wikipedia.org/wiki/Tethys_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Enceladus's Secret: The White Iceball Spraying Life into Space",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Hyperion's Chaos: The Sponge Moon That Rotates Without a Plan",
+      "url": "https://en.wikipedia.org/wiki/Hyperion_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rhea's Rings: The Moon That Drifts with a Hidden Halo",
-      "url": "https://en.wikipedia.org/wiki/Rhea_(moon)",
+      "baslik": "Umbriel's Secret: The Darkest Moon Orbiting Uranus",
+      "url": "https://en.wikipedia.org/wiki/Umbriel_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
