@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-07-12T23:51:34.452748+00:00",
+  "uretim_zamani": "2026-07-13T15:56:51.510916+00:00",
   "haberler": [
     {
-      "baslik": "The Sun's Dark Secrets: What Lies Beneath the Coronal Holes",
-      "url": "https://en.wikipedia.org/wiki/Coronal_hole",
+      "baslik": "Jupiter Vs Earth's Oceans: The Liquid Metallic Hydrogen War",
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Enceladus's Secret: The White Iceball Spraying Life into Space",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rhea's Rings: The Moon That Drifts with a Hidden Halo",
+      "url": "https://en.wikipedia.org/wiki/Rhea_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
