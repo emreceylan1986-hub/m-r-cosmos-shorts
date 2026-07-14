@@ -1,30 +1,27 @@
 {
-  "uretim_zamani": "2026-07-14T18:06:05.591253+00:00",
+  "uretim_zamani": "2026-07-14T20:58:45.666086+00:00",
   "haberler": [
     {
-      "baslik": "Mars has the tallest volcano in the Solar System",
-      "url": "https://en.wikipedia.org/wiki/Olympus_Mons",
-      "ozet": "Olympus Mons is three times Everest",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "KIC 8462852's Secret: The Megastructure That Baffled Scientists",
+      "url": "https://en.wikipedia.org/wiki/KIC_8462852",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "A comet's tail always points away from the Sun",
-      "url": "https://en.wikipedia.org/wiki/Comet_tail",
-      "ozet": "Solar wind blows it back",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Venus Vs Earth: The Twin Planet That Turned Into Hell",
+      "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Venus",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The observable universe is 93 billion light years across",
-      "url": "https://en.wikipedia.org/wiki/Observable_universe",
-      "ozet": "And that's just what we can see",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Gliese 1214b: The Waterworld Without a Single Grain of Land",
+      "url": "https://en.wikipedia.org/wiki/Gliese_1214_b",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
