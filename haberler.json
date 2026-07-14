@@ -1,27 +1,30 @@
 {
-  "uretim_zamani": "2026-07-14T14:50:00.588422+00:00",
+  "uretim_zamani": "2026-07-14T18:06:05.591253+00:00",
   "haberler": [
     {
-      "baslik": "HD 189733b: The Blue Planet Where It Rains Glass Sideways",
-      "url": "https://en.wikipedia.org/wiki/HD_189733b",
-      "kaynak": "gemini-fallback",
-      "skor": 991,
+      "baslik": "Mars has the tallest volcano in the Solar System",
+      "url": "https://en.wikipedia.org/wiki/Olympus_Mons",
+      "ozet": "Olympus Mons is three times Everest",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "WASP-76b: A Hellscape Where It Literally Rains Liquid Iron",
-      "url": "https://en.wikipedia.org/wiki/WASP-76b",
-      "kaynak": "gemini-fallback",
-      "skor": 990,
+      "baslik": "A comet's tail always points away from the Sun",
+      "url": "https://en.wikipedia.org/wiki/Comet_tail",
+      "ozet": "Solar wind blows it back",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "PSR B1257+12: Three Zombie Planets Orbiting a Dead Star",
-      "url": "https://en.wikipedia.org/wiki/PSR_B1257%2B12",
-      "kaynak": "gemini-fallback",
-      "skor": 987,
+      "baslik": "The observable universe is 93 billion light years across",
+      "url": "https://en.wikipedia.org/wiki/Observable_universe",
+      "ozet": "And that's just what we can see",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
