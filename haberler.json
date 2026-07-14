@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-13T23:53:12.986811+00:00",
+  "uretim_zamani": "2026-07-14T14:50:00.588422+00:00",
   "haberler": [
     {
-      "baslik": "Bootes Void: The Unseen Hole in the Universe That Shouldn't Exist",
-      "url": "https://en.wikipedia.org/wiki/B%C3%B6otes_Void",
+      "baslik": "HD 189733b: The Blue Planet Where It Rains Glass Sideways",
+      "url": "https://en.wikipedia.org/wiki/HD_189733b",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Uranus's Extreme Seasons: Where Night Drifts Alone for 42 Years",
-      "url": "https://en.wikipedia.org/wiki/Uranus",
+      "baslik": "WASP-76b: A Hellscape Where It Literally Rains Liquid Iron",
+      "url": "https://en.wikipedia.org/wiki/WASP-76b",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Titan's Atmosphere Vs Earth's Air: The Heavy Orange Mystery",
-      "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Titan",
+      "baslik": "PSR B1257+12: Three Zombie Planets Orbiting a Dead Star",
+      "url": "https://en.wikipedia.org/wiki/PSR_B1257%2B12",
       "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
