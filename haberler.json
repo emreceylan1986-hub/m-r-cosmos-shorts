@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-07-15T14:47:26.673548+00:00",
+  "uretim_zamani": "2026-07-15T18:05:20.779141+00:00",
   "haberler": [
     {
-      "baslik": "Comet McNaught Vs The Sun: The Great Comet of 2007",
-      "url": "https://en.wikipedia.org/wiki/Comet_McNaught",
+      "baslik": "Comet Hale-Bopp: The Frozen Giant That Slept For Thousands of Years",
+      "url": "https://en.wikipedia.org/wiki/Comet_Hale%E2%80%93Bopp",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mayall's Object: The Bizarre Collision of Two Merging Galaxies",
-      "url": "https://en.wikipedia.org/wiki/Mayall%27s_Object",
+      "baslik": "M64 Black Eye Galaxy: The Evil Twin Spinning Against Itself",
+      "url": "https://en.wikipedia.org/wiki/Black_Eye_Galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kelt-9b: A Hellish World Hotter Than Most Stars",
-      "url": "https://en.wikipedia.org/wiki/KELT-9b",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
