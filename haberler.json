@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-14T23:51:49.704379+00:00",
+  "uretim_zamani": "2026-07-15T14:47:26.673548+00:00",
   "haberler": [
     {
-      "baslik": "Gargantua Vs Earth: How Gravity Slowly Warps Time",
-      "url": "https://en.wikipedia.org/wiki/Gravitational_time_dilation",
+      "baslik": "Comet McNaught Vs The Sun: The Great Comet of 2007",
+      "url": "https://en.wikipedia.org/wiki/Comet_McNaught",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "PSR J1748-2446ad: A Star Spinning Faster Than a Kitchen Blender",
-      "url": "https://en.wikipedia.org/wiki/PSR_J1748-2446ad",
+      "baslik": "Mayall's Object: The Bizarre Collision of Two Merging Galaxies",
+      "url": "https://en.wikipedia.org/wiki/Mayall%27s_Object",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kelt-9b: A Hellish World Hotter Than Most Stars",
+      "url": "https://en.wikipedia.org/wiki/KELT-9b",
       "kaynak": "gemini-fallback",
       "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Extreme Heat Vs Liquid Ice: The Strange Chemistry of Hot Neptunes",
-      "url": "https://en.wikipedia.org/wiki/Hot_Neptune",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
