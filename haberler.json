@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-07-15T18:05:20.779141+00:00",
+  "uretim_zamani": "2026-07-15T20:58:12.754739+00:00",
   "haberler": [
     {
-      "baslik": "Comet Hale-Bopp: The Frozen Giant That Slept For Thousands of Years",
-      "url": "https://en.wikipedia.org/wiki/Comet_Hale%E2%80%93Bopp",
+      "baslik": "Laniakea Supercluster: The Colossal Cosmic Web We Call Home",
+      "url": "https://en.wikipedia.org/wiki/Laniakea_Supercluster",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "M64 Black Eye Galaxy: The Evil Twin Spinning Against Itself",
-      "url": "https://en.wikipedia.org/wiki/Black_Eye_Galaxy",
+      "baslik": "Erebus Montes: The Bizarre Frozen Peaks of the Martian Wilderness",
+      "url": "https://en.wikipedia.org/wiki/Erebus_Montes",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 992,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "PSR B1620-26 b: The Ancient Genesis Planet That Survived Two Dying Suns",
+      "url": "https://en.wikipedia.org/wiki/PSR_B1620-26_b",
+      "kaynak": "gemini-fallback",
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
