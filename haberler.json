@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-13T20:55:36.598604+00:00",
+  "uretim_zamani": "2026-07-14T23:51:49.704379+00:00",
   "haberler": [
     {
-      "baslik": "Tethys Vs Saturn: The Giant Ice Ball Devoured by Cosmic Radiation",
-      "url": "https://en.wikipedia.org/wiki/Tethys_(moon)",
+      "baslik": "Gargantua Vs Earth: How Gravity Slowly Warps Time",
+      "url": "https://en.wikipedia.org/wiki/Gravitational_time_dilation",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "PSR J1748-2446ad: A Star Spinning Faster Than a Kitchen Blender",
+      "url": "https://en.wikipedia.org/wiki/PSR_J1748-2446ad",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Extreme Heat Vs Liquid Ice: The Strange Chemistry of Hot Neptunes",
+      "url": "https://en.wikipedia.org/wiki/Hot_Neptune",
       "kaynak": "gemini-fallback",
       "skor": 993,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Hyperion's Chaos: The Sponge Moon That Rotates Without a Plan",
-      "url": "https://en.wikipedia.org/wiki/Hyperion_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 991,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Umbriel's Secret: The Darkest Moon Orbiting Uranus",
-      "url": "https://en.wikipedia.org/wiki/Umbriel_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
