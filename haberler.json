@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-07-16T15:00:39.979046+00:00",
+  "uretim_zamani": "2026-07-16T18:07:00.899827+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-90 System: A Secret Eight-Planet Solar Family",
-      "url": "https://en.wikipedia.org/wiki/Kepler-90",
+      "baslik": "Betelgeuse: The Hidden Countdown to an Impossible Supernova",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "K2-18b Vs Earth: A Water World Battle for Alien Life",
+      "url": "https://en.wikipedia.org/wiki/K2-18b",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "The Sun's South Pole: Something Bizarre Is Happening Beneath the Surface",
+      "url": "https://en.wikipedia.org/wiki/Solar_cycle",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
