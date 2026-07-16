@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-15T20:58:12.754739+00:00",
+  "uretim_zamani": "2026-07-15T23:57:31.273195+00:00",
   "haberler": [
     {
-      "baslik": "Laniakea Supercluster: The Colossal Cosmic Web We Call Home",
-      "url": "https://en.wikipedia.org/wiki/Laniakea_Supercluster",
+      "baslik": "Green Pea Galaxies: The Cosmic Fireflies That Reionized the Universe",
+      "url": "https://en.wikipedia.org/wiki/Green_Pea_galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Erebus Montes: The Bizarre Frozen Peaks of the Martian Wilderness",
-      "url": "https://en.wikipedia.org/wiki/Erebus_Montes",
+      "baslik": "KBC Void: The Giant Cosmic Desert That Our Galaxy Calls Home",
+      "url": "https://en.wikipedia.org/wiki/KBC_Void",
       "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "PSR B1620-26 b: The Ancient Genesis Planet That Survived Two Dying Suns",
-      "url": "https://en.wikipedia.org/wiki/PSR_B1620-26_b",
+      "baslik": "Active Galactic Nuclei Vs Normal Galaxies: The Violent Core Battle",
+      "url": "https://en.wikipedia.org/wiki/Active_galactic_nucleus",
       "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
