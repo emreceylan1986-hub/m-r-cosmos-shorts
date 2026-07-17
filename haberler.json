@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-16T23:57:04.443524+00:00",
+  "uretim_zamani": "2026-07-17T14:42:32.740992+00:00",
   "haberler": [
     {
-      "baslik": "Teegarden's Star b: The Ultra-Quiet World Sitting in the Perfect Zone",
-      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
+      "baslik": "WOH G64: A Star So Big It Defies The Laws of Physics",
+      "url": "https://en.wikipedia.org/wiki/WOH_G64",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Type Ia Supernova Vs Type II Supernova: The Stellar Death Battle",
+      "url": "https://en.wikipedia.org/wiki/Type_Ia_supernova",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "LHS 475 b: The Rocky Earth-Sized World Baking in Secret",
-      "url": "https://en.wikipedia.org/wiki/LHS_475_b",
+      "baslik": "V838 Monocerotis's Secret: The Illusion of Light Echoes",
+      "url": "https://en.wikipedia.org/wiki/V838_Monocerotis",
       "kaynak": "gemini-fallback",
       "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "TRAPPIST-1h: The Frozen Outpost at the Edge of a Miniature Solar System",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1h",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
