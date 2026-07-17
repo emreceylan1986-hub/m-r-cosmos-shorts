@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-17T20:52:10.454941+00:00",
+  "uretim_zamani": "2026-07-17T23:50:42.841676+00:00",
   "haberler": [
     {
-      "baslik": "Aldebaran: The Red Eye of Taurus Hiding a Giant Secret",
-      "url": "https://en.wikipedia.org/wiki/Aldebaran",
+      "baslik": "HD 140283: The Impossible 'Methuselah Star' That Seems Older Than Time",
+      "url": "https://en.wikipedia.org/wiki/HD_140283",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sirius A Vs Sirius B: The Ultimate Cosmic Duel",
-      "url": "https://en.wikipedia.org/wiki/Sirius",
+      "baslik": "Albireo: The Hidden Cosmic Dance of the Sapphire and Topaz Suns",
+      "url": "https://en.wikipedia.org/wiki/Albireo",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Cygnus OB2-12: The Brightest Star Drifting in Cosmic Fog",
-      "url": "https://en.wikipedia.org/wiki/Cygnus_OB2-12",
+      "baslik": "Herbig-Haro 46/47: The Celestial Firework Blasting Across Light Years",
+      "url": "https://en.wikipedia.org/wiki/Herbig%E2%80%93Haro_object",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
