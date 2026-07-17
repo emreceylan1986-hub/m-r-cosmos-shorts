@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-16T20:55:06.753353+00:00",
+  "uretim_zamani": "2026-07-16T23:57:04.443524+00:00",
   "haberler": [
     {
-      "baslik": "LHS 1140b Vs Earth: The Ultimate Battle for the Next Water World",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140b",
+      "baslik": "Teegarden's Star b: The Ultra-Quiet World Sitting in the Perfect Zone",
+      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Gliese 12 b: The Unseen Neighbor That Might Be Cold Enough for Life",
-      "url": "https://en.wikipedia.org/wiki/Gliese_12_b",
+      "baslik": "LHS 475 b: The Rocky Earth-Sized World Baking in Secret",
+      "url": "https://en.wikipedia.org/wiki/LHS_475_b",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TOI-700 d: The Lonely Outpost Waiting in a Red Sun's Grip",
-      "url": "https://en.wikipedia.org/wiki/TOI-700_d",
+      "baslik": "TRAPPIST-1h: The Frozen Outpost at the Edge of a Miniature Solar System",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1h",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
