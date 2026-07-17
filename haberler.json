@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-07-17T18:03:51.336529+00:00",
+  "uretim_zamani": "2026-07-17T20:52:10.454941+00:00",
   "haberler": [
     {
-      "baslik": "LBV 1806-20: A Hidden Monster Blazing in Our Backyard",
-      "url": "https://en.wikipedia.org/wiki/LBV_1806-20",
+      "baslik": "Aldebaran: The Red Eye of Taurus Hiding a Giant Secret",
+      "url": "https://en.wikipedia.org/wiki/Aldebaran",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sirius A Vs Sirius B: The Ultimate Cosmic Duel",
+      "url": "https://en.wikipedia.org/wiki/Sirius",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Cygnus OB2-12: The Brightest Star Drifting in Cosmic Fog",
+      "url": "https://en.wikipedia.org/wiki/Cygnus_OB2-12",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
