@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-07-17T14:42:32.740992+00:00",
+  "uretim_zamani": "2026-07-17T18:03:51.336529+00:00",
   "haberler": [
     {
-      "baslik": "WOH G64: A Star So Big It Defies The Laws of Physics",
-      "url": "https://en.wikipedia.org/wiki/WOH_G64",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Type Ia Supernova Vs Type II Supernova: The Stellar Death Battle",
-      "url": "https://en.wikipedia.org/wiki/Type_Ia_supernova",
+      "baslik": "LBV 1806-20: A Hidden Monster Blazing in Our Backyard",
+      "url": "https://en.wikipedia.org/wiki/LBV_1806-20",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "V838 Monocerotis's Secret: The Illusion of Light Echoes",
-      "url": "https://en.wikipedia.org/wiki/V838_Monocerotis",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
