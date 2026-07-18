@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-07-18T17:55:07.153675+00:00",
+  "uretim_zamani": "2026-07-18T20:43:06.857918+00:00",
   "haberler": [
     {
-      "baslik": "Ghost of Jupiter Nebula: The Glowing Cosmic Bubble Drifting Alone",
-      "url": "https://en.wikipedia.org/wiki/NGC_3242",
+      "baslik": "Hubble Extreme Deep Field: The Most Detailed View of Space Ever Captured",
+      "url": "https://en.wikipedia.org/wiki/Hubble_Extreme_Deep_Field",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Cone Nebula: A Dark Pillar of Dust Hiding Newborn Stars",
-      "url": "https://en.wikipedia.org/wiki/Cone_Nebula",
+      "baslik": "Pistol Nebula: Hidden Danger of the Galaxy's Deadliest Hypergiant",
+      "url": "https://en.wikipedia.org/wiki/Pistol_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Orion Bar: JWST Unveils the Hidden Skeletal Ribs of Cosmic Gas",
+      "url": "https://en.wikipedia.org/wiki/Orion_Bar",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
