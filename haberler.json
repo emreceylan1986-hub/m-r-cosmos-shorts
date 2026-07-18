@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-14T23:51:49.704379+00:00",
+  "uretim_zamani": "2026-07-17T23:50:42.841676+00:00",
   "haberler": [
     {
-      "baslik": "Gargantua Vs Earth: How Gravity Slowly Warps Time",
-      "url": "https://en.wikipedia.org/wiki/Gravitational_time_dilation",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "PSR J1748-2446ad: A Star Spinning Faster Than a Kitchen Blender",
-      "url": "https://en.wikipedia.org/wiki/PSR_J1748-2446ad",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Extreme Heat Vs Liquid Ice: The Strange Chemistry of Hot Neptunes",
-      "url": "https://en.wikipedia.org/wiki/Hot_Neptune",
+      "baslik": "HD 140283: The Impossible 'Methuselah Star' That Seems Older Than Time",
+      "url": "https://en.wikipedia.org/wiki/HD_140283",
       "kaynak": "gemini-fallback",
       "skor": 993,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Albireo: The Hidden Cosmic Dance of the Sapphire and Topaz Suns",
+      "url": "https://en.wikipedia.org/wiki/Albireo",
+      "kaynak": "gemini-fallback",
+      "skor": 989,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Herbig-Haro 46/47: The Celestial Firework Blasting Across Light Years",
+      "url": "https://en.wikipedia.org/wiki/Herbig%E2%80%93Haro_object",
+      "kaynak": "gemini-fallback",
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
