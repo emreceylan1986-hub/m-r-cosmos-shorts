@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-17T23:50:42.841676+00:00",
+  "uretim_zamani": "2026-07-18T14:19:49.607106+00:00",
   "haberler": [
     {
-      "baslik": "HD 140283: The Impossible 'Methuselah Star' That Seems Older Than Time",
-      "url": "https://en.wikipedia.org/wiki/HD_140283",
+      "baslik": "NGC 604: A Giant Cosmic Firework Captured by JWST",
+      "url": "https://en.wikipedia.org/wiki/NGC_604",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Albireo: The Hidden Cosmic Dance of the Sapphire and Topaz Suns",
-      "url": "https://en.wikipedia.org/wiki/Albireo",
+      "baslik": "Ring Nebula's Secret: The Cosmic Eye Whispering the Fate of Our Sun",
+      "url": "https://en.wikipedia.org/wiki/Ring_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Herbig-Haro 46/47: The Celestial Firework Blasting Across Light Years",
-      "url": "https://en.wikipedia.org/wiki/Herbig%E2%80%93Haro_object",
+      "baslik": "Flame Nebula: The Glowing Fireball Fueled by Hidden Stellar Winds",
+      "url": "https://en.wikipedia.org/wiki/Flame_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
