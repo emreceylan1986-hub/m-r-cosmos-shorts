@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-07-18T14:19:49.607106+00:00",
+  "uretim_zamani": "2026-07-18T17:55:07.153675+00:00",
   "haberler": [
     {
-      "baslik": "NGC 604: A Giant Cosmic Firework Captured by JWST",
-      "url": "https://en.wikipedia.org/wiki/NGC_604",
+      "baslik": "Ghost of Jupiter Nebula: The Glowing Cosmic Bubble Drifting Alone",
+      "url": "https://en.wikipedia.org/wiki/NGC_3242",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ring Nebula's Secret: The Cosmic Eye Whispering the Fate of Our Sun",
-      "url": "https://en.wikipedia.org/wiki/Ring_Nebula",
+      "baslik": "Cone Nebula: A Dark Pillar of Dust Hiding Newborn Stars",
+      "url": "https://en.wikipedia.org/wiki/Cone_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Flame Nebula: The Glowing Fireball Fueled by Hidden Stellar Winds",
-      "url": "https://en.wikipedia.org/wiki/Flame_Nebula",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
