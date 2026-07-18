@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-18T20:43:06.857918+00:00",
+  "uretim_zamani": "2026-07-18T23:51:42.558154+00:00",
   "haberler": [
     {
-      "baslik": "Hubble Extreme Deep Field: The Most Detailed View of Space Ever Captured",
-      "url": "https://en.wikipedia.org/wiki/Hubble_Extreme_Deep_Field",
+      "baslik": "Butterfly Nebula: The Violent Death of a Star Captured in Perfect Symmetry",
+      "url": "https://en.wikipedia.org/wiki/NGC_6302",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pistol Nebula: Hidden Danger of the Galaxy's Deadliest Hypergiant",
-      "url": "https://en.wikipedia.org/wiki/Pistol_Nebula",
+      "baslik": "Cat's Eye Nebula: A Cosmic Bullseye That Previews the Future of Our Sun",
+      "url": "https://en.wikipedia.org/wiki/Cat%27s_Eye_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Orion Bar: JWST Unveils the Hidden Skeletal Ribs of Cosmic Gas",
-      "url": "https://en.wikipedia.org/wiki/Orion_Bar",
+      "baslik": "Eskimo Nebula's Secret: The Double-Ringed Bubble Defying Stellar Physics",
+      "url": "https://en.wikipedia.org/wiki/Eskimo_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
