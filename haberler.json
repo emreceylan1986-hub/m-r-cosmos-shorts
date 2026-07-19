@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-18T23:51:42.558154+00:00",
+  "uretim_zamani": "2026-07-19T14:23:09.222424+00:00",
   "haberler": [
     {
-      "baslik": "Butterfly Nebula: The Violent Death of a Star Captured in Perfect Symmetry",
-      "url": "https://en.wikipedia.org/wiki/NGC_6302",
+      "baslik": "Something Bizarre Is Happening to Comet Leonard's Tail",
+      "url": "https://en.wikipedia.org/wiki/C/2021_A1_(Leonard)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Cat's Eye Nebula: A Cosmic Bullseye That Previews the Future of Our Sun",
-      "url": "https://en.wikipedia.org/wiki/Cat%27s_Eye_Nebula",
+      "baslik": "Kalliope's Secret: The Double Asteroid with Its Own Moon",
+      "url": "https://en.wikipedia.org/wiki/22_Kalliope",
       "kaynak": "gemini-fallback",
       "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Eskimo Nebula's Secret: The Double-Ringed Bubble Defying Stellar Physics",
-      "url": "https://en.wikipedia.org/wiki/Eskimo_Nebula",
+      "baslik": "Charon's Dark Secret: The Red Stain at Pluto's Gate",
+      "url": "https://en.wikipedia.org/wiki/Charon",
       "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
