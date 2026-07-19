@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-19T14:23:09.222424+00:00",
+  "uretim_zamani": "2026-07-19T17:56:57.532991+00:00",
   "haberler": [
     {
-      "baslik": "Something Bizarre Is Happening to Comet Leonard's Tail",
-      "url": "https://en.wikipedia.org/wiki/C/2021_A1_(Leonard)",
+      "baslik": "Pallas: The Battered Cosmic Golf Ball Shaking Up the Asteroid Belt",
+      "url": "https://en.wikipedia.org/wiki/2_Pallas",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kalliope's Secret: The Double Asteroid with Its Own Moon",
-      "url": "https://en.wikipedia.org/wiki/22_Kalliope",
+      "baslik": "Apophis: The Asteroid Threat Coming Terrifyingly Close in 2029",
+      "url": "https://en.wikipedia.org/wiki/99942_Apophis",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Charon's Dark Secret: The Red Stain at Pluto's Gate",
-      "url": "https://en.wikipedia.org/wiki/Charon",
+      "baslik": "Parker Solar Probe: The Impossible Shield Touching the Sun",
+      "url": "https://en.wikipedia.org/wiki/Parker_Solar_Probe",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
