@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-07-19T17:56:57.532991+00:00",
+  "uretim_zamani": "2026-07-19T20:43:08.966102+00:00",
   "haberler": [
     {
-      "baslik": "Pallas: The Battered Cosmic Golf Ball Shaking Up the Asteroid Belt",
-      "url": "https://en.wikipedia.org/wiki/2_Pallas",
+      "baslik": "Something Bizarre Is Happening at the Sun's North Pole",
+      "url": "https://en.wikipedia.org/wiki/Solar_polar_vortex",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Apophis: The Asteroid Threat Coming Terrifyingly Close in 2029",
-      "url": "https://en.wikipedia.org/wiki/99942_Apophis",
+      "baslik": "Uranus's Dark Rings: The Charcoal Collars Drifting in the Outer Void",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Uranus",
       "kaynak": "gemini-fallback",
-      "skor": 991,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Parker Solar Probe: The Impossible Shield Touching the Sun",
-      "url": "https://en.wikipedia.org/wiki/Parker_Solar_Probe",
-      "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
