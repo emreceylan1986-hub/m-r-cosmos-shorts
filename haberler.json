@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-07-20T18:54:08.541004+00:00",
+  "uretim_zamani": "2026-07-20T21:12:42.628076+00:00",
   "haberler": [
     {
-      "baslik": "Titan's Methane Lakes: A Hidden World With Alien Seas",
-      "url": "https://en.wikipedia.org/wiki/Lakes_of_Titan",
+      "baslik": "Enceladus: A Tiny Moon With A Hidden Secret That Could Change Everything",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Jupiter's Great Red Spot: A Storm So Big It Swallows Earths",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Neutron Star Vs Earth: A Density Battle You Won't Believe",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
+      "baslik": "Ganymede: The Hidden Ocean Moon That Is Larger Than Mercury",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
