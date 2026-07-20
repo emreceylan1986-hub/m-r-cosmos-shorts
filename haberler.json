@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-07-19T20:43:08.966102+00:00",
+  "uretim_zamani": "2026-07-20T02:37:20.042797+00:00",
   "haberler": [
     {
-      "baslik": "Something Bizarre Is Happening at the Sun's North Pole",
-      "url": "https://en.wikipedia.org/wiki/Solar_polar_vortex",
+      "baslik": "Iapetus's Hidden Ridge: The Moon Divided by a Giant Cosmic Wall",
+      "url": "https://en.wikipedia.org/wiki/Iapetus_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Uranus's Dark Rings: The Charcoal Collars Drifting in the Outer Void",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Uranus",
+      "baslik": "Nereid: The Neptune Moon Flung into a Wildly Chaotic Orbit",
+      "url": "https://en.wikipedia.org/wiki/Nereid_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 990,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ariel: The Uranus Moon Ripped Open by Massive Ice Canyons",
+      "url": "https://en.wikipedia.org/wiki/Ariel_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
