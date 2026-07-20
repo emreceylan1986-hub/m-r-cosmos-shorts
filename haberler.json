@@ -1,16 +1,24 @@
 {
-  "uretim_zamani": "2026-07-20T21:12:42.628076+00:00",
+  "uretim_zamani": "2026-07-20T23:56:00.343319+00:00",
   "haberler": [
     {
-      "baslik": "Enceladus: A Tiny Moon With A Hidden Secret That Could Change Everything",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Pillars of Creation: The Impossible Secret Inside This Cosmic Fortress",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ganymede: The Hidden Ocean Moon That Is Larger Than Mercury",
+      "baslik": "Jupiter's Red Spot Vs Earth: The Storm That Swallows Worlds",
+      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ganymede's Ocean: The Hidden Water Giant That Makes Earth Look Dry",
       "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
