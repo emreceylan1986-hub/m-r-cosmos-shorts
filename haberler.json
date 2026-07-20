@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-07-20T02:37:20.042797+00:00",
+  "uretim_zamani": "2026-07-20T15:10:35.854192+00:00",
   "haberler": [
     {
-      "baslik": "Iapetus's Hidden Ridge: The Moon Divided by a Giant Cosmic Wall",
-      "url": "https://en.wikipedia.org/wiki/Iapetus_(moon)",
+      "baslik": "Mimas's Secret: The Death Star Moon Hiding an Underground Ocean",
+      "url": "https://en.wikipedia.org/wiki/Mimas_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Nereid: The Neptune Moon Flung into a Wildly Chaotic Orbit",
-      "url": "https://en.wikipedia.org/wiki/Nereid_(moon)",
+      "baslik": "Neptune's Winds Vs Earth's Hurricanes: The Fastest Storms in the Cosmos",
+      "url": "https://en.wikipedia.org/wiki/Neptune",
       "kaynak": "gemini-fallback",
-      "skor": 990,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ariel: The Uranus Moon Ripped Open by Massive Ice Canyons",
-      "url": "https://en.wikipedia.org/wiki/Ariel_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
