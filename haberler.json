@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-07-21T21:05:26.244146+00:00",
+  "uretim_zamani": "2026-07-21T23:54:31.880082+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*: The Invisible Monster Hidden in Our Galaxy's Heart",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Neutron Star Vs Sun: A Battle of Impossible Gravity",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "The Boomerang Nebula's Secret: The Coldest Place in the Cosmos",
-      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
+      "baslik": "Black Hole Vs Earth: What Happens If a Coin-Sized Singularity Appears?",
+      "url": "https://en.wikipedia.org/wiki/Micro_black_hole",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
