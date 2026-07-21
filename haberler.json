@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-18T23:51:42.558154+00:00",
+  "uretim_zamani": "2026-07-20T23:56:00.343319+00:00",
   "haberler": [
     {
-      "baslik": "Butterfly Nebula: The Violent Death of a Star Captured in Perfect Symmetry",
-      "url": "https://en.wikipedia.org/wiki/NGC_6302",
+      "baslik": "Pillars of Creation: The Impossible Secret Inside This Cosmic Fortress",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Jupiter's Red Spot Vs Earth: The Storm That Swallows Worlds",
+      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ganymede's Ocean: The Hidden Water Giant That Makes Earth Look Dry",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Cat's Eye Nebula: A Cosmic Bullseye That Previews the Future of Our Sun",
-      "url": "https://en.wikipedia.org/wiki/Cat%27s_Eye_Nebula",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Eskimo Nebula's Secret: The Double-Ringed Bubble Defying Stellar Physics",
-      "url": "https://en.wikipedia.org/wiki/Eskimo_Nebula",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
