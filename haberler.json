@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-21T18:15:00.307795+00:00",
+  "uretim_zamani": "2026-07-21T21:05:26.244146+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 436b: The Impossible Planet Made of Burning Ice",
-      "url": "https://en.wikipedia.org/wiki/Gliese_436b",
+      "baslik": "Sagittarius A*: The Invisible Monster Hidden in Our Galaxy's Heart",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Supervoid's Secret: The Empty Chasm That Chills the Universe",
-      "url": "https://en.wikipedia.org/wiki/Giant_Void",
+      "baslik": "Neutron Star Vs Sun: A Battle of Impossible Gravity",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Caloris Basin: The Giant Scar Left on Mercury's Hellish Surface",
-      "url": "https://en.wikipedia.org/wiki/Caloris_Basin",
+      "baslik": "The Boomerang Nebula's Secret: The Coldest Place in the Cosmos",
+      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
