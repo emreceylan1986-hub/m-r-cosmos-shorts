@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-07-20T23:56:00.343319+00:00",
+  "uretim_zamani": "2026-07-21T15:02:46.023432+00:00",
   "haberler": [
     {
-      "baslik": "Pillars of Creation: The Impossible Secret Inside This Cosmic Fortress",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Jupiter's Red Spot Vs Earth: The Storm That Swallows Worlds",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ganymede's Ocean: The Hidden Water Giant That Makes Earth Look Dry",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Earth's Atmosphere Vs The Vacuum: A Survival Battle",
+      "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
