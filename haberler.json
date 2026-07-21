@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-07-21T15:02:46.023432+00:00",
+  "uretim_zamani": "2026-07-21T18:15:00.307795+00:00",
   "haberler": [
     {
-      "baslik": "Earth's Atmosphere Vs The Vacuum: A Survival Battle",
-      "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth",
+      "baslik": "Gliese 436b: The Impossible Planet Made of Burning Ice",
+      "url": "https://en.wikipedia.org/wiki/Gliese_436b",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Supervoid's Secret: The Empty Chasm That Chills the Universe",
+      "url": "https://en.wikipedia.org/wiki/Giant_Void",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Caloris Basin: The Giant Scar Left on Mercury's Hellish Surface",
+      "url": "https://en.wikipedia.org/wiki/Caloris_Basin",
+      "kaynak": "gemini-fallback",
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
