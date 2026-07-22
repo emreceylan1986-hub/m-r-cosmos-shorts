@@ -1,28 +1,28 @@
 {
-  "uretim_zamani": "2026-07-22T15:04:33.325600+00:00",
+  "uretim_zamani": "2026-07-22T18:13:17.678136+00:00",
   "haberler": [
     {
-      "baslik": "The Moon is drifting away from Earth every year",
-      "url": "https://en.wikipedia.org/wiki/Orbit_of_the_Moon",
-      "ozet": "3.8 cm farther, every single year",
+      "baslik": "Jupiter's Great Red Spot is a storm bigger than Earth",
+      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "ozet": "Raging for over 350 years",
       "kaynak": "evergreen",
       "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Light from the Sun takes 8 minutes to reach Earth",
-      "url": "https://en.wikipedia.org/wiki/Sunlight",
-      "ozet": "You always see the Sun in the past",
+      "baslik": "A black hole's gravity is so strong not even light escapes",
+      "url": "https://en.wikipedia.org/wiki/Black_hole",
+      "ozet": "Event horizon: the point of no return",
       "kaynak": "evergreen",
       "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Milky Way and Andromeda will collide in 4 billion years",
-      "url": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision",
-      "ozet": "A galactic merger already begun",
+      "baslik": "Neutron stars can spin 700 times per second",
+      "url": "https://en.wikipedia.org/wiki/Pulsar",
+      "ozet": "Cosmic lighthouses called pulsars",
       "kaynak": "evergreen",
       "skor": 900,
       "yas_saat": 0,
