@@ -1,30 +1,27 @@
 {
-  "uretim_zamani": "2026-07-22T18:13:17.678136+00:00",
+  "uretim_zamani": "2026-07-22T21:09:27.253519+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Great Red Spot is a storm bigger than Earth",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
-      "ozet": "Raging for over 350 years",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Comet Galaxy: A Star System Bleeding to Death in the Cosmos",
+      "url": "https://en.wikipedia.org/wiki/Comet_Galaxy",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "A black hole's gravity is so strong not even light escapes",
-      "url": "https://en.wikipedia.org/wiki/Black_hole",
-      "ozet": "Event horizon: the point of no return",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Malin 1: The Giant Ghost Galaxy Invisible to the Naked Eye",
+      "url": "https://en.wikipedia.org/wiki/Malin_1",
+      "kaynak": "gemini-fallback",
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Neutron stars can spin 700 times per second",
-      "url": "https://en.wikipedia.org/wiki/Pulsar",
-      "ozet": "Cosmic lighthouses called pulsars",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Sculptors Wall: The Giant Cosmic Structure That Defies Spacetime",
+      "url": "https://en.wikipedia.org/wiki/Sculptor_Wall",
+      "kaynak": "gemini-fallback",
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
