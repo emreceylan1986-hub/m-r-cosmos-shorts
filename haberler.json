@@ -1,11 +1,30 @@
 {
-  "uretim_zamani": "2026-07-21T23:54:31.880082+00:00",
+  "uretim_zamani": "2026-07-22T15:04:33.325600+00:00",
   "haberler": [
     {
-      "baslik": "Black Hole Vs Earth: What Happens If a Coin-Sized Singularity Appears?",
-      "url": "https://en.wikipedia.org/wiki/Micro_black_hole",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "baslik": "The Moon is drifting away from Earth every year",
+      "url": "https://en.wikipedia.org/wiki/Orbit_of_the_Moon",
+      "ozet": "3.8 cm farther, every single year",
+      "kaynak": "evergreen",
+      "skor": 900,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Light from the Sun takes 8 minutes to reach Earth",
+      "url": "https://en.wikipedia.org/wiki/Sunlight",
+      "ozet": "You always see the Sun in the past",
+      "kaynak": "evergreen",
+      "skor": 900,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "The Milky Way and Andromeda will collide in 4 billion years",
+      "url": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision",
+      "ozet": "A galactic merger already begun",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
