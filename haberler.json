@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-22T21:09:27.253519+00:00",
+  "uretim_zamani": "2026-07-23T00:00:27.056893+00:00",
   "haberler": [
     {
-      "baslik": "Comet Galaxy: A Star System Bleeding to Death in the Cosmos",
-      "url": "https://en.wikipedia.org/wiki/Comet_Galaxy",
+      "baslik": "K2-18b's Secret: The Ocean World with Signs of Alien Life",
+      "url": "https://en.wikipedia.org/wiki/K2-18b",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Malin 1: The Giant Ghost Galaxy Invisible to the Naked Eye",
-      "url": "https://en.wikipedia.org/wiki/Malin_1",
+      "baslik": "TRAPPIST-1 Space Battle: Seven Earths Vs One Red Dwarf Star",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sculptors Wall: The Giant Cosmic Structure That Defies Spacetime",
-      "url": "https://en.wikipedia.org/wiki/Sculptor_Wall",
+      "baslik": "TOI-700 d: The Silent Earth Twin Drifting in the Cosmic Dark",
+      "url": "https://en.wikipedia.org/wiki/TOI-700_d",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
