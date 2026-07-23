@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-23T00:00:27.056893+00:00",
+  "uretim_zamani": "2026-07-23T15:06:49.390469+00:00",
   "haberler": [
     {
-      "baslik": "K2-18b's Secret: The Ocean World with Signs of Alien Life",
-      "url": "https://en.wikipedia.org/wiki/K2-18b",
+      "baslik": "TRAPPIST-1g: The Frozen Edge Planet That Could Harbor Life",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1g",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TRAPPIST-1 Space Battle: Seven Earths Vs One Red Dwarf Star",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1",
+      "baslik": "Kepler-1649c Vs Mars: Which Is Our Best Backup Planet?",
+      "url": "https://en.wikipedia.org/wiki/Kepler-1649c",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TOI-700 d: The Silent Earth Twin Drifting in the Cosmic Dark",
-      "url": "https://en.wikipedia.org/wiki/TOI-700_d",
+      "baslik": "LHS 1140 b's Secret: The Giant eyeball Planet Hiding an Ocean",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
