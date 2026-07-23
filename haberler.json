@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-23T15:06:49.390469+00:00",
+  "uretim_zamani": "2026-07-23T18:11:29.682363+00:00",
   "haberler": [
     {
-      "baslik": "TRAPPIST-1g: The Frozen Edge Planet That Could Harbor Life",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1g",
+      "baslik": "Wolf 1061c: The Tidal Locked World Frozen On One Side",
+      "url": "https://en.wikipedia.org/wiki/Wolf_1061c",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-1649c Vs Mars: Which Is Our Best Backup Planet?",
-      "url": "https://en.wikipedia.org/wiki/Kepler-1649c",
+      "baslik": "Kepler-62f: The True Waterworld Floating in Deep Space",
+      "url": "https://en.wikipedia.org/wiki/Kepler-62f",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "LHS 1140 b's Secret: The Giant eyeball Planet Hiding an Ocean",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "baslik": "Luyten b: The Nearby World Waiting for Our Call",
+      "url": "https://en.wikipedia.org/wiki/Luyten_b",
       "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
