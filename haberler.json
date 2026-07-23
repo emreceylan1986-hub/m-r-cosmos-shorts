@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-23T18:11:29.682363+00:00",
+  "uretim_zamani": "2026-07-23T21:01:14.096073+00:00",
   "haberler": [
     {
-      "baslik": "Wolf 1061c: The Tidal Locked World Frozen On One Side",
-      "url": "https://en.wikipedia.org/wiki/Wolf_1061c",
+      "baslik": "55 Cancri e's Secret: The Hellish Lava World with a Thick Atmosphere",
+      "url": "https://en.wikipedia.org/wiki/55_Cancri_e",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-62f: The True Waterworld Floating in Deep Space",
-      "url": "https://en.wikipedia.org/wiki/Kepler-62f",
+      "baslik": "Kepler-22b Vs Earth: The Ultimate Ocean World Battle",
+      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Luyten b: The Nearby World Waiting for Our Call",
-      "url": "https://en.wikipedia.org/wiki/Luyten_b",
+      "baslik": "Proxima Centauri b: The Alien World Caught in a Deadly Stellar Trap",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
