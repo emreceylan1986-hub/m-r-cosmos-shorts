@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-23T21:01:14.096073+00:00",
+  "uretim_zamani": "2026-07-23T23:58:10.310013+00:00",
   "haberler": [
     {
-      "baslik": "55 Cancri e's Secret: The Hellish Lava World with a Thick Atmosphere",
-      "url": "https://en.wikipedia.org/wiki/55_Cancri_e",
+      "baslik": "Teegarden's Star: The Silent Neighbor Watching Our Solar System",
+      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-22b Vs Earth: The Ultimate Ocean World Battle",
-      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
+      "baslik": "Proxima Centauri Vs Our Sun: The Red Dwarf Habitability War",
+      "url": "https://en.wikipedia.org/wiki/Red_dwarf",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Proxima Centauri b: The Alien World Caught in a Deadly Stellar Trap",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "baslik": "Super-Earth Vs Mini-Neptune: The Missing Planet Mystery",
+      "url": "https://en.wikipedia.org/wiki/Super-Earth",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
