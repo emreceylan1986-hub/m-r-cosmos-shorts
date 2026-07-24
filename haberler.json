@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-07-24T18:17:04.273218+00:00",
+  "uretim_zamani": "2026-07-24T20:59:43.886441+00:00",
   "haberler": [
     {
-      "baslik": "Canis Major Overdensity: The Hidden Galaxy Swallowed By Our Own",
-      "url": "https://en.wikipedia.org/wiki/Canis_Major_Overdensity",
+      "baslik": "Spica Vs Rigel: A Blue Supergiant Star Battle",
+      "url": "https://en.wikipedia.org/wiki/Spica",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Canopus: The Hidden Giant Star Illuminating Our Night Sky",
+      "url": "https://en.wikipedia.org/wiki/Canopus",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
