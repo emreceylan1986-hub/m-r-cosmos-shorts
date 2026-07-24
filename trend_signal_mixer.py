@@ -19,9 +19,9 @@ CIKTI = PANEL_KOK / "trend_signals.json"
 
 # Niş seed kelimeleri — autocomplete sorgu temeli
 SEED_TERIMLERI = [
-    "amazing animal", "rare nature", "extreme weather",
-    "deep sea creature", "world record animal", "natural phenomenon",
-    "weird animal facts", "ocean mystery", "wildlife shocking",
+    "james webb telescope", "black hole discovery", "space mystery",
+    "exoplanet", "nasa discovery", "galaxy collision",
+    "supernova", "dark matter", "mars mission",
 ]
 
 
