@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-20T23:56:00.343319+00:00",
+  "uretim_zamani": "2026-07-23T23:58:10.310013+00:00",
   "haberler": [
     {
-      "baslik": "Pillars of Creation: The Impossible Secret Inside This Cosmic Fortress",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "Teegarden's Star: The Silent Neighbor Watching Our Solar System",
+      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Jupiter's Red Spot Vs Earth: The Storm That Swallows Worlds",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "baslik": "Proxima Centauri Vs Our Sun: The Red Dwarf Habitability War",
+      "url": "https://en.wikipedia.org/wiki/Red_dwarf",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ganymede's Ocean: The Hidden Water Giant That Makes Earth Look Dry",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Super-Earth Vs Mini-Neptune: The Missing Planet Mystery",
+      "url": "https://en.wikipedia.org/wiki/Super-Earth",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
