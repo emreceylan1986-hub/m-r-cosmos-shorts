@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-07-24T20:59:43.886441+00:00",
+  "uretim_zamani": "2026-07-25T00:02:57.243291+00:00",
   "haberler": [
     {
-      "baslik": "Spica Vs Rigel: A Blue Supergiant Star Battle",
-      "url": "https://en.wikipedia.org/wiki/Spica",
+      "baslik": "Rosette Nebula Vs Orion Nebula: The Heavyweight Star Nurseries",
+      "url": "https://en.wikipedia.org/wiki/Rosette_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Canopus: The Hidden Giant Star Illuminating Our Night Sky",
-      "url": "https://en.wikipedia.org/wiki/Canopus",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
