@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-25T14:30:14.754580+00:00",
+  "uretim_zamani": "2026-07-25T17:57:00.811443+00:00",
   "haberler": [
     {
-      "baslik": "Boomerang Nebula: The Coldest Place in the Cosmos Nobody Talks About",
-      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
+      "baslik": "JWST Vs Hubble: The Cosmic Cliffs Comparison That Shocked Astronomers",
+      "url": "https://en.wikipedia.org/wiki/Cosmic_Cliffs",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Tarantula Nebula's Secret: Cosmic Web Hidden by JWST",
-      "url": "https://en.wikipedia.org/wiki/Tarantula_Nebula",
+      "baslik": "Tarantula Nebula's Core: A Star Nest Too Violent to Exist",
+      "url": "https://en.wikipedia.org/wiki/30_Doradus",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Horsehead Nebula: A Cosmic Ghost Drifting Alone in Orion's Storm",
-      "url": "https://en.wikipedia.org/wiki/Horsehead_Nebula",
+      "baslik": "Bubble Nebula: A Ghostly Sphere Blown by a Monster Star's Wind",
+      "url": "https://en.wikipedia.org/wiki/NGC_7635",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
