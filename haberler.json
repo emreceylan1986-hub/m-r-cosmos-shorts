@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-07-25T00:02:57.243291+00:00",
+  "uretim_zamani": "2026-07-25T14:30:14.754580+00:00",
   "haberler": [
     {
-      "baslik": "Rosette Nebula Vs Orion Nebula: The Heavyweight Star Nurseries",
-      "url": "https://en.wikipedia.org/wiki/Rosette_Nebula",
+      "baslik": "Boomerang Nebula: The Coldest Place in the Cosmos Nobody Talks About",
+      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "The Tarantula Nebula's Secret: Cosmic Web Hidden by JWST",
+      "url": "https://en.wikipedia.org/wiki/Tarantula_Nebula",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Horsehead Nebula: A Cosmic Ghost Drifting Alone in Orion's Storm",
+      "url": "https://en.wikipedia.org/wiki/Horsehead_Nebula",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
