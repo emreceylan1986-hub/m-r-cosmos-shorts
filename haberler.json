@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-07-25T17:57:00.811443+00:00",
+  "uretim_zamani": "2026-07-25T20:48:10.806037+00:00",
   "haberler": [
     {
-      "baslik": "JWST Vs Hubble: The Cosmic Cliffs Comparison That Shocked Astronomers",
-      "url": "https://en.wikipedia.org/wiki/Cosmic_Cliffs",
+      "baslik": "Pillars of Creation Vs Helix Nebula: The Ultimate Cosmic Beauty Battle",
+      "url": "https://en.wikipedia.org/wiki/Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Tarantula Nebula's Core: A Star Nest Too Violent to Exist",
-      "url": "https://en.wikipedia.org/wiki/30_Doradus",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Bubble Nebula: A Ghostly Sphere Blown by a Monster Star's Wind",
-      "url": "https://en.wikipedia.org/wiki/NGC_7635",
-      "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
