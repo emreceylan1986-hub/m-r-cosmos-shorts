@@ -1,23 +1,23 @@
 # 📊 CosmoBytes — Haftalık Rapor
-_2026-07-19T22:51+00:00_
+_2026-07-26T22:58+00:00_
 
 ## Özet
-- **Abone:** 128 (+53 bu hafta)
-- **Toplam view:** 40,680 (+21,557 bu hafta)
-- **Toplam video:** 125
-- **Son 7 gün:** 26 video, 6,618 izl, ort 254/video
-- **<50 izl video sayısı:** 3/26 (kalite_temizleyici aday)
+- **Abone:** 140 (+12 bu hafta)
+- **Toplam view:** 48,462 (+7,782 bu hafta)
+- **Toplam video:** 152
+- **Son 7 gün:** 28 video, 7,566 izl, ort 270/video
+- **<50 izl video sayısı:** 3/28 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **816v** · 23👍 · 5💬 — LHS 1140b is a massive exoplanet potentially covered in water ice
-- **699v** · 20👍 · 1💬 — Bootes Void is a massive empty region of space stretching 330 million light years
-- **649v** · 25👍 · 0💬 — Coronal holes on the Sun release high-speed solar wind
+- **839v** · 18👍 · 0💬 — Coin sized black hole would destroy the Earth in minutes
+- **658v** · 11👍 · 0💬 — Rigel star shines brighter than forty thousand suns
+- **653v** · 33👍 · 0💬 — Iapetus mountain ridge is a massive equator wall on Saturn's moon
 
 ## 🪦 Alt 3 (son 7 gün)
-- **1v** · 0👍 · 0💬 — The Sombrero Galaxy: A Cosmic Tomb with a Billion-Sun Monster
-- **1v** · 0👍 · 0💬 — WOH G64 red supergiant star is two thousand times wider than the Sun
-- **26v** · 1👍 · 1💬 — Comet Leonard tail breaks off due to powerful solar winds
+- **0v** · 0👍 · 0💬 — The Pillars of Creation: The Colossal Star Tombs of the Eagle Nebula
+- **0v** · 0👍 · 0💬 — TRAPPIST-1g is an icy ocean world that could support alien life
+- **2v** · 0👍 · 1💬 — Comet Galaxy is losing its stars and gas at extreme speed
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **128 abone / 254 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **140 abone / 270 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı
