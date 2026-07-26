@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-07-25T23:58:39.309771+00:00",
+  "uretim_zamani": "2026-07-26T14:28:05.863930+00:00",
   "haberler": [
     {
-      "baslik": "Tarantula Nebula: The Impossible Cosmic Web Spinning Millions of Stars",
-      "url": "https://en.wikipedia.org/wiki/Tarantula_Nebula",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Butterfly Nebula Vs The Sun: A Cosmic Heat Battle",
-      "url": "https://en.wikipedia.org/wiki/NGC_6302",
+      "baslik": "Neso: The Moon So Far From Neptune It Prefers Being Alone",
+      "url": "https://en.wikipedia.org/wiki/Neso_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Orion Nebula's Secret: The Hidden Monster Inside the Cosmic Nursery",
-      "url": "https://en.wikipedia.org/wiki/Orion_Nebula",
+      "baslik": "Earth's Atmosphere Vs Moon: Who Wins the Collision Battle?",
+      "url": "https://en.wikipedia.org/wiki/Impact_crater",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
