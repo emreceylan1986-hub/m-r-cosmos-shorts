@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-07-26T18:00:25.921985+00:00",
+  "uretim_zamani": "2026-07-26T20:55:43.236359+00:00",
   "haberler": [
     {
-      "baslik": "Chariklo's Secret: The Tiny Asteroid With Its Own Rings",
-      "url": "https://en.wikipedia.org/wiki/10199_Chariklo",
+      "baslik": "Sun Vs Earth's Magnetic Shield: The Ultimate Cosmic Battle",
+      "url": "https://en.wikipedia.org/wiki/Geomagnetic_storm",
       "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "101955 Bennu: The Rubble Pile That Could One Day Hit Earth",
-      "url": "https://en.wikipedia.org/wiki/101955_Bennu",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Interstellar Comet Borisov: The Visitor From Another Star System",
-      "url": "https://en.wikipedia.org/wiki/2I/Borisov",
-      "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
