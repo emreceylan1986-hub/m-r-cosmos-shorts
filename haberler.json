@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-07-27T18:23:26.394604+00:00",
+  "uretim_zamani": "2026-07-27T21:09:10.934374+00:00",
   "haberler": [
     {
-      "baslik": "Rings of Neptune Vs Rings of Saturn: The Vanishing Ring Battle",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Neptune",
+      "baslik": "Sombrero Galaxy's Secret: A Cosmic Hat Hiding a Billion-Sun Monster",
+      "url": "https://en.wikipedia.org/wiki/Sombrero_Galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Oberon's Secret: The Giant Mountain Peaks Tall Enough to Touch Space",
-      "url": "https://en.wikipedia.org/wiki/Oberon_(moon)",
+      "baslik": "Io's Hellscape: A Moon with 400 Active Volcanoes Without Water",
+      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Neutron Star Vs Sun: A Density Battle Where a Teaspoon Weighs a Billion Tons",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
