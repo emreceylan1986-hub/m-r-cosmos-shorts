@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-07-26T20:55:43.236359+00:00",
+  "uretim_zamani": "2026-07-26T23:58:15.976425+00:00",
   "haberler": [
     {
-      "baslik": "Sun Vs Earth's Magnetic Shield: The Ultimate Cosmic Battle",
-      "url": "https://en.wikipedia.org/wiki/Geomagnetic_storm",
+      "baslik": "HD 106906 b: The Giant Planet Exiled Alone in Dark Space",
+      "url": "https://en.wikipedia.org/wiki/HD_106906_b",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 987,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Andromeda Vs Triangulum: The Slow Motion Cosmic Collision War",
+      "url": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Triangulum_collision",
+      "kaynak": "gemini-fallback",
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
