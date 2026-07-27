@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-07-27T15:41:28.026831+00:00",
+  "uretim_zamani": "2026-07-27T18:23:26.394604+00:00",
   "haberler": [
     {
-      "baslik": "Proteus Vs Triton: Why Neptune's Second Largest Moon is Mis-shapen",
-      "url": "https://en.wikipedia.org/wiki/Proteus_(moon)",
+      "baslik": "Rings of Neptune Vs Rings of Saturn: The Vanishing Ring Battle",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Neptune",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 992,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Oberon's Secret: The Giant Mountain Peaks Tall Enough to Touch Space",
+      "url": "https://en.wikipedia.org/wiki/Oberon_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
