@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-07-26T23:58:15.976425+00:00",
+  "uretim_zamani": "2026-07-27T15:41:28.026831+00:00",
   "haberler": [
     {
-      "baslik": "HD 106906 b: The Giant Planet Exiled Alone in Dark Space",
-      "url": "https://en.wikipedia.org/wiki/HD_106906_b",
+      "baslik": "Proteus Vs Triton: Why Neptune's Second Largest Moon is Mis-shapen",
+      "url": "https://en.wikipedia.org/wiki/Proteus_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 987,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Andromeda Vs Triangulum: The Slow Motion Cosmic Collision War",
-      "url": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Triangulum_collision",
-      "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
