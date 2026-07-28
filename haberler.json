@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-07-28T15:20:32.778796+00:00",
+  "uretim_zamani": "2026-07-28T18:13:49.518590+00:00",
   "haberler": [
     {
-      "baslik": "Bootes Void: The Hole in the Universe Nobody Talks About",
-      "url": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_void",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "TON 618 Vs Sun: A Monster Scale Battle",
-      "url": "https://en.wikipedia.org/wiki/TON_618",
+      "baslik": "Magnetar SGR 1935+2154: A Dead Star That Shook Earth's Magnetic Field",
+      "url": "https://en.wikipedia.org/wiki/SGR_1935%2B2154",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Magnetar SGR 1806-20: The Dead Star That Cracked Earth's Atmosphere",
-      "url": "https://en.wikipedia.org/wiki/SGR_1806-20",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
