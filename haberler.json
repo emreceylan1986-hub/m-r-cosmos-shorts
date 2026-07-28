@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-07-27T21:09:10.934374+00:00",
+  "uretim_zamani": "2026-07-28T00:00:30.863435+00:00",
   "haberler": [
     {
-      "baslik": "Sombrero Galaxy's Secret: A Cosmic Hat Hiding a Billion-Sun Monster",
-      "url": "https://en.wikipedia.org/wiki/Sombrero_Galaxy",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Io's Hellscape: A Moon with 400 Active Volcanoes Without Water",
-      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Neutron Star Vs Sun: A Density Battle Where a Teaspoon Weighs a Billion Tons",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
+      "baslik": "RX J1856.5-3754: A Dead Star Drifting Alone in Our Backyard",
+      "url": "https://en.wikipedia.org/wiki/RX_J1856.5-3754",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "PSR B1257+12 B: The Dead World Orbiting a Cosmic Lighthouse",
+      "url": "https://en.wikipedia.org/wiki/PSR_B1257%2B12_B",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Black Hole Vs Sound: The Silent Scream of Perseus Cluster",
+      "url": "https://en.wikipedia.org/wiki/Perseus_cluster",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
