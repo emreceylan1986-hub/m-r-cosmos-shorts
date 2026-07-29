@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-07-29T15:08:34.566118+00:00",
+  "uretim_zamani": "2026-07-29T18:05:18.788757+00:00",
   "haberler": [
     {
-      "baslik": "Euclid Space Telescope: The Hidden Universe Made Entirely of Dark Matter",
-      "url": "https://en.wikipedia.org/wiki/Euclid_(space_telescope)",
+      "baslik": "Pisces–Cetus Supercluster Complex: The Cosmic Thread We Live On",
+      "url": "https://en.wikipedia.org/wiki/Pisces%E2%80%93Cetus_Supercluster_Complex",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 991,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Segue 1: The Tiny Ghost Galaxy That Is Almost Pure Dark Matter",
+      "url": "https://en.wikipedia.org/wiki/Segue_1",
+      "kaynak": "gemini-fallback",
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
