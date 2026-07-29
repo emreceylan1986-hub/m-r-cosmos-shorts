@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-07-28T21:07:21.013389+00:00",
+  "uretim_zamani": "2026-07-28T23:57:55.053303+00:00",
   "haberler": [
     {
-      "baslik": "TON 618: The Monster Black Hole So Massive It Breaks the Universe",
-      "url": "https://en.wikipedia.org/wiki/TON_618",
+      "baslik": "Cygnus X-1: The First Confirmed Black Hole Ever Discovered",
+      "url": "https://en.wikipedia.org/wiki/Cygnus_X-1",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Magnetar SGR 1806-20: A Dead Star's Magnetic Blast That Struck Earth From Across the Galaxy",
-      "url": "https://en.wikipedia.org/wiki/SGR_1806-20",
+      "baslik": "Neutron Star Vs White Dwarf: A Density Battle That Defies Logic",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Neutron Star Vs Black Hole: The Ultimate Density Battle in Deep Space",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
+      "baslik": "V404 Cygni: The Monster Black Hole That Feeds Too Fast",
+      "url": "https://en.wikipedia.org/wiki/V404_Cygni",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
