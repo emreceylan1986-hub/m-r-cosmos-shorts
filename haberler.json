@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-07-28T23:57:55.053303+00:00",
+  "uretim_zamani": "2026-07-29T15:08:34.566118+00:00",
   "haberler": [
     {
-      "baslik": "Cygnus X-1: The First Confirmed Black Hole Ever Discovered",
-      "url": "https://en.wikipedia.org/wiki/Cygnus_X-1",
+      "baslik": "Euclid Space Telescope: The Hidden Universe Made Entirely of Dark Matter",
+      "url": "https://en.wikipedia.org/wiki/Euclid_(space_telescope)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Neutron Star Vs White Dwarf: A Density Battle That Defies Logic",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "V404 Cygni: The Monster Black Hole That Feeds Too Fast",
-      "url": "https://en.wikipedia.org/wiki/V404_Cygni",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
