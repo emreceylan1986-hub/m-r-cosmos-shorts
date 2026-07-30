@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-07-29T20:53:26.636002+00:00",
+  "uretim_zamani": "2026-07-29T23:58:36.876712+00:00",
   "haberler": [
     {
-      "baslik": "Whirlpool Galaxy: A Cosmic Dance Hidden in Deep Space",
-      "url": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
+      "baslik": "Dragonfly 44: The Ghost Galaxy Made of Dark Matter",
+      "url": "https://en.wikipedia.org/wiki/Dragonfly_44",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Hoag's Object: The Impossible Ring Galaxy Nobody Can Explain",
+      "url": "https://en.wikipedia.org/wiki/Hoag%27s_Object",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Milky Way Vs Andromeda: The Ultimate Galactic Clash",
+      "url": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
