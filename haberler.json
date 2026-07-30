@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-07-30T18:16:39.005311+00:00",
+  "uretim_zamani": "2026-07-30T21:06:46.328641+00:00",
   "haberler": [
     {
-      "baslik": "GJ 1214 b: A Steaming Water World Shrouded In Mystery",
-      "url": "https://en.wikipedia.org/wiki/GJ_1214_b",
+      "baslik": "Kepler-22b: The Hidden Ocean World Where You Would Float Forever",
+      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "LHS 1140 b: A Super-Earth Secretly Hiding Deep Underground Oceans",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Proxima Centauri b Vs Earth: A Deadlier Alien Twin Next Door",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
