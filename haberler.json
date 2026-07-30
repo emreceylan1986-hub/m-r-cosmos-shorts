@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-07-30T15:13:22.446856+00:00",
+  "uretim_zamani": "2026-07-30T18:16:39.005311+00:00",
   "haberler": [
     {
-      "baslik": "WASP-76b Vs Earth: A Planet That Rains Liquid Iron",
-      "url": "https://en.wikipedia.org/wiki/WASP-76b",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "HD 189733 b: The Glass Rain Horror Planet",
-      "url": "https://en.wikipedia.org/wiki/HD_189733_b",
+      "baslik": "GJ 1214 b: A Steaming Water World Shrouded In Mystery",
+      "url": "https://en.wikipedia.org/wiki/GJ_1214_b",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
