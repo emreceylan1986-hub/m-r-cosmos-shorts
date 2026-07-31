@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-07-30T23:59:38.798385+00:00",
+  "uretim_zamani": "2026-07-31T15:19:14.237696+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 667 Cc: A World Lit by Three Burning Red Suns",
-      "url": "https://en.wikipedia.org/wiki/Gilese_667_Cc",
+      "baslik": "Polaris Star: The Ancient Guide That Hides A Stellar Secret",
+      "url": "https://en.wikipedia.org/wiki/Polaris",
       "kaynak": "gemini-fallback",
-      "skor": 993,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "K2-72c: A Scorched Earth Cousin Clinging to a Tiny Star",
-      "url": "https://en.wikipedia.org/wiki/K2-72c",
-      "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
