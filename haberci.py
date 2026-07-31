@@ -272,6 +272,35 @@ CRITICAL — ANTI-DUPLICATE RULES:
 1) Avoid any topic whose Wikipedia URL appears in the BLOCKED URLs list.
 2) Avoid topics SEMANTICALLY SIMILAR to BLOCKED TITLES.
 3) Prefer subjects that do NOT share the main noun with any blocked title.
+
+
+═══ TITLE GATE (31 Jul 2026 — channel-data locked, ALL 5 checks mandatory) ═══
+Reject and regenerate any topic that fails one:
+G1. HUMAN-SCALE ANCHOR: the title contains a comparison a 12-year-old feels
+    physically — Earth, a coin, a teaspoon, a city, "X Earths could fit",
+    "destroy the Earth in minutes". Channel data: anchored titles earn ~2x
+    (median 289 vs 219); anchor+water combo median 638 vs channel 223.
+G2. STAKES OR PAYOFF: the title promises a consequence or wonder
+    ("would destroy", "hides an ocean", "more water than Earth's"),
+    never a bare description ("size comparison reveals...", "is losing gas").
+G3. FAMILIAR FIRST: lead with a name a casual viewer recognizes
+    (Europa, the Sun, Milky Way, Death Star Moon). Obscure catalog IDs
+    (WOH G64, 55 Cancri e, Pistol Star) allowed ONLY after passing G1+G2.
+G4. NO REPEAT SUBJECT: same star system / object must NOT reappear within
+    21 days. Proof of decay: TRAPPIST-1 series 1315 → 190 → 175 → 0 views.
+G5. WATER/LIFE PRIORITY: at least 1 of the 3 daily topics involves water,
+    oceans, habitability, or alien-life potential (median 346 vs 223).
+
+FEW-SHOT — PASS (real CosmoBytes winners):
+  ✅ 2096: "The Milky Way's Secret: Sagittarius A*"
+  ✅ 1140: "Europa's Ocean: More Water Than Earth's!"
+  ✅  839: "Coin sized black hole would destroy the Earth in minutes"
+  ✅  830: "Over one million Earths could fit inside the Sun"
+FEW-SHOT — FAIL (real CosmoBytes flops, NEVER produce these shapes):
+  ❌ 0: "WOH G64 red supergiant star is two thousand times wider than the Sun" (G3)
+  ❌ 0: "Eagle Nebula size comparison reveals how small Earth is" (G2)
+  ❌ 0: "TRAPPIST-1g is an icy ocean world that could support alien life" (G4)
+  ❌ 3: "Comet Galaxy is losing its stars and gas at extreme speed" (G1+G2)
 """
 
 
@@ -334,11 +363,11 @@ def gemini_konu_uret(blokli_url: set[str], adet: int = 3) -> list[dict]:
     import datetime
     DAILY_THEMES = {
         0: "planets and moons (Jupiter, Saturn rings, Europa, Titan)",
-        1: "black holes, neutron stars, gravity extremes",
+        1: "ocean worlds and icy moons (Europa, Enceladus, Titan) — water/life angle",
         2: "galaxies, dark matter, cosmic structures",
         3: "exoplanets, habitable zones, alien life potential",
         4: "stars, supernovae, stellar evolution",
-        5: "nebulae, deep space photography, JWST findings",
+        5: "habitable exoplanets and Earth-like worlds — water/life angle",
         6: "solar system mysteries (Sun, asteroids, comets)",
     }
     bugun_tema = DAILY_THEMES.get(datetime.datetime.now().weekday(), "any space/astronomy")
@@ -360,6 +389,8 @@ def gemini_konu_uret(blokli_url: set[str], adet: int = 3) -> list[dict]:
                     f"consider a 'next chapter' or related-but-different topic):\n"
                     + "\n".join(f"  · {t}" for t in ornek)
                     + "\n  → If you make a sequel, pick an ADJACENT topic (same category, different example).\n"
+                    + "  → HARD RULE: NEVER the same star system/object within 21 days — "
+                    + "sequel decay is proven on this channel (TRAPPIST: 1315→190→175→0).\n"
                 )
     except Exception:
         pass
@@ -376,7 +407,7 @@ def gemini_konu_uret(blokli_url: set[str], adet: int = 3) -> list[dict]:
             if gercek_viral:
                 lines = [f"  · [{t['views']:,} views] {t['title'][:80]}" for t in gercek_viral]
                 trending_blok = (
-                    f"\nREAL-TIME TRENDING (10K+ view nature/animal shorts from top channels, last 7d) "
+                    f"\nREAL-TIME TRENDING (10K+ view SPACE shorts from top channels, last 7d) "
                     f"— THESE ANGLES ARE PROVEN VIRAL RIGHT NOW:\n"
                     + "\n".join(lines)
                     + "\n  → STRONGLY prefer adapting one of these angles to a different subject "
