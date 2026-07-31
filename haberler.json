@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-07-31T15:19:14.237696+00:00",
+  "uretim_zamani": "2026-07-31T18:19:49.769398+00:00",
   "haberler": [
     {
-      "baslik": "Polaris Star: The Ancient Guide That Hides A Stellar Secret",
-      "url": "https://en.wikipedia.org/wiki/Polaris",
+      "baslik": "Betelgeuse: A Dying Star That Could Explode And Turn Our Night Into Day",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ganymede's Hidden Ocean: More Water Than Earth's Entire Surface Combined",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Neutron Star Vs Sun: A Density Battle Where a Teaspoon Weighs a Billion Tons",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
