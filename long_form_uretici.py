@@ -4,7 +4,7 @@ long_form_uretici.py — Cosmos haftalık 8-12 dakikalık deep-dive video üreti
 
 ZINCIR:
   1. Konu seç (top performance Shorts'tan derinleştirilebilir biri)
-  2. Gemini ile 1500-2000 kelime hikaye yapılı senaryo
+  2. Gemini ile 1700-2300 kelime hikaye yapılı senaryo
   3. edge-tts ile sakin uzun seslendirme
   4. NASA arşivi + Pexels + Wikimedia'dan görsel topla (8-12dk için ~40-60 görsel)
   5. ffmpeg ile yatay 1920×1080 video (Ken Burns + slow pan)
@@ -44,7 +44,7 @@ chapters (array of {title, content}), conclusion, description, tags.
 - USE bold language: 'Hidden', 'Forbidden', 'Forgotten', 'Last', 'Final', 'Doomed'
 - Reference scale: '8 Light-Years Wide', 'Older Than Time', '100,000 Galaxies'
 
-═══ STRUCTURE (target 1500-2000 words total) ═══
+═══ STRUCTURE (target 1700-2300 words total) ═══
 1. HOOK (1 paragraph, 80-120 words) — punchy opening that asks "what if" or
    states a mind-bending fact. NO 'Did you know' / 'Ever wonder' / 'Imagine'.
 2. INTRO (1 paragraph, 100-150 words) — set up the question, why it matters.
@@ -66,7 +66,7 @@ chapters (array of {title, content}), conclusion, description, tags.
 - "Sombrero Galaxy" (görsel benzetme)
 - "Pillars of Creation" (soy isim)
 
-For the input topic, write a 1500-2000 word documentary-style script. Be specific,
+For the input topic, write a 1700-2300 word documentary-style script. Be specific,
 vivid, and emotionally engaging."""
 
 # Top viral Cosmos konuları (derinleştirilebilir)
@@ -131,11 +131,11 @@ def konu_kaydet(konu):
 
 
 def gemini_senaryo_uret(konu):
-    """Gemini ile 1500-2000 kelime hikaye yapılı script üret."""
+    """Gemini ile 1700-2300 kelime hikaye yapılı script üret."""
     import bridge
     prompt = (
         f"Topic: {konu}\n\n"
-        f"Write a 1500-2000 word long-form documentary script about this topic. "
+        f"Write a 1700-2300 word long-form documentary script about this topic. "
         f"Follow the structure (hook, intro, 4-6 chapters, conclusion) and "
         f"return as a JSON object."
     )
@@ -533,6 +533,9 @@ def main():
 
     if video_id:
         konu_kaydet(konu)
+        (Path(__file__).parent / "long_form_son.json").write_text(json.dumps(
+            {"video_id": video_id, "etiket": f"Deep dive — {senaryo.get('title', konu)[:50]}",
+             "tarih": datetime.now().strftime("%Y-%m-%d")}, ensure_ascii=False), encoding="utf-8")
         log(f"🎉 BAŞARI: https://youtu.be/{video_id}")
 
     log("=== LONG-FORM ÜRETİM BİTTİ ===")
