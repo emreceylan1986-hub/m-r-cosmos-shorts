@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-07-25T00:02:57.243291+00:00",
+  "uretim_zamani": "2026-07-30T23:59:38.798385+00:00",
   "haberler": [
     {
-      "baslik": "Rosette Nebula Vs Orion Nebula: The Heavyweight Star Nurseries",
-      "url": "https://en.wikipedia.org/wiki/Rosette_Nebula",
+      "baslik": "Gliese 667 Cc: A World Lit by Three Burning Red Suns",
+      "url": "https://en.wikipedia.org/wiki/Gilese_667_Cc",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 993,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "K2-72c: A Scorched Earth Cousin Clinging to a Tiny Star",
+      "url": "https://en.wikipedia.org/wiki/K2-72c",
+      "kaynak": "gemini-fallback",
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
