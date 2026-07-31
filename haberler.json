@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-07-30T21:06:46.328641+00:00",
+  "uretim_zamani": "2026-07-30T23:59:38.798385+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-22b: The Hidden Ocean World Where You Would Float Forever",
-      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
+      "baslik": "Gliese 667 Cc: A World Lit by Three Burning Red Suns",
+      "url": "https://en.wikipedia.org/wiki/Gilese_667_Cc",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "LHS 1140 b: A Super-Earth Secretly Hiding Deep Underground Oceans",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "baslik": "K2-72c: A Scorched Earth Cousin Clinging to a Tiny Star",
+      "url": "https://en.wikipedia.org/wiki/K2-72c",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Proxima Centauri b Vs Earth: A Deadlier Alien Twin Next Door",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
