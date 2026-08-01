@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-08-01T17:58:23.582085+00:00",
+  "uretim_zamani": "2026-08-01T20:48:08.221105+00:00",
   "haberler": [
     {
-      "baslik": "Proxima Centauri c: The Frozen World Plunged in Eternal Night",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_c",
+      "baslik": "Gliese 832 c: A Super-Earth with Wild Hot and Cold Seasons",
+      "url": "https://en.wikipedia.org/wiki/Gliese_832_c",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kapteyn b: The Ancient Habitable World Older Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Kapteyn_b",
+      "baslik": "Kepler-442b: The Secret Super-Habitable Planet Better Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Kepler-442b",
       "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "TOI-700 e: The Secret New Earth Discovered by NASA",
-      "url": "https://en.wikipedia.org/wiki/TOI-700_e",
-      "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
