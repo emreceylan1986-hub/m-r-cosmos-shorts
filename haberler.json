@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-01T14:25:18.807691+00:00",
+  "uretim_zamani": "2026-08-01T17:58:23.582085+00:00",
   "haberler": [
     {
-      "baslik": "Ross 128 b: The Quiet Planet Free of Deadly Solar Flares",
-      "url": "https://en.wikipedia.org/wiki/Ross_128_b",
+      "baslik": "Proxima Centauri c: The Frozen World Plunged in Eternal Night",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_c",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kapteyn b: The Ancient Habitable World Older Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Kapteyn_b",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "TOI-700 e: The Secret New Earth Discovered by NASA",
+      "url": "https://en.wikipedia.org/wiki/TOI-700_e",
+      "kaynak": "gemini-fallback",
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
