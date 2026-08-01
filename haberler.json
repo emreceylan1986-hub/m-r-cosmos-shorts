@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-07-31T21:02:24.247361+00:00",
+  "uretim_zamani": "2026-08-01T00:00:15.666166+00:00",
   "haberler": [
     {
-      "baslik": "Arcturus: An Orange Giant Star So Bright It Would Boil Earth's Oceans",
-      "url": "https://en.wikipedia.org/wiki/Arcturus",
+      "baslik": "Sun Vs Red Giant: How Our Home Star Will Eventually Swallow Earth",
+      "url": "https://en.wikipedia.org/wiki/Red_giant",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Vega: A Spinning Diamond Star Flattened by Its Own Extreme Velocity",
-      "url": "https://en.wikipedia.org/wiki/Vega",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Fomalhaut: A Lonely Dust-Ring Star Hiding a Ghostly Exoplanet",
-      "url": "https://en.wikipedia.org/wiki/Fomalhaut",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
