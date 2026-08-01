@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-08-01T20:48:08.221105+00:00",
+  "uretim_zamani": "2026-08-01T23:55:10.730686+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 832 c: A Super-Earth with Wild Hot and Cold Seasons",
-      "url": "https://en.wikipedia.org/wiki/Gliese_832_c",
+      "baslik": "Oceanus Procellarum: The Moon's Hidden Ocean of Hardened Lava",
+      "url": "https://en.wikipedia.org/wiki/Oceanus_Procellarum",
       "kaynak": "gemini-fallback",
       "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-442b: The Secret Super-Habitable Planet Better Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Kepler-442b",
+      "baslik": "TOI-1452 b: The Massive 'Water World' Deep in Our Galactic Backyard",
+      "url": "https://en.wikipedia.org/wiki/TOI-1452_b",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
