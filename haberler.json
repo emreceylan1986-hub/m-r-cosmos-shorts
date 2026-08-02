@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-02T18:00:01.857325+00:00",
+  "uretim_zamani": "2026-08-02T20:52:19.406307+00:00",
   "haberler": [
     {
-      "baslik": "KBO 50000 Quaoar Vs Saturn: The Ring System That Physics Says Shouldn't Exist",
-      "url": "https://en.wikipedia.org/wiki/50000_Quaoar",
+      "baslik": "Titan's Secret: Rivers of Liquid Methane Where Humans Could Fly",
+      "url": "https://en.wikipedia.org/wiki/Climate_of_Titan",
       "kaynak": "gemini-fallback",
-      "skor": 987,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Encke's Comet: The Ancient Space Wanderer Dragging a Tail of Water",
-      "url": "https://en.wikipedia.org/wiki/Comet_Encke",
-      "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
