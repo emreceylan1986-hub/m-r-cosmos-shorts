@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-03T15:42:21.778804+00:00",
+  "uretim_zamani": "2026-08-03T18:49:55.162302+00:00",
   "haberler": [
     {
-      "baslik": "Earth Vs Jupiter's Ocean Moon: Who Truly Has More Water?",
-      "url": "https://en.wikipedia.org/wiki/Ocean_world",
+      "baslik": "Betelgeuse: The Hidden Danger That Could Wipe Out Our Night Sky",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ganymede's Ocean Vs Earth's Ocean: Who Wins the Water War?",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Saturn's Rings Vs A Bathtub: The Cosmic Floats Battle",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
