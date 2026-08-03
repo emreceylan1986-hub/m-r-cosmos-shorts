@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-02T23:56:12.909637+00:00",
+  "uretim_zamani": "2026-08-03T15:42:21.778804+00:00",
   "haberler": [
     {
-      "baslik": "Enceladus's Ocean: A Hidden Water World with 30-Mile-High Geysers!",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Oumuamua: The Interstellar Mystery That Swerved Past Our Sun",
-      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
+      "baslik": "Earth Vs Jupiter's Ocean Moon: Who Truly Has More Water?",
+      "url": "https://en.wikipedia.org/wiki/Ocean_world",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "The Sun Vs Betelgeuse: A Size Comparison That Will Melt Your Brain",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
