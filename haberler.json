@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-08-03T18:49:55.162302+00:00",
+  "uretim_zamani": "2026-08-03T21:01:54.124838+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse: The Hidden Danger That Could Wipe Out Our Night Sky",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "baslik": "Jupiter's Secret: The Impossible Diamond Rain Inside Its Core",
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ganymede's Ocean Vs Earth's Ocean: Who Wins the Water War?",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Saturn's Rings Vs A Bathtub: Who Wins?",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Saturn's Rings Vs A Bathtub: The Cosmic Floats Battle",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "baslik": "Ganymede's Ocean: A Hidden Water World Bigger Than Earth's",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
