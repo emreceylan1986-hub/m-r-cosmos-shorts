@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-04T18:26:22.648403+00:00",
+  "uretim_zamani": "2026-08-04T21:11:17.809130+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-138 d: A Water World So Deep It Puts Earth to Shame",
-      "url": "https://en.wikipedia.org/wiki/Kepler-138",
+      "baslik": "Ganymede's Ocean: More Water Than Earth's Entire Surface",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Titan Vs Earth: A Moon With More Liquid Than Our Whole Planet",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mimas Hides a Secret Underground Ocean Beneath Its Death Star Crater",
+      "url": "https://en.wikipedia.org/wiki/Mimas_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
