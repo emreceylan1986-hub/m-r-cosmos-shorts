@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-08-03T21:01:54.124838+00:00",
+  "uretim_zamani": "2026-08-04T00:06:58.927913+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Secret: The Impossible Diamond Rain Inside Its Core",
-      "url": "https://en.wikipedia.org/wiki/Jupiter",
+      "baslik": "K2-18: The Distant Star Hiding a Possible Hycean World",
+      "url": "https://en.wikipedia.org/wiki/K2-18",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Saturn's Rings Vs A Bathtub: Who Wins?",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "baslik": "Gliese 1214: The Red Dwarf Hosting a Steam-Filled World",
+      "url": "https://en.wikipedia.org/wiki/Gliese_1214",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ganymede's Ocean: A Hidden Water World Bigger Than Earth's",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
