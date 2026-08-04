@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-08-04T15:24:03.069608+00:00",
+  "uretim_zamani": "2026-08-04T18:26:22.648403+00:00",
   "haberler": [
     {
-      "baslik": "Titan's Kraken Mare: A Sea of Liquid Gas Deeper Than the World's Tallest Skyscraper",
-      "url": "https://en.wikipedia.org/wiki/Kraken_Mare",
+      "baslik": "Kepler-138 d: A Water World So Deep It Puts Earth to Shame",
+      "url": "https://en.wikipedia.org/wiki/Kepler-138",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
