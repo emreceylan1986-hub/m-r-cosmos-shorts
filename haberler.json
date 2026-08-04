@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-04T00:06:58.927913+00:00",
+  "uretim_zamani": "2026-08-04T15:24:03.069608+00:00",
   "haberler": [
     {
-      "baslik": "K2-18: The Distant Star Hiding a Possible Hycean World",
-      "url": "https://en.wikipedia.org/wiki/K2-18",
+      "baslik": "Titan's Kraken Mare: A Sea of Liquid Gas Deeper Than the World's Tallest Skyscraper",
+      "url": "https://en.wikipedia.org/wiki/Kraken_Mare",
       "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gliese 1214: The Red Dwarf Hosting a Steam-Filled World",
-      "url": "https://en.wikipedia.org/wiki/Gliese_1214",
-      "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
