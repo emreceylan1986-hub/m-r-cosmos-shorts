@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-05T15:12:17.704279+00:00",
+  "uretim_zamani": "2026-08-05T18:21:28.663437+00:00",
   "haberler": [
     {
-      "baslik": "Comet Shoemaker–Levy 9 Vs Jupiter: The Cosmic Firework That Left Scars Larger Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Comet_Shoemaker%E2%80%93Levy_9",
+      "baslik": "Kallichore: The Tiny Moon Ready to Escape Jupiter",
+      "url": "https://en.wikipedia.org/wiki/Kallichore_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gliese 581: The Impossible Solar System With Three Potentially Habitable Worlds",
-      "url": "https://en.wikipedia.org/wiki/Gliese_581",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
