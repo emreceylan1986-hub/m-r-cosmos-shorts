@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-05T00:00:47.791168+00:00",
+  "uretim_zamani": "2026-08-05T15:12:17.704279+00:00",
   "haberler": [
     {
-      "baslik": "Stephenson 2-18: The Impossible Monster Star That Swallows Saturn",
-      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
+      "baslik": "Comet Shoemaker–Levy 9 Vs Jupiter: The Cosmic Firework That Left Scars Larger Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Comet_Shoemaker%E2%80%93Levy_9",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gliese 581: The Impossible Solar System With Three Potentially Habitable Worlds",
+      "url": "https://en.wikipedia.org/wiki/Gliese_581",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
