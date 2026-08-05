@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-04T21:11:17.809130+00:00",
+  "uretim_zamani": "2026-08-05T00:00:47.791168+00:00",
   "haberler": [
     {
-      "baslik": "Ganymede's Ocean: More Water Than Earth's Entire Surface",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Stephenson 2-18: The Impossible Monster Star That Swallows Saturn",
+      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Titan Vs Earth: A Moon With More Liquid Than Our Whole Planet",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mimas Hides a Secret Underground Ocean Beneath Its Death Star Crater",
-      "url": "https://en.wikipedia.org/wiki/Mimas_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
