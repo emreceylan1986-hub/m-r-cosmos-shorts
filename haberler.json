@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-08-05T21:05:51.550555+00:00",
+  "uretim_zamani": "2026-08-05T23:58:29.261906+00:00",
   "haberler": [
     {
-      "baslik": "Milky Way's Secret: The Massive Fermi Bubbles",
-      "url": "https://en.wikipedia.org/wiki/Fermi_bubbles",
+      "baslik": "Milky Way Vs Andromeda: The Ultimate Galactic Clash",
+      "url": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "IC 1101: The Monster Galaxy So Big It Swallows Millions of Light Years",
-      "url": "https://en.wikipedia.org/wiki/IC_1101",
+      "baslik": "The Cosmic Web's Secret: Dark Matter Holds the Universe Together Like a Spider Web",
+      "url": "https://en.wikipedia.org/wiki/Cosmic_web",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Great Attractor: The Invisible Monster Dragging Our Entire Galaxy Across Space",
+      "url": "https://en.wikipedia.org/wiki/Great_Attractor",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
