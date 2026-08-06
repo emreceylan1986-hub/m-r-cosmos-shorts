@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-05T23:58:29.261906+00:00",
+  "uretim_zamani": "2026-08-06T15:11:38.376433+00:00",
   "haberler": [
     {
-      "baslik": "Milky Way Vs Andromeda: The Ultimate Galactic Clash",
-      "url": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision",
+      "baslik": "Wolf 1061 Vs Earth: The Gravitational Tug of War",
+      "url": "https://en.wikipedia.org/wiki/Wolf_1061",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Cosmic Web's Secret: Dark Matter Holds the Universe Together Like a Spider Web",
-      "url": "https://en.wikipedia.org/wiki/Cosmic_web",
+      "baslik": "Tau Ceti: The Impossible Solar System Starving for Life",
+      "url": "https://en.wikipedia.org/wiki/Tau_Ceti",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Great Attractor: The Invisible Monster Dragging Our Entire Galaxy Across Space",
-      "url": "https://en.wikipedia.org/wiki/Great_Attractor",
+      "baslik": "Kepler-62f: The Secret Water World Three Times Older Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Kepler-62",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
