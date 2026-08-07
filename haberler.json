@@ -1,8 +1,8 @@
 {
-  "uretim_zamani": "2026-08-07T15:57:05.918600+00:00",
+  "uretim_zamani": "2026-08-07T17:51:20.751792+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse's Secret: The Dying Giant Preparing to Give Earth a Second Sun",
+      "baslik": "Betelgeuse's Secret: The Dying Star Shrouded in Cosmic Dust",
       "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
       "skor": 1000,
@@ -10,7 +10,7 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Neutron Star Vs The Sun: One Teaspoon Would Crush Our Whole Planet",
+      "baslik": "Neutron Star Vs The Sun: One Teaspoon Would Crush a Mountain",
       "url": "https://en.wikipedia.org/wiki/Neutron_star",
       "kaynak": "gemini-fallback",
       "skor": 999,
@@ -18,10 +18,10 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Enceladus's Ocean: Alien Life Hiding Under Ice Deeper Than Earth's Seas",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Pistol Star: A Stellar Monster So Bright It Destroys Its Own Atmosphere",
+      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
