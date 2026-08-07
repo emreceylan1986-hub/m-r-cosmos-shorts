@@ -1,8 +1,16 @@
 {
-  "uretim_zamani": "2026-08-07T00:52:45.799592+00:00",
+  "uretim_zamani": "2026-08-07T14:14:54.050346+00:00",
   "haberler": [
     {
-      "baslik": "Neutron Star Vs Sun: One Teaspoon Would Crush a Mountain",
+      "baslik": "Betelgeuse's Secret: The Red Supergiant Hiding a Star-Eating Past",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "A Teaspoon of a Neutron Star Vs The Great Pyramid of Giza: A Weight Battle",
       "url": "https://en.wikipedia.org/wiki/Neutron_star",
       "kaynak": "gemini-fallback",
       "skor": 999,
@@ -10,18 +18,10 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "VY Canis Majoris: A Star So Big It Swallows Saturn's Orbit",
-      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
+      "baslik": "Ceres: The Dwarf Moon Hiding a Giant Mud Ocean Beneath its Crust",
+      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
       "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "The Sun Vs UY Scuti: The Battle of Cosmic Giants",
-      "url": "https://en.wikipedia.org/wiki/UY_Scuti",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
