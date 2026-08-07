@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-07T17:51:20.751792+00:00",
+  "uretim_zamani": "2026-08-07T19:53:38.349049+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse's Secret: The Dying Star Shrouded in Cosmic Dust",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Neutron Star Vs The Sun: One Teaspoon Would Crush a Mountain",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Pistol Star: A Stellar Monster So Bright It Destroys Its Own Atmosphere",
-      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
+      "baslik": "Larissa's Secret: The Neptune Moon Falling Into a Death Trap",
+      "url": "https://en.wikipedia.org/wiki/Larissa_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Black Dwarf Vs Sun: The Ultimate Cold Death of Stars",
+      "url": "https://en.wikipedia.org/wiki/Black_dwarf",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Calypso's Secret: The Ghost Moon Hiding in Saturn's Shadows",
+      "url": "https://en.wikipedia.org/wiki/Calypso_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
