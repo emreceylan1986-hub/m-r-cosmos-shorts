@@ -1,8 +1,8 @@
 {
-  "uretim_zamani": "2026-08-07T14:14:54.050346+00:00",
+  "uretim_zamani": "2026-08-07T15:57:05.918600+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse's Secret: The Red Supergiant Hiding a Star-Eating Past",
+      "baslik": "Betelgeuse's Secret: The Dying Giant Preparing to Give Earth a Second Sun",
       "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
       "skor": 1000,
@@ -10,7 +10,7 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "A Teaspoon of a Neutron Star Vs The Great Pyramid of Giza: A Weight Battle",
+      "baslik": "Neutron Star Vs The Sun: One Teaspoon Would Crush Our Whole Planet",
       "url": "https://en.wikipedia.org/wiki/Neutron_star",
       "kaynak": "gemini-fallback",
       "skor": 999,
@@ -18,8 +18,8 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ceres: The Dwarf Moon Hiding a Giant Mud Ocean Beneath its Crust",
-      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
+      "baslik": "Enceladus's Ocean: Alien Life Hiding Under Ice Deeper Than Earth's Seas",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
