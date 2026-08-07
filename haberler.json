@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-07T22:36:52.632815+00:00",
+  "uretim_zamani": "2026-08-07T23:34:47.037191+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse's Secret: The Dying Giant Preparing to Starve the Solar System of Night",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Enceladus Vs Earth: The Ultimate Water World Showdown",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Neutron Star Vs The Sun: A Teaspoon of Matter That Weighs More Than Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pillars of Creation: The Cosmic Nursery Where Baby Stars Drink Frozen Water",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "Pistol Star: A Star So Bright It Releases More Energy in Six Seconds Than Our Sun in a Year",
+      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "The Boomerang Nebula's Secret: The Only Place in the Universe Colder Than Empty Space",
+      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
