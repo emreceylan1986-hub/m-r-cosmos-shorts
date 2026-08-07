@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-08-07T20:41:53.119878+00:00",
+  "uretim_zamani": "2026-08-07T22:36:52.632815+00:00",
   "haberler": [
     {
-      "baslik": "Rigel: A Star So Hot It Would Evaporate Our Oceans in Seconds",
-      "url": "https://en.wikipedia.org/wiki/Rigel",
+      "baslik": "Betelgeuse's Secret: The Dying Giant Preparing to Starve the Solar System of Night",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Gliese 581 c: The Hellish World Where the Oceans Could Boil Instantly",
-      "url": "https://en.wikipedia.org/wiki/Gliese_581_c",
+      "baslik": "Enceladus Vs Earth: The Ultimate Water World Showdown",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pillars of Creation: The Cosmic Nursery Where Baby Stars Drink Frozen Water",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
