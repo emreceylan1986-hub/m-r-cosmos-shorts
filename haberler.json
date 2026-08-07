@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-08-07T19:53:38.349049+00:00",
+  "uretim_zamani": "2026-08-07T20:41:53.119878+00:00",
   "haberler": [
     {
-      "baslik": "Larissa's Secret: The Neptune Moon Falling Into a Death Trap",
-      "url": "https://en.wikipedia.org/wiki/Larissa_(moon)",
+      "baslik": "Rigel: A Star So Hot It Would Evaporate Our Oceans in Seconds",
+      "url": "https://en.wikipedia.org/wiki/Rigel",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Black Dwarf Vs Sun: The Ultimate Cold Death of Stars",
-      "url": "https://en.wikipedia.org/wiki/Black_dwarf",
+      "baslik": "Gliese 581 c: The Hellish World Where the Oceans Could Boil Instantly",
+      "url": "https://en.wikipedia.org/wiki/Gliese_581_c",
       "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Calypso's Secret: The Ghost Moon Hiding in Saturn's Shadows",
-      "url": "https://en.wikipedia.org/wiki/Calypso_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
