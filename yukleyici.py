@@ -161,7 +161,7 @@ def _metadata_dogrula(veri: dict) -> dict:
     cta_sonek = (
         "\n\n━━━━━━━━━━━━━━━━━━━━\n"
         "🌌 Subscribe for daily cosmic facts:\n"
-        "https://youtube.com/@CosmoBytes?sub_confirmation=1\n\n"
+        "https://youtube.com/@cosmobytess?sub_confirmation=1\n\n"
         "🚀 More cosmic deep-dives:\n"
         "• Black Holes & Neutron Stars: https://www.youtube.com/playlist?list=PLRxPs6vwqN3snP-nGLY9s4InczC0DG2rI\n"
         "• Galaxies & Deep Space: https://www.youtube.com/playlist?list=PLRxPs6vwqN3vabuxgl2BQo0hd4O0Mujtq\n"

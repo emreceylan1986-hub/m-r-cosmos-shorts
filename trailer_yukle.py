@@ -38,7 +38,7 @@ Three new shorts every day at 3 PM, 7 PM and 10 PM UTC.
 
 For the dreamers. For the wanderers. For the curious mind.
 
-Subscribe → https://youtube.com/@CosmoBytes?sub_confirmation=1
+Subscribe → https://youtube.com/@cosmobytess?sub_confirmation=1
 
 #Shorts #space #astronomy #cosmos #universe #science"""
 
