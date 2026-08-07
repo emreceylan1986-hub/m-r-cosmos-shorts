@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-07-30T23:59:38.798385+00:00",
+  "uretim_zamani": "2026-08-07T00:52:45.799592+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 667 Cc: A World Lit by Three Burning Red Suns",
-      "url": "https://en.wikipedia.org/wiki/Gilese_667_Cc",
+      "baslik": "Neutron Star Vs Sun: One Teaspoon Would Crush a Mountain",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "K2-72c: A Scorched Earth Cousin Clinging to a Tiny Star",
-      "url": "https://en.wikipedia.org/wiki/K2-72c",
+      "baslik": "VY Canis Majoris: A Star So Big It Swallows Saturn's Orbit",
+      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "The Sun Vs UY Scuti: The Battle of Cosmic Giants",
+      "url": "https://en.wikipedia.org/wiki/UY_Scuti",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
