@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-06T15:11:38.376433+00:00",
+  "uretim_zamani": "2026-08-07T00:52:45.799592+00:00",
   "haberler": [
     {
-      "baslik": "Wolf 1061 Vs Earth: The Gravitational Tug of War",
-      "url": "https://en.wikipedia.org/wiki/Wolf_1061",
+      "baslik": "Neutron Star Vs Sun: One Teaspoon Would Crush a Mountain",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Tau Ceti: The Impossible Solar System Starving for Life",
-      "url": "https://en.wikipedia.org/wiki/Tau_Ceti",
+      "baslik": "VY Canis Majoris: A Star So Big It Swallows Saturn's Orbit",
+      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
       "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-62f: The Secret Water World Three Times Older Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Kepler-62",
+      "baslik": "The Sun Vs UY Scuti: The Battle of Cosmic Giants",
+      "url": "https://en.wikipedia.org/wiki/UY_Scuti",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
