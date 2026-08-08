@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-08T17:30:44.456121+00:00",
+  "uretim_zamani": "2026-08-08T19:30:31.708465+00:00",
   "haberler": [
     {
-      "baslik": "Earth's Water Vs Comet Water: Where Did Our Oceans Actually Come From?",
-      "url": "https://en.wikipedia.org/wiki/Origin_of_water_on_Earth",
+      "baslik": "LP 890-9 c: The Deep Space Super-Earth Hiding Vast Oceans",
+      "url": "https://en.wikipedia.org/wiki/LP_890-9",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "SPECULOOS-3 b: The Earth-Sized World Baked by an Ultra-Cool Red Dwarf Star",
-      "url": "https://en.wikipedia.org/wiki/SPECULOOS-3b",
-      "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
