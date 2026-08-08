@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-08-07T23:34:47.037191+00:00",
+  "uretim_zamani": "2026-08-08T13:46:23.752483+00:00",
   "haberler": [
     {
-      "baslik": "Neutron Star Vs The Sun: A Teaspoon of Matter That Weighs More Than Mount Everest",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
+      "baslik": "TOI-270 d Vs Neptune: A Mini-Gas Giant With a Boiling Ocean",
+      "url": "https://en.wikipedia.org/wiki/TOI-270",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pistol Star: A Star So Bright It Releases More Energy in Six Seconds Than Our Sun in a Year",
-      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
+      "baslik": "Gliese 667 Cc: The Three-Star Sunset World That Could Harbor Life",
+      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
       "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "The Boomerang Nebula's Secret: The Only Place in the Universe Colder Than Empty Space",
-      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
