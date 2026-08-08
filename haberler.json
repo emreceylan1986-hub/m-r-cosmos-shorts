@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-08T20:30:47.753601+00:00",
+  "uretim_zamani": "2026-08-08T22:29:41.984634+00:00",
   "haberler": [
     {
-      "baslik": "Milky Way's Secret: Sagittarius A* Vs A Teaspoon of a Neutron Star",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Earth's Atmosphere Vs Mars' Atmosphere: The Breathability Battle",
+      "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Mars",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Teegarden's Star b: The Ultra-Habitable World That Makes Earth Look Like a Desert",
-      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
+      "baslik": "Venus' Acid Clouds Vs Earth's Oceans: The Habitability Battle",
+      "url": "https://en.wikipedia.org/wiki/Life_on_Venus",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "LHS 1140 b: The Giant Eye in Space That Hides a Deep Global Ocean",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "baslik": "Earth's Core Vs Mars' Core: The Shield Generator Battle",
+      "url": "https://en.wikipedia.org/wiki/Internal_structure_of_Mars",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
