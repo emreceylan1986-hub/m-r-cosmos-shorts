@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-08T22:29:41.984634+00:00",
+  "uretim_zamani": "2026-08-08T23:29:37.423808+00:00",
   "haberler": [
     {
-      "baslik": "Earth's Atmosphere Vs Mars' Atmosphere: The Breathability Battle",
-      "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Mars",
+      "baslik": "Tau Ceti f Vs Earth: The Cold Desert World at the System's Edge",
+      "url": "https://en.wikipedia.org/wiki/Tau_Ceti_f",
       "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Venus' Acid Clouds Vs Earth's Oceans: The Habitability Battle",
-      "url": "https://en.wikipedia.org/wiki/Life_on_Venus",
-      "kaynak": "gemini-fallback",
-      "skor": 991,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Earth's Core Vs Mars' Core: The Shield Generator Battle",
-      "url": "https://en.wikipedia.org/wiki/Internal_structure_of_Mars",
-      "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
