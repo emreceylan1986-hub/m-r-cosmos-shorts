@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-08-08T15:29:53.524674+00:00",
+  "uretim_zamani": "2026-08-08T17:30:44.456121+00:00",
   "haberler": [
     {
-      "baslik": "Pillars of Creation: The Impossible Cradle Hiding Secrets in Deep Space",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "Earth's Water Vs Comet Water: Where Did Our Oceans Actually Come From?",
+      "url": "https://en.wikipedia.org/wiki/Origin_of_water_on_Earth",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "LHS 1140 b: The Giant Cosmic Eye Hiding a Warm Ocean under Ice",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "baslik": "SPECULOOS-3 b: The Earth-Sized World Baked by an Ultra-Cool Red Dwarf Star",
+      "url": "https://en.wikipedia.org/wiki/SPECULOOS-3b",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
