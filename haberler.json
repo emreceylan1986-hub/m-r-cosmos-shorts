@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-08-08T13:46:23.752483+00:00",
+  "uretim_zamani": "2026-08-08T15:29:53.524674+00:00",
   "haberler": [
     {
-      "baslik": "TOI-270 d Vs Neptune: A Mini-Gas Giant With a Boiling Ocean",
-      "url": "https://en.wikipedia.org/wiki/TOI-270",
+      "baslik": "Pillars of Creation: The Impossible Cradle Hiding Secrets in Deep Space",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Gliese 667 Cc: The Three-Star Sunset World That Could Harbor Life",
-      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
+      "baslik": "LHS 1140 b: The Giant Cosmic Eye Hiding a Warm Ocean under Ice",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
