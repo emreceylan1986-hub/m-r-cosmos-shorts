@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-08T19:30:31.708465+00:00",
+  "uretim_zamani": "2026-08-08T20:30:47.753601+00:00",
   "haberler": [
     {
-      "baslik": "LP 890-9 c: The Deep Space Super-Earth Hiding Vast Oceans",
-      "url": "https://en.wikipedia.org/wiki/LP_890-9",
+      "baslik": "Milky Way's Secret: Sagittarius A* Vs A Teaspoon of a Neutron Star",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Teegarden's Star b: The Ultra-Habitable World That Makes Earth Look Like a Desert",
+      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "LHS 1140 b: The Giant Eye in Space That Hides a Deep Global Ocean",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
