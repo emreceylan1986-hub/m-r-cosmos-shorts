@@ -23,7 +23,11 @@ permissions:
 jobs:
   uret:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # 9 Ağu: 30 dk YETMEDİ (run 31292472145 tam 35 dk'da 'exceeded maximum
+    # execution time' ile iptal). Sebep: 31 Tem'de senaryo hedefi 1500-2000 →
+    # 1700-2300 kelimeye çıkarıldı; TTS + render buna göre uzadı.
+    # Akasha long-form 45 dk ile sorunsuz çalışıyor — aynı bandı verdim.
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
         with:
