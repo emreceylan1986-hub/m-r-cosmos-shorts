@@ -1,7 +1,7 @@
 {
-  "uretim": "2026-08-09T20:34:45+00:00",
+  "uretim": "2026-08-09T22:32:51+00:00",
   "kanal": "CosmoBytes",
-  "abone": 188,
+  "abone": 189,
   "toplam_video": 207,
   "toplam_izlenme_yaşam_boyu": 75485,
   "son_90g_izlenme": 73271,
@@ -9,8 +9,8 @@
   "gunluk_izlenme_tahmin": 1757.4,
   "early_tier": {
     "abone_hedef": 500,
-    "abone_yuzde": 37.6,
-    "abone_kalan": 312,
+    "abone_yuzde": 37.8,
+    "abone_kalan": 311,
     "shorts_hedef_90g": 3000000,
     "shorts_yuzde_90g": 2.44,
     "shorts_kalan_90g": 2926729,
@@ -18,8 +18,8 @@
   },
   "full_tier": {
     "abone_hedef": 1000,
-    "abone_yuzde": 18.8,
-    "abone_kalan": 812,
+    "abone_yuzde": 18.9,
+    "abone_kalan": 811,
     "shorts_hedef_90g": 10000000,
     "shorts_yuzde_90g": 0.73,
     "shorts_kalan_90g": 9926729,

@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-09T20:33:16.316621+00:00",
+  "uretim_zamani": "2026-08-09T22:31:39.748945+00:00",
   "haberler": [
     {
-      "baslik": "The Sun's Secret: A Core Hotter Than One Thousand Volcanoes",
-      "url": "https://en.wikipedia.org/wiki/Solar_core",
+      "baslik": "The Chicxulub Asteroid: The Space Rock That Extinguished Life in Minutes",
+      "url": "https://en.wikipedia.org/wiki/Chicxulub_crater",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ceres' Secret: The Dwarf Planet Hiding an Ocean of Mud",
-      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Oort Cloud Vs Earth: The Ice Shield Protecting Our Solar System",
-      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
