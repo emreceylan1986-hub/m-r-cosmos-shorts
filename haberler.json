@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-09T19:34:18.520133+00:00",
+  "uretim_zamani": "2026-08-09T20:33:16.316621+00:00",
   "haberler": [
     {
-      "baslik": "K2-146 b Vs K2-146 c: The Gravity Tug-of-War That Warps Time",
-      "url": "https://en.wikipedia.org/wiki/K2-146",
+      "baslik": "The Sun's Secret: A Core Hotter Than One Thousand Volcanoes",
+      "url": "https://en.wikipedia.org/wiki/Solar_core",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ceres' Secret: The Dwarf Planet Hiding an Ocean of Mud",
+      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Oort Cloud Vs Earth: The Ice Shield Protecting Our Solar System",
+      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
