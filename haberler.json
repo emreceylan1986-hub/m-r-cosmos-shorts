@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-08-09T22:31:39.748945+00:00",
+  "uretim_zamani": "2026-08-09T23:31:51.052649+00:00",
   "haberler": [
     {
-      "baslik": "The Chicxulub Asteroid: The Space Rock That Extinguished Life in Minutes",
-      "url": "https://en.wikipedia.org/wiki/Chicxulub_crater",
+      "baslik": "Mars Vs Earth: Why A Coin Sized Asteroid Threatens Red Planet Rovers",
+      "url": "https://en.wikipedia.org/wiki/Mars",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
