@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-09T17:32:14.193127+00:00",
+  "uretim_zamani": "2026-08-09T19:34:18.520133+00:00",
   "haberler": [
     {
-      "baslik": "The Sun's Secret: Sagittarius A* Vs Our Solar System's Anchor",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "K2-146 b Vs K2-146 c: The Gravity Tug-of-War That Warps Time",
+      "url": "https://en.wikipedia.org/wiki/K2-146",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Oort Cloud Vs The Sun: The Frozen Wall That Traps Our Solar System",
-      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ceres' Secret: The Dwarf Planet Hiding an Ocean of Salty Water",
-      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
