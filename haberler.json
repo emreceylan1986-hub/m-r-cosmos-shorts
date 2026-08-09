@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-08-09T13:50:39.952428+00:00",
+  "uretim_zamani": "2026-08-09T15:32:29.847846+00:00",
   "haberler": [
     {
-      "baslik": "The Sun Vs A Lightning Bolt: Which One Is Actually Hotter?",
-      "url": "https://en.wikipedia.org/wiki/Lightning",
+      "baslik": "KBO 118228: The Impossible Ice Ball That Defies Our Solar System's Physics",
+      "url": "https://en.wikipedia.org/wiki/118228_2000_GC152",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Solar Wind: The Invisible Hurricane Destroying Mars' Atmosphere",
-      "url": "https://en.wikipedia.org/wiki/Solar_wind",
+      "baslik": "The Sun's Gravity Vs A Fusion Reactor: Who Wins the Ultimate Pressure War?",
+      "url": "https://en.wikipedia.org/wiki/Gravitational_collapse",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
