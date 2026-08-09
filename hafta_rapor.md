@@ -1,23 +1,23 @@
 # 📊 CosmoBytes — Haftalık Rapor
-_2026-07-26T22:58+00:00_
+_2026-08-09T22:29+00:00_
 
 ## Özet
-- **Abone:** 140 (+12 bu hafta)
-- **Toplam view:** 48,462 (+7,782 bu hafta)
-- **Toplam video:** 152
-- **Son 7 gün:** 28 video, 7,566 izl, ort 270/video
-- **<50 izl video sayısı:** 3/28 (kalite_temizleyici aday)
+- **Abone:** 189 (+49 bu hafta)
+- **Toplam view:** 75,485 (+27,023 bu hafta)
+- **Toplam video:** 207
+- **Son 7 gün:** 30 video, 12,675 izl, ort 422/video
+- **<50 izl video sayısı:** 4/30 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **839v** · 18👍 · 0💬 — Coin sized black hole would destroy the Earth in minutes
-- **658v** · 11👍 · 0💬 — Rigel star shines brighter than forty thousand suns
-- **653v** · 33👍 · 0💬 — Iapetus mountain ridge is a massive equator wall on Saturn's moon
+- **812v** · 14👍 · 3💬 — Betelgeuse supernova will be visible during the day when it explodes
+- **811v** · 11👍 · 1💬 — Neutron star density packs massive suns into city-sized spheres
+- **806v** · 22👍 · 7💬 — Stephenson 2-18 is the largest known star in the universe
 
 ## 🪦 Alt 3 (son 7 gün)
-- **0v** · 0👍 · 0💬 — The Pillars of Creation: The Colossal Star Tombs of the Eagle Nebula
-- **0v** · 0👍 · 0💬 — TRAPPIST-1g is an icy ocean world that could support alien life
-- **2v** · 0👍 · 1💬 — Comet Galaxy is losing its stars and gas at extreme speed
+- **0v** · 0👍 · 0💬 — The Cosmic Tomb: The Only Place Colder Than Empty Space
+- **0v** · 0👍 · 0💬 — The Shattered Ghost: Inside a 110 Light-Year Tomb of Light
+- **0v** · 0👍 · 0💬 — Betelgeuse rotation speed explained by ancient star merger
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **140 abone / 270 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **189 abone / 422 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı
