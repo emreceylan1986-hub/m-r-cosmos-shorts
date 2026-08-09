@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-08T23:29:37.423808+00:00",
+  "uretim_zamani": "2026-08-09T13:50:39.952428+00:00",
   "haberler": [
     {
-      "baslik": "Tau Ceti f Vs Earth: The Cold Desert World at the System's Edge",
-      "url": "https://en.wikipedia.org/wiki/Tau_Ceti_f",
+      "baslik": "The Sun Vs A Lightning Bolt: Which One Is Actually Hotter?",
+      "url": "https://en.wikipedia.org/wiki/Lightning",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "The Solar Wind: The Invisible Hurricane Destroying Mars' Atmosphere",
+      "url": "https://en.wikipedia.org/wiki/Solar_wind",
+      "kaynak": "gemini-fallback",
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
