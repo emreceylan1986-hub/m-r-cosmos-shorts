@@ -249,8 +249,9 @@ def gorseller_topla(konu, hedef_klasor, adet=50):
     return indirilen
 
 
-def video_render(mp3, gorseller_klasor, hedef_mp4):
-    """ffmpeg ile yatay 1920x1080 video — slow zoom her görselde."""
+def video_render(mp3, gorseller_klasor, hedef_mp4, muzik=None):
+    """ffmpeg ile yatay 1920x1080 video — slow zoom her görselde.
+    9 Ağu: opsiyonel arka plan müziği (kozmik ambient, -24dB anlatımın altında)."""
     # Mp3 süresi
     sure = float(subprocess.check_output([
         "ffprobe", "-v", "error", "-show_entries", "format=duration",
@@ -303,14 +304,28 @@ def video_render(mp3, gorseller_klasor, hedef_mp4):
         f"box=1:boxcolor=black@0.7:boxborderw=20:"
         f"enable='gte(t,{max(0, sure-18)})'"
     )
-    subprocess.run([
-        "ffmpeg", "-y", "-loglevel", "error",
-        "-i", str(birlesik_video), "-i", str(mp3),
-        "-vf", cta_filtre,
-        "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p",
-        "-c:a", "aac", "-b:a", "192k",
-        "-shortest", str(hedef_mp4)
-    ], check=True)
+    if muzik and Path(muzik).exists():
+        # Müzik anlatımın ALTINDA kalmalı: -24dB + döngü + anlatım bitince fade
+        subprocess.run([
+            "ffmpeg", "-y", "-loglevel", "error",
+            "-i", str(birlesik_video), "-i", str(mp3), "-i", str(muzik),
+            "-filter_complex",
+            f"[0:v]{cta_filtre}[v];"
+            f"[2:a]volume=-24dB,aloop=loop=-1:size=2e+09,afade=t=out:st={max(0, sure-4):.1f}:d=4[bg];"
+            f"[1:a][bg]amix=inputs=2:duration=first:dropout_transition=0[a]",
+            "-map", "[v]", "-map", "[a]",
+            "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-b:a", "192k", "-shortest", str(hedef_mp4)
+        ], check=True)
+    else:
+        subprocess.run([
+            "ffmpeg", "-y", "-loglevel", "error",
+            "-i", str(birlesik_video), "-i", str(mp3),
+            "-vf", cta_filtre,
+            "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-b:a", "192k",
+            "-shortest", str(hedef_mp4)
+        ], check=True)
 
     # Temizlik
     for k in klip_listesi:
@@ -520,9 +535,26 @@ def main():
     if adet < 10:
         raise RuntimeError(f"Sadece {adet} görsel bulundu, yetersiz")
 
-    log("4) Video render...")
+    log("4) Arka plan müzik (kozmik ambient, ticari-uygun)...")
+    muzik_yolu = is_kok / "bgm.mp3"
+    muzik_var = False
+    try:
+        import montajci as _mj, random as _rnd
+        _key = _mj._jamendo_anahtarini_oku()
+        if _key:
+            for _arama in _rnd.sample(_mj.KOZMIK_ARAMALAR, len(_mj.KOZMIK_ARAMALAR))[:4]:
+                if _mj.jamendo_muzik_indir(_arama, muzik_yolu, _key):
+                    muzik_var = True
+                    log(f"  ✓ müzik: '{_arama}'")
+                    break
+        if not muzik_var:
+            log("  müzik bulunamadı — müziksiz devam")
+    except Exception as h:
+        log(f"  müzik atlandı: {str(h)[:80]}")
+
+    log("5) Video render...")
     video_mp4 = is_kok / "video.mp4"
-    video_render(mp3, gorseller_klasor, video_mp4)
+    video_render(mp3, gorseller_klasor, video_mp4, muzik_yolu if muzik_var else None)
 
     log("5) Thumbnail...")
     thumbnail_png = is_kok / "thumbnail.png"
