@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-08-10T14:20:52.397065+00:00",
+  "uretim_zamani": "2026-08-10T16:00:44.408631+00:00",
   "haberler": [
     {
-      "baslik": "Pillars of Creation's Secret: The Invisible Monsters Hiding Inside",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "Enceladus's Secret: The Ocean Vent That Could Support Life",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Jupiter's Red Spot Vs Earth: A Storm That Can Swallow Our Entire Planet",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "baslik": "Titan Vs Earth: The Liquid World Where Humans Could Fly",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Titan's Ligeia Mare: The Alien Sea That Could Power Earth for Centuries",
-      "url": "https://en.wikipedia.org/wiki/Ligeia_Mare",
+      "baslik": "Jupiter's Core Vs Earth: The Hidden Metal Ball That Could Crush Us",
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
