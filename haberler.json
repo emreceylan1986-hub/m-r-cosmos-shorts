@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-08-10T20:43:08.270831+00:00",
+  "uretim_zamani": "2026-08-10T22:38:06.918461+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Secret: Great Red Spot Is Eating Smaller Storms To Stay Alive",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Saturn's Rings Vs A Bathtub: Why The Ringed Planet Would Actually Float",
-      "url": "https://en.wikipedia.org/wiki/Saturn",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Titan's Secret: The Frozen Moon Hiding An Ocean Bigger Than Earth's",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "baslik": "Earth's Oceans Vs Moon's Soil: Who Has More Helium-3?",
+      "url": "https://en.wikipedia.org/wiki/Helium-3",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
