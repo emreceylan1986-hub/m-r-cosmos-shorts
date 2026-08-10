@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-10T17:52:08.908971+00:00",
+  "uretim_zamani": "2026-08-10T19:56:30.586984+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Secret: The Core is Dissolving into Liquid Metal",
-      "url": "https://en.wikipedia.org/wiki/Jupiter",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Saturn's Rings Vs A Bathtub: Why They Would Float in Water",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "baslik": "Jupiter's Moon Callisto: The Cosmic Ice Ball Hiding a 100-Mile Deep Ocean",
+      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Miranda's Impossible Cliffs: A Moon Torn Apart and Rebuilt",
-      "url": "https://en.wikipedia.org/wiki/Miranda_(moon)",
+      "baslik": "Saturn's Rings Vs A Bathtub: Why the Solar System's Jewel Would Float",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Titan's Ligeia Mare: A Methane Lake Deeper Than Earth's Deepest Water",
+      "url": "https://en.wikipedia.org/wiki/Ligeia_Mare",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
