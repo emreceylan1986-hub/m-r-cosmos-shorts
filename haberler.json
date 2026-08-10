@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-08-10T16:00:44.408631+00:00",
+  "uretim_zamani": "2026-08-10T17:52:08.908971+00:00",
   "haberler": [
     {
-      "baslik": "Enceladus's Secret: The Ocean Vent That Could Support Life",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Jupiter's Secret: The Core is Dissolving into Liquid Metal",
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Titan Vs Earth: The Liquid World Where Humans Could Fly",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "baslik": "Saturn's Rings Vs A Bathtub: Why They Would Float in Water",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Jupiter's Core Vs Earth: The Hidden Metal Ball That Could Crush Us",
-      "url": "https://en.wikipedia.org/wiki/Jupiter",
+      "baslik": "Miranda's Impossible Cliffs: A Moon Torn Apart and Rebuilt",
+      "url": "https://en.wikipedia.org/wiki/Miranda_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
