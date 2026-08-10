@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-08-10T22:38:06.918461+00:00",
+  "uretim_zamani": "2026-08-10T23:35:59.390399+00:00",
   "haberler": [
     {
-      "baslik": "Earth's Oceans Vs Moon's Soil: Who Has More Helium-3?",
-      "url": "https://en.wikipedia.org/wiki/Helium-3",
+      "baslik": "Saturn's Rings Vs A Swimming Pool: Where Does All That Ice Go?",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Io's Volcanoes: Four Hundred Active Hellscapes That Could Fit Earth Inside Their Lava Flows",
+      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Triton's Nitrogen Geysers Shoot Ice Higher Than Mount Everest On A Dying Moon",
+      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
