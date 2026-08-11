@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-11T21:52:14.764161+00:00",
+  "uretim_zamani": "2026-08-11T22:46:14.711469+00:00",
   "haberler": [
     {
-      "baslik": "Boomerang Nebula: The Coldest Place in the Cosmos is Two Degrees Colder Than Empty Space",
-      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Titan Vs Earth: The Liquid Methane Sea That Holds More Gas Than All Our Fossil Reserves",
+      "baslik": "Titan's Kraken Mare holds fifty times more liquid than all Earth's oil reserves",
       "url": "https://en.wikipedia.org/wiki/Kraken_Mare",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ceres: The Dwarf Planet Hiding an Ancient Ocean Brinier Than Earth's Dead Sea",
-      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
