@@ -274,33 +274,73 @@ CRITICAL — ANTI-DUPLICATE RULES:
 3) Prefer subjects that do NOT share the main noun with any blocked title.
 
 
-═══ TITLE GATE (31 Jul 2026 — channel-data locked, ALL 5 checks mandatory) ═══
-Reject and regenerate any topic that fails one:
-G1. HUMAN-SCALE ANCHOR: the title contains a comparison a 12-year-old feels
-    physically — Earth, a coin, a teaspoon, a city, "X Earths could fit",
-    "destroy the Earth in minutes". Channel data: anchored titles earn ~2x
-    (median 289 vs 219); anchor+water combo median 638 vs channel 223.
-G2. STAKES OR PAYOFF: the title promises a consequence or wonder
-    ("would destroy", "hides an ocean", "more water than Earth's"),
-    never a bare description ("size comparison reveals...", "is losing gas").
-G3. FAMILIAR FIRST: lead with a name a casual viewer recognizes
-    (Europa, the Sun, Milky Way, Death Star Moon). Obscure catalog IDs
-    (WOH G64, 55 Cancri e, Pistol Star) allowed ONLY after passing G1+G2.
-G4. NO REPEAT SUBJECT: same star system / object must NOT reappear within
-    21 days. Proof of decay: TRAPPIST-1 series 1315 → 190 → 175 → 0 views.
-G5. WATER/LIFE PRIORITY: at least 1 of the 3 daily topics involves water,
-    oceans, habitability, or alien-life potential (median 346 vs 223).
+═══ TITLE GATE v2 (11 Aug 2026 — re-measured on 193 PUBLIC, 3-day-mature Shorts;
+    views normalised by publish-hour band. ALL checks mandatory) ═══
+Reject and regenerate any topic that fails one.
 
-FEW-SHOT — PASS (real CosmoBytes winners):
-  ✅ 2096: "The Milky Way's Secret: Sagittarius A*"
+G1. HUMAN-SCALE ANCHOR: name something the viewer's body knows — Earth, the Sun,
+    the Moon, Mars, a city, a coin, a teaspoon, a human.
+    NOTE: "super-Earth" / "Earth-sized" / "Earth-like" DO NOT count. They are
+    classification labels, not comparisons.
+
+G2. STAKES OR PAYOFF: promise a consequence or wonder, never a bare description
+    ("...characteristics and supernova potential", "is losing gas").
+
+G3. FAMILIAR FIRST when possible (Europa, Betelgeuse, Jupiter, the Sun). Obscure
+    catalog IDs are NOT penalised by channel data — Stephenson 2-18 earned 806,
+    Gliese 667 Cc 772, HD 106906 b 1001 — but they MUST carry a G6 comparison,
+    because the name alone gives the viewer nothing.
+
+G4. SUBJECT COOLDOWN: 7 days, not 21. Channel data shows NO sequel decay
+    (28 first-appearances median 408 vs 22 repeats median 430). Betelgeuse,
+    Europa and Ganymede are proven repeat winners. Do not starve them.
+
+G5. WATER/LIFE PRIORITY: at least 1 daily topic involves water, oceans,
+    habitability or alien-life potential.
+
+G6. ★ QUANTIFIED COMPARISON — STRONGEST MEASURED VARIABLE (p=0.0005) ★
+    The title MUST contain an explicit comparison against a known object:
+    "than", "times", "twice", "half", "beyond", "as much as", "could fit inside",
+    "wider/brighter/deeper/larger/hotter than".
+    Channel data: n=24 scored 1.74x normalised vs 0.93x without.
+    A bare number is worthless — the number only works when it lands ON a
+    comparison target. KEEP THE MULTIPLIER GRASPABLE (prefer under ~50,000x):
+    "170 times brighter than the sun" earned 854; "five million times brighter"
+    earned 130. Re-anchor astronomical figures into something imaginable
+    ("brighter than forty thousand suns", "swelling beyond the orbit of Mars").
+
+G7. VAGUE MAGNITUDE — BANNED (weaker signal, p=0.08, but costs nothing):
+    never let an adjective carry the scale: extreme, extremely, swings,
+    at a massive scale, over time, dramatic, significant, intense, powerful,
+    incredible, amazing. Replace with the number and a comparison target.
+    "Extreme temperature swings" -> "swings 400 degrees between day and night".
+
+FEW-SHOT — PASS (real winners, view counts verified):
   ✅ 1140: "Europa's Ocean: More Water Than Earth's!"
+  ✅ 1001: "HD 106906 b orbits seven hundred times further than Earth"
+  ✅  854: "Arcturus orange giant star is 170 times brighter than the sun"
   ✅  839: "Coin sized black hole would destroy the Earth in minutes"
-  ✅  830: "Over one million Earths could fit inside the Sun"
-FEW-SHOT — FAIL (real CosmoBytes flops, NEVER produce these shapes):
-  ❌ 0: "WOH G64 red supergiant star is two thousand times wider than the Sun" (G3)
-  ❌ 0: "Eagle Nebula size comparison reveals how small Earth is" (G2)
-  ❌ 0: "TRAPPIST-1g is an icy ocean world that could support alien life" (G4)
-  ❌ 3: "Comet Galaxy is losing its stars and gas at extreme speed" (G1+G2)
+  ✅  830: "Over one million Earths could fit inside the Sun's immense volume"
+  ✅  750: "Ganymede's hidden ocean contains more water than all Earth's oceans"
+  ✅  742: "Betelgeuse is swelling beyond the orbit of Mars"
+  ✅  665: "Rigel star shines brighter than forty thousand suns"
+
+FEW-SHOT — FAIL (all PUBLIC and mature — never write these):
+  ❌   3: "Comet Galaxy is losing its stars and gas at extreme speed"    (G6+G7)
+  ❌  45: "Gliese 832 c super-Earth has extreme temperature swings"      (G1 fake anchor, G6, G7)
+  ❌  67: "Betelgeuse star is shrinking and swelling at a massive scale" (G6, G7)
+  ❌  98: "Wolf 1061c orbit changes cause extreme climate swings"        (G6, G7)
+  ❌ 245: "Polaris is a triple star system brightening over time"        (G2, G6, G7)
+
+THE DECISIVE PAIR — same star, same publish-hour band, 7 days apart:
+  ✅ 742  "Betelgeuse is swelling BEYOND THE ORBIT OF MARS"   <- measured comparison
+  ❌  67  "Betelgeuse ... swelling AT A MASSIVE SCALE"        <- vague adjective
+  11x difference. The subject was not the problem. The measurement was.
+
+⚠️ NOTE ON THE OLD FAIL EXAMPLES (removed 11 Aug): three of them were PRIVATE
+   videos with 0 views — a publishing fault, not a title fault. One of them
+   ("WOH G64 ... two thousand times wider than the Sun") is in fact the proven
+   winning shape. The gate was banning its own best weapon.
 """
 
 
@@ -315,6 +355,32 @@ def _basit_baslik_kelimeleri(b: str) -> set[str]:
     }
     kelimeler = _re.findall(r"[a-z]{3,}", b.lower())
     return {k for k in kelimeler if k not in ATIL}
+
+
+_KIYAS = re.compile(r"\b(than|times|twice|half|beyond|as much as|as many as|"
+                    r"could fit|fits? inside|wider|brighter|deeper|larger|"
+                    r"hotter|colder|heavier)\b", re.I)
+_MUGLAK = re.compile(r"\b(extreme(ly)?|swings?|massive scale|over time|dramatic|"
+                     r"significant|intense|powerful|incredible|amazing)\b", re.I)
+
+
+def _baslik_kapisi(b: str) -> str | None:
+    """11 Ağu — G6/G7 SERT KAPI. None = geçti.
+
+    Neden prompt yetmiyor: TITLE GATE 31 Tem'den beri promptta ama gate sonrası
+    29 başlığın sadece 5'inde (%17) kıyas vardı. Model kuralı yok sayıyor.
+    Ölçüm (193 public+olgun video, saat-bandına normalize, permütasyon):
+      kıyas VAR  n=24 norm 1.74
+      kıyas YOK  n=169 norm 0.93   → p=0.0005
+    Doğal deney: aynı yıldız, aynı saat bandı, 7 gün arayla
+      "Betelgeuse swelling BEYOND THE ORBIT OF MARS" = 742
+      "Betelgeuse swelling AT A MASSIVE SCALE"       =  67  → 11 kat
+    """
+    if _MUGLAK.search(b):
+        return "G7 muğlak büyüklük"
+    if not _KIYAS.search(b):
+        return "G6 ölçülmüş kıyas yok"
+    return None
 
 
 def _baslik_benzer_mi(yeni: str, eski_setleri: list[set[str]], esik: float = 0.4) -> bool:
@@ -452,6 +518,14 @@ def gemini_konu_uret(blokli_url: set[str], adet: int = 3) -> list[dict]:
                 if _baslik_benzer_mi(k["baslik"], eski_set_listesi):
                     print(f"[haberci] Gemini başlığı '{k['baslik'][:40]}…' eski bir konuya çok benzer → atlandı")
                     continue
+                # 11 Ağu: G6/G7 sert kapı. 1. turda ZORLA, 2. turda uyar-geç
+                # (starvation koruması — konu hiç üretilemezse pipeline durur).
+                _red = _baslik_kapisi(k["baslik"])
+                if _red:
+                    if tur == 0:
+                        print(f"[haberci] TITLE GATE red ({_red}): {k['baslik'][:55]}…")
+                        continue
+                    print(f"[haberci] ⚠️ TITLE GATE uyarı ({_red}) — 2. tur, kabul: {k['baslik'][:55]}…")
                 # URL geçmişte var mı
                 if _normalize_url(k["url"]) in blokli_url:
                     print(f"[haberci] Gemini URL'si geçmişte → atlandı: {k['url']}")

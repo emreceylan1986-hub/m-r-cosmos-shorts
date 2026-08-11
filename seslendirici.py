@@ -14,6 +14,7 @@ Akış:
     seslendirme_<damga>.mp3
 """
 
+import re  # 11 Ağu: hook kapısı regex'leri için
 import asyncio
 import json
 import sys
@@ -64,7 +65,8 @@ viewer something beautiful and surprising about the natural world. Conversationa
 not academic. NO clickbait words (shocking, insane, crazy, you won't believe).
 
 Required structure (60-75 words total):
-- HOOK (first sentence, MAX 8 words): a punchy, curiosity-gap opener about
+- HOOK (first sentence, MAX 6 words — must be fully spoken inside 2.4 seconds;
+  measured: hooks <=6 words scored 1.47x vs 0.93x, p=0.011): a punchy, curiosity-gap opener about
   the space/cosmic subject. Truthful. Feel: "Jupiter has 95 known moons."
   / "This star explodes every year." / "Black holes spin near light speed." NO question marks.
 
@@ -100,9 +102,13 @@ Required structure (60-75 words total):
 - CONTEXT (1-2 sentences): the actual space/cosmos behind it, plain language.
   ── 8-12. saniye drop-off riski yüksek — bu cümlede SOMUT bir SAYI veya
      karşılaştırma kullan (kaç kat, kaç yıl, kaç metre). Sayı = retention boost.
-- RE-HOOK (max 6 words, right after CONTEXT — only if the 75-word budget
-  allows): re-open curiosity at mid-point. "And it gets stranger." /
-  "But that's not the mystery." — still 100% true.
+- RE-HOOK (MANDATORY, max 6 words, right after CONTEXT at ~55-65% of the script):
+  re-open curiosity at the mid-point. Rotate between:
+  "And it gets stranger." / "But that's not the mystery." / "There's a catch." /
+  "And then it gets worse." — still 100% true.
+  NEVER omit it. If the word budget is tight, cut one CONTEXT clause instead.
+  MEASURED (11 Aug, 191 scripts, hour-normalised): scripts WITH a re-hook scored
+  2.01x vs 0.99x without (p=0.0019). Small n=10 — strong signal, re-measure later.
 - PAYOFF (1 short sentence): a wonder-inducing closing thought.
   Örnek: "The universe still hides countless wonders like this one."
 - FINAL LINE (MANDATORY, exactly 1 short line, max 8 words) — pick ONE by topic:
@@ -134,6 +140,31 @@ def ilk_haberi_oku() -> dict:
     if not haberler:
         raise ValueError("haberler.json içinde hiç haber yok.")
     return haberler[0]
+
+
+_REHOOK = re.compile(r"(and it gets (stranger|weirder|worse)|but that.s not|"
+                     r"there.s a catch|here.s the twist|and then it gets)", re.I)
+_YASAK_ACILIS = re.compile(r"^(did you know|ever wonder|have you ever|meet the|"
+                           r"imagine|picture this)", re.I)
+
+
+def _hook_kapisi(senaryo: str) -> str | None:
+    """11 Ağu — saf-Python hook kapısı. None = geçti.
+
+    Neden Gemini kapısı değil: main.yml'de GEMINI_TASARRUF=1 olduğu için
+    hook_predictor HER ZAMAN 10/10 döndürüyor — o kapı 44 gündür ölü.
+    Bu kapı 0 API çağrısı harcar, tasarruf bayrağından bağımsız çalışır.
+    """
+    h = senaryo.strip().split(".")[0].strip()
+    if len(h.split()) > 6:
+        return f"hook {len(h.split())} kelime (>6)"
+    if "?" in h:
+        return "hook soru işareti"
+    if _YASAK_ACILIS.match(h):
+        return "yasak açılış kalıbı"
+    if not _REHOOK.search(senaryo):
+        return "RE-HOOK cümlesi yok"
+    return None
 
 
 def senaryo_uret(haber: dict) -> str:
@@ -210,6 +241,19 @@ def senaryo_uret(haber: dict) -> str:
 
         if len(senaryo.split()) < min_kelime:
             continue  # Yetersiz uzunluk — bir sonraki deneme
+
+        # 11 Ağu: hook kapısı (hook_predictor GEMINI_TASARRUF ile ölü olduğu için)
+        _red = _hook_kapisi(senaryo)
+        if _red:
+            if deneme < 2:
+                print(f"[seslendirici] Hook kapısı RED ({_red}) — yeniden üretiliyor")
+                ek = (f"\n\nYOUR PREVIOUS DRAFT FAILED THE HOOK GATE: {_red}. "
+                      f"The first sentence must be MAX 6 words with a concrete subject "
+                      f"and a surprising specific detail. No question marks, no generic "
+                      f"openers. And you MUST include a RE-HOOK line (max 6 words) right "
+                      f"after CONTEXT. Rewrite the entire script.")
+                continue
+            print(f"[seslendirici] ⚠️ Hook kapısı ({_red}) — son deneme, kabul edildi")
 
         # FAZ 8: Hook predictor
         try:

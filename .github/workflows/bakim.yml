@@ -4,6 +4,12 @@ name: Bakım — private→public + başlık onarımı (manuel)
 # SADECE manuel tetik. Denetim-RED private videosu olan kanalda kullanma.
 
 on:
+  schedule:
+    # 11 Ağu: onarıcı SADECE elle tetikleniyordu → private takılan videolar
+    # birikiyordu (6 adet, hepsi 0 izlenme, biri 10 Ağu tarihli). Artık günlük.
+    # 18 UTC: ilk upload slotundan (19-23 UTC) ÖNCE, kota çakışması olmasın.
+    # Kota: boştayken ~2 birim; onarım gerekirse videos.update 50 birim/video.
+    - cron: "0 18 * * *"
   workflow_dispatch:
     inputs:
       mod:
