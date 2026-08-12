@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-11T23:43:31.207092+00:00",
+  "uretim_zamani": "2026-08-12T20:04:36.534055+00:00",
   "haberler": [
     {
-      "baslik": "Mimas hidden underground ocean contains more water than Earth's largest seas",
-      "url": "https://en.wikipedia.org/wiki/Mimas_(moon)",
+      "baslik": "Andromeda's Secret: The Invisible Halo Twice as Wide as the Galaxy Itself",
+      "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Triton's nitrogen geysers shoot twenty times higher than Earth's tallest buildings",
-      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Io's active volcanoes erupt lava four times hotter than boiling water on Earth",
-      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
