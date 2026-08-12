@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-12T21:50:32.865399+00:00",
+  "uretim_zamani": "2026-08-12T22:44:07.536066+00:00",
   "haberler": [
     {
-      "baslik": "El Gordo Galaxy Cluster: A Cosmic Collision Ten Thousand Times More Massive Than the Milky Way",
-      "url": "https://en.wikipedia.org/wiki/ACT-CL_J0102-4915",
+      "baslik": "The Tadpole Galaxy: A Cosmic Collision Dragging a Tail of Stars Twice as Long as the Milky Way",
+      "url": "https://en.wikipedia.org/wiki/Tadpole_Galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 993,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Baby Boom Galaxy: A Starburst Factory Creating Forty Times More Stars Than Our Galaxy Every Year",
-      "url": "https://en.wikipedia.org/wiki/Baby_Boom_Galaxy",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
