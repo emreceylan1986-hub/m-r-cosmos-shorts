@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-12T20:04:36.534055+00:00",
+  "uretim_zamani": "2026-08-12T21:50:32.865399+00:00",
   "haberler": [
     {
-      "baslik": "Andromeda's Secret: The Invisible Halo Twice as Wide as the Galaxy Itself",
-      "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+      "baslik": "El Gordo Galaxy Cluster: A Cosmic Collision Ten Thousand Times More Massive Than the Milky Way",
+      "url": "https://en.wikipedia.org/wiki/ACT-CL_J0102-4915",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 993,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Baby Boom Galaxy: A Starburst Factory Creating Forty Times More Stars Than Our Galaxy Every Year",
+      "url": "https://en.wikipedia.org/wiki/Baby_Boom_Galaxy",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
