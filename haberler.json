@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-13T22:45:42.718771+00:00",
+  "uretim_zamani": "2026-08-13T23:44:30.737336+00:00",
   "haberler": [
     {
-      "baslik": "Phoebe retrograde orbit proves the moon is a captured Kuiper belt interloper",
-      "url": "https://en.wikipedia.org/wiki/Phoebe_(moon)",
+      "baslik": "LHS 1140 b ocean world has more water than Earth in a habitable zone",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "K2-18b exoplanet atmosphere contains four times more methane than Earth",
+      "url": "https://en.wikipedia.org/wiki/K2-18b",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
