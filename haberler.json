@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-13T19:56:48.433534+00:00",
+  "uretim_zamani": "2026-08-13T20:50:27.732329+00:00",
   "haberler": [
     {
-      "baslik": "TRAPPIST-1e: The Water World That Holds More Oceans Than Earth",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
+      "baslik": "K2-9b: An Impossible World Where It Rains Liquid Iron",
+      "url": "https://en.wikipedia.org/wiki/K2-9b",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "LHS 1140 b: An Ice Planet with an Ocean Larger Than All of Earth's",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kepler-186f: The First Earth-Sized World Orbits a Sun Cooler Than Ours",
-      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
