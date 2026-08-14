@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-08-14T21:28:46.802083+00:00",
+  "uretim_zamani": "2026-08-14T22:26:57.638513+00:00",
   "haberler": [
     {
-      "baslik": "Rigel star shines brighter than forty thousand suns",
-      "url": "https://en.wikipedia.org/wiki/Rigel",
+      "baslik": "Mira: The Dying Star Dragging a Comet Tail Thrice the Width of the Solar System",
+      "url": "https://en.wikipedia.org/wiki/Mira",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pistol Star Vs The Sun: One Giant Shining Thrice as Bright as Our Home Star",
+      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Arcturus orange giant star is 170 times brighter than the sun",
-      "url": "https://en.wikipedia.org/wiki/Arcturus",
+      "baslik": "CYG OB2-12: The Hypergiant Star Shining Brighter Than One Million Suns Combined",
+      "url": "https://en.wikipedia.org/wiki/Cygnus_OB2-12",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
