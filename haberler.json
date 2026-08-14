@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-14T22:26:57.638513+00:00",
+  "uretim_zamani": "2026-08-14T23:24:45.256884+00:00",
   "haberler": [
     {
-      "baslik": "Mira: The Dying Star Dragging a Comet Tail Thrice the Width of the Solar System",
-      "url": "https://en.wikipedia.org/wiki/Mira",
+      "baslik": "S5 0014+81: A Black Hole Forty Billion Times Heavier Than the Sun",
+      "url": "https://en.wikipedia.org/wiki/S5_0014%2B81",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Pistol Star Vs The Sun: One Giant Shining Thrice as Bright as Our Home Star",
-      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "CYG OB2-12: The Hypergiant Star Shining Brighter Than One Million Suns Combined",
-      "url": "https://en.wikipedia.org/wiki/Cygnus_OB2-12",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
