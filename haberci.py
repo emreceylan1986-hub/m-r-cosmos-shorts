@@ -357,9 +357,18 @@ def _basit_baslik_kelimeleri(b: str) -> set[str]:
     return {k for k in kelimeler if k not in ATIL}
 
 
-_KIYAS = re.compile(r"\b(than|times|twice|half|beyond|as much as|as many as|"
-                    r"could fit|fits? inside|wider|brighter|deeper|larger|"
-                    r"hotter|colder|heavier)\b", re.I)
+# 14 Ağu — regex GENİŞLETİLDİ. Dar sürüm gerçek kıyasları kaçırıyordu:
+#   "Ten Thousand Galaxies Could HOLD"     → kıyas VAR ama yakalanmadı
+#   "Thick ENOUGH TO walk through"          → kıyas VAR ama yakalanmadı
+# Bu yüzden 2. turda üretilen iyi başlıklar da reddediliyordu.
+_KIYAS = re.compile(
+    r"\b(than|times|twice|triple|half|beyond|"
+    r"as (much|many|big|wide|heavy|bright|hot|cold|long|far|dense)( \w+){0,2} as|"
+    # ↑ araya kelime girebilir: "as much WATER as", "as wide AS THE MOON"
+    r"could (fit|hold|swallow|contain|cover)|fits? inside|"
+    r"enough to|size of|mass of|width of|weight of|"
+    r"compared to|equivalent (to|of)|"
+    r"wider|brighter|deeper|larger|hotter|colder|heavier|faster|denser|bigger)\b", re.I)
 _MUGLAK = re.compile(r"\b(extreme(ly)?|swings?|massive scale|over time|dramatic|"
                      r"significant|intense|powerful|incredible|amazing)\b", re.I)
 
@@ -494,6 +503,23 @@ def gemini_konu_uret(blokli_url: set[str], adet: int = 3) -> list[dict]:
                     "TITLES. Choose entirely different space objects/phenomena. "
                     "Forbidden subjects this round: "
                     + ", ".join(sorted({list(s)[0] for s in eski_set_listesi if s})[:30])
+                    # 14 Ağu — KRİTİK: 2. tur kapısı "uyar-geç" modunda (starvation
+                    # koruması). Yani 1. turda G6 reddi yiyen konular 2. turda AYNEN
+                    # geçiyordu → uyum 3 gün sonra hâlâ %17. Çözüm: 2. tur PROMPT'una
+                    # G6/G7'yi tekrar bas ki üretilen başlıklar zaten kıyaslı gelsin.
+                    + "\n\n🔴 ABSOLUTE REQUIREMENT FOR THIS ROUND (previous batch was "
+                      "rejected for missing it): EVERY title MUST contain an explicit "
+                      "quantified comparison — 'than', 'times', 'twice', 'beyond', "
+                      "'as much as', 'could fit inside', 'wider/brighter/larger than'. "
+                      "Channel data: titles with a comparison earn 1.74x vs 0.93x "
+                      "(p=0.0005). A bare number is NOT enough — the number must land "
+                      "on a comparison target.\n"
+                      "AND: never use vague magnitude words (extreme, extremely, swings, "
+                      "massive scale, over time, dramatic, intense, powerful). "
+                      "Replace them with the number + what it is being compared to.\n"
+                      "Example rewrite: 'K2-9b is an extreme exoplanet where it rains "
+                      "liquid iron' → 'K2-9b rains liquid iron at 2000 degrees hotter "
+                      "than lava'."
                 )
             )
             yanit = bridge.gemini_metin_uret(
