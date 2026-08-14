@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-14T20:34:24.212321+00:00",
+  "uretim_zamani": "2026-08-14T21:28:46.802083+00:00",
   "haberler": [
     {
-      "baslik": "Mu Cephei's Secret: A Star So Big It Could Fit One Billion Suns Inside",
-      "url": "https://en.wikipedia.org/wiki/Mu_Cephei",
+      "baslik": "Rigel star shines brighter than forty thousand suns",
+      "url": "https://en.wikipedia.org/wiki/Rigel",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Arcturus orange giant star is 170 times brighter than the sun",
+      "url": "https://en.wikipedia.org/wiki/Arcturus",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
