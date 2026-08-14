@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-08-13T23:44:30.737336+00:00",
+  "uretim_zamani": "2026-08-14T19:50:28.817319+00:00",
   "haberler": [
     {
-      "baslik": "LHS 1140 b ocean world has more water than Earth in a habitable zone",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "baslik": "EBLM J0555-57Ab: A Star No Larger Than Saturn",
+      "url": "https://en.wikipedia.org/wiki/EBLM_J0555-57",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "K2-18b exoplanet atmosphere contains four times more methane than Earth",
-      "url": "https://en.wikipedia.org/wiki/K2-18b",
+      "baslik": "V723 Monocerotis: The Unicorn Black Hole Just Three Times the Sun's Mass",
+      "url": "https://en.wikipedia.org/wiki/V723_Monocerotis",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
