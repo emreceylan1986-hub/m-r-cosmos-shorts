@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-08-14T19:50:28.817319+00:00",
+  "uretim_zamani": "2026-08-14T20:34:24.212321+00:00",
   "haberler": [
     {
-      "baslik": "EBLM J0555-57Ab: A Star No Larger Than Saturn",
-      "url": "https://en.wikipedia.org/wiki/EBLM_J0555-57",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "V723 Monocerotis: The Unicorn Black Hole Just Three Times the Sun's Mass",
-      "url": "https://en.wikipedia.org/wiki/V723_Monocerotis",
+      "baslik": "Mu Cephei's Secret: A Star So Big It Could Fit One Billion Suns Inside",
+      "url": "https://en.wikipedia.org/wiki/Mu_Cephei",
       "kaynak": "gemini-fallback",
       "skor": 988,
       "yas_saat": 0,
