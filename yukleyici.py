@@ -45,7 +45,7 @@ This metadata MUST be SEO-optimized for YouTube search.
 
 Schema:
 {
-  "title": "60-95 characters. FRONT-LOAD the main keyword in the first 50 chars (critical for search). No emojis, no ALL CAPS. BANNED clickbait words/phrases — never use any of: shocking, secretly, secret, hidden, they don't want you to know, you won't believe, this is why, the truth about, exposed, will blow your mind, insane, crazy. The title must be a calm factual statement of what happened.",
+  "title": "60-95 characters. FRONT-LOAD the main keyword in the first 50 chars (critical for search). No emojis, no ALL CAPS. BANNED clickbait words/phrases — never use any of: shocking, secretly, secret, hidden, they don't want you to know, you won't believe, this is why, the truth about, exposed, will blow your mind, insane, crazy. The title must be a calm factual statement of what happened. 🔴 HARD REQUIREMENT (G6): the title MUST contain an explicit MEASURED COMPARISON — 'than', 'times', 'twice', 'beyond', 'as wide as', 'could hold', 'enough to', 'the size/mass/width of', 'wider/brighter/larger/hotter than'. A bare number is NOT enough — the number must land on a comparison target the viewer already knows (Earth, the Sun, the Moon, the Solar System). Channel measurement on 193 mature videos: titles WITH a comparison earn 1.74x normalized views vs 0.93x WITHOUT (p=0.0005). 🔴 HARD BAN (G7): never use vague magnitude words — extreme, extremely, swings, massive scale, over time, dramatic, significant, intense, powerful, incredible, amazing. Replace them with the number + what it is compared to. GOOD: 'Mira star drags a comet tail three times wider than the Solar System'. BAD: 'Mira star leaves a thirteen light year tail across space' (number, but no comparison target).",
   "description": "200-400 characters TOTAL. Structure:
     - LINE 1 (most important — first 100 chars get strongest SEO weight):
       Start with a CONCRETE FACT statement that contains the main keyword.
@@ -175,26 +175,82 @@ def _metadata_dogrula(veri: dict) -> dict:
 _METADATA_YEDEK = ['space', 'astronomy', 'universe', 'cosmos', 'science', 'shorts']
 
 
+def baslik_kapisi(b: str) -> str | None:
+    """G6/G7 kapısı — haberci'deki TEK kaynaktan alınır, kopyalanmaz.
+
+    15 Ağu — KAPININ YERİ YANLIŞTI. 11 Ağu'dan beri kapı yalnızca
+    haberci.gemini_konu_uret() içindeki KONU başlığına uygulanıyordu; oysa
+    YouTube'a giden başlık burada, senaryodan yeniden üretiliyor. Kanıt
+    (run #257, 14 Ağu 22:27Z):
+      haberci konusu : "Mira: ... Comet Tail THRICE THE WIDTH OF the Solar System"  → kapı GEÇTİ
+      yayınlanan     : "Mira star leaves a thirteen light year tail across space"   → kapı RED
+    Yani kapı doğru çalışıyordu ama yayınlanan başlığa hiç değmiyordu.
+    """
+    try:
+        import haberci
+        return haberci._baslik_kapisi(b)
+    except Exception as _kh:  # haberci import edilemezse kapı yayını engellemesin
+        print(f"[yukleyici] G6/G7 kapısı yüklenemedi ({str(_kh)[:70]}) → atlandı", flush=True)
+        return None
+
+
+_KAPI_AZAMI_DENEME = 3
+
+
 def metadata_uret(senaryo: str) -> dict:
     try:
-        yanit = bridge.gemini_metin_uret(
-            prompt=f"Script:\n{senaryo}",
-            sistem_promptu=METADATA_SISTEM_PROMPTU,
-            sicaklik=0.6,
-            max_token=2048,
-        )
-        eslesme = re.search(r"\{.*\}", yanit, re.DOTALL)
-        if not eslesme:
-            raise RuntimeError(f"Metadata JSON çıkmadı:\n{yanit}")
-        veri = json.loads(eslesme.group(0))
-        veri.setdefault("title", "")
-        veri.setdefault("description", "")
-        veri.setdefault("tags", [])
-        return _metadata_dogrula(veri)
+        veri = None
+        _son_red = None
+        for _deneme in range(_KAPI_AZAMI_DENEME):
+            _ek = ""
+            if _son_red:
+                _ek = (
+                    f"\n\n🔴 YOUR PREVIOUS TITLE WAS REJECTED ({_son_red}). "
+                    "Rewrite the title so it contains an explicit MEASURED COMPARISON "
+                    "against something the viewer already knows (Earth, the Sun, the Moon, "
+                    "the Solar System, the Milky Way) — e.g. 'three times wider than the "
+                    "Solar System', 'could hold one billion Suns', 'brighter than a million "
+                    "Suns'. A number alone is NOT a comparison. Stay 100% faithful to the "
+                    "script — if the script has no comparison, derive one only from numbers "
+                    "the script itself states. Do NOT use vague magnitude words."
+                )
+            yanit = bridge.gemini_metin_uret(
+                prompt=f"Script:\n{senaryo}{_ek}",
+                sistem_promptu=METADATA_SISTEM_PROMPTU,
+                sicaklik=0.6 if _deneme == 0 else 0.85,
+                max_token=2048,
+            )
+            eslesme = re.search(r"\{.*\}", yanit, re.DOTALL)
+            if not eslesme:
+                raise RuntimeError(f"Metadata JSON çıkmadı:\n{yanit}")
+            aday = json.loads(eslesme.group(0))
+            aday.setdefault("title", "")
+            aday.setdefault("description", "")
+            aday.setdefault("tags", [])
+            aday = _metadata_dogrula(aday)
+            _red = baslik_kapisi(aday["title"])
+            if _red is None:
+                if _deneme:
+                    print(f"[yukleyici] ✅ G6/G7 kapısı {_deneme + 1}. denemede geçildi", flush=True)
+                aday["_kiyas_kapisi"] = "GECTI"
+                return aday
+            print(f"[yukleyici] TITLE GATE red ({_red}) deneme {_deneme + 1}/"
+                  f"{_KAPI_AZAMI_DENEME}: {aday['title'][:60]}…", flush=True)
+            _son_red = _red
+            veri = aday
+        # Starvation koruması: video zaten render edildi, yayını iptal etmiyoruz.
+        # Son adayı yayınla ama kapı sonucunu logla — 25 Ağu ölçümünde ayrışsın.
+        print(f"[yukleyici] ⚠️ G6/G7 kapısı {_KAPI_AZAMI_DENEME} denemede geçilemedi "
+              f"({_son_red}) — son aday yayınlanıyor", flush=True)
+        veri["_kiyas_kapisi"] = f"RED:{_son_red}"
+        return veri
     except Exception as _h:
         print(f"[yukleyici] metadata Gemini düştü ({str(_h)[:90]}) → senaryodan basit metadata", flush=True)
         _ilk = (senaryo or "").strip().split("\n")[0].strip()[:90] or "Did You Know?"
-        return _metadata_dogrula({"title": _ilk, "description": (senaryo or "").strip()[:400], "tags": _METADATA_YEDEK})
+        _yedek = _metadata_dogrula({"title": _ilk, "description": (senaryo or "").strip()[:400], "tags": _METADATA_YEDEK})
+        _yr = baslik_kapisi(_yedek["title"])
+        _yedek["_kiyas_kapisi"] = "GECTI" if _yr is None else f"RED:{_yr} (yedek metadata)"
+        return _yedek
 
 
 def metadatayi_denetlet(veri: dict, senaryo: str) -> dict:
@@ -373,8 +429,24 @@ def main() -> int:
         _alt(f"Tags:     {', '.join(veri['tags'])}")
 
         _adim(3, "Metin paketi içerik denetimine gönderiliyor...")
+        _kapi_oncesi = veri["title"]
         veri = metadatayi_denetlet(veri, senaryo)
         _alt(f"Final title: {veri['title']}")
+
+        # 15 Ağu: denetim REVIZE ederse başlığı değiştirebiliyor → kapıyı SON
+        # başlıkta bir kez daha ölç. Denetim kapıyı bozduysa (öncesi geçmişti,
+        # sonrası kalmadı) yayını durdurmuyoruz ama kaydı doğru etiketliyoruz.
+        _son_kapi = baslik_kapisi(veri["title"])
+        if _son_kapi is None:
+            veri["_kiyas_kapisi"] = "GECTI"
+        else:
+            if veri.get("_kiyas_kapisi") == "GECTI" and veri["title"] != _kapi_oncesi:
+                _alt(f"⚠️ Denetim revizesi G6/G7 kapısını bozdu ({_son_kapi}) — "
+                     f"önceki: {_kapi_oncesi[:55]}…")
+                veri["_kiyas_kapisi"] = f"RED:{_son_kapi} (denetim revizesi)"
+            else:
+                veri["_kiyas_kapisi"] = f"RED:{_son_kapi}"
+        _alt(f"G6/G7 kıyas kapısı: {veri['_kiyas_kapisi']}")
 
         _adim("3b", "Yayın uygunluk denetimi (telif/clickbait/olgusal/politika/marka)...")
         # Kaynak haberi denetime ver — olgusal denetim 'senaryo kaynağa sadık mı'
@@ -511,6 +583,9 @@ def main() -> int:
             "studio_url": studio_url,
             "denetim_notu": denetim_notu,
             "denetim_karari": denetim["karar"],
+            # 15 Ağu: 25 Ağu'daki yeniden ölçüm için kapı sonucu kayda geçiyor —
+            # "kıyas VAR/YOK" ayrımı artık regex'i sonradan çalıştırmaya kalmıyor.
+            "kiyas_kapisi": veri.get("_kiyas_kapisi", "OLCULMEDI"),
         })
         _alt(f"Log: {YUKLEME_LOGU.name} güncellendi")
 
