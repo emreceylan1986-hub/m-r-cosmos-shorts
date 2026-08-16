@@ -1,16 +1,16 @@
 {
-  "uretim_zamani": "2026-08-16T22:24:21.168369+00:00",
+  "uretim_zamani": "2026-08-16T23:22:26.223040+00:00",
   "haberler": [
     {
-      "baslik": "Sun's core temperature is twenty seven million degrees hotter than boiling water",
-      "url": "https://en.wikipedia.org/wiki/Solar_core",
+      "baslik": "Halley's Comet Reflects Less Light Than Charcoal Yet Shines Brighter Than Stars",
+      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ceres dwarf planet holds more fresh water than all Earth's rivers combined",
+      "baslik": "Ceres Dwarf Planet Holds More Fresh Water Than All of Earth's Combined Rivers and Lakes",
       "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
       "kaynak": "gemini-fallback",
       "skor": 998,
