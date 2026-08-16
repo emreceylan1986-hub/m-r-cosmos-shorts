@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-08-16T21:22:50.215211+00:00",
+  "uretim_zamani": "2026-08-16T22:24:21.168369+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse: The Red Supergiant Swelling Deeper Than Jupiter's Orbit",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "baslik": "Sun's core temperature is twenty seven million degrees hotter than boiling water",
+      "url": "https://en.wikipedia.org/wiki/Solar_core",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ganymede's Hidden Ocean Contains More Water Than All Earth's Oceans Combined",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ceres: The Dwarf Planet Hiding More Fresh Water Than Earth",
+      "baslik": "Ceres dwarf planet holds more fresh water than all Earth's rivers combined",
       "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
