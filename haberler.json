@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-17T20:30:38.608475+00:00",
+  "uretim_zamani": "2026-08-17T21:28:45.587376+00:00",
   "haberler": [
     {
-      "baslik": "Mars's Dust Storms Vs Earth's Hurricanes: The Great Solar System Storm Battle",
-      "url": "https://en.wikipedia.org/wiki/Climate_of_Mars",
+      "baslik": "Titan's Secret: Methane Raindrops Drift Six Times Slower Than Earth's Rain",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Enceladus's Hidden Ocean: Geysers Shoot Water Forty Times Higher Than Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Saturn's Rings Vs Earth: Ice Sheets 100 Times Thinner Than a Single Sheet of Paper",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
