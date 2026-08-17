@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-16T23:22:26.223040+00:00",
+  "uretim_zamani": "2026-08-17T19:31:16.668992+00:00",
   "haberler": [
     {
-      "baslik": "Halley's Comet Reflects Less Light Than Charcoal Yet Shines Brighter Than Stars",
-      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
+      "baslik": "La Superba: The Cosmic Fireball That Is Three Times Cooler Than Our Sun",
+      "url": "https://en.wikipedia.org/wiki/La_Superba",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ceres Dwarf Planet Holds More Fresh Water Than All of Earth's Combined Rivers and Lakes",
-      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
