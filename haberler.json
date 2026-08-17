@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-08-17T21:28:45.587376+00:00",
+  "uretim_zamani": "2026-08-17T22:28:31.977202+00:00",
   "haberler": [
     {
-      "baslik": "Titan's Secret: Methane Raindrops Drift Six Times Slower Than Earth's Rain",
+      "baslik": "Titan's Methane Lakes Hold Hundreds of Times More Energy Than Earth's Oil Reserves",
       "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Enceladus's Hidden Ocean: Geysers Shoot Water Forty Times Higher Than Mount Everest",
+      "baslik": "Enceladus Ice Plumes Shoot Water Higher Than Mount Everest",
       "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Saturn's Rings Vs Earth: Ice Sheets 100 Times Thinner Than a Single Sheet of Paper",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
