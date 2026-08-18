@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-08-18T19:30:11.687776+00:00",
+  "uretim_zamani": "2026-08-18T20:28:45.142633+00:00",
   "haberler": [
     {
-      "baslik": "Europa: The Ice Moon Hiding a Global Ocean Deeper Than Earth's Marianas Trench",
-      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Enceladus's Secret: Geysers Shooting Water Eighty Miles Higher Than Mount Everest",
+      "baslik": "Enceladus shoots water geysers ten times higher than Mount Everest",
       "url": "https://en.wikipedia.org/wiki/Enceladus",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Titan Vs Earth: The Cold Moon Where Lakes of Liquid Gas Run Wider Than Lake Superior",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
