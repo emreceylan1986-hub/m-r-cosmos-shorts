@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-17T23:26:34.490695+00:00",
+  "uretim_zamani": "2026-08-18T19:30:11.687776+00:00",
   "haberler": [
     {
-      "baslik": "Ganymede: The Impossible Ocean Bigger Than All of Earth's",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Europa: The Ice Moon Hiding a Global Ocean Deeper Than Earth's Marianas Trench",
+      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Iapetus: Saturn's Strangest Moon With a Wall Taller Than Everest",
-      "url": "https://en.wikipedia.org/wiki/Iapetus_(moon)",
+      "baslik": "Enceladus's Secret: Geysers Shooting Water Eighty Miles Higher Than Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Titan's Atmosphere: A Human Could Fly With Wings Smaller Than a Bird's",
+      "baslik": "Titan Vs Earth: The Cold Moon Where Lakes of Liquid Gas Run Wider Than Lake Superior",
       "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
