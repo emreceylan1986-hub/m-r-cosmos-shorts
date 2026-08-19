@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-19T22:29:44.310845+00:00",
+  "uretim_zamani": "2026-08-19T23:25:58.787094+00:00",
   "haberler": [
     {
-      "baslik": "Bootes Void Is A Cosmic Desert So Empty That Two Thousand Milky Way Galaxies Could Fit Inside It",
-      "url": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_void",
+      "baslik": "Maffei 1: The Giant Galaxy Hiding Behind Cosmic Dust Ten Times Thicker Than Fog",
+      "url": "https://en.wikipedia.org/wiki/Maffei_1",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Triangulum Galaxy: A Star Factory Creating New Suns Ten Times Faster Than the Milky Way",
+      "url": "https://en.wikipedia.org/wiki/Triangulum_Galaxy",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sculptor Galaxy: A Starburst Hub Blowing Out Winds of Gas Hotter Than a Nuclear Reactor",
+      "url": "https://en.wikipedia.org/wiki/Sculptor_Galaxy",
+      "kaynak": "gemini-fallback",
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
