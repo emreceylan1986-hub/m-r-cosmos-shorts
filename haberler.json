@@ -1,30 +1,11 @@
 {
-  "uretim_zamani": "2026-08-18T23:25:09.633469+00:00",
+  "uretim_zamani": "2026-08-19T19:28:25.234335+00:00",
   "haberler": [
     {
-      "baslik": "A neutron star teaspoon would weigh a billion tons",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
-      "ozet": "The densest matter in the universe",
-      "kaynak": "evergreen",
-      "skor": 900,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Saturn's moon Titan has lakes of liquid methane",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
-      "ozet": "The only other world with surface liquid",
-      "kaynak": "evergreen",
-      "skor": 900,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Saturn's rings are made of billions of ice chunks",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
-      "ozet": "From dust grains to house-sized boulders",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Eris: The Frozen World Plunging Fifty Times Further Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Eris_(dwarf_planet)",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
