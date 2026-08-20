@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-20T21:30:56.842159+00:00",
+  "uretim_zamani": "2026-08-20T22:31:15.386199+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-10b: A Scorching Lava World Whirling Twenty Times Closer Than Mercury",
-      "url": "https://en.wikipedia.org/wiki/Kepler-10b",
+      "baslik": "LHS 1140 b's Hidden Ocean: An Ice World with More Water Than Earth!",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kepler-62f's Secret: A Giant Water World Larger Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Kepler-62f",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ross 128 b's Secret: An Earth-Sized World Cooler Than Venus",
+      "url": "https://en.wikipedia.org/wiki/Ross_128_b",
+      "kaynak": "gemini-fallback",
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
