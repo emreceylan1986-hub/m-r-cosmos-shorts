@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-08-20T22:31:15.386199+00:00",
+  "uretim_zamani": "2026-08-20T23:28:18.968583+00:00",
   "haberler": [
     {
-      "baslik": "LHS 1140 b's Hidden Ocean: An Ice World with More Water Than Earth!",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "baslik": "WASP-121b has upper atmospheres glowing six times hotter than molten steel",
+      "url": "https://en.wikipedia.org/wiki/WASP-121b",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "HD 189733 b winds blow seven times faster than the speed of sound",
+      "url": "https://en.wikipedia.org/wiki/HD_189733_b",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kepler-62f's Secret: A Giant Water World Larger Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Kepler-62f",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ross 128 b's Secret: An Earth-Sized World Cooler Than Venus",
-      "url": "https://en.wikipedia.org/wiki/Ross_128_b",
-      "kaynak": "gemini-fallback",
-      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
