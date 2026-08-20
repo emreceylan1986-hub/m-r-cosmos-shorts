@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-08-19T23:25:58.787094+00:00",
+  "uretim_zamani": "2026-08-20T19:34:12.804788+00:00",
   "haberler": [
     {
-      "baslik": "Maffei 1: The Giant Galaxy Hiding Behind Cosmic Dust Ten Times Thicker Than Fog",
-      "url": "https://en.wikipedia.org/wiki/Maffei_1",
+      "baslik": "Kepler-186f Vs Earth: A Sunset That Shines Three Times Dimmer",
+      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Triangulum Galaxy: A Star Factory Creating New Suns Ten Times Faster Than the Milky Way",
-      "url": "https://en.wikipedia.org/wiki/Triangulum_Galaxy",
+      "baslik": "Kepler-1649c's Secret: A Frozen Clone That Receives Less Light Than Mars",
+      "url": "https://en.wikipedia.org/wiki/Kepler-1649c",
       "kaynak": "gemini-fallback",
-      "skor": 992,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sculptor Galaxy: A Starburst Hub Blowing Out Winds of Gas Hotter Than a Nuclear Reactor",
-      "url": "https://en.wikipedia.org/wiki/Sculptor_Galaxy",
-      "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
