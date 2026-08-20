@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-08-20T19:34:12.804788+00:00",
+  "uretim_zamani": "2026-08-20T20:32:02.929753+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-186f Vs Earth: A Sunset That Shines Three Times Dimmer",
-      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
+      "baslik": "Kepler-1229b: The Red Dwarf Planet Receiving Sixty Percent Less Light Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Kepler-1229b",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-1649c's Secret: A Frozen Clone That Receives Less Light Than Mars",
-      "url": "https://en.wikipedia.org/wiki/Kepler-1649c",
+      "baslik": "WASP-121b: The Heavy Metal Planet Losing Iron Ten Times Faster Than Earth's Escape Velocity",
+      "url": "https://en.wikipedia.org/wiki/WASP-121b",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
