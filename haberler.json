@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-21T21:28:23.806097+00:00",
+  "uretim_zamani": "2026-08-21T22:29:22.404918+00:00",
   "haberler": [
     {
-      "baslik": "Stephenson 2-18: The Impossible Star Bigger Than Ten Thousand Suns",
-      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
+      "baslik": "Betelgeuse: The Impossible Mystery of a Star Swelling Sixty Thousand Times Brighter than the Sun",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pistol Star Shines Brighter Than One Million Suns",
-      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
+      "baslik": "Supernova 1987A: The Unseen Ghost Star That Left Behind a Ring of Fire Brighter than Ten Million Suns",
+      "url": "https://en.wikipedia.org/wiki/SN_1987A",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "K2-18b: The Secret Alien Ocean Cold Enough to Support Earth Life",
-      "url": "https://en.wikipedia.org/wiki/K2-18b",
+      "baslik": "VY Canis Majoris: The Red Hypergiant Swelling Eight Long Years of Light Travel Beyond the Sun",
+      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
       "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
