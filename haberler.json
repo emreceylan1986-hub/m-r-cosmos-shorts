@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-21T22:29:22.404918+00:00",
+  "uretim_zamani": "2026-08-21T23:27:40.547781+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse: The Impossible Mystery of a Star Swelling Sixty Thousand Times Brighter than the Sun",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Supernova 1987A: The Unseen Ghost Star That Left Behind a Ring of Fire Brighter than Ten Million Suns",
-      "url": "https://en.wikipedia.org/wiki/SN_1987A",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "VY Canis Majoris: The Red Hypergiant Swelling Eight Long Years of Light Travel Beyond the Sun",
+      "baslik": "VY Canis Majoris red hypergiant star is two thousand times wider than the Sun",
       "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
