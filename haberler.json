@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-21T19:28:31.264316+00:00",
+  "uretim_zamani": "2026-08-21T20:28:56.660099+00:00",
   "haberler": [
     {
-      "baslik": "Crab Pulsar: The Dying Star Spinning Thirty Times Faster Than a Blender",
-      "url": "https://en.wikipedia.org/wiki/Crab_Pulsar",
+      "baslik": "Neutron Star Vs Sun: One Teaspoon Weighs More Than Mount Everest!",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pleiades Star Cluster Vs Milky Way: Moving Ten Times Faster Through Space",
-      "url": "https://en.wikipedia.org/wiki/Pleiades",
+      "baslik": "Pistol Star: A Cosmic Firework Shining Four Million Times Brighter Than the Sun!",
+      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Castor: The Impossible Six-Star System Packing Six Suns Inside One Tiny Orbit",
-      "url": "https://en.wikipedia.org/wiki/Castor_(star)",
+      "baslik": "WOH G64: The Red Supergiant Wearing a Dust Cloak Nine Times Wider Than Our Solar System!",
+      "url": "https://en.wikipedia.org/wiki/WOH_G64",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
