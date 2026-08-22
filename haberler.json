@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-08-22T20:26:30.238884+00:00",
+  "uretim_zamani": "2026-08-22T21:25:03.883875+00:00",
   "haberler": [
     {
-      "baslik": "Proxima Centauri b: The Target Star Swallowed by Radiation Four Hundred Times Stronger Than Earth's",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Teegarden's Star b: The Pristine World Getting Eighty Percent More Energy Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kepler-452b: The Aging Giant World Getting Ten Percent More Solar Energy Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
+      "baslik": "GJ 357 d: A Frozen Super-Earth Sitting Farther Than the Habitable Zone Edge",
+      "url": "https://en.wikipedia.org/wiki/GJ_357_d",
       "kaynak": "gemini-fallback",
       "skor": 993,
       "yas_saat": 0,
