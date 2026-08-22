@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-08-22T21:25:03.883875+00:00",
+  "uretim_zamani": "2026-08-22T22:25:23.659848+00:00",
   "haberler": [
     {
-      "baslik": "GJ 357 d: A Frozen Super-Earth Sitting Farther Than the Habitable Zone Edge",
-      "url": "https://en.wikipedia.org/wiki/GJ_357_d",
+      "baslik": "K2-18b atmosphere contains water vapor twice as abundant as Earth's skies",
+      "url": "https://en.wikipedia.org/wiki/K2-18b",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "TOI-715 b is an ocean world one and a half times wider than Earth",
+      "url": "https://en.wikipedia.org/wiki/TOI-715_b",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
