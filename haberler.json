@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-08-22T19:25:39.481729+00:00",
+  "uretim_zamani": "2026-08-22T20:26:30.238884+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-22b: A Giant Ocean World Double the Size of Earth",
-      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
+      "baslik": "Proxima Centauri b: The Target Star Swallowed by Radiation Four Hundred Times Stronger Than Earth's",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TOI-700 d: The Hidden Oasis That Receives Less Light Than Mars",
-      "url": "https://en.wikipedia.org/wiki/TOI-700_d",
+      "baslik": "Teegarden's Star b: The Pristine World Getting Eighty Percent More Energy Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
       "kaynak": "gemini-fallback",
       "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-62f: A Frozen Water Empire Hiding Under Ice Deeper Than Our Oceans",
-      "url": "https://en.wikipedia.org/wiki/Kepler-62f",
+      "baslik": "Kepler-452b: The Aging Giant World Getting Ten Percent More Solar Energy Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
       "kaynak": "gemini-fallback",
       "skor": 993,
       "yas_saat": 0,
