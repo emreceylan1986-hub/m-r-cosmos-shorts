@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-21T23:27:40.547781+00:00",
+  "uretim_zamani": "2026-08-22T19:25:39.481729+00:00",
   "haberler": [
     {
-      "baslik": "VY Canis Majoris red hypergiant star is two thousand times wider than the Sun",
-      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
+      "baslik": "Kepler-22b: A Giant Ocean World Double the Size of Earth",
+      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "TOI-700 d: The Hidden Oasis That Receives Less Light Than Mars",
+      "url": "https://en.wikipedia.org/wiki/TOI-700_d",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kepler-62f: A Frozen Water Empire Hiding Under Ice Deeper Than Our Oceans",
+      "url": "https://en.wikipedia.org/wiki/Kepler-62f",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
