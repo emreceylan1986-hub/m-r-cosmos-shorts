@@ -206,16 +206,21 @@ def _ab_kolu() -> str:
     izlenme YÜZDESİ değişmedi (%57-77) → içerik değil dağıtım sorunu.
     Kapının sebep olup olmadığı ancak eşzamanlı kontrol grubuyla anlaşılır.
 
-    Günün 1. ve 3. videosu KAPILI, 2. ve 4. videosu KAPISIZ → iki kol aynı günlere,
-    yakın yayın saatlerine ve aynı konu havuzuna dağılır (saat etkisi dengelenir)."""
+    Günün videoları sırayla KAPILI/KAPISIZ diye bölünür. 🔴 KRİTİK: bölünme GÜN
+    PARİTESİYLE de kaydırılır. Sabit "1. ve 3. video kapılı" olsaydı kapılı kol hep
+    aynı yayın saatlerine (hedef saatlerin 1. ve 3.'ü) düşerdi; saat etkisi bu kanalda
+    2-3 kat (23→599 · 20→186) olduğu için A/B baştan taraflı çıkardı. Tek gün atlamalı
+    kaydırma ile 7 günde her kol her hedef saati yaklaşık eşit sayıda görür."""
     from datetime import datetime as _dt, timezone as _tz
     try:
         kayitlar = json.loads(YUKLEME_LOGU.read_text(encoding="utf-8"))
-        bugun = _dt.now(_tz.utc).strftime("%Y-%m-%d")
+        simdi = _dt.now(_tz.utc)
+        bugun = simdi.strftime("%Y-%m-%d")
         sira = sum(1 for k in kayitlar if str(k.get("zaman", ""))[:10] == bugun)
+        gun = simdi.timetuple().tm_yday
     except Exception:
         return "KAPILI"
-    return "KAPILI" if sira % 2 == 0 else "KAPISIZ"
+    return "KAPILI" if (sira + gun) % 2 == 0 else "KAPISIZ"
 
 
 def metadata_uret(senaryo: str) -> dict:
@@ -693,29 +698,57 @@ def main() -> int:
 
 
 
+# Cosmos ölçümü 23 Ağu: 23→599 · 19→448 · 18→382 · 21→337 (medyan izlenme, n≥10)
+HEDEF_SAATLER = (18, 19, 21, 23)
+
+
 def _gunluk_tavan_kontrolu(tavan: int = 4) -> None:
-    """31 Tem: yığın basım sigortası · 7 Ağu: GÜNLÜK HEDEF kapısına dönüştü.
-    Tavan = kanalın günlük video hedefi (4). main.yml'de hedeften FAZLA cron
-    saati var; kaçan slotlar sonraki saatte telafi edilir, hedef dolunca fazla
-    çalışmalar burada zarifçe durur. (Eski "yedek tetik" workflow'u GITHUB_TOKEN
-    ile yeni run başlatamadığı için HİÇ çalışmamıştı — bu tasarım onun yerine geçer.)
-    Orijinal gerekçe: 2 Tem'de 83 videonun tek günde
-    yayınlanması TrendCatcher'ın feed dağıtımını kalıcı öldürdü. Bu guard,
-    kaynağı ne olursa olsun (cron kazası, elle tetik, script hatası) bir günde
-    tavandan fazla upload'u KOD SEVİYESİNDE imkânsızlaştırır."""
+    """HEDEF SAAT KAPISI — 23 Ağu 2026'da yeniden yazıldı.
+
+    ESKİ TASARIMIN TUZAĞI (iki kanalı da vurdu, kanıtlı):
+      main.yml'de hedeften FAZLA cron saati vardı ve kapı sadece "bugün kaç video
+      yayınlandı" diye bakıyordu. Sonuç: günün ERKEN slotları tavanı doldurunca
+      ÖLÇÜLMÜŞ EN İYİ AKŞAM SLOTLARI HİÇ ATEŞLENMİYORDU.
+      · Akasha 7 Ağu: cron'a 13 UTC telafi slotu eklendi → yayınlar 10/13/16/18'e
+        kaydı, 20-21 UTC tamamen kayboldu. Prime bantta yayın %49 → %25.
+        Günlük izlenme 1.012 → 164. Sebep 16 gün boyunca fark edilmedi.
+      · Cosmos 23 Ağu ölçümü: en iyi saat 23 UTC (medyan 599) ama tavan 19-22'de
+        dolduğu için son 7 günde 23 UTC'de TEK video yok.
+
+    YENİ KURAL:
+      HEDEF_SAATLER = kanalın ölçülmüş en iyi saatleri. Bir koşu ancak
+        (a) hedef saatteyse, ya da
+        (b) TELAFİ saatinde AMA gün programın gerisindeyse
+      yayın yapar. Böylece telafi slotu, kendisinden SONRAKİ hedef saatin
+      kontenjanını ASLA yiyemez. Tavan da korunur (hedef saat sayısı = günlük hedef).
+    """
     import sys as _sys
     from datetime import datetime as _dt, timezone as _tz
     try:
         kayitlar = json.loads(YUKLEME_LOGU.read_text(encoding="utf-8"))
     except Exception:
         return  # log okunamıyorsa upload'u engelleme
-    bugun = _dt.now(_tz.utc).strftime("%Y-%m-%d")
+    simdi = _dt.now(_tz.utc)
+    bugun = simdi.strftime("%Y-%m-%d")
     sayi = sum(1 for k in kayitlar
                if str(k.get("zaman", k.get("tarih", "")))[:10] == bugun)
-    if sayi >= tavan:
-        print(f"⛔ GÜNLÜK UPLOAD TAVANI: bugün {sayi} yayın var (tavan {tavan}). "
+    hedef = HEDEF_SAATLER
+    if sayi >= len(hedef):
+        print(f"⛔ GÜNLÜK HEDEF DOLDU: bugün {sayi} yayın var (hedef {len(hedef)}). "
               f"Yığın basım koruması — upload atlandı.", flush=True)
         _sys.exit(0)
+    if simdi.hour in hedef:
+        print(f"[slot] {simdi.hour:02d} UTC HEDEF saat — yayın açık ({sayi}/{len(hedef)})", flush=True)
+        return
+    gecmis_hedef = sum(1 for h in hedef if h < simdi.hour)
+    if sayi < gecmis_hedef:
+        print(f"[slot] {simdi.hour:02d} UTC telafi — gün geride ({sayi} yayın, "
+              f"{gecmis_hedef} hedef saat geçti) → yayın açık", flush=True)
+        return
+    print(f"⏭️ {simdi.hour:02d} UTC telafi slotu ATLANDI: gün programında "
+          f"({sayi} yayın / {gecmis_hedef} geçmiş hedef saat). Sıradaki hedef saat "
+          f"{[h for h in hedef if h > simdi.hour] or 'yok'} korunuyor.", flush=True)
+    _sys.exit(0)
 
 
 if __name__ == "__main__":

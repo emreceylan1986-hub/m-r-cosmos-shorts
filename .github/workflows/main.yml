@@ -13,7 +13,12 @@ on:
     # yeni küme hedef bandın tamamında (medyan 434). ABD Doğu prime-time.
     # ⚠️ 00-02 UTC KULLANMA: yukleyici günlük sayacı UTC tarihine bakıyor,
     #   gece yarısını geçen slot sayacı sıfırlar → günde 4 yerine 6 upload olur.
-    - cron: "0 19,20,21,22,23 * * *"
+    # 23 Ağu: HEDEF SAAT KAPISI geldi (yukleyici.HEDEF_SAATLER = 18,19,21,23).
+    #   Ölçüm (n≥10, olgun Shorts): 23→599 · 19→448 · 18→382 · 21→337 · 22→270 · 20→186.
+    #   ESKİ TUZAK: tavan 19-22'de dolduğu için EN İYİ saat olan 23 UTC'de son 7 günde
+    #   TEK video yayınlanmamıştı. Artık 20 ve 22 sadece TELAFİ; gün geride değilse
+    #   atlanır ve 21/23 hedef slotlarının kontenjanını yiyemez.
+    - cron: "0 18,19,20,21,22,23 * * *"
   workflow_dispatch:
     inputs:
       gizlilik:

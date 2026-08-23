@@ -1,0 +1,11 @@
+## 📉 İZLENME DÜŞÜŞÜ %57 (eşik %30)
+## 🕐 YAYINLARIN %74'İ KÖTÜ SAAT BANDINDA — cron'a hedeften ÖNCE telafi slotu eklenmiş olabilir (7 Ağu Akasha tuzağı)
+
+son 7 gün ort **871** izlenme/gün · önceki 14 gün ort **2032** → -%57
+kırılma günü tahmini: **2026-08-16** (medyan %68 düştü)
+kırılma penceresindeki değişiklikler:
+  - `08-16 22:19 hafta-rapor: 2026-08-16`
+  - `08-16 03:00 long-form: 12`
+  - `08-15 09:35 🔴 G6 kapısı YANLIŞ KATMANDAYDI — yayınlanan başlığa taşındı`
+ölçülmüş en iyi saatler (UTC): 23→599(n11), 00→565(n10), 19→448(n10), 18→382(n15)
+son 7 günün yayın saatleri: 18:1, 19:7, 20:7, 21:8, 22:8 → prime bantta %26
