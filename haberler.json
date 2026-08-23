@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-08-23T22:18:36.069344+00:00",
+  "uretim_zamani": "2026-08-23T23:18:36.529697+00:00",
   "haberler": [
     {
-      "baslik": "Sun's core is fifteen million degrees Celsius, hot enough to melt a diamond in microseconds",
-      "url": "https://en.wikipedia.org/wiki/Solar_core",
+      "baslik": "WASP-17b: The Fluffy Exoplanet Twice As Wide As Jupiter But Half Its Weight",
+      "url": "https://en.wikipedia.org/wiki/WASP-17b",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
