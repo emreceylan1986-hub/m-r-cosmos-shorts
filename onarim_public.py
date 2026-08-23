@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
-"""Bakım: private videoları public yap + Q/A-önekli bozuk başlıkları onar.
+"""Bakım: KAZARA private kalan videoları public yap + Q/A-önekli bozuk başlıkları onar.
 GitHub Actions'ta çalışır (Mac'te googleapis DNS engelli). Idempotent.
-NOT: Denetim-RED videosu olan kanallarda (Akasha) KULLANMA — orada private bilinçli."""
+
+🔴 23 Ağu düzeltmesi: "burada bilinçli private yok" varsayımı YANLIŞTI. yukleyici.py
+hook QC skoru <5 veya denetim SUPHELI/REDDED olunca gizliliği kendisi private'a çevirip
+yuklemeler.json'a "gizlilik": "private" yazıyor (log'da 12 kayıt). Onarıcı bu alanı
+okumadığı için kalite kapısının reddettiği videoyu ertesi gün public yapıyordu →
+kapı ETKİSİZ. Kanıt: Gp1cTITX3TQ (22 Ağu, hook QC 3/10 "dancing person, uzayla ilgisiz").
+Artık kayıtta gizlilik=private olan video KASITLI sayılır, açılmaz."""
 import json, re
 from pathlib import Path
 
@@ -27,6 +33,24 @@ def yt_client():
     if creds.expired and creds.refresh_token:
         creds.refresh(Request())
     return build("youtube", "v3", credentials=creds)
+
+
+def kasitli_private_idler(items) -> set:
+    """yukleyici.py'nin BİLEREK private yüklediği videolar (hook QC <5 / denetim RED).
+
+    Kayıttaki "gizlilik" alanı override'lardan SONRAKİ karardır: public yazıyorsa
+    yayın isteniyordu (canlıda private kaldıysa kaza → aç), private yazıyorsa kalite
+    kapısı reddetmiştir (→ açma)."""
+    out = set()
+    for k in items:
+        if str(k.get("gizlilik", "")).lower() == "private":
+            vid = k.get("video_id") or ""
+            if not vid and k.get("watch_url"):
+                m = re.search(r"(?:youtu\.be/|v=)([\w-]{11})", k["watch_url"])
+                vid = m.group(1) if m else ""
+            if vid:
+                out.add(vid)
+    return out
 
 
 def video_idler():
@@ -75,24 +99,26 @@ def main():
     d = json.loads(Path("yuklemeler.json").read_text())
     items = d if isinstance(d, list) else d.get("yuklemeler", [])
     esik = (datetime.datetime.now() - datetime.timedelta(days=14)).strftime("%Y-%m-%d")
+    kasitli = kasitli_private_idler(items)
     yeni_idler = set()
     for k in items:
         vid = k.get("video_id") or ""
         if not vid and k.get("watch_url"):
             m = re.search(r"(?:youtu\.be/|v=)([\w-]{11})", k["watch_url"])
             vid = m.group(1) if m else ""
-        if vid and str(k.get("zaman", ""))[:10] >= esik:
+        if vid and vid not in kasitli and str(k.get("zaman", ""))[:10] >= esik:
             yeni_idler.add(vid)
     vids = [v for v in vids if v in yeni_idler]
-    print(f"{len(vids)} video kayıtlı (son 14 gün filtresi) — tarama başlıyor")
+    print(f"{len(vids)} video kayıtlı (son 14 gün filtresi) — tarama başlıyor "
+          f"(kasıtlı private korunuyor: {len(kasitli)})")
     acilan = onarilan = 0
     for i in range(0, len(vids), 50):
         grup = vids[i:i + 50]
         resp = yt.videos().list(part="status,snippet", id=",".join(grup)).execute()
         for item in resp.get("items", []):
             vid = item["id"]
-            # 1) private → public
-            if item["status"]["privacyStatus"] == "private":
+            # 1) private → public (kasıtlı private ikinci kapıda da korunur)
+            if item["status"]["privacyStatus"] == "private" and vid not in kasitli:
                 yt.videos().update(part="status", body={
                     "id": vid,
                     "status": {"privacyStatus": "public",

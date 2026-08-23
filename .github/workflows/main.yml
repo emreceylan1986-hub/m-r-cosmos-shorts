@@ -206,6 +206,29 @@ jobs:
             rm -f .basarili_yayin
           fi
 
+      # 23 Ağu: bu adım YOKTU — yukleyici .denetim_uyari yazıyordu ama kimse okumuyordu.
+      # Sonuç: hook QC <5 yüzünden private kalan video (Gp1cTITX3TQ) sessizce kayboldu.
+      - name: Kalite/denetim uyarısı (private kalan video → issue)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f .denetim_uyari ]; then
+            NOT=$(cat .denetim_uyari)
+            gh issue create \
+              --title "⚠️ CosmoBytes kalite kapısı — run #${{ github.run_number }}" \
+              --body "Kalite/uygunluk kapısı videoyu reddetti, PRIVATE yüklendi ve bakım
+          onarıcısı da BİLEREK açmayacak (23 Ağu kuralı).
+
+          **Sebep:** $NOT
+
+          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          İncele: https://studio.youtube.com/ → CosmoBytes → Content → en yeni video.
+          Uygunsa elle Public yap, değilse sil. Karar verince bu issue'yu kapat."
+            rm -f .denetim_uyari
+          fi
+
       - name: Hata bildirimi
         if: failure()
         env:
