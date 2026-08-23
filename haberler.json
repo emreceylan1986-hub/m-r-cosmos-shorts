@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-08-22T23:23:54.257782+00:00",
+  "uretim_zamani": "2026-08-23T18:24:16.051220+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 667 Cc: The Impossible Three-Sun Sunset Brighter Than Earth's",
-      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
+      "baslik": "Vesta—The Impossible Asteroid with a Mountain Three Times Taller than Everest",
+      "url": "https://en.wikipedia.org/wiki/4_Vesta",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TOI-700 d: The Habitable Ocean Planet Twice as Small as Neptune",
-      "url": "https://en.wikipedia.org/wiki/TOI-700_d",
+      "baslik": "Halley's Comet Vs Earth's Atmosphere: A Dust Storm Forty Times Faster than a Bullet",
+      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
       "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kepler-452b's Secret: A World Six Billion Years Older Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
