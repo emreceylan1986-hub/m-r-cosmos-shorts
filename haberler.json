@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-23T18:24:16.051220+00:00",
+  "uretim_zamani": "2026-08-23T19:20:22.296895+00:00",
   "haberler": [
     {
-      "baslik": "Vesta—The Impossible Asteroid with a Mountain Three Times Taller than Everest",
-      "url": "https://en.wikipedia.org/wiki/4_Vesta",
+      "baslik": "Gliese 504b: The Impossible Pink World Sweeter Than Cotton Candy",
+      "url": "https://en.wikipedia.org/wiki/Gliese_504b",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Halley's Comet Vs Earth's Atmosphere: A Dust Storm Forty Times Faster than a Bullet",
-      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
