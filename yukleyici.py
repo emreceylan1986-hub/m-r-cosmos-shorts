@@ -197,7 +197,32 @@ def baslik_kapisi(b: str) -> str | None:
 _KAPI_AZAMI_DENEME = 3
 
 
+def _ab_kolu() -> str:
+    """23 Ağu A/B: G6 kıyas kapısı bugünün KAÇINCI videosu olduğuna göre açılır/kapanır.
+
+    Neden: kapı 15 Ağu'da %100 uygulanır olunca kontrol grubu KALMADI (31/31 GECTI),
+    yani 25 Ağu için planlanan yeniden ölçüm yapılamaz hale gelmişti. Aynı dönemde
+    kanal günlük izlenmesi 13 Ağu 3.136 → 14 Ağu 973'e düştü ve bir daha toparlamadı;
+    izlenme YÜZDESİ değişmedi (%57-77) → içerik değil dağıtım sorunu.
+    Kapının sebep olup olmadığı ancak eşzamanlı kontrol grubuyla anlaşılır.
+
+    Günün 1. ve 3. videosu KAPILI, 2. ve 4. videosu KAPISIZ → iki kol aynı günlere,
+    yakın yayın saatlerine ve aynı konu havuzuna dağılır (saat etkisi dengelenir)."""
+    from datetime import datetime as _dt, timezone as _tz
+    try:
+        kayitlar = json.loads(YUKLEME_LOGU.read_text(encoding="utf-8"))
+        bugun = _dt.now(_tz.utc).strftime("%Y-%m-%d")
+        sira = sum(1 for k in kayitlar if str(k.get("zaman", ""))[:10] == bugun)
+    except Exception:
+        return "KAPILI"
+    return "KAPILI" if sira % 2 == 0 else "KAPISIZ"
+
+
 def metadata_uret(senaryo: str) -> dict:
+    kol = _ab_kolu()
+    print(f"[yukleyici] G6 A/B kolu: {kol}", flush=True)
+    if kol == "KAPISIZ":
+        return _metadata_kapisiz(senaryo)
     try:
         veri = None
         _son_red = None
@@ -251,6 +276,36 @@ def metadata_uret(senaryo: str) -> dict:
         _yr = baslik_kapisi(_yedek["title"])
         _yedek["_kiyas_kapisi"] = "GECTI" if _yr is None else f"RED:{_yr} (yedek metadata)"
         return _yedek
+
+
+def _metadata_kapisiz(senaryo: str) -> dict:
+    """A/B kontrol kolu: G6 kıyas ZORUNLULUĞU yok (G7 muğlak-sıfat yasağı duruyor).
+    Kapı döngüsü de yok — model başlığı serbest kurar, tek deneme."""
+    import re as _re
+    prompt_kapisiz = _re.sub(
+        r"🔴 HARD REQUIREMENT \(G6\).*?(?=🔴 HARD BAN \(G7\))",
+        "Prefer a concrete, specific fact in the title; a measured comparison is welcome "
+        "but NOT mandatory — variety of title shapes matters. ",
+        METADATA_SISTEM_PROMPTU, flags=_re.DOTALL)
+    try:
+        yanit = bridge.gemini_metin_uret(
+            prompt=f"Script:\n{senaryo}", sistem_promptu=prompt_kapisiz,
+            sicaklik=0.7, max_token=2048)
+        eslesme = _re.search(r"\{.*\}", yanit, _re.DOTALL)
+        if not eslesme:
+            raise RuntimeError("Metadata JSON çıkmadı")
+        aday = json.loads(eslesme.group(0))
+        aday.setdefault("title", ""); aday.setdefault("description", ""); aday.setdefault("tags", [])
+        aday = _metadata_dogrula(aday)
+        aday["_kiyas_kapisi"] = "AB_KAPISIZ"
+        return aday
+    except Exception as _h:
+        print(f"[yukleyici] kapısız metadata düştü ({str(_h)[:80]}) → kapılı yola dönülüyor", flush=True)
+        _ilk = (senaryo or "").strip().split("\n")[0].strip()[:90] or "Did You Know?"
+        _y = _metadata_dogrula({"title": _ilk, "description": (senaryo or "").strip()[:400],
+                                "tags": _METADATA_YEDEK})
+        _y["_kiyas_kapisi"] = "AB_KAPISIZ (yedek metadata)"
+        return _y
 
 
 def metadatayi_denetlet(veri: dict, senaryo: str) -> dict:
@@ -436,8 +491,13 @@ def main() -> int:
         # 15 Ağu: denetim REVIZE ederse başlığı değiştirebiliyor → kapıyı SON
         # başlıkta bir kez daha ölç. Denetim kapıyı bozduysa (öncesi geçmişti,
         # sonrası kalmadı) yayını durdurmuyoruz ama kaydı doğru etiketliyoruz.
-        _son_kapi = baslik_kapisi(veri["title"])
-        if _son_kapi is None:
+        # 23 Ağu: A/B kontrol kolunda kapı ÖLÇÜLMEZ — etiket "AB_KAPISIZ" kalmalı,
+        # yoksa kontrol grubu RED olarak damgalanıp ölçüm yine kirlenir.
+        _son_kapi = None if str(veri.get("_kiyas_kapisi", "")).startswith("AB_KAPISIZ") \
+            else baslik_kapisi(veri["title"])
+        if str(veri.get("_kiyas_kapisi", "")).startswith("AB_KAPISIZ"):
+            pass
+        elif _son_kapi is None:
             veri["_kiyas_kapisi"] = "GECTI"
         else:
             if veri.get("_kiyas_kapisi") == "GECTI" and veri["title"] != _kapi_oncesi:
