@@ -48,6 +48,24 @@ jobs:
           echo "### CosmoBytes bekçi raporu" >> $GITHUB_STEP_SUMMARY
           cat bekci_rapor.txt >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
 
+      # A/B kararı kimsenin hatırlamasına bağlı kalmasın: her gün ölçülür, sonuç
+      # istatistiksel olarak netleştiği GÜN issue açılır (erken de olabilir, geç de).
+      - name: G6 A/B ölçümü
+        if: always()
+        continue-on-error: true
+        run: python ab_olc.py --gun 14 | tee -a bekci_rapor.txt
+
+      - name: A/B kararı çıktıysa issue aç
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f .ab_karar ]; then
+            gh issue create \
+              --title "🧪 G6 A/B SONUCU — $(date -u +'%Y-%m-%d')" \
+              --body-file .ab_karar
+          fi
+
       - name: Alarm varsa issue aç
         if: always()
         env:

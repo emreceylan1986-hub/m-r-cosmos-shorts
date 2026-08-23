@@ -134,14 +134,43 @@ def main() -> int:
         p = permutasyon(kol_veri["KAPILI"], kol_veri["KAPISIZ"])
         fark = st.median(kol_veri["KAPISIZ"]) - st.median(kol_veri["KAPILI"])
         print(f"\n  permütasyon p = {p:.4f}  (20.000 tur, iki yönlü)")
+        asgari = min(map(len, kol_veri.values()))
         if p < 0.05:
-            kazanan = "KAPISIZ (G6 sert şartı ZARARLI → kaldır)" if fark > 0 else \
-                      "KAPILI (G6 faydalı → kapı kalsın)"
+            kazanan = "KAPISIZ (G6 sert şartı ZARARLI → kapıyı KALDIR)" if fark > 0 else \
+                      "KAPILI (G6 faydalı → kapı KALSIN)"
             print(f"  🔴 ANLAMLI FARK → {kazanan}")
+            _karar_yaz(f"KARAR: {kazanan}", kol_veri, secili, p)
+        elif asgari >= 10:
+            # Kol başına 10+ videoya rağmen fark yoksa bu da bir sonuçtur:
+            # kapı izlenmeyi açıklamıyor, sert şart bedava kısıt demektir.
+            print("  ⚪ Kol başına 10+ video, fark YOK → kapı izlenmeyi AÇIKLAMIYOR. "
+                  "Sert şart bedava kısıt; çöküşün sebebi başka yerde.")
+            _karar_yaz("KARAR: fark yok — G6 sert şartı izlenmeyi açıklamıyor",
+                       kol_veri, secili, p)
         else:
-            print("  ⚪ Fark anlamlı değil. Kapı izlenmeyi AÇIKLAMIYOR → çöküşün sebebi "
-                  "başka yerde; bekçi raporundaki kırılma penceresine bak.")
+            print(f"  ⏳ Henüz karar yok (kol başına en az {asgari} video, "
+                  f"anlamlılık için ya p<0,05 ya da kol başına 10 video gerekir).")
     return 0
+
+
+def _karar_yaz(baslik, kol_veri, secili, p):
+    """Bekçi workflow'u bu dosyayı görürse issue açar — karar kimseye bağlı kalmaz."""
+    sat = [f"## {baslik}", "",
+           f"Permütasyon p = **{p:.4f}** (20.000 tur, yayın saatine normalize).", ""]
+    for kol, l in kol_veri.items():
+        ham = [v for _, k, _, v in secili if k == kol]
+        if l:
+            sat.append(f"- **{kol}** n={len(l)} · ham medyan izlenme {st.median(ham):.0f} "
+                       f"· normalize medyan {st.median(l):.2f}")
+    sat += ["", "### Ne yapılacak",
+            "- KAPISIZ kazandıysa: `yukleyici.METADATA_SISTEM_PROMPTU` içindeki "
+            "`HARD REQUIREMENT (G6)` bloğu ve `haberci._baslik_kapisi` kaldırılır, "
+            "`_ab_kolu` da silinir (G7 muğlak-sıfat yasağı KALIR).",
+            "- KAPILI kazandıysa: A/B kapatılır, kapı %100'e döner ve çöküşün sebebi "
+            "bekçi raporundaki kırılma penceresinde aranır.",
+            "- Fark yoksa: sert şart kaldırılır (bedava kısıt), sebep aramaya devam.", "",
+            "*Bu issue `ab_olc.py` tarafından otomatik açıldı.*"]
+    Path(KOK / ".ab_karar").write_text("\n".join(sat), encoding="utf-8")
 
 
 if __name__ == "__main__":
