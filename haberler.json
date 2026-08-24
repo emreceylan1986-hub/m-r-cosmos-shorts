@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-24T19:26:58.904430+00:00",
+  "uretim_zamani": "2026-08-24T21:26:11.738338+00:00",
   "haberler": [
     {
-      "baslik": "Ganymede's Hidden Secret: An Ocean Deeper Than Earth's Sea",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Saturn's Rings: A Cosmic Shadow Thinner Than A Single Building",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "baslik": "Titan's Liquid Secrets: Lakes of Pure Methane Deeper Than Lake Superior",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Titan's Liquid Lakes: A World With Rivers Colder Than Antarctica",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "baslik": "Enceladus's Deep Secret: An Underground Ocean Warmer Than The Ice Above It",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Venus Vs Earth: The Poisonous Sister Sweltering Hotter Than A Pizza Oven",
+      "url": "https://en.wikipedia.org/wiki/Venus",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
