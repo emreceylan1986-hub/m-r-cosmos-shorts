@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-23T23:18:36.529697+00:00",
+  "uretim_zamani": "2026-08-24T18:36:27.092971+00:00",
   "haberler": [
     {
-      "baslik": "WASP-17b: The Fluffy Exoplanet Twice As Wide As Jupiter But Half Its Weight",
-      "url": "https://en.wikipedia.org/wiki/WASP-17b",
+      "baslik": "Jupiter's Great Red Spot: A Storm Twice as Wide as Earth Is Shrinking",
+      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pillars of Creation: Hidden Cosmic Nurseries Shifting Faster Than a Speeding Bullet",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Boomerang Nebula: The Coldest Place in the Universe Is Chiller Than Deep Space",
+      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
