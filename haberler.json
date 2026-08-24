@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-24T21:26:11.738338+00:00",
+  "uretim_zamani": "2026-08-24T23:20:43.959989+00:00",
   "haberler": [
     {
-      "baslik": "Titan's Liquid Secrets: Lakes of Pure Methane Deeper Than Lake Superior",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Enceladus's Deep Secret: An Underground Ocean Warmer Than The Ice Above It",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Callisto's Secret: A Hidden Ocean Deeper Than Earth's Mariana Trench",
+      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Venus Vs Earth: The Poisonous Sister Sweltering Hotter Than A Pizza Oven",
-      "url": "https://en.wikipedia.org/wiki/Venus",
+      "baslik": "Enceladus's Secret: An Ice Crust Thinner Than a Human Fingerprint",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 991,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mars's Hidden Water: An Ice Sheet Larger Than the State of Texas",
+      "url": "https://en.wikipedia.org/wiki/Water_on_Mars",
+      "kaynak": "gemini-fallback",
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
