@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-25T21:24:57.005121+00:00",
+  "uretim_zamani": "2026-08-25T23:23:11.931937+00:00",
   "haberler": [
     {
-      "baslik": "PSR J1748-2446ad: A Neutron Star Spinning Faster Than Twenty Four Thousand RPM",
-      "url": "https://en.wikipedia.org/wiki/PSR_J1748%E2%88%922446ad",
+      "baslik": "Titan's Secret: A Deep Ocean Hiding Beneath Ice Thicker Than Earth's Crust",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Europa: The Frozen Moon Hiding an Ocean Deeper Than the Mariana Trench",
+      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ganymede's Hidden Ocean: A Salty Liquid Layer Stacked Under Ice Thicker Than Any Continent",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
