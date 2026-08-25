@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-25T18:36:27.724430+00:00",
+  "uretim_zamani": "2026-08-25T19:29:13.148149+00:00",
   "haberler": [
     {
-      "baslik": "Charon's Red Cap: Pluto's Moon Hides a Stain Wider Than Texas",
-      "url": "https://en.wikipedia.org/wiki/Charon_(moon)",
+      "baslik": "Trumpler 14: A Cosmic Firework Packing Stars Shining One Million Times Brighter Than Our Sun",
+      "url": "https://en.wikipedia.org/wiki/Trumpler_14",
       "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rhea's Hidden Ring: Saturn's Moon Could Hold a Cosmic Halo",
-      "url": "https://en.wikipedia.org/wiki/Rhea_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Iapetus: The Two-Tone Moon Divided by a Wall Taller Than the Alps",
-      "url": "https://en.wikipedia.org/wiki/Iapetus_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
