@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-24T23:20:43.959989+00:00",
+  "uretim_zamani": "2026-08-25T18:36:27.724430+00:00",
   "haberler": [
     {
-      "baslik": "Callisto's Secret: A Hidden Ocean Deeper Than Earth's Mariana Trench",
-      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
+      "baslik": "Charon's Red Cap: Pluto's Moon Hides a Stain Wider Than Texas",
+      "url": "https://en.wikipedia.org/wiki/Charon_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Enceladus's Secret: An Ice Crust Thinner Than a Human Fingerprint",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Rhea's Hidden Ring: Saturn's Moon Could Hold a Cosmic Halo",
+      "url": "https://en.wikipedia.org/wiki/Rhea_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Iapetus: The Two-Tone Moon Divided by a Wall Taller Than the Alps",
+      "url": "https://en.wikipedia.org/wiki/Iapetus_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 991,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mars's Hidden Water: An Ice Sheet Larger Than the State of Texas",
-      "url": "https://en.wikipedia.org/wiki/Water_on_Mars",
-      "kaynak": "gemini-fallback",
-      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
