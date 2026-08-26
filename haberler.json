@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-08-25T23:23:11.931937+00:00",
+  "uretim_zamani": "2026-08-26T19:45:44.264500+00:00",
   "haberler": [
     {
-      "baslik": "Titan's Secret: A Deep Ocean Hiding Beneath Ice Thicker Than Earth's Crust",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "baslik": "Andromeda Galaxy's Secret: A Halo Six Times Wider Than Ursa Major",
+      "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Europa: The Frozen Moon Hiding an Ocean Deeper Than the Mariana Trench",
-      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
+      "baslik": "Triangulum Galaxy: A Cosmic Factory Creating New Suns Twice As Fast As Earth's Backyard",
+      "url": "https://en.wikipedia.org/wiki/Triangulum_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ganymede's Hidden Ocean: A Salty Liquid Layer Stacked Under Ice Thicker Than Any Continent",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Large Magellanic Cloud: A Cosmic Thief Snatching Stars Faster Than Our Milky Way Can Breed Them",
+      "url": "https://en.wikipedia.org/wiki/Large_Magellanic_Cloud",
       "kaynak": "gemini-fallback",
       "skor": 997,
       "yas_saat": 0,
