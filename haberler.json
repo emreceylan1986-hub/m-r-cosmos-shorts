@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-26T19:45:44.264500+00:00",
+  "uretim_zamani": "2026-08-26T22:42:42.764975+00:00",
   "haberler": [
     {
-      "baslik": "Andromeda Galaxy's Secret: A Halo Six Times Wider Than Ursa Major",
-      "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+      "baslik": "Sagittarius A*: The Hidden Monster Spinning Forty Million Times Faster Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Triangulum Galaxy: A Cosmic Factory Creating New Suns Twice As Fast As Earth's Backyard",
-      "url": "https://en.wikipedia.org/wiki/Triangulum_Galaxy",
+      "baslik": "Bullet Cluster: Dark Matter Smashes Through Galaxies Eight Times Faster Than Sound",
+      "url": "https://en.wikipedia.org/wiki/Bullet_Cluster",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Large Magellanic Cloud: A Cosmic Thief Snatching Stars Faster Than Our Milky Way Can Breed Them",
+      "baslik": "Large Magellanic Cloud Vs Milky Way: A Cosmic Crash Coming Twice As Fast",
       "url": "https://en.wikipedia.org/wiki/Large_Magellanic_Cloud",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
