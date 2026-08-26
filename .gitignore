@@ -26,3 +26,9 @@ client_secret*.json*
 token*.json*
 *.log
 .vision_sayac.json
+
+# çalışma anı çıktıları — repoya girmemeli
+.bekci_alarm
+.ab_karar
+.denetim_uyari
+.basarili_yayin
