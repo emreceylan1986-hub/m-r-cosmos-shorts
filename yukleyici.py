@@ -283,26 +283,71 @@ def metadata_uret(senaryo: str) -> dict:
         return _yedek
 
 
+# 26 Ağu: KONTROL KOLU GERÇEKTEN KONTROL DEĞİLDİ. İlk 3 günün ölçümü:
+# KAPISIZ kolun başlıklarının %83'ünde yine kıyas kalıbı vardı (KAPILI kolda %100).
+# "Kıyas serbest ama zorunlu değil" demek yetmiyor — model astronomi metninde kıyaslı
+# başlığı kendiliğinden yazıyor. %83 vs %100 kontrastıyla A/B hiçbir şey ölçemezdi;
+# bir hafta boşa giderdi (14 Ağu'nun "kapı ateşleniyor ama sonuç değişmiyor" dersi).
+# Artık kontrol kolunda kıyas kalıbı YASAK ve kapıyla zorlanıyor → net kontrast.
+_KIYAS_KALIBI = re.compile(
+    r"\b(\d+|one|two|three|four|five|six|ten|twenty|sixty|hundred|thousand|million|billion)?\s*"
+    r"(times|twice|thrice)\b|\b(larger|bigger|wider|brighter|heavier|closer|hotter|colder|"
+    r"deeper|taller|longer|faster|more|less)\s+than\b|\bas\s+(wide|big|large|much|massive|"
+    r"heavy|bright)\s+as\b|\bthan\s+(earth|the sun|the moon|jupiter|mount|all)\b",
+    re.I)
+
+_KAPISIZ_SART = (
+    "🔴 HARD BAN (A/B control arm): the title MUST NOT use a size/scale comparison. "
+    "Forbidden: 'N times ...', 'twice ...', 'wider/larger/brighter/heavier/deeper than ...', "
+    "'as wide as ...', 'than Earth/the Sun/Jupiter'. Every recent title on this channel has "
+    "the same comparison shape and they blur together in the feed. Write a DIFFERENT shape "
+    "that fits this particular fact — pick whichever is strongest: a surprising consequence, "
+    "a concrete scene the viewer can picture, a specific named place/object with its striking "
+    "property, or a plain statement of the strangest detail in the script. Stay 100% faithful "
+    "to the script and keep it a calm factual statement. "
+    "GOOD: 'Ganymede hides a salty ocean under 100 miles of ice'. "
+    "GOOD: 'It rains liquid methane on Titan and pools into lakes'. "
+    "BAD: 'Ganymede ocean holds more water than all of Earth' (comparison shape). ")
+
+_KAPISIZ_AZAMI_DENEME = 3
+
+
 def _metadata_kapisiz(senaryo: str) -> dict:
-    """A/B kontrol kolu: G6 kıyas ZORUNLULUĞU yok (G7 muğlak-sıfat yasağı duruyor).
-    Kapı döngüsü de yok — model başlığı serbest kurar, tek deneme."""
+    """A/B kontrol kolu: kıyas kalıbı YASAK (G7 muğlak-sıfat yasağı da duruyor).
+    Kapılı kolun aynadaki karşılığı — o kıyası zorunlu kılıyor, bu yasaklıyor."""
     import re as _re
     prompt_kapisiz = _re.sub(
         r"🔴 HARD REQUIREMENT \(G6\).*?(?=🔴 HARD BAN \(G7\))",
-        "Prefer a concrete, specific fact in the title; a measured comparison is welcome "
-        "but NOT mandatory — variety of title shapes matters. ",
-        METADATA_SISTEM_PROMPTU, flags=_re.DOTALL)
+        _KAPISIZ_SART, METADATA_SISTEM_PROMPTU, flags=_re.DOTALL)
     try:
-        yanit = bridge.gemini_metin_uret(
-            prompt=f"Script:\n{senaryo}", sistem_promptu=prompt_kapisiz,
-            sicaklik=0.7, max_token=2048)
-        eslesme = _re.search(r"\{.*\}", yanit, _re.DOTALL)
-        if not eslesme:
-            raise RuntimeError("Metadata JSON çıkmadı")
-        aday = json.loads(eslesme.group(0))
-        aday.setdefault("title", ""); aday.setdefault("description", ""); aday.setdefault("tags", [])
-        aday = _metadata_dogrula(aday)
-        aday["_kiyas_kapisi"] = "AB_KAPISIZ"
+        _son_red = None
+        aday = None
+        for _deneme in range(_KAPISIZ_AZAMI_DENEME):
+            _ek = ("\n\n🔴 YOUR PREVIOUS TITLE USED A FORBIDDEN COMPARISON "
+                   f"({_son_red}). Rewrite it with a completely different shape — no "
+                   "'times', no 'than', no 'as ... as'.") if _son_red else ""
+            yanit = bridge.gemini_metin_uret(
+                prompt=f"Script:\n{senaryo}{_ek}", sistem_promptu=prompt_kapisiz,
+                sicaklik=0.7 if not _deneme else 0.9, max_token=2048)
+            eslesme = _re.search(r"\{.*\}", yanit, _re.DOTALL)
+            if not eslesme:
+                raise RuntimeError("Metadata JSON çıkmadı")
+            aday = json.loads(eslesme.group(0))
+            aday.setdefault("title", ""); aday.setdefault("description", ""); aday.setdefault("tags", [])
+            aday = _metadata_dogrula(aday)
+            _bulgu = _KIYAS_KALIBI.search(aday["title"])
+            if not _bulgu:
+                if _deneme:
+                    print(f"[yukleyici] ✅ kontrol kolu {_deneme + 1}. denemede temiz", flush=True)
+                aday["_kiyas_kapisi"] = "AB_KAPISIZ"
+                return aday
+            _son_red = _bulgu.group(0)
+            print(f"[yukleyici] kontrol kolu red ('{_son_red}') deneme "
+                  f"{_deneme + 1}/{_KAPISIZ_AZAMI_DENEME}: {aday['title'][:55]}…", flush=True)
+        # Starvation: video render edilmiş, yayını iptal etmiyoruz; kayda kirlilik yazılıyor
+        print(f"[yukleyici] ⚠️ kontrol kolu {_KAPISIZ_AZAMI_DENEME} denemede temizlenemedi "
+              f"('{_son_red}') — ölçümde AYRI etiketleniyor", flush=True)
+        aday["_kiyas_kapisi"] = f"AB_KAPISIZ_KIRLI:{_son_red}"
         return aday
     except Exception as _h:
         print(f"[yukleyici] kapısız metadata düştü ({str(_h)[:80]}) → kapılı yola dönülüyor", flush=True)

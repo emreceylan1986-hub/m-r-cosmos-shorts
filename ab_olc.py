@@ -37,8 +37,17 @@ def _servisler():
             build("youtubeAnalytics", "v2", credentials=c, cache_discovery=False))
 
 
+# 26 Ağu: A/B SIFIRLANDI. 23-25 Ağu'daki kontrol kolu gerçek kontrol değildi —
+# "kıyas serbest ama zorunlu değil" demek yetmemiş, o kolun başlıklarının %83'ünde
+# yine kıyas kalıbı çıkmıştı (kapılı kolda %100). O kontrastla hiçbir şey ölçülemezdi.
+# Kıyas artık kontrol kolunda YASAK ve kapıyla zorlanıyor; ölçüm bu tarihten başlar.
+AB_BASLANGIC = "2026-08-26"
+
+
 def _kol(etiket: str) -> str | None:
     e = str(etiket or "")
+    if e.startswith("AB_KAPISIZ_KIRLI"):
+        return None   # 3 denemede temizlenemedi → kontrol sayılmaz, ölçüme girmez
     if e.startswith("AB_KAPISIZ"):
         return "KAPISIZ"
     if e == "GECTI" or e.startswith("RED:"):
@@ -69,7 +78,7 @@ def main() -> int:
     yt, ya = _servisler()
     kayitlar = json.loads((KOK / "yuklemeler.json").read_text(encoding="utf-8"))
     simdi = dt.datetime.now(dt.timezone.utc)
-    esik_yeni = (simdi - dt.timedelta(days=a.gun)).strftime("%Y-%m-%d")
+    esik_yeni = max((simdi - dt.timedelta(days=a.gun)).strftime("%Y-%m-%d"), AB_BASLANGIC)
 
     aday = {}
     for k in kayitlar:
@@ -78,7 +87,8 @@ def main() -> int:
         if kol and vid and str(k.get("zaman", ""))[:10] >= esik_yeni:
             aday[vid] = kol
     if not aday:
-        print("A/B kaydı yok — kapı A/B'si 23 Ağu'da başladı, en az 3 gün bekle.")
+        print(f"A/B kaydı yok — ölçüm {AB_BASLANGIC} tarihinden başlıyor, "
+              f"kol başına 3 olgun video birikmesini bekle.")
         return 0
 
     idler = list(aday)
