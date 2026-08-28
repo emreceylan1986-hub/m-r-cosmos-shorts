@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-26T22:42:42.764975+00:00",
+  "uretim_zamani": "2026-08-28T18:05:45.354858+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*: The Hidden Monster Spinning Forty Million Times Faster Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Luyten's Star: The Dim Red Sun That Shines Only One Percent as Bright as Ours",
+      "url": "https://en.wikipedia.org/wiki/Luyten%27s_Star",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Bullet Cluster: Dark Matter Smashes Through Galaxies Eight Times Faster Than Sound",
-      "url": "https://en.wikipedia.org/wiki/Bullet_Cluster",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Large Magellanic Cloud Vs Milky Way: A Cosmic Crash Coming Twice As Fast",
-      "url": "https://en.wikipedia.org/wiki/Large_Magellanic_Cloud",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
