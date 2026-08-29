@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-08-29T20:25:12.222469+00:00",
+  "uretim_zamani": "2026-08-29T22:59:38.968228+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-1647b Vs Earth: A Double-Sun World Six Times Wider Than Our Planet",
-      "url": "https://en.wikipedia.org/wiki/Kepler-1647b",
+      "baslik": "TOI-561 b: An Ancient World Three Times Heavier Than Earth Leaving Its Star Behind",
+      "url": "https://en.wikipedia.org/wiki/TOI-561",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "TRAPPIST-1b: A Hellscape Scorched Fifty Times Hotter Than Boiled Water",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1b",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "LHS 1140: The Secret Cosmic Oasis Holding Six Times More Water Than Earth",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
