@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-28T18:05:45.354858+00:00",
+  "uretim_zamani": "2026-08-29T01:27:03.157416+00:00",
   "haberler": [
     {
-      "baslik": "Luyten's Star: The Dim Red Sun That Shines Only One Percent as Bright as Ours",
-      "url": "https://en.wikipedia.org/wiki/Luyten%27s_Star",
+      "baslik": "Gliese 667 Cc: The Impossible Three-Sun Planet With Twice Earth's Gravity",
+      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "TOI-700 d: The Silent Earth-Sized Oasis Receiving One-Third Less Sunlight Than Us",
+      "url": "https://en.wikipedia.org/wiki/TOI-700_d",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gliese 581g: The Secret Eyeball Planet Where Half the World is Frozen Solid",
+      "url": "https://en.wikipedia.org/wiki/Gliese_581g",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
