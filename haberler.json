@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-29T01:27:03.157416+00:00",
+  "uretim_zamani": "2026-08-29T20:25:12.222469+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 667 Cc: The Impossible Three-Sun Planet With Twice Earth's Gravity",
-      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
+      "baslik": "Kepler-1647b Vs Earth: A Double-Sun World Six Times Wider Than Our Planet",
+      "url": "https://en.wikipedia.org/wiki/Kepler-1647b",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TOI-700 d: The Silent Earth-Sized Oasis Receiving One-Third Less Sunlight Than Us",
-      "url": "https://en.wikipedia.org/wiki/TOI-700_d",
+      "baslik": "TRAPPIST-1b: A Hellscape Scorched Fifty Times Hotter Than Boiled Water",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1b",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Gliese 581g: The Secret Eyeball Planet Where Half the World is Frozen Solid",
-      "url": "https://en.wikipedia.org/wiki/Gliese_581g",
+      "baslik": "LHS 1140: The Secret Cosmic Oasis Holding Six Times More Water Than Earth",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
