@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-30T23:11:31.213864+00:00",
+  "uretim_zamani": "2026-08-30T23:14:08.958731+00:00",
   "haberler": [
     {
-      "baslik": "The Oort Cloud: The Secret Ice Wall One Thousand Times Further Than Pluto",
-      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
+      "baslik": "Halley Comet speed is seventy times faster than a speeding bullet",
+      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
       "kaynak": "gemini-fallback",
-      "skor": 989,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Venus Vs Earth: The Hellscape Spinning Backwards Ten Times Slower",
-      "url": "https://en.wikipedia.org/wiki/Venus",
-      "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
