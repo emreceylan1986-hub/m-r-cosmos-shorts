@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-08-30T23:09:15.979768+00:00",
+  "uretim_zamani": "2026-08-30T23:11:31.213864+00:00",
   "haberler": [
     {
-      "baslik": "Sun's Corona: The Outer Atmosphere That Burns Three Hundred Times Hotter Than Its Surface",
-      "url": "https://en.wikipedia.org/wiki/Corona",
+      "baslik": "The Oort Cloud: The Secret Ice Wall One Thousand Times Further Than Pluto",
+      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Oumuamua: The Mysterious Interstellar Visitor Moving Faster Than Any Solar System Comet",
-      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
+      "baslik": "Venus Vs Earth: The Hellscape Spinning Backwards Ten Times Slower",
+      "url": "https://en.wikipedia.org/wiki/Venus",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Psyche 16 Vs Earth: The Metal Asteroid Worth One Hundred Thousand Times More Than Our Entire Global Economy",
-      "url": "https://en.wikipedia.org/wiki/16_Psyche",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
