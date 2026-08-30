@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-30T19:13:12.828934+00:00",
+  "uretim_zamani": "2026-08-30T19:12:15.136354+00:00",
   "haberler": [
     {
-      "baslik": "Ariel's Frozen Secret: Uranus Moon Hides Oceans Deeper Than Earth's",
-      "url": "https://en.wikipedia.org/wiki/Ariel_(moon)",
+      "baslik": "Pillars of Creation: The Hidden Cosmic Hatchery Ten Times Larger Than Our Solar System",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "The Sun Vs A Lightning Bolt: Which One Burns Five Times Hotter?",
+      "url": "https://en.wikipedia.org/wiki/Lightning",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Lagrange Point 2: The Unseen Graveyard Four Times Further Than The Moon",
-      "url": "https://en.wikipedia.org/wiki/Lagrange_point",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Psyche 16: The Golden Asteroid Worth More Than Earth's Entire Economy",
+      "baslik": "Asteroid Psyche: A Golden Metal World Worth More Than Earth's Entire Economy",
       "url": "https://en.wikipedia.org/wiki/16_Psyche",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
