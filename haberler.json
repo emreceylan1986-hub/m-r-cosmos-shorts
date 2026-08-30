@@ -1,24 +1,24 @@
 {
-  "uretim_zamani": "2026-08-30T19:12:15.136354+00:00",
+  "uretim_zamani": "2026-08-30T23:09:15.979768+00:00",
   "haberler": [
     {
-      "baslik": "Pillars of Creation: The Hidden Cosmic Hatchery Ten Times Larger Than Our Solar System",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "Sun's Corona: The Outer Atmosphere That Burns Three Hundred Times Hotter Than Its Surface",
+      "url": "https://en.wikipedia.org/wiki/Corona",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Sun Vs A Lightning Bolt: Which One Burns Five Times Hotter?",
-      "url": "https://en.wikipedia.org/wiki/Lightning",
+      "baslik": "Oumuamua: The Mysterious Interstellar Visitor Moving Faster Than Any Solar System Comet",
+      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Asteroid Psyche: A Golden Metal World Worth More Than Earth's Entire Economy",
+      "baslik": "Psyche 16 Vs Earth: The Metal Asteroid Worth One Hundred Thousand Times More Than Our Entire Global Economy",
       "url": "https://en.wikipedia.org/wiki/16_Psyche",
       "kaynak": "gemini-fallback",
       "skor": 998,
