@@ -39,6 +39,27 @@ SES_SEVIYESI = "+0%"
 # ses 25 Haz hâline döndü: saf edge-tts Aria. Tekrar denemek için: True.
 LEDA_AKTIF = False
 
+# 🔒 SES KİLİDİ (30 Ağu 2026 — Emre: "eski sesi devam ettir bozma")
+# Ses ayarı 10 Tem'den beri aynı; ama bir daha "acaba değişti mi?" diye
+# saatlerce araştırma yapılmasın diye onaylı değerler burada MÜHÜRLENDİ.
+# Değeri değiştirmek serbest DEĞİL: önce Emre onaylar, sonra bu sözlük güncellenir.
+# Kilit tutmazsa koşu HATA verir — sessizce farklı sesle video çıkmaz.
+SES_KILIDI = {"ses": "en-US-AriaNeural", "hiz": "-10%", "perde": "+3Hz",
+              "seviye": "+0%", "leda": False}
+
+
+def _ses_kilidini_dogrula() -> None:
+    simdiki = {"ses": SES, "hiz": HIZ, "perde": PERDE,
+               "seviye": SES_SEVIYESI, "leda": LEDA_AKTIF}
+    if simdiki != SES_KILIDI:
+        fark = {k: (SES_KILIDI[k], simdiki[k]) for k in SES_KILIDI
+                if SES_KILIDI[k] != simdiki[k]}
+        raise SystemExit(
+            "🔒 SES KİLİDİ TUTMADI — yayın durduruldu.\n"
+            f"   onaylı → şimdiki: {fark}\n"
+            "   Ses değişikliği Emre onayı ister. Onaylandıysa SES_KILIDI'ni de güncelle.")
+    print(f"[seslendirici] 🔒 ses kilidi OK — {SES} · hız {HIZ} · perde {PERDE}", flush=True)
+
 # FAZ 8: Çarşamba (haftada 1) → dialog formatı dene
 DIALOG_GUN = -1  # 9 Tem KAPALI: dialog iki-sesli edge-tts'e zorluyor, Leda kalitesini düşürüyordu
 
@@ -611,6 +632,7 @@ def main() -> int:
         ass_yolu = CIKTI_KLASORU / f"altyazi_{damga}.ass"
         txt_yolu.write_text(final_metin, encoding="utf-8")
 
+        _ses_kilidini_dogrula()
         print(f"[seslendirici] edge-tts ile ses + ASS altyazı üretiliyor ({SES})...")
         seslendir(final_metin, mp3_yolu, ass_yolu)
 
