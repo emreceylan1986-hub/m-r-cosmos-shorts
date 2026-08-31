@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-08-30T23:14:08.958731+00:00",
+  "uretim_zamani": "2026-08-31T18:11:38.485229+00:00",
   "haberler": [
     {
-      "baslik": "Halley Comet speed is seventy times faster than a speeding bullet",
-      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
+      "baslik": "The Sun's Gravity Vs Earth: Pulling Twenty-Eight Times Stronger Than Our Home",
+      "url": "https://en.wikipedia.org/wiki/Gravity_of_Earth",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
