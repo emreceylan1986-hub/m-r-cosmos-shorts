@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-08-31T18:11:38.485229+00:00",
+  "uretim_zamani": "2026-08-31T18:13:43.596240+00:00",
   "haberler": [
     {
-      "baslik": "The Sun's Gravity Vs Earth: Pulling Twenty-Eight Times Stronger Than Our Home",
-      "url": "https://en.wikipedia.org/wiki/Gravity_of_Earth",
+      "baslik": "Jupiter Vs Earth: The Storm That Could Swallow Our Entire Planet",
+      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rhea's Hidden Secret: The Only Moon with Rings Ten Times Smaller than Saturn's",
+      "url": "https://en.wikipedia.org/wiki/Rhea_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Io Vs Earth: The Volcanic Moon with Lava Lakes Twenty Times Hotter than Ours",
+      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
