@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-08-31T18:13:43.596240+00:00",
+  "uretim_zamani": "2026-08-31T21:11:29.098663+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter Vs Earth: The Storm That Could Swallow Our Entire Planet",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "baslik": "Pillars of Creation—UNSEEN: A Cosmic Cradle Ten Times Larger Than Our Solar System",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rhea's Hidden Secret: The Only Moon with Rings Ten Times Smaller than Saturn's",
-      "url": "https://en.wikipedia.org/wiki/Rhea_(moon)",
+      "baslik": "Saturn's Rings Vs A Highway: Ice Particles Racing Fifteen Times Faster Than a Bullet",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Io Vs Earth: The Volcanic Moon with Lava Lakes Twenty Times Hotter than Ours",
+      "baslik": "Io's Volcanoes—HIDDEN: A Moon With Lava Lakes Twenty Times Hotter Than Earth's",
       "url": "https://en.wikipedia.org/wiki/Io_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
