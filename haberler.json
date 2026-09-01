@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-01T21:11:21.615394+00:00",
+  "uretim_zamani": "2026-09-01T23:11:17.166221+00:00",
   "haberler": [
     {
-      "baslik": "Barnard's Star: A Cosmic Bullet Moving Ten Times Faster than a Speeding Jet",
-      "url": "https://en.wikipedia.org/wiki/Barnard%27s_Star",
+      "baslik": "Enceladus's Secret: A Hidden Ocean Deeper Than Earth's Mariana Trench",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rhea's Frozen Secret: An Icy Moon Holding More Water Than Earth's Atmosphere",
+      "url": "https://en.wikipedia.org/wiki/Rhea_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Triton's Unseen Mystery: Cryovolcanoes Shooting Ice Ten Times Higher Than Skyscrapers",
+      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
