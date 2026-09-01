@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-01T01:38:10.278135+00:00",
+  "uretim_zamani": "2026-09-01T19:11:23.682124+00:00",
   "haberler": [
     {
-      "baslik": "Dione reflects more light than fresh snow covering its icy surface",
-      "url": "https://en.wikipedia.org/wiki/Dione_(moon)",
+      "baslik": "Enceladus's Deep Secret: Hiding a Global Ocean Five Times Deeper Than Earth's Mariana Trench",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Titan's Liquid Chaos: Waves of Methane Crashing Against Coastlines Larger Than North America",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ganymede's Hidden Sea: A Saltwater Layer Deeper Than Ten Earth Oceans Stacked Together",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
