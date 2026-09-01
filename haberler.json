@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-08-31T23:11:31.033963+00:00",
+  "uretim_zamani": "2026-09-01T01:38:10.278135+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter Vs Earth: The Giant Storm That Could Swallow Our Whole Planet",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "baslik": "Dione reflects more light than fresh snow covering its icy surface",
+      "url": "https://en.wikipedia.org/wiki/Dione_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Neptune's Winds Vs Earth: Storms That Rage Three Times Faster Than Sound",
-      "url": "https://en.wikipedia.org/wiki/Neptune",
-      "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
