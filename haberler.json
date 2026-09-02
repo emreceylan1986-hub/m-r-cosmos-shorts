@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-01T23:11:17.166221+00:00",
+  "uretim_zamani": "2026-09-02T00:57:10.334325+00:00",
   "haberler": [
     {
-      "baslik": "Enceladus's Secret: A Hidden Ocean Deeper Than Earth's Mariana Trench",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Sloan Digital Sky Survey: Mapping a Cosmic Web Bigger than Sixty Million Galaxies",
+      "url": "https://en.wikipedia.org/wiki/Sloan_Digital_Sky_Survey",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rhea's Frozen Secret: An Icy Moon Holding More Water Than Earth's Atmosphere",
-      "url": "https://en.wikipedia.org/wiki/Rhea_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Triton's Unseen Mystery: Cryovolcanoes Shooting Ice Ten Times Higher Than Skyscrapers",
-      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
