@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-02T19:12:19.871107+00:00",
+  "uretim_zamani": "2026-09-02T21:11:55.233973+00:00",
   "haberler": [
     {
-      "baslik": "Milky Way Vs Dark Matter: A Seven Times Heavier Ghostly Halo",
-      "url": "https://en.wikipedia.org/wiki/Dark_matter_halo",
+      "baslik": "IC 10 galaxy houses baby stars numbering ten thousand times more than typical clusters",
+      "url": "https://en.wikipedia.org/wiki/IC_10",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Hercules-Corona Borealis Great Wall is a Cosmic Web Ten Times Wider than the Milky Way",
-      "url": "https://en.wikipedia.org/wiki/Hercules%E2%80%93Corona_Borealis_Great_Wall",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Black Hole Star Vs Our Sun: A Star Ten Thousand Times Larger Powered by Darkness",
-      "url": "https://en.wikipedia.org/wiki/Quasi-star",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
