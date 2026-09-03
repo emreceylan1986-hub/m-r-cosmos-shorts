@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-03T01:01:12.867482+00:00",
+  "uretim_zamani": "2026-09-03T19:11:16.315122+00:00",
   "haberler": [
     {
-      "baslik": "TRAPPIST-1e's Secret: An Alien Ocean World Warmer Than Antarctica",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Teegarden's Star b: The Alien World With More Sunlight Than Mars",
-      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
+      "baslik": "Ross 128 b: A Temperate World Hiding Closer to Us Than Most Stars",
+      "url": "https://en.wikipedia.org/wiki/Ross_128_b",
       "kaynak": "gemini-fallback",
       "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gliese 12 b: A Temperate Venus Neighbor Closer Than Most Exoplanets",
-      "url": "https://en.wikipedia.org/wiki/Gliese_12_b",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
