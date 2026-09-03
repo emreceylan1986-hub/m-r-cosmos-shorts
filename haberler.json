@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-09-02T23:11:35.634616+00:00",
+  "uretim_zamani": "2026-09-03T01:01:12.867482+00:00",
   "haberler": [
     {
-      "baslik": "Abell 2261: A Missing Supermassive Black Hole Ten Times Wider Than Expected",
-      "url": "https://en.wikipedia.org/wiki/Abell_2261",
+      "baslik": "TRAPPIST-1e's Secret: An Alien Ocean World Warmer Than Antarctica",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Hanny's Voorwerp: A Cosmic Ghost Glowing Brighter Than Ten Thousand Star Clusters",
-      "url": "https://en.wikipedia.org/wiki/Hanny%27s_Voorwerp",
+      "baslik": "Teegarden's Star b: The Alien World With More Sunlight Than Mars",
+      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gliese 12 b: A Temperate Venus Neighbor Closer Than Most Exoplanets",
+      "url": "https://en.wikipedia.org/wiki/Gliese_12_b",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
