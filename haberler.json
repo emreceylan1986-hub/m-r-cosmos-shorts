@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-03T21:11:23.358078+00:00",
+  "uretim_zamani": "2026-09-03T23:11:15.651579+00:00",
   "haberler": [
     {
-      "baslik": "K2-141b: The Hellscape Where Rock Rains 100 Times Deeper Than Earth's Oceans",
-      "url": "https://en.wikipedia.org/wiki/K2-141b",
+      "baslik": "GJ 1002 b: A Red Dwarf Neighbor Habitable Zone World Only Sixteen Light Years From Us",
+      "url": "https://en.wikipedia.org/wiki/GJ_1002",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "HAT-P-7b: The Gas Giant Where It Rains Rubies Over Forty Times Hotter Than Boiling Water",
-      "url": "https://en.wikipedia.org/wiki/HAT-P-7b",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Super-Jupiter Kappa Andromedae b Vs Our Sun: A Mass Comparison",
-      "url": "https://en.wikipedia.org/wiki/Kappa_Andromedae_b",
-      "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
