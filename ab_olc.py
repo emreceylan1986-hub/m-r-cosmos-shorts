@@ -41,7 +41,14 @@ def _servisler():
 # "kıyas serbest ama zorunlu değil" demek yetmemiş, o kolun başlıklarının %83'ünde
 # yine kıyas kalıbı çıkmıştı (kapılı kolda %100). O kontrastla hiçbir şey ölçülemezdi.
 # Kıyas artık kontrol kolunda YASAK ve kapıyla zorlanıyor; ölçüm bu tarihten başlar.
-AB_BASLANGIC = "2026-08-26"
+AB_BASLANGIC = "2026-09-01"
+# 3 Eyl 2. SIFIRLAMA: 30-31 Ağu verisi KİRLİ. O günlerde üç tetikleyici yarışıyordu,
+# aynı dakikada 2-3 video yayınlanıyordu (30 Ağu 6 video). Mükerrer basımlar
+# birbirinin izlenmesini yiyor VE aynı `sira` okundugu için ikisi de AYNI kola
+# düşüyordu → kirlenen kol sistematik olarak düşük izlenme alıyordu (KAPISIZ 9 video,
+# ham medyan 49 · KAPILI 3 video, medyan 222). Bu veriyle ölçüm yapılsaydı
+# "kıyas kapısı faydalı" diye YANLIŞ sonuç çıkardı. 1 Eyl'den itibaren concurrency
+# kilidi devrede, kollar birebir dönüşümlü (2/2, 2/2 — canlı doğrulandı).
 
 
 def _kol(etiket: str) -> str | None:
@@ -94,19 +101,20 @@ def main() -> int:
     idler = list(aday)
     bilgi = {}
     for i in range(0, len(idler), 50):
-        for v in yt.videos().list(part="snippet,status,contentDetails",
+        for v in yt.videos().list(part="snippet,status,contentDetails,statistics",
                                   id=",".join(idler[i:i + 50])).execute()["items"]:
             m = re.match(r"PT(?:(\d+)M)?(?:(\d+)S)?", v["contentDetails"]["duration"])
             bilgi[v["id"]] = {
                 "pub": v["snippet"]["publishedAt"],
                 "sn": (int(m.group(1) or 0) * 60 + int(m.group(2) or 0)) if m else 0,
                 "gizli": v["status"]["privacyStatus"],
+                "izl": int(v["statistics"].get("viewCount", 0)),
                 "baslik": v["snippet"]["title"]}
-    r = ya.reports().query(ids="channel==MINE",
-                           startDate=(simdi - dt.timedelta(days=a.gun + 2)).strftime("%Y-%m-%d"),
-                           endDate=simdi.strftime("%Y-%m-%d"), metrics="views",
-                           dimensions="video", sort="-views", maxResults=200).execute()
-    izl = {x[0]: x[1] for x in r.get("rows", [])}
+    # 3 Eyl FIX: izlenme artık Analytics'ten DEĞİL, Data API sayacından okunuyor.
+    # Analytics ~2 gün gecikmeli işliyor; 1-2 Eyl videoları ölçümde 0 izlenme
+    # görünüyordu (canlı sayaçta 231/54/116/111 idi). Gecikmeli kaynak, taze
+    # videoyu sistematik olarak "başarısız" gösterip A/B'yi çarpıtırdı.
+    izl = {vid: b["izl"] for vid, b in bilgi.items()}
 
     kol_veri = {"KAPILI": [], "KAPISIZ": []}
     saat_havuz = {}
