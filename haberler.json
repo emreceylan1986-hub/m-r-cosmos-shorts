@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-03T19:11:16.315122+00:00",
+  "uretim_zamani": "2026-09-03T21:11:23.358078+00:00",
   "haberler": [
     {
-      "baslik": "Ross 128 b: A Temperate World Hiding Closer to Us Than Most Stars",
-      "url": "https://en.wikipedia.org/wiki/Ross_128_b",
+      "baslik": "K2-141b: The Hellscape Where Rock Rains 100 Times Deeper Than Earth's Oceans",
+      "url": "https://en.wikipedia.org/wiki/K2-141b",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "HAT-P-7b: The Gas Giant Where It Rains Rubies Over Forty Times Hotter Than Boiling Water",
+      "url": "https://en.wikipedia.org/wiki/HAT-P-7b",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Super-Jupiter Kappa Andromedae b Vs Our Sun: A Mass Comparison",
+      "url": "https://en.wikipedia.org/wiki/Kappa_Andromedae_b",
+      "kaynak": "gemini-fallback",
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
