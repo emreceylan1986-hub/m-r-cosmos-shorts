@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-04T19:11:06.999789+00:00",
+  "uretim_zamani": "2026-09-04T21:11:23.974302+00:00",
   "haberler": [
     {
-      "baslik": "Sargas Star: A Rapid Spinner Flattened Ten Percent Wider Than its Poles",
-      "url": "https://en.wikipedia.org/wiki/Theta_Scorpii",
+      "baslik": "Venus Vs Earth: A Poisonous Greenhouse Trapping More Heat Than a Pizza Oven",
+      "url": "https://en.wikipedia.org/wiki/Venus",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Boomerang Nebula's Secret: The Frozen Cosmic Void Colder Than Liquid Nitrogen",
+      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sun Vs VY Canis Majoris: A Star So Big It Could Hold Three Billion Suns",
+      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
