@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-04T00:54:55.144317+00:00",
+  "uretim_zamani": "2026-09-04T19:11:06.999789+00:00",
   "haberler": [
     {
-      "baslik": "VY Canis Majoris's Secret: A Star So Huge It Could Swallow Nine Billion Suns",
-      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
+      "baslik": "Sargas Star: A Rapid Spinner Flattened Ten Percent Wider Than its Poles",
+      "url": "https://en.wikipedia.org/wiki/Theta_Scorpii",
       "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Vega's Secret: The Spinning Star Turning Flat and Rotating Twice as Fast as Our Sun",
-      "url": "https://en.wikipedia.org/wiki/Vega",
-      "kaynak": "gemini-fallback",
-      "skor": 991,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Eta Carinae: The Unstable Star System Blasting Cosmic Fireworks Bigger Than Our Solar System",
-      "url": "https://en.wikipedia.org/wiki/Eta_Carinae",
-      "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
