@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-04T21:11:23.974302+00:00",
+  "uretim_zamani": "2026-09-04T23:11:29.621364+00:00",
   "haberler": [
     {
-      "baslik": "Venus Vs Earth: A Poisonous Greenhouse Trapping More Heat Than a Pizza Oven",
-      "url": "https://en.wikipedia.org/wiki/Venus",
+      "baslik": "Mira: The Dying Star With a Cosmic Tail Thrice as Long as Our Solar System",
+      "url": "https://en.wikipedia.org/wiki/Mira",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Boomerang Nebula's Secret: The Frozen Cosmic Void Colder Than Liquid Nitrogen",
-      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
+      "baslik": "UY Scuti Vs Sun: The Largest Star That Could Swallow Five Billion Suns",
+      "url": "https://en.wikipedia.org/wiki/UY_Scuti",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sun Vs VY Canis Majoris: A Star So Big It Could Hold Three Billion Suns",
-      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
+      "baslik": "Aldebaran: The Red Giant Star Swelling to Forty Four Times the Width of Our Sun",
+      "url": "https://en.wikipedia.org/wiki/Aldebaran",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
