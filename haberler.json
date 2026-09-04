@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-03T23:11:15.651579+00:00",
+  "uretim_zamani": "2026-09-04T00:54:55.144317+00:00",
   "haberler": [
     {
-      "baslik": "GJ 1002 b: A Red Dwarf Neighbor Habitable Zone World Only Sixteen Light Years From Us",
-      "url": "https://en.wikipedia.org/wiki/GJ_1002",
+      "baslik": "VY Canis Majoris's Secret: A Star So Huge It Could Swallow Nine Billion Suns",
+      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Vega's Secret: The Spinning Star Turning Flat and Rotating Twice as Fast as Our Sun",
+      "url": "https://en.wikipedia.org/wiki/Vega",
+      "kaynak": "gemini-fallback",
+      "skor": 991,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Eta Carinae: The Unstable Star System Blasting Cosmic Fireworks Bigger Than Our Solar System",
+      "url": "https://en.wikipedia.org/wiki/Eta_Carinae",
+      "kaynak": "gemini-fallback",
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
