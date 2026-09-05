@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-09-05T00:36:39.393090+00:00",
+  "uretim_zamani": "2026-09-05T19:12:38.792081+00:00",
   "haberler": [
     {
-      "baslik": "TOI-700 d: A Safe Haven World Receiving One Third Less Sunlight Than Earth",
-      "url": "https://en.wikipedia.org/wiki/TOI-700_d",
+      "baslik": "Kapteyn b Vs Earth: The Ancient Planet Twice As Old As Our Home World",
+      "url": "https://en.wikipedia.org/wiki/Kapteyn_b",
       "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "HD 85512 b: A Super-Earth Feeling a Gravity Pull Twice as Strong as Ours",
-      "url": "https://en.wikipedia.org/wiki/HD_85512_b",
-      "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
