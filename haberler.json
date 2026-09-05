@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-09-05T19:12:38.792081+00:00",
+  "uretim_zamani": "2026-09-05T19:54:19.134296+00:00",
   "haberler": [
     {
-      "baslik": "Kapteyn b Vs Earth: The Ancient Planet Twice As Old As Our Home World",
-      "url": "https://en.wikipedia.org/wiki/Kapteyn_b",
+      "baslik": "Kepler-1229b: A Hidden Super-Earth Cold Enough to Freeze Earth's Oceans",
+      "url": "https://en.wikipedia.org/wiki/Kepler-1229b",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 989,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gliese 12 b: A Venus-Sized World Cooler Than Our Boiling Neighbor",
+      "url": "https://en.wikipedia.org/wiki/Gliese_12_b",
+      "kaynak": "gemini-fallback",
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
