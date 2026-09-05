@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-09-05T20:10:20.183639+00:00",
+  "uretim_zamani": "2026-09-05T21:13:23.547861+00:00",
   "haberler": [
     {
-      "baslik": "Teegarden's Star b: An Alien World Receiving More Sunlight Than Mars",
-      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
+      "baslik": "K2-72c: A Compact Alien World Warmer Than the Moon",
+      "url": "https://en.wikipedia.org/wiki/K2-72c",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "GJ 1214 b's Secret: A Steamy Ocean Planet Hotter Than Boiling Water",
-      "url": "https://en.wikipedia.org/wiki/Gl_1214_b",
-      "kaynak": "gemini-fallback",
-      "skor": 990,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "TOI-270 d's Secret: A Hydrogen-Rich Ocean Hotter Than Earth's Deserts",
+      "baslik": "TOI-270 d: A Sub-Neptune Planet with Oceans Hotter Than Boiling Water",
       "url": "https://en.wikipedia.org/wiki/TOI-270",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
