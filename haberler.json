@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-06T19:11:09.947622+00:00",
+  "uretim_zamani": "2026-09-06T21:11:13.221916+00:00",
   "haberler": [
     {
-      "baslik": "Geminids: Meteor Swarms Born From An Asteroid Orbiting 2 Times Closer Than Mercury",
-      "url": "https://en.wikipedia.org/wiki/Geminids",
+      "baslik": "Betelgeuse: The Impossible Star Swelling Beyond the Orbit of Jupiter",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Psyche 16: The Metal Asteroid Worth More Than Earth's Entire Economy",
+      "url": "https://en.wikipedia.org/wiki/16_Psyche",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Steins Asteroid: The Space Diamond Shining Brighter Than the Moon",
+      "url": "https://en.wikipedia.org/wiki/2867_%C5%A0teins",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
