@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-09-06T21:11:13.221916+00:00",
+  "uretim_zamani": "2026-09-06T23:16:48.388481+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse: The Impossible Star Swelling Beyond the Orbit of Jupiter",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "baslik": "Sun core is fifteen million degrees hotter than boiling water",
+      "url": "https://en.wikipedia.org/wiki/Solar_core",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Psyche 16: The Metal Asteroid Worth More Than Earth's Entire Economy",
-      "url": "https://en.wikipedia.org/wiki/16_Psyche",
+      "baslik": "Bennu asteroid contains ten times more carbon than typical space rocks",
+      "url": "https://en.wikipedia.org/wiki/101955_Bennu",
       "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Steins Asteroid: The Space Diamond Shining Brighter Than the Moon",
-      "url": "https://en.wikipedia.org/wiki/2867_%C5%A0teins",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
