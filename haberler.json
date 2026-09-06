@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-09-05T21:13:23.547861+00:00",
+  "uretim_zamani": "2026-09-06T18:20:08.311163+00:00",
   "haberler": [
     {
-      "baslik": "K2-72c: A Compact Alien World Warmer Than the Moon",
-      "url": "https://en.wikipedia.org/wiki/K2-72c",
+      "baslik": "Sun's Core Vs Surface: A Temperature Battle Five Million Times Hotter Than Earth's Warmest Day",
+      "url": "https://en.wikipedia.org/wiki/Sun",
       "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "TOI-270 d: A Sub-Neptune Planet with Oceans Hotter Than Boiling Water",
-      "url": "https://en.wikipedia.org/wiki/TOI-270",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
