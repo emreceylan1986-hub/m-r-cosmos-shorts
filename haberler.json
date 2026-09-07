@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-07T19:11:18.069267+00:00",
+  "uretim_zamani": "2026-09-07T21:05:19.522181+00:00",
   "haberler": [
     {
-      "baslik": "Stephenson 2-18: The Impossible Star Swelling Beyond Saturn's Orbit",
-      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
+      "baslik": "Europa Vs Earth: The Cold Moon Hiding Twice the Water of Our Entire Planet",
+      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rogue Planet CFBDSIR 2149 Drift Alone Without a Sun Seven Times Closer Than Nearest Star",
+      "url": "https://en.wikipedia.org/wiki/CFBDSIR_2149-0403",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Saturn's Rings Vs Earth: A Frozen Band One Hundred Times Thinner Than a Sheet of Paper",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
