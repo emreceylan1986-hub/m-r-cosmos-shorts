@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-07T00:41:30.325410+00:00",
+  "uretim_zamani": "2026-09-07T18:11:59.636444+00:00",
   "haberler": [
     {
-      "baslik": "Deimos Vs Earth: A Moon So Small You Could Walk Around It Faster Than a Marathon Runner",
-      "url": "https://en.wikipedia.org/wiki/Deimos_(moon)",
+      "baslik": "Europa's Secret: A Hidden Ocean Deeper Than Earth's Marianas Trench",
+      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Titan's Atmosphere: Four Times Denser Than Earth's Air",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Stephenson 2-18: The Impossible Star That Could Swallow Ten Billion Suns",
+      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
