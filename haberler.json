@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-09-06T23:16:48.388481+00:00",
+  "uretim_zamani": "2026-09-07T00:41:30.325410+00:00",
   "haberler": [
     {
-      "baslik": "Sun core is fifteen million degrees hotter than boiling water",
-      "url": "https://en.wikipedia.org/wiki/Solar_core",
+      "baslik": "Deimos Vs Earth: A Moon So Small You Could Walk Around It Faster Than a Marathon Runner",
+      "url": "https://en.wikipedia.org/wiki/Deimos_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Bennu asteroid contains ten times more carbon than typical space rocks",
-      "url": "https://en.wikipedia.org/wiki/101955_Bennu",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
