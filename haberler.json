@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-07T21:05:19.522181+00:00",
+  "uretim_zamani": "2026-09-08T18:11:48.641779+00:00",
   "haberler": [
     {
-      "baslik": "Europa Vs Earth: The Cold Moon Hiding Twice the Water of Our Entire Planet",
-      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
+      "baslik": "Ganymede's Secret: A Hidden Ocean Deeper Than Earth's Marianas Trench",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rogue Planet CFBDSIR 2149 Drift Alone Without a Sun Seven Times Closer Than Nearest Star",
-      "url": "https://en.wikipedia.org/wiki/CFBDSIR_2149-0403",
+      "baslik": "Callisto's Secret: A Half-Ice World That Could Hold Life Without Volcanoes",
+      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Saturn's Rings Vs Earth: A Frozen Band One Hundred Times Thinner Than a Sheet of Paper",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "baslik": "Titan Vs Earth: Why Flying on Saturn's Moon is Easier Than on Our Planet",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
