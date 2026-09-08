@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-08T18:11:48.641779+00:00",
+  "uretim_zamani": "2026-09-08T19:12:50.669786+00:00",
   "haberler": [
     {
-      "baslik": "Ganymede's Secret: A Hidden Ocean Deeper Than Earth's Marianas Trench",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Iapetus's Secret: The Moon With a Wall Bigger Than Everest",
+      "url": "https://en.wikipedia.org/wiki/Iapetus_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Callisto's Secret: A Half-Ice World That Could Hold Life Without Volcanoes",
-      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Titan Vs Earth: Why Flying on Saturn's Moon is Easier Than on Our Planet",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
