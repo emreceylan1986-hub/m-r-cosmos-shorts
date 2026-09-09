@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-09T19:11:16.318311+00:00",
+  "uretim_zamani": "2026-09-09T21:11:46.504542+00:00",
   "haberler": [
     {
-      "baslik": "Quasar 3C 273 Vs Our Sun: A Brightness Battle Worth Four Trillion Stars",
-      "url": "https://en.wikipedia.org/wiki/3C_273",
+      "baslik": "Bootes Void—UNSEEN: The Empty Space That Could Hold Ten Thousand Milky Ways",
+      "url": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_Void",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Bullet Cluster: A Dark Matter Shield Passing Through Gas Ten Times Faster Than Sound",
+      "url": "https://en.wikipedia.org/wiki/Bullet_Cluster",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "El Gordo Vs Bullet Cluster: Which Cosmic Giant Weighs More Than Two Quadrillion Suns?",
+      "url": "https://en.wikipedia.org/wiki/El_Gordo_(galaxy_cluster)",
+      "kaynak": "gemini-fallback",
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
