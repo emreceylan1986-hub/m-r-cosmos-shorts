@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-09T21:11:46.504542+00:00",
+  "uretim_zamani": "2026-09-09T23:11:39.057146+00:00",
   "haberler": [
     {
-      "baslik": "Bootes Void—UNSEEN: The Empty Space That Could Hold Ten Thousand Milky Ways",
-      "url": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_Void",
+      "baslik": "Seyfert Galaxies Vs Quasars: The Cosmic Light Battle Ten Thousand Times Brighter Than A Normal Star",
+      "url": "https://en.wikipedia.org/wiki/Seyfert_galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Bullet Cluster: A Dark Matter Shield Passing Through Gas Ten Times Faster Than Sound",
-      "url": "https://en.wikipedia.org/wiki/Bullet_Cluster",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "El Gordo Vs Bullet Cluster: Which Cosmic Giant Weighs More Than Two Quadrillion Suns?",
-      "url": "https://en.wikipedia.org/wiki/El_Gordo_(galaxy_cluster)",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
