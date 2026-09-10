@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-10T19:12:19.111140+00:00",
+  "uretim_zamani": "2026-09-10T21:11:28.629710+00:00",
   "haberler": [
     {
-      "baslik": "Titan's Hidden Oceans: Five Times More Water Than Earth's Deepest Seas",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "baslik": "Proxima Centauri b: The Alien World Blasted By Forty Times More Radiation Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
       "kaynak": "gemini-fallback",
       "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-186f: A Red Sun World That Receives Less Light Than Mars",
-      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
+      "baslik": "WASP-12b: The Pitch-Black Planet Swallowed By Its Star Twice Faster Than Light",
+      "url": "https://en.wikipedia.org/wiki/WASP-12b",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "55 Cancri e Vs Earth: A Diamond Planet Twice as Wide as Our Home",
-      "url": "https://en.wikipedia.org/wiki/55_Cancri_e",
+      "baslik": "Kepler-452b: The Sun's Twin Planet That Is Six Billion Years Older Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
       "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
