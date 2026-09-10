@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-10T18:12:02.281538+00:00",
+  "uretim_zamani": "2026-09-10T19:12:19.111140+00:00",
   "haberler": [
     {
-      "baslik": "Wolf 1061c: The Habitable Zone World Closer to Us Than Mars is to Jupiter",
-      "url": "https://en.wikipedia.org/wiki/Wolf_1061c",
+      "baslik": "Titan's Hidden Oceans: Five Times More Water Than Earth's Deepest Seas",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Proxima Centauri b: A World Blasted by Radiation Four Hundred Times More Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "baslik": "Kepler-186f: A Red Sun World That Receives Less Light Than Mars",
+      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
       "kaynak": "gemini-fallback",
       "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-452b's Secret: A World Aging One Billion Years Faster Than Our Sun",
-      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
+      "baslik": "55 Cancri e Vs Earth: A Diamond Planet Twice as Wide as Our Home",
+      "url": "https://en.wikipedia.org/wiki/55_Cancri_e",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
