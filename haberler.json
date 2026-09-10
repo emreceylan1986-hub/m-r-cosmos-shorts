@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-09-10T00:50:44.681793+00:00",
+  "uretim_zamani": "2026-09-10T18:12:02.281538+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-22b: The Hidden Water World Doubling the Size of Earth",
-      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
+      "baslik": "Wolf 1061c: The Habitable Zone World Closer to Us Than Mars is to Jupiter",
+      "url": "https://en.wikipedia.org/wiki/Wolf_1061c",
       "kaynak": "gemini-fallback",
       "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "LHS 1140 b: A Giant Ice Shield Hiding an Ocean Larger Than Earth's",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "baslik": "Proxima Centauri b: A World Blasted by Radiation Four Hundred Times More Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
       "kaynak": "gemini-fallback",
       "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-186f: An Alien Forest World Orbiting a Sun Half the Temperature of Ours",
-      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
+      "baslik": "Kepler-452b's Secret: A World Aging One Billion Years Faster Than Our Sun",
+      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
       "kaynak": "gemini-fallback",
       "skor": 995,
       "yas_saat": 0,
