@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-09T23:11:39.057146+00:00",
+  "uretim_zamani": "2026-09-10T00:50:44.681793+00:00",
   "haberler": [
     {
-      "baslik": "Seyfert Galaxies Vs Quasars: The Cosmic Light Battle Ten Thousand Times Brighter Than A Normal Star",
-      "url": "https://en.wikipedia.org/wiki/Seyfert_galaxy",
+      "baslik": "Kepler-22b: The Hidden Water World Doubling the Size of Earth",
+      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "LHS 1140 b: A Giant Ice Shield Hiding an Ocean Larger Than Earth's",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kepler-186f: An Alien Forest World Orbiting a Sun Half the Temperature of Ours",
+      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
