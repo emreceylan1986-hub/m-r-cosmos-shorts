@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-10T21:11:28.629710+00:00",
+  "uretim_zamani": "2026-09-11T00:50:07.377463+00:00",
   "haberler": [
     {
-      "baslik": "Proxima Centauri b: The Alien World Blasted By Forty Times More Radiation Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "baslik": "R136a1 Vs The Sun: A Star So Heavy It Fuses Fuel Five Million Times Brighter Than Our Home Star",
+      "url": "https://en.wikipedia.org/wiki/R136a1",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "WASP-12b: The Pitch-Black Planet Swallowed By Its Star Twice Faster Than Light",
-      "url": "https://en.wikipedia.org/wiki/WASP-12b",
+      "baslik": "KIC 8462852: The Hidden Secret of a Star Dimming Twenty-Two Percent Faster Than Normal",
+      "url": "https://en.wikipedia.org/wiki/KIC_8462852",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pistol Star: A Stellar Giant Glowing Brighter Than One Million Suns",
+      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
       "kaynak": "gemini-fallback",
       "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kepler-452b: The Sun's Twin Planet That Is Six Billion Years Older Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
-      "kaynak": "gemini-fallback",
-      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
