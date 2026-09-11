@@ -1,8 +1,8 @@
 {
-  "uretim_zamani": "2026-09-11T19:11:11.870541+00:00",
+  "uretim_zamani": "2026-09-11T21:11:42.689127+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse: The Impossible Secret of the Dying Giant Star",
+      "baslik": "Betelgeuse's Hidden Secret: Swelling Twice as Wide as Jupiter's Orbit",
       "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
       "skor": 1000,
@@ -10,18 +10,18 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "White Dwarf Vs Sun: A Density Battle That Crushes Planets",
-      "url": "https://en.wikipedia.org/wiki/White_dwarf",
+      "baslik": "WOH G64: A Star So Big It Could Swallow Two Thousand Suns",
+      "url": "https://en.wikipedia.org/wiki/WOH_G64",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Stephenson 2-18: The Giant Star That Swallows Ten Thousand Suns",
-      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
+      "baslik": "Pistol Star's Impossible Secret: Shining Brighter Than Three Million Suns",
+      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
