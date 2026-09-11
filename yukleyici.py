@@ -45,7 +45,7 @@ This metadata MUST be SEO-optimized for YouTube search.
 
 Schema:
 {
-  "title": "60-95 characters. FRONT-LOAD the main keyword in the first 50 chars (critical for search). No emojis, no ALL CAPS. BANNED clickbait words/phrases — never use any of: shocking, secretly, secret, hidden, they don't want you to know, you won't believe, this is why, the truth about, exposed, will blow your mind, insane, crazy. The title must be a calm factual statement of what happened. 🔴 HARD REQUIREMENT (G6): the title MUST contain an explicit MEASURED COMPARISON — 'than', 'times', 'twice', 'beyond', 'as wide as', 'could hold', 'enough to', 'the size/mass/width of', 'wider/brighter/larger/hotter than'. A bare number is NOT enough — the number must land on a comparison target the viewer already knows (Earth, the Sun, the Moon, the Solar System). Channel measurement on 193 mature videos: titles WITH a comparison earn 1.74x normalized views vs 0.93x WITHOUT (p=0.0005). 🔴 HARD BAN (G7): never use vague magnitude words — extreme, extremely, swings, massive scale, over time, dramatic, significant, intense, powerful, incredible, amazing. Replace them with the number + what it is compared to. GOOD: 'Mira star drags a comet tail three times wider than the Solar System'. BAD: 'Mira star leaves a thirteen light year tail across space' (number, but no comparison target).",
+  "title": "60-95 characters. FRONT-LOAD the main keyword in the first 50 chars (critical for search). No emojis, no ALL CAPS. BANNED clickbait words/phrases — never use any of: shocking, secretly, secret, hidden, they don't want you to know, you won't believe, this is why, the truth about, exposed, will blow your mind, insane, crazy. The title must be a calm factual statement of what happened. TITLE SHAPE: vary it. A measured comparison against something familiar (Earth, the Sun, the Moon) is one good shape, but it is NOT required and must not be forced — the channel published the same comparison shape for three weeks and it blurred together in the feed. Pick whichever fits THIS fact best: a measured comparison, a surprising consequence, a concrete scene the viewer can picture, or the strangest specific detail in the script. Keep it a calm factual statement. 🔴 HARD BAN (G7): never use vague magnitude words — extreme, extremely, swings, massive scale, over time, dramatic, significant, intense, powerful, incredible, amazing. Replace them with the number + what it is compared to. GOOD: 'Mira star drags a comet tail three times wider than the Solar System'. BAD: 'Mira star leaves a thirteen light year tail across space' (number, but no comparison target).",
   "description": "200-400 characters TOTAL. Structure:
     - LINE 1 (most important — first 100 chars get strongest SEO weight):
       Start with a CONCRETE FACT statement that contains the main keyword.
@@ -197,41 +197,11 @@ def baslik_kapisi(b: str) -> str | None:
 _KAPI_AZAMI_DENEME = 3
 
 
-def _ab_kolu() -> str:
-    """23 Ağu A/B: G6 kıyas kapısı bugünün KAÇINCI videosu olduğuna göre açılır/kapanır.
-
-    Neden: kapı 15 Ağu'da %100 uygulanır olunca kontrol grubu KALMADI (31/31 GECTI),
-    yani 25 Ağu için planlanan yeniden ölçüm yapılamaz hale gelmişti. Aynı dönemde
-    kanal günlük izlenmesi 13 Ağu 3.136 → 14 Ağu 973'e düştü ve bir daha toparlamadı;
-    izlenme YÜZDESİ değişmedi (%57-77) → içerik değil dağıtım sorunu.
-    Kapının sebep olup olmadığı ancak eşzamanlı kontrol grubuyla anlaşılır.
-
-    Günün videoları sırayla KAPILI/KAPISIZ diye bölünür. 🔴 KRİTİK: bölünme GÜN
-    PARİTESİYLE de kaydırılır. Sabit "1. ve 3. video kapılı" olsaydı kapılı kol hep
-    aynı yayın saatlerine (hedef saatlerin 1. ve 3.'ü) düşerdi; saat etkisi bu kanalda
-    2-3 kat (23→599 · 20→186) olduğu için A/B baştan taraflı çıkardı. Tek gün atlamalı
-    kaydırma ile 7 günde her kol her hedef saati yaklaşık eşit sayıda görür."""
-    from datetime import datetime as _dt, timezone as _tz
-    try:
-        kayitlar = json.loads(YUKLEME_LOGU.read_text(encoding="utf-8"))
-        simdi = _dt.now(_tz.utc)
-        bugun = simdi.strftime("%Y-%m-%d")
-        sira = sum(1 for k in kayitlar if str(k.get("zaman", ""))[:10] == bugun)
-        gun = simdi.timetuple().tm_yday
-    except Exception:
-        return "KAPILI"
-    return "KAPILI" if (sira + gun) % 2 == 0 else "KAPISIZ"
-
-
 def metadata_uret(senaryo: str) -> dict:
-    kol = _ab_kolu()
-    print(f"[yukleyici] G6 A/B kolu: {kol}", flush=True)
-    if kol == "KAPISIZ":
-        return _metadata_kapisiz(senaryo)
     try:
         veri = None
         _son_red = None
-        for _deneme in range(_KAPI_AZAMI_DENEME):
+        for _deneme in range(1):
             _ek = ""
             if _son_red:
                 _ek = (
@@ -281,81 +251,6 @@ def metadata_uret(senaryo: str) -> dict:
         _yr = baslik_kapisi(_yedek["title"])
         _yedek["_kiyas_kapisi"] = "GECTI" if _yr is None else f"RED:{_yr} (yedek metadata)"
         return _yedek
-
-
-# 26 Ağu: KONTROL KOLU GERÇEKTEN KONTROL DEĞİLDİ. İlk 3 günün ölçümü:
-# KAPISIZ kolun başlıklarının %83'ünde yine kıyas kalıbı vardı (KAPILI kolda %100).
-# "Kıyas serbest ama zorunlu değil" demek yetmiyor — model astronomi metninde kıyaslı
-# başlığı kendiliğinden yazıyor. %83 vs %100 kontrastıyla A/B hiçbir şey ölçemezdi;
-# bir hafta boşa giderdi (14 Ağu'nun "kapı ateşleniyor ama sonuç değişmiyor" dersi).
-# Artık kontrol kolunda kıyas kalıbı YASAK ve kapıyla zorlanıyor → net kontrast.
-_KIYAS_KALIBI = re.compile(
-    r"\b(\d+|one|two|three|four|five|six|ten|twenty|sixty|hundred|thousand|million|billion)?\s*"
-    r"(times|twice|thrice)\b|\b(larger|bigger|wider|brighter|heavier|closer|hotter|colder|"
-    r"deeper|taller|longer|faster|more|less)\s+than\b|\bas\s+(wide|big|large|much|massive|"
-    r"heavy|bright)\s+as\b|\bthan\s+(earth|the sun|the moon|jupiter|mount|all)\b",
-    re.I)
-
-_KAPISIZ_SART = (
-    "🔴 HARD BAN (A/B control arm): the title MUST NOT use a size/scale comparison. "
-    "Forbidden: 'N times ...', 'twice ...', 'wider/larger/brighter/heavier/deeper than ...', "
-    "'as wide as ...', 'than Earth/the Sun/Jupiter'. Every recent title on this channel has "
-    "the same comparison shape and they blur together in the feed. Write a DIFFERENT shape "
-    "that fits this particular fact — pick whichever is strongest: a surprising consequence, "
-    "a concrete scene the viewer can picture, a specific named place/object with its striking "
-    "property, or a plain statement of the strangest detail in the script. Stay 100% faithful "
-    "to the script and keep it a calm factual statement. "
-    "GOOD: 'Ganymede hides a salty ocean under 100 miles of ice'. "
-    "GOOD: 'It rains liquid methane on Titan and pools into lakes'. "
-    "BAD: 'Ganymede ocean holds more water than all of Earth' (comparison shape). ")
-
-_KAPISIZ_AZAMI_DENEME = 3
-
-
-def _metadata_kapisiz(senaryo: str) -> dict:
-    """A/B kontrol kolu: kıyas kalıbı YASAK (G7 muğlak-sıfat yasağı da duruyor).
-    Kapılı kolun aynadaki karşılığı — o kıyası zorunlu kılıyor, bu yasaklıyor."""
-    import re as _re
-    prompt_kapisiz = _re.sub(
-        r"🔴 HARD REQUIREMENT \(G6\).*?(?=🔴 HARD BAN \(G7\))",
-        _KAPISIZ_SART, METADATA_SISTEM_PROMPTU, flags=_re.DOTALL)
-    try:
-        _son_red = None
-        aday = None
-        for _deneme in range(_KAPISIZ_AZAMI_DENEME):
-            _ek = ("\n\n🔴 YOUR PREVIOUS TITLE USED A FORBIDDEN COMPARISON "
-                   f"({_son_red}). Rewrite it with a completely different shape — no "
-                   "'times', no 'than', no 'as ... as'.") if _son_red else ""
-            yanit = bridge.gemini_metin_uret(
-                prompt=f"Script:\n{senaryo}{_ek}", sistem_promptu=prompt_kapisiz,
-                sicaklik=0.7 if not _deneme else 0.9, max_token=2048)
-            eslesme = _re.search(r"\{.*\}", yanit, _re.DOTALL)
-            if not eslesme:
-                raise RuntimeError("Metadata JSON çıkmadı")
-            aday = json.loads(eslesme.group(0))
-            aday.setdefault("title", ""); aday.setdefault("description", ""); aday.setdefault("tags", [])
-            aday = _metadata_dogrula(aday)
-            _bulgu = _KIYAS_KALIBI.search(aday["title"])
-            if not _bulgu:
-                if _deneme:
-                    print(f"[yukleyici] ✅ kontrol kolu {_deneme + 1}. denemede temiz", flush=True)
-                aday["_kiyas_kapisi"] = "AB_KAPISIZ"
-                return aday
-            _son_red = _bulgu.group(0)
-            print(f"[yukleyici] kontrol kolu red ('{_son_red}') deneme "
-                  f"{_deneme + 1}/{_KAPISIZ_AZAMI_DENEME}: {aday['title'][:55]}…", flush=True)
-        # Starvation: video render edilmiş, yayını iptal etmiyoruz; kayda kirlilik yazılıyor
-        print(f"[yukleyici] ⚠️ kontrol kolu {_KAPISIZ_AZAMI_DENEME} denemede temizlenemedi "
-              f"('{_son_red}') — ölçümde AYRI etiketleniyor", flush=True)
-        aday["_kiyas_kapisi"] = f"AB_KAPISIZ_KIRLI:{_son_red}"
-        return aday
-    except Exception as _h:
-        print(f"[yukleyici] kapısız metadata düştü ({str(_h)[:80]}) → kapılı yola dönülüyor", flush=True)
-        _ilk = (senaryo or "").strip().split("\n")[0].strip()[:90] or "Did You Know?"
-        _y = _metadata_dogrula({"title": _ilk, "description": (senaryo or "").strip()[:400],
-                                "tags": _METADATA_YEDEK})
-        _y["_kiyas_kapisi"] = "AB_KAPISIZ (yedek metadata)"
-        return _y
 
 
 def metadatayi_denetlet(veri: dict, senaryo: str) -> dict:
@@ -538,25 +433,16 @@ def main() -> int:
         veri = metadatayi_denetlet(veri, senaryo)
         _alt(f"Final title: {veri['title']}")
 
-        # 15 Ağu: denetim REVIZE ederse başlığı değiştirebiliyor → kapıyı SON
-        # başlıkta bir kez daha ölç. Denetim kapıyı bozduysa (öncesi geçmişti,
-        # sonrası kalmadı) yayını durdurmuyoruz ama kaydı doğru etiketliyoruz.
-        # 23 Ağu: A/B kontrol kolunda kapı ÖLÇÜLMEZ — etiket "AB_KAPISIZ" kalmalı,
-        # yoksa kontrol grubu RED olarak damgalanıp ölçüm yine kirlenir.
-        _son_kapi = None if str(veri.get("_kiyas_kapisi", "")).startswith("AB_KAPISIZ") \
-            else baslik_kapisi(veri["title"])
-        if str(veri.get("_kiyas_kapisi", "")).startswith("AB_KAPISIZ"):
-            pass
-        elif _son_kapi is None:
-            veri["_kiyas_kapisi"] = "GECTI"
-        else:
-            if veri.get("_kiyas_kapisi") == "GECTI" and veri["title"] != _kapi_oncesi:
-                _alt(f"⚠️ Denetim revizesi G6/G7 kapısını bozdu ({_son_kapi}) — "
-                     f"önceki: {_kapi_oncesi[:55]}…")
-                veri["_kiyas_kapisi"] = f"RED:{_son_kapi} (denetim revizesi)"
-            else:
-                veri["_kiyas_kapisi"] = f"RED:{_son_kapi}"
-        _alt(f"G6/G7 kıyas kapısı: {veri['_kiyas_kapisi']}")
+        # 10 Eyl A/B KARARI (issue #395): G6 sert şartı KALDIRILDI. 22 videoluk
+        # eşzamanlı kontrollü ölçüm: KAPILI normalize medyan 1,12 · KAPISIZ 1,00 ·
+        # p=0,446 → kapı izlenmeyi AÇIKLAMIYOR. Kanıtsız kısıt taşınmaz; başlık
+        # kalıbı serbest bırakıldı (14 Ağu'dan beri %100 aynı şekildeydi).
+        # Kıyas VARLIĞI yine de kayda geçiyor — ileride yeniden ölçmek için.
+        try:
+            import haberci as _hb
+            veri["_kiyas_kapisi"] = "KIYASLI" if _hb._KIYAS.search(veri["title"]) else "SERBEST"
+        except Exception:
+            veri["_kiyas_kapisi"] = "OLCULMEDI"
 
         _adim("3b", "Yayın uygunluk denetimi (telif/clickbait/olgusal/politika/marka)...")
         # Kaynak haberi denetime ver — olgusal denetim 'senaryo kaynağa sadık mı'

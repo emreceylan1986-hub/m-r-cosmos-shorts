@@ -385,10 +385,15 @@ def _baslik_kapisi(b: str) -> str | None:
       "Betelgeuse swelling BEYOND THE ORBIT OF MARS" = 742
       "Betelgeuse swelling AT A MASSIVE SCALE"       =  67  → 11 kat
     """
+    # 🔴 10 Eyl — G6 (kıyas ZORUNLU) KALDIRILDI. A/B kararı, issue #395:
+    # 22 videoluk eşzamanlı kontrollü ölçüm, KAPILI normalize medyan 1,12 ·
+    # KAPISIZ 1,00 · permütasyon p=0,446 → kapı izlenmeyi AÇIKLAMIYOR.
+    # 11 Ağu'daki "kıyas 1,74x" ölçümü SEÇİM YANILGISIYDI: kıyas o dönemde
+    # başlıkların %12'sindeydi, yani FARKLI olmanın yoluydu. %100'e çıkarınca
+    # farklılık kayboldu ve etki de kayboldu. Kanıtsız kısıt taşınmaz.
+    # G7 (muğlak büyüklük yasağı) AYRI bir kural, aynen duruyor.
     if _MUGLAK.search(b):
         return "G7 muğlak büyüklük"
-    if not _KIYAS.search(b):
-        return "G6 ölçülmüş kıyas yok"
     return None
 
 
