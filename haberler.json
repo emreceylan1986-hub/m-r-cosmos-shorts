@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-11T00:50:07.377463+00:00",
+  "uretim_zamani": "2026-09-11T18:11:22.836494+00:00",
   "haberler": [
     {
-      "baslik": "R136a1 Vs The Sun: A Star So Heavy It Fuses Fuel Five Million Times Brighter Than Our Home Star",
-      "url": "https://en.wikipedia.org/wiki/R136a1",
+      "baslik": "Betelgeuse's Secret: A Star Swelling Larger Than Jupiter's Orbit",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "KIC 8462852: The Hidden Secret of a Star Dimming Twenty-Two Percent Faster Than Normal",
-      "url": "https://en.wikipedia.org/wiki/KIC_8462852",
+      "baslik": "Kepler-186f's Secret: An Ocean Planet That Receives Less Light Than Mars",
+      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pistol Star: A Stellar Giant Glowing Brighter Than One Million Suns",
-      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
+      "baslik": "Boomerang Nebula's Secret: The Coldest Place in the Cosmos is Colder Than Space Itself",
+      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
