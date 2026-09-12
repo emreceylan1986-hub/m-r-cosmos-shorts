@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-11T21:11:42.689127+00:00",
+  "uretim_zamani": "2026-09-12T00:57:21.527408+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse's Hidden Secret: Swelling Twice as Wide as Jupiter's Orbit",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "baslik": "Gliese 667 Cc: A World With Three Suns That Is Twice As Hot As Earth",
+      "url": "https://en.wikipedia.org/wiki/Glow_of_Gliese_667_Cc",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "WOH G64: A Star So Big It Could Swallow Two Thousand Suns",
-      "url": "https://en.wikipedia.org/wiki/WOH_G64",
+      "baslik": "K2-72e: The Red Dwarf Planet Orbiting Ten Times Closer Than Mercury",
+      "url": "https://en.wikipedia.org/wiki/K2-72e",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pistol Star's Impossible Secret: Shining Brighter Than Three Million Suns",
-      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
+      "baslik": "Kepler-296f: A Giant Water World With Air Double The Density Of Earth",
+      "url": "https://en.wikipedia.org/wiki/Kepler-296f",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
