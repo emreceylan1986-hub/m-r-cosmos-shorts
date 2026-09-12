@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-12T18:11:10.152725+00:00",
+  "uretim_zamani": "2026-09-12T19:11:17.145863+00:00",
   "haberler": [
     {
-      "baslik": "LHS 1140 b: A Giant Ice Ball Hiding an Ocean Wider Than Earth",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "baslik": "Gliese 581c: The First Discovered Planet with Water Potential",
+      "url": "https://en.wikipedia.org/wiki/Gliese_581c",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Gliese 581c's Hidden Hell: One Side Is Hotter Than a Pizza Oven",
-      "url": "https://en.wikipedia.org/wiki/Gliese_581c",
+      "baslik": "LHS 1140 b: An Ocean Planet with More Liquid Water Than Earth",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
       "kaynak": "gemini-fallback",
       "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-452b: The Sun's Older Twin Aging Ten Percent Faster",
-      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
+      "baslik": "K2-18b: A Hycean World with Water Vapor in Its Atmosphere",
+      "url": "https://en.wikipedia.org/wiki/K2-18b",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
