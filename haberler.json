@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-12T00:57:21.527408+00:00",
+  "uretim_zamani": "2026-09-12T18:11:10.152725+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 667 Cc: A World With Three Suns That Is Twice As Hot As Earth",
-      "url": "https://en.wikipedia.org/wiki/Glow_of_Gliese_667_Cc",
+      "baslik": "LHS 1140 b: A Giant Ice Ball Hiding an Ocean Wider Than Earth",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "K2-72e: The Red Dwarf Planet Orbiting Ten Times Closer Than Mercury",
-      "url": "https://en.wikipedia.org/wiki/K2-72e",
+      "baslik": "Gliese 581c's Hidden Hell: One Side Is Hotter Than a Pizza Oven",
+      "url": "https://en.wikipedia.org/wiki/Gliese_581c",
       "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-296f: A Giant Water World With Air Double The Density Of Earth",
-      "url": "https://en.wikipedia.org/wiki/Kepler-296f",
+      "baslik": "Kepler-452b: The Sun's Older Twin Aging Ten Percent Faster",
+      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
