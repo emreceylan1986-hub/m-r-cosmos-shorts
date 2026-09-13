@@ -1,23 +1,23 @@
 # 📊 CosmoBytes — Haftalık Rapor
-_2026-09-06T23:29+00:00_
+_2026-09-13T23:53+00:00_
 
 ## Özet
-- **Abone:** 230 (+12 bu hafta)
-- **Toplam view:** 99,047 (+1,355 bu hafta)
-- **Toplam video:** 310
-- **Son 7 gün:** 28 video, 4,060 izl, ort 145/video
-- **<50 izl video sayısı:** 8/28 (kalite_temizleyici aday)
+- **Abone:** 237 (+7 bu hafta)
+- **Toplam view:** 104,780 (+5,733 bu hafta)
+- **Toplam video:** 334
+- **Son 7 gün:** 28 video, 1,502 izl, ort 53/video
+- **<50 izl video sayısı:** 14/28 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **883v** · 22👍 · 3💬 — Jupiter Great Red Spot storm is shrinking after 190 years of raging
-- **395v** · 6👍 · 3💬 — TOI-700 d receives one third less sunlight than Earth
-- **368v** · 13👍 · 1💬 — Mira star drags a glowing tail three thousand times wider than the Solar System
+- **232v** · 4👍 · 1💬 — R136a1 star packs more than two hundred times the mass of the Sun
+- **128v** · 6👍 · 1💬 — Pillars of Creation span five light-years and may already be destroyed
+- **96v** · 3👍 · 1💬 — Encke comet tail is wider than five hundred Moons lined up
 
 ## 🪦 Alt 3 (son 7 gün)
-- **0v** · 0👍 · 0💬 — Betelgeuse supergiant star is large enough to swallow Mars
-- **0v** · 0👍 · 0💬 — VY Canis Majoris spans past Saturn and sheds mass rapidly
-- **0v** · 0👍 · 0💬 — Barnard's star travels ten times faster than a speeding jet
+- **0v** · 0👍 · 0💬 — Gliese 581c orbit is only thirteen days long
+- **0v** · 0👍 · 0💬 — Betelgeuse star is large enough to swallow Jupiter
+- **0v** · 0👍 · 0💬 — Betelgeuse star is larger than Jupiter's orbit
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **230 abone / 145 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **237 abone / 53 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı
