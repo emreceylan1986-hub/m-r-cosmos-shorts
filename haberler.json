@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-09-12T21:10:55.881323+00:00",
+  "uretim_zamani": "2026-09-13T00:36:22.825791+00:00",
   "haberler": [
     {
-      "baslik": "Super-Earth Vs Red Dwarf: The Ultimate Radiation Survival Battle",
-      "url": "https://en.wikipedia.org/wiki/Habitability_of_red_dwarf_systems",
+      "baslik": "Encke's Comet Vs Earth: The Frozen Rock Drags a Tail Longer Than Five Hundred Moons",
+      "url": "https://en.wikipedia.org/wiki/Encke%27s_Comet",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TOI-700 d: The Secure Habitable Oasis Safe From Dead Superflares",
-      "url": "https://en.wikipedia.org/wiki/TOI-700",
+      "baslik": "The Sun's Parker Spiral: A Hidden Magnetic Web Spanning Billions of Miles Beyond Neptune",
+      "url": "https://en.wikipedia.org/wiki/Parker_spiral",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
