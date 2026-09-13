@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-13T19:11:22.610153+00:00",
+  "uretim_zamani": "2026-09-13T21:11:16.905585+00:00",
   "haberler": [
     {
-      "baslik": "Pillars of Creation: The Hidden Cosmic Hatchery Shines Seven Times Brighter Than Our Sun",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sun Vs Ceres: A Water Battle In Our Own Solar System",
-      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
+      "baslik": "Asteroid Psyche's Secret: A Metal World Worth More Than Earth's Entire Economy",
+      "url": "https://en.wikipedia.org/wiki/16_Psyche",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Oumuamua's Secret: The First Interstellar Visitor Travels Forty Times Faster Than a Rifle Bullet",
-      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
+      "baslik": "Oort Cloud: The Frozen Shell That Is One Thousand Times Further Than Pluto",
+      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ceres' Hidden Ocean: A Frozen Dwarf World With More Water Than Our Great Lakes",
+      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
