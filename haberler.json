@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-09-13T00:36:22.825791+00:00",
+  "uretim_zamani": "2026-09-13T18:11:25.979114+00:00",
   "haberler": [
     {
-      "baslik": "Encke's Comet Vs Earth: The Frozen Rock Drags a Tail Longer Than Five Hundred Moons",
-      "url": "https://en.wikipedia.org/wiki/Encke%27s_Comet",
+      "baslik": "Sun Vs Earth's Atmosphere: Who Wins the Solar Wind Battle?",
+      "url": "https://en.wikipedia.org/wiki/Solar_wind",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Halley's Comet: The Frozen Secret 15 Times Darker Than Coal",
+      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Sun's Parker Spiral: A Hidden Magnetic Web Spanning Billions of Miles Beyond Neptune",
-      "url": "https://en.wikipedia.org/wiki/Parker_spiral",
+      "baslik": "Psyche 16: The Metal Asteroid Worth More Than Earth's Entire Economy",
+      "url": "https://en.wikipedia.org/wiki/16_Psyche",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
