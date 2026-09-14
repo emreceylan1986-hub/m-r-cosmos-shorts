@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-13T21:11:16.905585+00:00",
+  "uretim_zamani": "2026-09-14T00:43:05.064269+00:00",
   "haberler": [
     {
-      "baslik": "Asteroid Psyche's Secret: A Metal World Worth More Than Earth's Entire Economy",
-      "url": "https://en.wikipedia.org/wiki/16_Psyche",
+      "baslik": "Jupiter Vs Saturn: The Gravity Battle That Saved Earth",
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Titan's Secret: A Hidden Ocean Deeper Than Earth's Deepest Trench",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Oort Cloud: The Frozen Shell That Is One Thousand Times Further Than Pluto",
-      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
+      "baslik": "Io's Hellscape: Volcanic Plumes Ten Times Higher than Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ceres' Hidden Ocean: A Frozen Dwarf World With More Water Than Our Great Lakes",
-      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
