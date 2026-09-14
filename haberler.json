@@ -1,24 +1,16 @@
 {
-  "uretim_zamani": "2026-09-14T00:43:05.064269+00:00",
+  "uretim_zamani": "2026-09-14T18:13:40.258603+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter Vs Saturn: The Gravity Battle That Saved Earth",
-      "url": "https://en.wikipedia.org/wiki/Jupiter",
+      "baslik": "Titan's hydrocarbon lakes contain five hundred times more liquid gas than all Earth's oil reserves",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Titan's Secret: A Hidden Ocean Deeper Than Earth's Deepest Trench",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Io's Hellscape: Volcanic Plumes Ten Times Higher than Mount Everest",
+      "baslik": "Io moon volcanic eruptions shoot sulfur plumes two hundred miles high into space",
       "url": "https://en.wikipedia.org/wiki/Io_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
