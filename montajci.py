@@ -56,16 +56,21 @@ The script names a SPECIFIC subject (a planet, moon, star, nebula, galaxy,
 mission, or phenomenon). Identify the PRIMARY SUBJECT and put it in ALL
 THREE queries.
 
-- Query 1 MUST be the EXACT subject name + a real-imagery cue.
-  • Planet/moon: name + "NASA" or "telescope" (e.g. "Europa moon NASA",
-    "Saturn rings Cassini", "Mars rover footage")
-  • Star: name + telescope (e.g. "Betelgeuse Hubble", "Stephenson 2-18 star")
-  • Nebula/galaxy: name + telescope (e.g. "Orion Nebula JWST",
-    "Andromeda galaxy Hubble", "Pillars of Creation")
-  • Phenomenon: phenomenon name (e.g. "black hole simulation",
-    "supernova explosion NASA", "solar flare footage")
-- Query 2 = supporting space visual tied to the subject (its system, similar
-  object, related telescope shot). NOT generic.
+- 🔴 Query 1 IS THE HOOK — the first second of the video. It MUST return MOVING
+  stock footage. Stock-video libraries have NO results for agency words, so
+  Query 1 must NEVER contain "NASA", "Hubble", "JWST", "Cassini", "ESA" or a
+  mission name — those return stills at best, and a frozen photo on second 1
+  makes the viewer swipe away.
+  Query 1 = subject (or its visual category) + a MOTION word:
+    rotating · orbiting · spinning · flowing · erupting · exploding ·
+    drifting · timelapse · flying through · zooming
+  (e.g. "Jupiter planet rotating", "asteroid flying space",
+   "solar flare erupting", "nebula timelapse", "galaxy spinning")
+  If the exact object has no stock footage, use its CATEGORY + motion
+  ("gas giant rotating" for Jupiter, "rocky asteroid spinning" for Psyche).
+- Query 2 = the real-imagery shot: EXACT subject name + "NASA"/telescope/mission
+  (e.g. "Europa moon NASA", "Betelgeuse Hubble", "Orion Nebula JWST").
+  This is where subject fidelity lives; a still here is acceptable.
 - Query 3 = atmosphere/context that PAIRS with the subject. Slightly broader
   but still space-coherent (e.g. "deep space nebula" for a galaxy story,
   NOT "blue sky" or "stock starfield").
@@ -82,7 +87,9 @@ multiverse), use the term + "simulation" or "animation" so we get artwork.
 - Avoid: people in offices, sci-fi spaceship games, logos, abstract data.
 
 Format example for a "Betelgeuse goes supernova" video:
-["Betelgeuse Hubble", "red supergiant star", "supernova explosion NASA"]
+["red supergiant star pulsing", "Betelgeuse Hubble", "supernova explosion"]
+Format example for a "Jupiter's Great Red Spot" video:
+["Jupiter planet rotating", "Jupiter Great Red Spot NASA", "gas giant storm"]
 """
 
 
@@ -362,7 +369,9 @@ def foto_video_yap(foto: Path, hedef: Path, sure_sn: float) -> None:
             "-vf",
             f"scale={HEDEF_GENISLIK*2}:{HEDEF_YUKSEKLIK*2}:force_original_aspect_ratio=increase,"
             f"crop={HEDEF_GENISLIK*2}:{HEDEF_YUKSEKLIK*2},"
-            f"zoompan=z='min(zoom+0.0007,1.20)':d=1:"
+            # 14 Eyl: zoom 0,0007 → 30fps'te saniyede %2,1; 8 saniyelik klipte
+            # gözle fark edilmiyordu, foto DONMUŞ görünüyordu. 3 katına çıkarıldı.
+            f"zoompan=z='min(zoom+0.0022,1.35)':d=1:"
             f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"s={HEDEF_GENISLIK}x{HEDEF_YUKSEKLIK}:fps=30,setsar=1",
             "-r", "30", "-an",
@@ -645,15 +654,33 @@ def main() -> int:
 
         _adim(4, f"Görsel kaynak (Pexels → Wikimedia fallback) — klip başına {klip_basina:.2f} sn...")
         ham_klipler: list[Path] = []
+        kaynak_foto_mu: list[bool] = []
         for sira, kw in enumerate(keywords, 1):
             ham = GECICI_KLASOR / f"ham_{damga}_{sira}.mp4"
             bilgi = gorsel_kaynak_indir(kw, ham, klip_basina, api_key)
             ham_klipler.append(ham)
+            kaynak_foto_mu.append(str(bilgi.get("fotograf", "")).startswith("Wikimedia:"))
             _alt(
                 f"#{sira} '{kw}' → {bilgi['boyut'][0]}×{bilgi['boyut'][1]}, "
                 f"kaynak: {bilgi.get('fotograf','?')} "
                 f"({ham.stat().st_size/1024:.0f} KB)"
             )
+
+        # 🔴 14 Eyl — HOOK HAREKETLİ OLMALI. Emre: "videoların en başları hareketsiz
+        # fotoğraflarla ilk izleyeni sıkıyor". Ölçüm: son 6 koşuda #1 klip HER
+        # SEFERİNDE Wikimedia fotoğrafıydı (267/620/696 KB), #2 gerçek videoydu
+        # (3.021/23.634 KB). Sebep: keyword prompt'u Query 1'e "NASA/teleskop"
+        # zorunlu kılıyordu ve stok video kütüphanesinde o terimlerde video YOK.
+        # Prompt düzeltildi; bu da son savunma: prompt tutmazsa bile ilk klip
+        # fotoğrafsa, ilk HAREKETLİ klip ile yer değiştirir. Anlatı sırası en az
+        # bozulsun diye tam sıralama değil, TEK TAKAS yapılır.
+        if kaynak_foto_mu and kaynak_foto_mu[0]:
+            hareketli = next((i for i, foto in enumerate(kaynak_foto_mu) if not foto), None)
+            if hareketli is not None:
+                ham_klipler[0], ham_klipler[hareketli] = ham_klipler[hareketli], ham_klipler[0]
+                _alt(f"🔄 hook kurtarma: #1 fotoğraftı → #{hareketli+1} (hareketli) başa alındı")
+            else:
+                _alt("⚠️ üç klip de fotoğraf — hook hareketsiz (Ken Burns'e kaldı)")
 
         _adim(5, f"Her klip 1080×1920'a kırpılıp normalize ediliyor...")
         normal_klipler: list[Path] = []
