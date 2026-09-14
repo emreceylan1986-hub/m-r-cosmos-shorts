@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-09-14T19:12:46.203706+00:00",
+  "uretim_zamani": "2026-09-14T21:12:19.336682+00:00",
   "haberler": [
     {
-      "baslik": "Makemake lacks any atmosphere despite reflecting eighty percent of incoming sunlight",
-      "url": "https://en.wikipedia.org/wiki/Makemake",
+      "baslik": "Io Volcanic Moon Expels Lava Plumes Ten Times Higher Than Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Enceladus Ice Moon Shoots Water Geysers Five Hundred Miles Into Space",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
