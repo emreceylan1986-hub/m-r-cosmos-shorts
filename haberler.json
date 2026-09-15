@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-09-14T21:12:19.336682+00:00",
+  "uretim_zamani": "2026-09-15T00:17:14.662772+00:00",
   "haberler": [
     {
-      "baslik": "Io Volcanic Moon Expels Lava Plumes Ten Times Higher Than Mount Everest",
-      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
+      "baslik": "Dactyl Vs Ida: The Tiny Asteroid Moon Smaller Than a City Block",
+      "url": "https://en.wikipedia.org/wiki/Dactyl",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Enceladus Ice Moon Shoots Water Geysers Five Hundred Miles Into Space",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
