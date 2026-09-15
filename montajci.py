@@ -310,6 +310,9 @@ def keywordleri_uret(senaryo: str) -> list[str]:
 
 
 WIKIMEDIA_API = "https://commons.wikimedia.org/w/api.php"
+# Kaynak görsel bu ölçünün altındaysa 1080×1920'a şişerken bozulur — alınmaz.
+ASGARI_GORSEL_GENISLIK = 800
+ASGARI_GORSEL_YUKSEKLIK = 1000
 
 
 def wikimedia_foto_indir(keyword: str, foto_hedef: Path) -> dict:
@@ -342,6 +345,10 @@ def wikimedia_foto_indir(keyword: str, foto_hedef: Path) -> dict:
         if not mime.startswith("image/"):
             continue
         w, h = ii.get("width", 0), ii.get("height", 0)
+        # 15 Eyl: o video 379×391'lik bir görselle çıktı; 1080×1920'a şişince hem
+        # bulanıklaştı hem yatayda %42 kırpıldı. Alt sınır kondu.
+        if w < ASGARI_GORSEL_GENISLIK or h < ASGARI_GORSEL_YUKSEKLIK:
+            continue
         if h <= w:
             continue
         if aday is None or h > aday["h"]:
@@ -382,7 +389,18 @@ def foto_video_yap(foto: Path, hedef: Path, sure_sn: float) -> None:
     )
 
 
-def _gorsel_qc_gecer_mi(klip_yolu: Path, keyword: str, baslik: str = "") -> bool:
+# 🔴 15 Eyl — QC EŞİĞİ HOOK İÇİN GEVŞETİLDİ. 14 Eyl 21:13 koşusunda Pexels ÜÇ
+# klibi de buldu ama QC üçünü de reddetti ("konuyla eşleşmedi") → üçü de Wikimedia
+# fotoğrafına düştü, video baştan sona hareketsiz çıktı. Sebep: QC "bu GERÇEKTEN
+# Io mu?" diye soruyor; Io'nun stok videosu yok, uzay temalı genel klip 4-5 alıyor.
+# Hook için hareketli+ilgili, durağan+birebir'den iyidir. 0-3 (alakasız: dans eden
+# insan, ofis) hâlâ RED; 4+ kabul.
+QC_ESIK_HOOK = 4      # ilk klip: hareket önceliği
+QC_ESIK_DIGER = 6     # 2. ve 3. klip: özne sadakati
+
+
+def _gorsel_qc_gecer_mi(klip_yolu: Path, keyword: str, baslik: str = "",
+                        esik: int = QC_ESIK_DIGER) -> bool:
     """Klibin ilk karesini Gemini Vision'a sor — konuyla eşleşir mi?"""
     try:
         import gorsel_qc
@@ -398,7 +416,7 @@ def _gorsel_qc_gecer_mi(klip_yolu: Path, keyword: str, baslik: str = "") -> bool
         )
         if not tmp_png.exists():
             return True  # frame çıkmazsa kontrolsüz geç
-        sonuc = gorsel_qc.gorsel_konuyla_eslesir_mi(tmp_png, keyword, baslik, esik_skor=7)
+        sonuc = gorsel_qc.gorsel_konuyla_eslesir_mi(tmp_png, keyword, baslik, esik_skor=esik)
         tmp_png.unlink(missing_ok=True)
         return sonuc
     except Exception as h:
@@ -406,7 +424,7 @@ def _gorsel_qc_gecer_mi(klip_yolu: Path, keyword: str, baslik: str = "") -> bool
         return True
 
 
-def gorsel_kaynak_indir(keyword: str, hedef: Path, sure_sn: float, api_key: str,
+def gorsel_kaynak_indir(keyword: str, hedef: Path, sure_sn: float, api_key: str, sira: int = 2,
                          baslik: str = "") -> dict:
     """
     Önce Pexels video; başarısız olursa Wikimedia foto → Ken Burns video.
@@ -418,7 +436,8 @@ def gorsel_kaynak_indir(keyword: str, hedef: Path, sure_sn: float, api_key: str,
     qc_passed = True
     try:
         pexels_bilgi = pexels_video_indir(keyword, hedef, api_key)
-        if hedef.exists() and not _gorsel_qc_gecer_mi(hedef, keyword, baslik):
+        _esik = QC_ESIK_HOOK if sira == 1 else QC_ESIK_DIGER
+        if hedef.exists() and not _gorsel_qc_gecer_mi(hedef, keyword, baslik, _esik):
             print(f"   ↳ Pexels '{keyword}' konuyla eşleşmedi (QC red) — Wikimedia denenecek")
             # Backup'a kaydet, sonra zorla geri yüklemek için
             backup = hedef.with_suffix(".pexels_backup.mp4")
@@ -531,10 +550,11 @@ def klip_kirp_normalize(kaynak: Path, hedef: Path, sure_sn: float) -> None:
     filtre = (
         f"scale={HEDEF_GENISLIK}:{HEDEF_YUKSEKLIK}:force_original_aspect_ratio=increase,"
         f"crop={HEDEF_GENISLIK}:{HEDEF_YUKSEKLIK},"
-        f"zoompan=z='min(zoom+0.0007,1.15)':d=1:"
-        f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
-        f"s={HEDEF_GENISLIK}x{HEDEF_YUKSEKLIK}:fps=30,"
-        f"setsar=1"
+        # 🔴 15 Eyl — ÇİFT ZOOM KALDIRILDI. Buradaki zoompan, foto_video_yap'ın
+        # Ken Burns'ünün ÜSTÜNE biniyordu (1,35 × 1,15 ≈ 1,55 kat) ve kareyi
+        # kırpıyordu → Emre: "bu video ekrana sığmamış". Hareket zaten kaynakta:
+        # Pexels klibi hareketli, foto ise Ken Burns almış durumda.
+        f"fps=30,setsar=1"
     )
     _ffmpeg_calistir(
         [
@@ -657,7 +677,7 @@ def main() -> int:
         kaynak_foto_mu: list[bool] = []
         for sira, kw in enumerate(keywords, 1):
             ham = GECICI_KLASOR / f"ham_{damga}_{sira}.mp4"
-            bilgi = gorsel_kaynak_indir(kw, ham, klip_basina, api_key)
+            bilgi = gorsel_kaynak_indir(kw, ham, klip_basina, api_key, sira=sira)
             ham_klipler.append(ham)
             kaynak_foto_mu.append(str(bilgi.get("fotograf", "")).startswith("Wikimedia:"))
             _alt(
