@@ -1,16 +1,16 @@
 {
-  "uretim_zamani": "2026-09-15T19:11:34.150688+00:00",
+  "uretim_zamani": "2026-09-15T21:11:47.850075+00:00",
   "haberler": [
     {
-      "baslik": "Enceladus: The Impossible Geysers Shooting Water 10,000 Times Faster Than Old Faithful",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Titan's Secret: A Hidden Ocean Deeper Than Earth's Deepest Trench",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Enceladus Vs Earth's Ocean: Who Has More Life-Saving Phosphorus?",
+      "baslik": "Enceladus Vs Earth: The Ultimate Ocean Depth Battle",
       "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
       "skor": 999,
@@ -18,10 +18,10 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Titan's Hidden Sea: A Salty Hellscape Ten Times Saltier Than Earth's Dead Sea",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "baslik": "Ganymede's Secret: A Hidden Ocean Holding More Water Than Our Whole Planet",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
