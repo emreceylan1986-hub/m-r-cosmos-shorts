@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-09-16T18:12:08.630093+00:00",
+  "uretim_zamani": "2026-09-16T19:12:31.173651+00:00",
   "haberler": [
     {
-      "baslik": "Sombrero Galaxy Vs Pinwheel Galaxy: A Galactic Shape Battle",
-      "url": "https://en.wikipedia.org/wiki/Pinwheel_Galaxy",
+      "baslik": "Sagittarius A*: The Hidden Monster Powering Our Galaxy's Center",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sombrero Galaxy: A Cosmic Hat Containing Over Eight Hundred Billion Stars",
+      "url": "https://en.wikipedia.org/wiki/Sombrero_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
