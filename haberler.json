@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-15T21:11:47.850075+00:00",
+  "uretim_zamani": "2026-09-16T18:12:08.630093+00:00",
   "haberler": [
     {
-      "baslik": "Titan's Secret: A Hidden Ocean Deeper Than Earth's Deepest Trench",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Enceladus Vs Earth: The Ultimate Ocean Depth Battle",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Sombrero Galaxy Vs Pinwheel Galaxy: A Galactic Shape Battle",
+      "url": "https://en.wikipedia.org/wiki/Pinwheel_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ganymede's Secret: A Hidden Ocean Holding More Water Than Our Whole Planet",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
