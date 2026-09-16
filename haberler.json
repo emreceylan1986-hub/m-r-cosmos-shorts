@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-09-16T19:12:31.173651+00:00",
+  "uretim_zamani": "2026-09-16T21:13:50.348419+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*: The Hidden Monster Powering Our Galaxy's Center",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Sombrero Galaxy: A Cosmic Hat Hiding a Billion-Sun Black Hole",
+      "url": "https://en.wikipedia.org/wiki/Sombrero_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sombrero Galaxy: A Cosmic Hat Containing Over Eight Hundred Billion Stars",
-      "url": "https://en.wikipedia.org/wiki/Sombrero_Galaxy",
+      "baslik": "Andromeda Galaxy is rushing toward us twice as fast as previously measured",
+      "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
