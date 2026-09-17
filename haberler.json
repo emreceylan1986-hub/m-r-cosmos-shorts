@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-17T21:11:58.610394+00:00",
+  "uretim_zamani": "2026-09-17T23:11:31.908796+00:00",
   "haberler": [
     {
-      "baslik": "K2-18b alien atmosphere holds carbon molecules ten times more abundant than Earth",
-      "url": "https://en.wikipedia.org/wiki/K2-18b",
+      "baslik": "TOI-715 b exoplanet is fifty percent wider than Earth and sits right in the habitable zone",
+      "url": "https://en.wikipedia.org/wiki/TOI-715_b",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "TOI-849 b core is a naked giant planet remnant weighing thirty times more than Earth",
-      "url": "https://en.wikipedia.org/wiki/TOI-849_b",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "WASP-12b hot Jupiter is being stretched into an egg shape six hundred thousand miles wide",
-      "url": "https://en.wikipedia.org/wiki/WASP-12b",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
