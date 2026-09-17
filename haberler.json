@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-09-16T23:13:45.019492+00:00",
+  "uretim_zamani": "2026-09-17T18:13:46.463903+00:00",
   "haberler": [
     {
-      "baslik": "Hubble Deep Field stares into empty space and reveals ten thousand galaxies",
-      "url": "https://en.wikipedia.org/wiki/Hubble_Deep_Field",
+      "baslik": "TRAPPIST-1e Vs Earth: The Ultimate Race for Liquid Water",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Whirlpool Galaxy bridge of stars spans over one hundred thousand light years",
-      "url": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
+      "baslik": "Kepler-186f: The Impossible Red World Where Plants Would Turn Black",
+      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gliese 12 b: A Virgin World Only Forty Light Years Away",
+      "url": "https://en.wikipedia.org/wiki/Gliese_12_b",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
