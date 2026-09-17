@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-17T19:11:45.927758+00:00",
+  "uretim_zamani": "2026-09-17T21:11:58.610394+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 12 b: An Earth-Sized World Cooler Than a Pizza Oven",
-      "url": "https://en.wikipedia.org/wiki/Gliese_12_b",
+      "baslik": "K2-18b alien atmosphere holds carbon molecules ten times more abundant than Earth",
+      "url": "https://en.wikipedia.org/wiki/K2-18b",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "TOI-849 b core is a naked giant planet remnant weighing thirty times more than Earth",
+      "url": "https://en.wikipedia.org/wiki/TOI-849_b",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TRAPPIST-1 Versus Our Sun: The Ultimate Dwarf Star Battle",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1",
+      "baslik": "WASP-12b hot Jupiter is being stretched into an egg shape six hundred thousand miles wide",
+      "url": "https://en.wikipedia.org/wiki/WASP-12b",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "LHS 1140 b: The Water World With Six Times Earth's Ocean Volume",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
