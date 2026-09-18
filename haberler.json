@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-17T23:11:31.908796+00:00",
+  "uretim_zamani": "2026-09-18T18:12:51.939056+00:00",
   "haberler": [
     {
-      "baslik": "TOI-715 b exoplanet is fifty percent wider than Earth and sits right in the habitable zone",
-      "url": "https://en.wikipedia.org/wiki/TOI-715_b",
+      "baslik": "Pollux orange giant star is nearly twice the size of the Sun",
+      "url": "https://en.wikipedia.org/wiki/Pollux_(star)",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Alnitak massive star system radiates more light than twenty five thousand suns",
+      "url": "https://en.wikipedia.org/wiki/Alnitak",
+      "kaynak": "gemini-fallback",
+      "skor": 987,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mintaka triple star system outshines our sun by nearly ninety thousand times",
+      "url": "https://en.wikipedia.org/wiki/Mintaka",
+      "kaynak": "gemini-fallback",
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
