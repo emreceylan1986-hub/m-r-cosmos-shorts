@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-09-18T18:12:51.939056+00:00",
+  "uretim_zamani": "2026-09-18T19:12:04.726730+00:00",
   "haberler": [
     {
-      "baslik": "Pollux orange giant star is nearly twice the size of the Sun",
-      "url": "https://en.wikipedia.org/wiki/Pollux_(star)",
+      "baslik": "R Doradus: The Giant Star That Swallows Mercury's Entire Orbit!",
+      "url": "https://en.wikipedia.org/wiki/R_Doradus",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Alnitak massive star system radiates more light than twenty five thousand suns",
-      "url": "https://en.wikipedia.org/wiki/Alnitak",
+      "baslik": "N6946-BH1: The Impossible Star That Disappeared Without a Supernova Explosion!",
+      "url": "https://en.wikipedia.org/wiki/N6946-BH1",
       "kaynak": "gemini-fallback",
       "skor": 987,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mintaka triple star system outshines our sun by nearly ninety thousand times",
-      "url": "https://en.wikipedia.org/wiki/Mintaka",
-      "kaynak": "gemini-fallback",
-      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
