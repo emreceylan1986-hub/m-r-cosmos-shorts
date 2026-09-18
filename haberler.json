@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-09-18T21:12:15.080929+00:00",
+  "uretim_zamani": "2026-09-18T23:11:17.046192+00:00",
   "haberler": [
     {
-      "baslik": "VY Canis Majoris: A Star So Big It Could Swallow Saturn's Orbit",
-      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
+      "baslik": "S Doradus: The Unseen Monster One Million Times Brighter Than the Sun",
+      "url": "https://en.wikipedia.org/wiki/S_Doradus",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 990,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Groombridge 34: The Red Dwarf Neighbors Burning Slower Than Earth's Age",
+      "url": "https://en.wikipedia.org/wiki/Groombridge_34",
+      "kaynak": "gemini-fallback",
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
