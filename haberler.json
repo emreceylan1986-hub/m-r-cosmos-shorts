@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-09-18T19:12:04.726730+00:00",
+  "uretim_zamani": "2026-09-18T21:12:15.080929+00:00",
   "haberler": [
     {
-      "baslik": "R Doradus: The Giant Star That Swallows Mercury's Entire Orbit!",
-      "url": "https://en.wikipedia.org/wiki/R_Doradus",
+      "baslik": "VY Canis Majoris: A Star So Big It Could Swallow Saturn's Orbit",
+      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
       "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "N6946-BH1: The Impossible Star That Disappeared Without a Supernova Explosion!",
-      "url": "https://en.wikipedia.org/wiki/N6946-BH1",
-      "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
