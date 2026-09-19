@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-19T01:07:23.019116+00:00",
+  "uretim_zamani": "2026-09-19T18:13:54.857249+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-22: The Secret Water World Wider than Two Earths",
-      "url": "https://en.wikipedia.org/wiki/Kepler-22",
+      "baslik": "Teegarden's Star b: The Habitable World Closer to its Sun than Mercury",
+      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
       "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Luyten b: The Nearby World under a Red Sun Brighter than a Full Moon",
+      "url": "https://en.wikipedia.org/wiki/Luyten_b",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gliese 273b: The Liquid Water Candidate with Seasons Twice as Long as Ours",
+      "url": "https://en.wikipedia.org/wiki/Luyten_b",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
