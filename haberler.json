@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-20T00:37:57.292002+00:00",
+  "uretim_zamani": "2026-09-20T18:11:22.809374+00:00",
   "haberler": [
     {
-      "baslik": "Halley's Comet speeds through space at one hundred and sixty thousand miles per hour",
-      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
+      "baslik": "KBO 55636: The Solar System Mystery—A Tiny Rock 10,000 Times Smaller Than Earth Reflecting Pure Ice",
+      "url": "https://en.wikipedia.org/wiki/(55636)_2002_TX300",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Vesta asteroid holds a mountain twice as tall as Mount Everest",
-      "url": "https://en.wikipedia.org/wiki/4_Vesta",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Bennu asteroid contains enough carbon to cover the Earth in diamonds",
-      "url": "https://en.wikipedia.org/wiki/101955_Bennu",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
