@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-20T18:11:22.809374+00:00",
+  "uretim_zamani": "2026-09-20T19:12:07.799351+00:00",
   "haberler": [
     {
-      "baslik": "KBO 55636: The Solar System Mystery—A Tiny Rock 10,000 Times Smaller Than Earth Reflecting Pure Ice",
-      "url": "https://en.wikipedia.org/wiki/(55636)_2002_TX300",
+      "baslik": "Stephenson 2-18: The Impossible Star That Swallows Ten Thousand Suns",
+      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Oort Cloud: The Solar System's Icy Shell Extending Past a Thousand Suns",
+      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "The Sun Vs Betelgeuse: A Size Comparison That Will Melt Your Brain",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
