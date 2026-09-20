@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-19T21:11:45.796196+00:00",
+  "uretim_zamani": "2026-09-20T00:37:57.292002+00:00",
   "haberler": [
     {
-      "baslik": "TRAPPIST-1e Vs Earth: The Ultimate Liquid Water Battle",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
+      "baslik": "Halley's Comet speeds through space at one hundred and sixty thousand miles per hour",
+      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Vesta asteroid holds a mountain twice as tall as Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/4_Vesta",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Bennu asteroid contains enough carbon to cover the Earth in diamonds",
+      "url": "https://en.wikipedia.org/wiki/101955_Bennu",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kepler-186f: The First Earth-Sized Planet Shorter Than A Martian Year",
-      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Teegarden's Star b: The Habitable World Closer To Its Sun Than Mercury",
-      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
