@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-20T21:12:35.871241+00:00",
+  "uretim_zamani": "2026-09-21T00:53:41.315444+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*: The Impossible Hidden Mystery at the Center of Our Galaxy",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Saturn's rings are ninety-nine percent ice and thin enough to fit through a seventeen-story building",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Oumuamua: The Secret Interstellar Wanderer Faster Than a Bullet",
-      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ceres: The Secret Water World Hidden Inside Our Asteroid Belt",
-      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
