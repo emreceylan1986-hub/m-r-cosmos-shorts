@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-09-21T00:53:41.315444+00:00",
+  "uretim_zamani": "2026-09-21T18:14:36.933456+00:00",
   "haberler": [
     {
-      "baslik": "Saturn's rings are ninety-nine percent ice and thin enough to fit through a seventeen-story building",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "baslik": "Saturn's Rings Vs A Bathtub: The Giant Planet That Can Float",
+      "url": "https://en.wikipedia.org/wiki/Saturn",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
