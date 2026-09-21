@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-09-21T19:13:49.663983+00:00",
+  "uretim_zamani": "2026-09-21T21:11:55.937564+00:00",
   "haberler": [
     {
-      "baslik": "Ganymede—The Hidden Secret of the Solar System's Largest Moon",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Jupiter's Great Red Spot: The Storm Big Enough to Swallow Two Earths",
+      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rogue Planet CFBDSIR 2149: The Lonely World Drifting Without a Star",
-      "url": "https://en.wikipedia.org/wiki/CFBDSIR_2149-0403",
+      "baslik": "Saturn's Rings: The Cosmic Hat That Shuns More Ice Than Earth's Glaciers",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pillars of Creation: The Impossible Cloud 100 Times Larger Than Our Solar System",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "Callisto: The Dead Moon With an Ocean Hidden Deeper Than Earth's Mariana Trench",
+      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 997,
       "yas_saat": 0,
