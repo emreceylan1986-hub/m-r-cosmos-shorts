@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-21T18:14:36.933456+00:00",
+  "uretim_zamani": "2026-09-21T19:13:49.663983+00:00",
   "haberler": [
     {
-      "baslik": "Saturn's Rings Vs A Bathtub: The Giant Planet That Can Float",
-      "url": "https://en.wikipedia.org/wiki/Saturn",
+      "baslik": "Ganymede—The Hidden Secret of the Solar System's Largest Moon",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rogue Planet CFBDSIR 2149: The Lonely World Drifting Without a Star",
+      "url": "https://en.wikipedia.org/wiki/CFBDSIR_2149-0403",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pillars of Creation: The Impossible Cloud 100 Times Larger Than Our Solar System",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
