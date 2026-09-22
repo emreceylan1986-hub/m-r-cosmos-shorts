@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-21T21:11:55.937564+00:00",
+  "uretim_zamani": "2026-09-22T00:35:52.257148+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Great Red Spot: The Storm Big Enough to Swallow Two Earths",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Saturn's Rings: The Cosmic Hat That Shuns More Ice Than Earth's Glaciers",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Callisto: The Dead Moon With an Ocean Hidden Deeper Than Earth's Mariana Trench",
+      "baslik": "Callisto ice crust is thicker than Mount Everest is tall",
       "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
