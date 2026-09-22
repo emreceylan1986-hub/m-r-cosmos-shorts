@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-22T18:12:38.747775+00:00",
+  "uretim_zamani": "2026-09-22T19:12:37.474679+00:00",
   "haberler": [
     {
-      "baslik": "Triton Vs Earth: Cryovolcanoes That Freeze Faster Than Liquid Nitrogen",
-      "url": "https://en.wikipedia.org/wiki/Volcanism_on_Triton",
+      "baslik": "Rogue Planet CFBDSIR 2149: Drifting Alone at Temperatures Hotter Than an Oven",
+      "url": "https://en.wikipedia.org/wiki/CFBDSIR_2149-0421",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "LHS 3844 b: The Airless Darkworld That Swings 1000 Degrees Between Day and Night",
+      "url": "https://en.wikipedia.org/wiki/LHS_3844_b",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gliese 581 d: A Hidden Waterworld With Oceans Deeper Than Earth's Mariana Trench",
+      "url": "https://en.wikipedia.org/wiki/Gliese_581d",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
