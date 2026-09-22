@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-09-22T00:35:52.257148+00:00",
+  "uretim_zamani": "2026-09-22T18:12:38.747775+00:00",
   "haberler": [
     {
-      "baslik": "Callisto ice crust is thicker than Mount Everest is tall",
-      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
+      "baslik": "Triton Vs Earth: Cryovolcanoes That Freeze Faster Than Liquid Nitrogen",
+      "url": "https://en.wikipedia.org/wiki/Volcanism_on_Triton",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
