@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-22T19:12:37.474679+00:00",
+  "uretim_zamani": "2026-09-22T21:14:47.594889+00:00",
   "haberler": [
     {
-      "baslik": "Rogue Planet CFBDSIR 2149: Drifting Alone at Temperatures Hotter Than an Oven",
-      "url": "https://en.wikipedia.org/wiki/CFBDSIR_2149-0421",
+      "baslik": "Europa's Secret: A Warm Deep-Sea Vent Could Power Alien Microbes",
+      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Enceladus Vs Earth: Which Ocean World Holds More Deep-Sea Vent Heat?",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Titan's Hidden Sea: An Under-Ice Ocean Ten Times Deeper Than the Pacific",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "LHS 3844 b: The Airless Darkworld That Swings 1000 Degrees Between Day and Night",
-      "url": "https://en.wikipedia.org/wiki/LHS_3844_b",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gliese 581 d: A Hidden Waterworld With Oceans Deeper Than Earth's Mariana Trench",
-      "url": "https://en.wikipedia.org/wiki/Gliese_581d",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
