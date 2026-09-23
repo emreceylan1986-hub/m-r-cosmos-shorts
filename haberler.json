@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-09-23T18:14:17.883095+00:00",
+  "uretim_zamani": "2026-09-23T19:11:33.163947+00:00",
   "haberler": [
     {
-      "baslik": "Bootes Void: A cosmic hole empty enough to fit ten thousand galaxies inside",
-      "url": "https://en.wikipedia.org/wiki/Boot%C3%A8s_void",
+      "baslik": "Andromeda Galaxy Vs Milky Way: A Collision Course Moving at Two Hundred Fifty Thousand Miles Per Hour",
+      "url": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Whirlpool Galaxy Bridge Connects Two Worlds Across One Hundred Thousand Light-Years",
+      "url": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
