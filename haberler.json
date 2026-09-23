@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-09-23T21:05:49.693877+00:00",
+  "uretim_zamani": "2026-09-23T23:11:04.870084+00:00",
   "haberler": [
     {
-      "baslik": "NGC 262: A Hydrogen Gas Cloud Fifty Times Larger Than Our Galaxy",
-      "url": "https://en.wikipedia.org/wiki/NGC_262",
+      "baslik": "Fornax Void: A Dark Bubble larger than one hundred galaxies",
+      "url": "https://en.wikipedia.org/wiki/Fornax_Void",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Comet Cluster: A Supercluster containing over ten thousand galaxies",
+      "url": "https://en.wikipedia.org/wiki/Comet_Cluster",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
