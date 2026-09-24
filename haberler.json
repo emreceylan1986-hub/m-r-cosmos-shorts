@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-09-23T23:11:04.870084+00:00",
+  "uretim_zamani": "2026-09-24T00:14:50.617353+00:00",
   "haberler": [
     {
-      "baslik": "Fornax Void: A Dark Bubble larger than one hundred galaxies",
-      "url": "https://en.wikipedia.org/wiki/Fornax_Void",
+      "baslik": "LHS 1140 b exoplanet holds an underground ocean three times wider than the Atlantic",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Comet Cluster: A Supercluster containing over ten thousand galaxies",
-      "url": "https://en.wikipedia.org/wiki/Comet_Cluster",
+      "baslik": "Proxima Centauri b orbits its star fifty times closer than Earth is to the Sun",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
