@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-09-24T19:12:03.583364+00:00",
+  "uretim_zamani": "2026-09-24T21:07:40.841366+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-16b world has two suns casting double shadows on its surface",
-      "url": "https://en.wikipedia.org/wiki/Kepler-16b",
+      "baslik": "K2-18b: The Impossible Water World 120 Light-Years Away",
+      "url": "https://en.wikipedia.org/wiki/K2-18b",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "HD 189733 b exoplanet rains glass sideways at seven times the speed of sound",
-      "url": "https://en.wikipedia.org/wiki/HD_189733_b",
+      "baslik": "TRAPPIST-1 Versus Our Solar System: A Battle of Worlds",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "WASP-12b hot Jupiter is being stretched into an egg shape by its star",
-      "url": "https://en.wikipedia.org/wiki/WASP-12b",
+      "baslik": "Gliese 581g: The Forbidden Planet Hidden in the Habitable Zone",
+      "url": "https://en.wikipedia.org/wiki/Gliese_581g",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
