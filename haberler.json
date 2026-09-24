@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-09-24T18:13:02.684647+00:00",
+  "uretim_zamani": "2026-09-24T19:12:03.583364+00:00",
   "haberler": [
     {
-      "baslik": "LHS 1140 b habitable exoplanet holds an ocean one thousand four hundred kilometers deep",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "baslik": "Kepler-16b world has two suns casting double shadows on its surface",
+      "url": "https://en.wikipedia.org/wiki/Kepler-16b",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "HD 189733 b exoplanet rains glass sideways at seven times the speed of sound",
+      "url": "https://en.wikipedia.org/wiki/HD_189733_b",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Proxima Centauri b orbits its star forty times closer than Earth to the Sun",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "baslik": "WASP-12b hot Jupiter is being stretched into an egg shape by its star",
+      "url": "https://en.wikipedia.org/wiki/WASP-12b",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
