@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-09-25T19:11:31.958273+00:00",
+  "uretim_zamani": "2026-09-25T21:04:58.586638+00:00",
   "haberler": [
     {
-      "baslik": "Antares red supergiant star is seven hundred times wider than the Sun",
-      "url": "https://en.wikipedia.org/wiki/Antares",
+      "baslik": "Rigel supergiant star shines eighty thousand times brighter than the Sun",
+      "url": "https://en.wikipedia.org/wiki/Rigel",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rigel blue supergiant shines brighter than one hundred thousand suns",
-      "url": "https://en.wikipedia.org/wiki/Rigel",
+      "baslik": "Cygnus X-1 black hole devours matter at twenty percent the speed of light",
+      "url": "https://en.wikipedia.org/wiki/Cygnus_X-1",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
