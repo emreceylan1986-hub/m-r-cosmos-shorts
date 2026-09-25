@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-09-25T00:16:02.375754+00:00",
+  "uretim_zamani": "2026-09-25T18:19:52.744487+00:00",
   "haberler": [
     {
-      "baslik": "WASP-18b: A Hellscape Where a Giant Planet Hugs Its Star Ten Times Closer Than Mercury",
-      "url": "https://en.wikipedia.org/wiki/WASP-18b",
+      "baslik": "Betelgeuse is swelling beyond the orbit of Mars",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rho Ophiuchi: A Dark Stellar Nursery Making New Suns Just Four Hundred Light Years From Earth",
-      "url": "https://en.wikipedia.org/wiki/Rho_Ophiuchi_cloud_complex",
+      "baslik": "Rigel star shines brighter than forty thousand suns",
+      "url": "https://en.wikipedia.org/wiki/Rigel",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
