@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-09-24T21:07:40.841366+00:00",
+  "uretim_zamani": "2026-09-25T00:16:02.375754+00:00",
   "haberler": [
     {
-      "baslik": "K2-18b: The Impossible Water World 120 Light-Years Away",
-      "url": "https://en.wikipedia.org/wiki/K2-18b",
+      "baslik": "WASP-18b: A Hellscape Where a Giant Planet Hugs Its Star Ten Times Closer Than Mercury",
+      "url": "https://en.wikipedia.org/wiki/WASP-18b",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TRAPPIST-1 Versus Our Solar System: A Battle of Worlds",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1",
+      "baslik": "Rho Ophiuchi: A Dark Stellar Nursery Making New Suns Just Four Hundred Light Years From Earth",
+      "url": "https://en.wikipedia.org/wiki/Rho_Ophiuchi_cloud_complex",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gliese 581g: The Forbidden Planet Hidden in the Habitable Zone",
-      "url": "https://en.wikipedia.org/wiki/Gliese_581g",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
