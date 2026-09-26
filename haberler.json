@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-09-25T21:04:58.586638+00:00",
+  "uretim_zamani": "2026-09-26T00:22:16.186588+00:00",
   "haberler": [
     {
-      "baslik": "Rigel supergiant star shines eighty thousand times brighter than the Sun",
-      "url": "https://en.wikipedia.org/wiki/Rigel",
+      "baslik": "Gliese 581c: The Deadly Greenhouse Planet Closer To Its Star Than Mercury",
+      "url": "https://en.wikipedia.org/wiki/Glow_581c",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Cygnus X-1 black hole devours matter at twenty percent the speed of light",
-      "url": "https://en.wikipedia.org/wiki/Cygnus_X-1",
+      "baslik": "Gliese 832: The Gas Giant Shield Ten Times Heavier Than Jupiter",
+      "url": "https://en.wikipedia.org/wiki/Gliese_832",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 992,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gliese 667: The Triple Star System Shifting Colors Faster Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Gliese_667",
+      "kaynak": "gemini-fallback",
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
