@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-09-26T00:22:16.186588+00:00",
+  "uretim_zamani": "2026-09-26T18:12:12.871374+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 581c: The Deadly Greenhouse Planet Closer To Its Star Than Mercury",
-      "url": "https://en.wikipedia.org/wiki/Glow_581c",
+      "baslik": "L 98-59 b rocky exoplanet is half the mass of our home world",
+      "url": "https://en.wikipedia.org/wiki/L_98-59_b",
       "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gliese 832: The Gas Giant Shield Ten Times Heavier Than Jupiter",
-      "url": "https://en.wikipedia.org/wiki/Gliese_832",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gliese 667: The Triple Star System Shifting Colors Faster Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Gliese_667",
-      "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
