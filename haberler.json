@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-09-26T21:11:33.632171+00:00",
+  "uretim_zamani": "2026-09-27T18:14:34.074599+00:00",
   "haberler": [
     {
-      "baslik": "Proxima Centauri b orbits its star five times closer than Mercury",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "baslik": "Betelgeuse: The Impossible Mystery of a Star Swelling Beyond Mars",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Venus Vs Earth: The Hellscape That Spins Backward",
+      "url": "https://en.wikipedia.org/wiki/Venus",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pillars of Creation: The Impossible Light-Year-Wide Cosmic Towers Shaken by Supernovas",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
