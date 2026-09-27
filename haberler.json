@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-09-27T19:11:53.044791+00:00",
+  "uretim_zamani": "2026-09-27T21:11:59.385347+00:00",
   "haberler": [
     {
-      "baslik": "KBO 1994 JR1 Vs Pluto: A Billion-Mile Orbital Dogfight",
-      "url": "https://en.wikipedia.org/wiki/(15810)_1994_JR1",
+      "baslik": "Sun's Core Is Fifteen Million Degrees Hotter Than Its Surface",
+      "url": "https://en.wikipedia.org/wiki/Solar_core",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Sun's Core Vs Hydrogen Bomb: The Unseen Furnace Firing a Million Times Brighter",
-      "url": "https://en.wikipedia.org/wiki/Sun%27s_core",
+      "baslik": "Halley's Comet Travels Seventy Times Faster Than A Speeding Bullet",
+      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Asteroid Bennu Holds Enough Carbon To Build Billions Of Earths",
+      "url": "https://en.wikipedia.org/wiki/101955_Bennu",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
