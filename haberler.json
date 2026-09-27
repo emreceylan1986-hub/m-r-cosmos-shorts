@@ -1,16 +1,8 @@
 {
-  "uretim_zamani": "2026-09-27T21:11:59.385347+00:00",
+  "uretim_zamani": "2026-09-27T23:12:44.375831+00:00",
   "haberler": [
     {
-      "baslik": "Sun's Core Is Fifteen Million Degrees Hotter Than Its Surface",
-      "url": "https://en.wikipedia.org/wiki/Solar_core",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Halley's Comet Travels Seventy Times Faster Than A Speeding Bullet",
+      "baslik": "Halley's Comet races through the solar system at over one hundred thousand miles per hour",
       "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
       "kaynak": "gemini-fallback",
       "skor": 999,
@@ -18,7 +10,7 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Asteroid Bennu Holds Enough Carbon To Build Billions Of Earths",
+      "baslik": "Bennu asteroid holds enough carbon material to fill four football stadiums",
       "url": "https://en.wikipedia.org/wiki/101955_Bennu",
       "kaynak": "gemini-fallback",
       "skor": 998,
