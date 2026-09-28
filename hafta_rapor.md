@@ -1,23 +1,23 @@
 # 📊 CosmoBytes — Haftalık Rapor
-_2026-09-20T23:51+00:00_
+_2026-09-28T00:18+00:00_
 
 ## Özet
-- **Abone:** 220 (-17 bu hafta)
-- **Toplam view:** 106,313 (+1,533 bu hafta)
-- **Toplam video:** 358
-- **Son 7 gün:** 27 video, 2,104 izl, ort 77/video
-- **<50 izl video sayısı:** 18/27 (kalite_temizleyici aday)
+- **Abone:** 242 (+22 bu hafta)
+- **Toplam view:** 109,374 (+3,061 bu hafta)
+- **Toplam video:** 383
+- **Son 7 gün:** 28 video, 1,838 izl, ort 65/video
+- **<50 izl video sayısı:** 16/28 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **1,022v** · 5👍 · 3💬 — TRAPPIST-1e exoplanet system fits entirely inside Mercury orbit
-- **240v** · 0👍 · 1💬 — Enceladus geysers blast water ten thousand times faster than Old Faithful
-- **145v** · 5👍 · 1💬 — TOI-715 b is a super-Earth one and a half times wider than our planet
+- **247v** · 1👍 · 1💬 — Andromeda galaxy moves toward the Milky Way at 250,000 miles per hour
+- **214v** · 3👍 · 1💬 — LHS 1140 b super Earth holds a global ocean fourteen hundred kilometers deep
+- **181v** · 3👍 · 1💬 — Rigel blue supergiant is eighty thousand times brighter than the Sun
 
 ## 🪦 Alt 3 (son 7 gün)
-- **0v** · 0👍 · 0💬 — Hubble Deep Field reveals three thousand galaxies in dark patch of sky
-- **0v** · 0👍 · 0💬 — Sombrero Galaxy core hides a black hole weighing one billion suns
-- **0v** · 0👍 · 0💬 — Ida asteroid moon Dactyl is smaller than a city block
+- **0v** · 0👍 · 0💬 — Gliese 581c has a frozen side and a baking hot side
+- **0v** · 0👍 · 0💬 — WASP-18b orbits its star in twenty-three hours
+- **0v** · 0👍 · 0💬 — Triton ice volcanoes blast nitrogen eight kilometers high
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **220 abone / 77 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **242 abone / 65 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı
