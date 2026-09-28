@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-09-28T18:20:26.149405+00:00",
+  "uretim_zamani": "2026-09-28T19:14:26.969011+00:00",
   "haberler": [
     {
-      "baslik": "Io's active volcanoes erupt thirty miles high into space",
-      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
+      "baslik": "Enceladus moon shoots ice geysers two hundred miles into space",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Io volcano plumes blast four hundred kilometers high above the sulfur crust",
-      "url": "https://en.wikipedia.org/wiki/Volcanism_on_Io",
+      "baslik": "Titan methane lakes hold forty times more liquid than all Earth oil reserves",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Io surface lava lakes burn two thousand degrees hotter than normal rock",
-      "url": "https://en.wikipedia.org/wiki/Volcanism_on_Io",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
