@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-09-28T19:14:26.969011+00:00",
+  "uretim_zamani": "2026-09-28T21:18:09.172345+00:00",
   "haberler": [
     {
-      "baslik": "Enceladus moon shoots ice geysers two hundred miles into space",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Pillars of Creation: The Impossible Cosmic Towers Weighed Against Our Sun",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Titan methane lakes hold forty times more liquid than all Earth oil reserves",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "baslik": "Miranda Moon: A Shattered Ice World with Canyons Twelve Times Deeper Than the Grand Canyon",
+      "url": "https://en.wikipedia.org/wiki/Miranda_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Venus Vs Earth: The Runaway Greenhouse Hellscape Spinning Backwards",
+      "url": "https://en.wikipedia.org/wiki/Venus",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
