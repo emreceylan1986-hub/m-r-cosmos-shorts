@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-09-27T23:12:44.375831+00:00",
+  "uretim_zamani": "2026-09-28T18:20:26.149405+00:00",
   "haberler": [
     {
-      "baslik": "Halley's Comet races through the solar system at over one hundred thousand miles per hour",
-      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
+      "baslik": "Io's active volcanoes erupt thirty miles high into space",
+      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Io volcano plumes blast four hundred kilometers high above the sulfur crust",
+      "url": "https://en.wikipedia.org/wiki/Volcanism_on_Io",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Bennu asteroid holds enough carbon material to fill four football stadiums",
-      "url": "https://en.wikipedia.org/wiki/101955_Bennu",
+      "baslik": "Io surface lava lakes burn two thousand degrees hotter than normal rock",
+      "url": "https://en.wikipedia.org/wiki/Volcanism_on_Io",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
