@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-29T18:12:58.267997+00:00",
+  "uretim_zamani": "2026-09-29T19:11:33.201633+00:00",
   "haberler": [
     {
-      "baslik": "Enceladus Vs Earth: The tiny moon shooting water geysers twenty times higher than Everest",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Ganymede Vs Earth: The Battle of the Hidden Oceans",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ganymede's Hidden Ocean: A saltwater layer deeper than thirty Earth oceans combined",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Europa Vs Earth's Deepest Trench: The Ultimate Ocean Depth War",
+      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Cerberus Fossae: The Martian chasm that unleashed floods hundred times larger than the Amazon",
-      "url": "https://en.wikipedia.org/wiki/Cerberus_Fossae",
+      "baslik": "Ariel's Secret: The Frozen Moon Hiding an Ocean Deeper Than Earth's Atlantic",
+      "url": "https://en.wikipedia.org/wiki/Ariel_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
