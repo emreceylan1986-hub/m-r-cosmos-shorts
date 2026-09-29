@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-09-29T19:11:33.201633+00:00",
+  "uretim_zamani": "2026-09-29T21:11:57.851226+00:00",
   "haberler": [
     {
-      "baslik": "Ganymede Vs Earth: The Battle of the Hidden Oceans",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "K2-33b Vs Neptune: A Giant Baby Planet Hotter than Melting Lead",
+      "url": "https://en.wikipedia.org/wiki/K2-33b",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Europa Vs Earth's Deepest Trench: The Ultimate Ocean Depth War",
-      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
+      "baslik": "PDS 70: A New Solar System Growing Fifty Times Wider than Our Own",
+      "url": "https://en.wikipedia.org/wiki/PDS_70",
       "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ariel's Secret: The Frozen Moon Hiding an Ocean Deeper Than Earth's Atlantic",
-      "url": "https://en.wikipedia.org/wiki/Ariel_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
