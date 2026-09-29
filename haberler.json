@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-09-28T23:11:41.470849+00:00",
+  "uretim_zamani": "2026-09-29T02:30:29.677381+00:00",
   "haberler": [
     {
-      "baslik": "Titan's atmosphere is thick enough to let you fly like a bird with wings",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "baslik": "Titan's Kraken Mare: A Liquid Sea Deeper Than Three Hundred Metres",
+      "url": "https://en.wikipedia.org/wiki/Kraken_Mare",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Io's volcanic activity pumps out four hundred thousand tons of sulfur daily",
-      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
+      "baslik": "Ganymede Vs Mars: The Battle for Hidden Water",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mimas holds an underground ocean despite looking like the Death Star",
-      "url": "https://en.wikipedia.org/wiki/Mimas_(moon)",
+      "baslik": "Enceladus's Secret: Hydrothermal Vents Hotter Than Boiling Earth Water",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
