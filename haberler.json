@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-09-30T19:14:22.063986+00:00",
+  "uretim_zamani": "2026-09-30T21:13:14.128567+00:00",
   "haberler": [
     {
-      "baslik": "Scylla Dwarf Galaxy: The Invisible Ghost Galaxy With More Dark Matter Than Visible Stars",
-      "url": "https://en.wikipedia.org/wiki/Pegasus_Dwarf_Spheroidal_Galaxy",
+      "baslik": "Local Void: The Vast Empty Desert Spanning More Than Two Hundred Million Light Years",
+      "url": "https://en.wikipedia.org/wiki/Local_Void",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Seyfert's Sextet: Five Galaxies Locked in a Dance Closer Than the Milky Way's Width",
+      "url": "https://en.wikipedia.org/wiki/Seyfert%27s_Sextet",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Dragonfish Nebula: The Gigantic Cosmic Firework Hiding Behind a Wall of Dust",
+      "url": "https://en.wikipedia.org/wiki/Dragonfish_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 988,
       "yas_saat": 0,
