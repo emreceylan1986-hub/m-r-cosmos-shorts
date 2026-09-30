@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-09-29T21:11:57.851226+00:00",
+  "uretim_zamani": "2026-09-30T01:03:29.336883+00:00",
   "haberler": [
     {
-      "baslik": "K2-33b Vs Neptune: A Giant Baby Planet Hotter than Melting Lead",
-      "url": "https://en.wikipedia.org/wiki/K2-33b",
+      "baslik": "NGC 1275 galaxy cluster holds filaments fifty times longer than the Milky Way",
+      "url": "https://en.wikipedia.org/wiki/NGC_1275",
       "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "PDS 70: A New Solar System Growing Fifty Times Wider than Our Own",
-      "url": "https://en.wikipedia.org/wiki/PDS_70",
-      "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
