@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-09-30T21:13:14.128567+00:00",
+  "uretim_zamani": "2026-10-01T01:03:41.082332+00:00",
   "haberler": [
     {
-      "baslik": "Local Void: The Vast Empty Desert Spanning More Than Two Hundred Million Light Years",
-      "url": "https://en.wikipedia.org/wiki/Local_Void",
+      "baslik": "Hot Jupiter Vs Cold Gas Giant: The Temperature War",
+      "url": "https://en.wikipedia.org/wiki/Hot_Jupiter",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Seyfert's Sextet: Five Galaxies Locked in a Dance Closer Than the Milky Way's Width",
-      "url": "https://en.wikipedia.org/wiki/Seyfert%27s_Sextet",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Dragonfish Nebula: The Gigantic Cosmic Firework Hiding Behind a Wall of Dust",
-      "url": "https://en.wikipedia.org/wiki/Dragonfish_Nebula",
+      "baslik": "Kepler-186: The Five-Planet System Hidden in Cygnus",
+      "url": "https://en.wikipedia.org/wiki/Kepler-186",
       "kaynak": "gemini-fallback",
       "skor": 988,
       "yas_saat": 0,
