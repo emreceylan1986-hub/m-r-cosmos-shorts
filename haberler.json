@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-10-01T18:11:54.391050+00:00",
+  "uretim_zamani": "2026-10-01T19:12:24.032720+00:00",
   "haberler": [
     {
-      "baslik": "Mendez Star vs the Sun: A Giant Flares Fifty Times Brighter Than Our Solar Flares",
-      "url": "https://en.wikipedia.org/wiki/Mendez_Star",
+      "baslik": "LHS 475 b rocky exoplanet is the exact size of Earth but bakes under a blistering red sun",
+      "url": "https://en.wikipedia.org/wiki/LHS_475_b",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "WASP-107b: A Cotton Candy Planet With a Core Ten Times Lighter Than Jupiter",
-      "url": "https://en.wikipedia.org/wiki/WASP-107b",
+      "baslik": "Ross 128 b temperate exoplanet receives twenty percent more sunlight than Earth",
+      "url": "https://en.wikipedia.org/wiki/Ross_128_b",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
