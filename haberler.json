@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-10-01T01:03:41.082332+00:00",
+  "uretim_zamani": "2026-10-01T18:11:54.391050+00:00",
   "haberler": [
     {
-      "baslik": "Hot Jupiter Vs Cold Gas Giant: The Temperature War",
-      "url": "https://en.wikipedia.org/wiki/Hot_Jupiter",
+      "baslik": "Mendez Star vs the Sun: A Giant Flares Fifty Times Brighter Than Our Solar Flares",
+      "url": "https://en.wikipedia.org/wiki/Mendez_Star",
       "kaynak": "gemini-fallback",
-      "skor": 992,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-186: The Five-Planet System Hidden in Cygnus",
-      "url": "https://en.wikipedia.org/wiki/Kepler-186",
+      "baslik": "WASP-107b: A Cotton Candy Planet With a Core Ten Times Lighter Than Jupiter",
+      "url": "https://en.wikipedia.org/wiki/WASP-107b",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
