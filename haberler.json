@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-10-01T19:12:24.032720+00:00",
+  "uretim_zamani": "2026-10-01T21:11:46.889055+00:00",
   "haberler": [
     {
-      "baslik": "LHS 475 b rocky exoplanet is the exact size of Earth but bakes under a blistering red sun",
-      "url": "https://en.wikipedia.org/wiki/LHS_475_b",
+      "baslik": "TOI-700 d's Secret: The Habitable Zone World Only One-Fifth Larger Than Earth",
+      "url": "https://en.wikipedia.org/wiki/TOI-700_d",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ross 128 b temperate exoplanet receives twenty percent more sunlight than Earth",
-      "url": "https://en.wikipedia.org/wiki/Ross_128_b",
+      "baslik": "Kepler-452b: The Older Cousin of Earth That Has Orbited Its Sun for Six Billion Years",
+      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gliese 667 Cc: The Three-Sun World That Receives Ninety Percent of Earth's Sunlight",
+      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
