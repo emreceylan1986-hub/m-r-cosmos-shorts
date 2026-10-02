@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-02T19:14:03.201284+00:00",
+  "uretim_zamani": "2026-10-02T21:11:48.354348+00:00",
   "haberler": [
     {
-      "baslik": "PSR B1509-58 Vs The Sun: A Magnetic Star One Trillion Times Stronger Than Earth's Shield",
-      "url": "https://en.wikipedia.org/wiki/PSR_B1509-58",
+      "baslik": "Uranus Vs Earth: The Ice Giant That Spins on Its Side",
+      "url": "https://en.wikipedia.org/wiki/Uranus",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pistol Star: The Cosmic Giant Shining One Million Times Brighter Than the Sun",
+      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "N6946-BH1: The Star That Vanished Into a Black Hole Without a Supernova",
+      "url": "https://en.wikipedia.org/wiki/N6946-BH1",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
