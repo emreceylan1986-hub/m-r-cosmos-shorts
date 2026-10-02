@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-10-02T18:11:29.456387+00:00",
+  "uretim_zamani": "2026-10-02T19:14:03.201284+00:00",
   "haberler": [
     {
-      "baslik": "Capella: The Golden Double Giant Where Each Sphere Is Over Twice as Heavy as the Sun",
-      "url": "https://en.wikipedia.org/wiki/Capella",
+      "baslik": "PSR B1509-58 Vs The Sun: A Magnetic Star One Trillion Times Stronger Than Earth's Shield",
+      "url": "https://en.wikipedia.org/wiki/PSR_B1509-58",
       "kaynak": "gemini-fallback",
-      "skor": 992,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Procyon B: The Dead Star White Dwarf Crusher Packed One Hundred Thousand Times Denser Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Procyon",
-      "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
