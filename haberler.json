@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-02T01:59:44.948199+00:00",
+  "uretim_zamani": "2026-10-02T18:11:29.456387+00:00",
   "haberler": [
     {
-      "baslik": "VY Canis Majoris: A giant star so massive that over one billion Earths could fit inside its immense volume",
-      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
+      "baslik": "Capella: The Golden Double Giant Where Each Sphere Is Over Twice as Heavy as the Sun",
+      "url": "https://en.wikipedia.org/wiki/Capella",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 992,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Procyon B: The Dead Star White Dwarf Crusher Packed One Hundred Thousand Times Denser Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Procyon",
+      "kaynak": "gemini-fallback",
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
