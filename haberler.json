@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-01T21:11:46.889055+00:00",
+  "uretim_zamani": "2026-10-02T01:59:44.948199+00:00",
   "haberler": [
     {
-      "baslik": "TOI-700 d's Secret: The Habitable Zone World Only One-Fifth Larger Than Earth",
-      "url": "https://en.wikipedia.org/wiki/TOI-700_d",
+      "baslik": "VY Canis Majoris: A giant star so massive that over one billion Earths could fit inside its immense volume",
+      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
       "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kepler-452b: The Older Cousin of Earth That Has Orbited Its Sun for Six Billion Years",
-      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gliese 667 Cc: The Three-Sun World That Receives Ninety Percent of Earth's Sunlight",
-      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
