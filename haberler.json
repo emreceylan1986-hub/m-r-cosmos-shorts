@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-03T00:55:16.315456+00:00",
+  "uretim_zamani": "2026-10-03T18:11:23.709806+00:00",
   "haberler": [
     {
-      "baslik": "Teegarden's Star b: The Ocean World With Double the Habitability Score of Earth",
-      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
+      "baslik": "TOI-270 d: The Ocean World With Water Twice as Hot as Boiling Point",
+      "url": "https://en.wikipedia.org/wiki/TOI-270",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TRAPPIST-1e: The Water World Facing a Sun Seven Times Larger Than Ours",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
+      "baslik": "Gliese 667 Cc: The Star That Casts Three Red Shadows on a Habitable World",
+      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-186f: The Red Sun Forest Planet Receiving One Third of Earth's Sunlight",
-      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
+      "baslik": "TRAPPIST-1e Vs Earth: The Ultimate Ocean Battle for Life",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
