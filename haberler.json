@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-02T21:11:48.354348+00:00",
+  "uretim_zamani": "2026-10-03T00:55:16.315456+00:00",
   "haberler": [
     {
-      "baslik": "Uranus Vs Earth: The Ice Giant That Spins on Its Side",
-      "url": "https://en.wikipedia.org/wiki/Uranus",
+      "baslik": "Teegarden's Star b: The Ocean World With Double the Habitability Score of Earth",
+      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pistol Star: The Cosmic Giant Shining One Million Times Brighter Than the Sun",
-      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
+      "baslik": "TRAPPIST-1e: The Water World Facing a Sun Seven Times Larger Than Ours",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "N6946-BH1: The Star That Vanished Into a Black Hole Without a Supernova",
-      "url": "https://en.wikipedia.org/wiki/N6946-BH1",
+      "baslik": "Kepler-186f: The Red Sun Forest Planet Receiving One Third of Earth's Sunlight",
+      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
