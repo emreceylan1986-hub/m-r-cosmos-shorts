@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-03T19:11:21.649169+00:00",
+  "uretim_zamani": "2026-10-03T21:11:49.632876+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-22b: The Water Giant Twice as Wide as Our Planet",
-      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kepler-186f: A Red Sun World Receiving One-Third of Earth's Sunlight",
-      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
+      "baslik": "Gliese 667 Cc: The Hidden Secret Of A Three-Sun Planet",
+      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TOI-1452 b: The Deep Blue Planet Hiding an Ocean Five Times Deeper Than Ours",
-      "url": "https://en.wikipedia.org/wiki/TOI-1452_b",
+      "baslik": "Kepler-186f: A Red Sun World Where Trees Would Turn Black",
+      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kepler-452b: The Aging Earth That Is Six Billion Years Old",
+      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
