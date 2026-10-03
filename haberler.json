@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-03T18:11:23.709806+00:00",
+  "uretim_zamani": "2026-10-03T19:11:21.649169+00:00",
   "haberler": [
     {
-      "baslik": "TOI-270 d: The Ocean World With Water Twice as Hot as Boiling Point",
-      "url": "https://en.wikipedia.org/wiki/TOI-270",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gliese 667 Cc: The Star That Casts Three Red Shadows on a Habitable World",
-      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
+      "baslik": "Kepler-22b: The Water Giant Twice as Wide as Our Planet",
+      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TRAPPIST-1e Vs Earth: The Ultimate Ocean Battle for Life",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
+      "baslik": "Kepler-186f: A Red Sun World Receiving One-Third of Earth's Sunlight",
+      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "TOI-1452 b: The Deep Blue Planet Hiding an Ocean Five Times Deeper Than Ours",
+      "url": "https://en.wikipedia.org/wiki/TOI-1452_b",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
