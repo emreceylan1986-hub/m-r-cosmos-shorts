@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-10-04T19:11:30.761458+00:00",
+  "uretim_zamani": "2026-10-04T21:11:09.504229+00:00",
   "haberler": [
     {
-      "baslik": "Parker Solar Probe: The Impossible Shield Hotter Than Lava",
-      "url": "https://en.wikipedia.org/wiki/Parker_Solar_Probe",
+      "baslik": "Gale Crater: The Martian Lake Bed That Held Liquid Water for Millions of Years",
+      "url": "https://en.wikipedia.org/wiki/Gale_(crater)",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Oumuamua Vs The Sun: A Speed Battle",
-      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
