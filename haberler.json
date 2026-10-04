@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-10-04T18:11:21.545047+00:00",
+  "uretim_zamani": "2026-10-04T19:11:30.761458+00:00",
   "haberler": [
     {
-      "baslik": "Sun Vs Earth's Oceans: The Star That Drinks a Great Lake Every Second",
-      "url": "https://en.wikipedia.org/wiki/Sun",
+      "baslik": "Parker Solar Probe: The Impossible Shield Hotter Than Lava",
+      "url": "https://en.wikipedia.org/wiki/Parker_Solar_Probe",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Asteroid Psyche's Secret: A Metal World Worth More Than Earth's Entire Economy",
-      "url": "https://en.wikipedia.org/wiki/16_Psyche",
+      "baslik": "Oumuamua Vs The Sun: A Speed Battle",
+      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Comet Bernardinelli-Bernstein is One Thousand Times Massive Than a Normal Comet",
-      "url": "https://en.wikipedia.org/wiki/C/2014_UN271_(Bernardinelli-Bernstein)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
