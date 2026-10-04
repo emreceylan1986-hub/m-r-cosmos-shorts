@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-03T21:11:49.632876+00:00",
+  "uretim_zamani": "2026-10-04T18:11:21.545047+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 667 Cc: The Hidden Secret Of A Three-Sun Planet",
-      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
+      "baslik": "Sun Vs Earth's Oceans: The Star That Drinks a Great Lake Every Second",
+      "url": "https://en.wikipedia.org/wiki/Sun",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Asteroid Psyche's Secret: A Metal World Worth More Than Earth's Entire Economy",
+      "url": "https://en.wikipedia.org/wiki/16_Psyche",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Comet Bernardinelli-Bernstein is One Thousand Times Massive Than a Normal Comet",
+      "url": "https://en.wikipedia.org/wiki/C/2014_UN271_(Bernardinelli-Bernstein)",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kepler-186f: A Red Sun World Where Trees Would Turn Black",
-      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kepler-452b: The Aging Earth That Is Six Billion Years Old",
-      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
