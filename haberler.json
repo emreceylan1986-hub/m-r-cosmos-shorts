@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-10-05T19:12:29.453722+00:00",
+  "uretim_zamani": "2026-10-05T21:11:46.644404+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter Vs Earth: A Hurricane Bigger Than Our Entire Planet",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Pillars of Creation: The Impossible Storm That Shines Brighter Than A Thousand Suns",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "Jupiter Vs Saturn: Whose Giant Storm Could Swallow Earth First?",
+      "url": "https://en.wikipedia.org/wiki/Great_White_Spot",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Saturn's Ring Vs A Highway: Ice Sheets Wider Than North America but Thin as a House",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "baslik": "Fomalhaut b: The Ghost Planet That Vanished Before Astronomers' Eyes",
+      "url": "https://en.wikipedia.org/wiki/Fomalhaut_b",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
