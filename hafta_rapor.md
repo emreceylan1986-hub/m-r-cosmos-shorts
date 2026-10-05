@@ -1,23 +1,23 @@
 # 📊 CosmoBytes — Haftalık Rapor
-_2026-09-28T00:18+00:00_
+_2026-10-05T00:26+00:00_
 
 ## Özet
-- **Abone:** 242 (+22 bu hafta)
-- **Toplam view:** 109,374 (+3,061 bu hafta)
-- **Toplam video:** 383
-- **Son 7 gün:** 28 video, 1,838 izl, ort 65/video
-- **<50 izl video sayısı:** 16/28 (kalite_temizleyici aday)
+- **Abone:** 253 (+11 bu hafta)
+- **Toplam view:** 113,838 (+4,464 bu hafta)
+- **Toplam video:** 408
+- **Son 7 gün:** 28 video, 3,623 izl, ort 129/video
+- **<50 izl video sayısı:** 14/28 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **247v** · 1👍 · 1💬 — Andromeda galaxy moves toward the Milky Way at 250,000 miles per hour
-- **214v** · 3👍 · 1💬 — LHS 1140 b super Earth holds a global ocean fourteen hundred kilometers deep
-- **181v** · 3👍 · 1💬 — Rigel blue supergiant is eighty thousand times brighter than the Sun
+- **940v** · 10👍 · 1💬 — LHS 475 b is a rocky planet the exact same size as Earth
+- **438v** · 9👍 · 1💬 — Kepler-22b water world is twice as wide as Earth
+- **313v** · 9👍 · 1💬 — TOI-700 d is an Earth-sized planet receiving eighty-six percent of our solar energy
 
 ## 🪦 Alt 3 (son 7 gün)
-- **0v** · 0👍 · 0💬 — Gliese 581c has a frozen side and a baking hot side
-- **0v** · 0👍 · 0💬 — WASP-18b orbits its star in twenty-three hours
-- **0v** · 0👍 · 0💬 — Triton ice volcanoes blast nitrogen eight kilometers high
+- **0v** · 0👍 · 0💬 — Hot Jupiter planets orbit closer than Mercury and rain liquid iron
+- **0v** · 0👍 · 0💬 — Titan Kraken Mare is a liquid methane sea wider than the Great Lakes
+- **0v** · 0👍 · 0💬 — Enceladus shoots ice geysers two hundred miles high into space
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **242 abone / 65 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **253 abone / 129 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı
