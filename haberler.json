@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-10-05T18:14:17.341913+00:00",
+  "uretim_zamani": "2026-10-05T19:12:29.453722+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*: The Hidden Monster at the Heart of the Milky Way",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Jupiter Vs Earth: A Hurricane Bigger Than Our Entire Planet",
+      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pillars of Creation: The Impossible Storm That Shines Brighter Than A Thousand Suns",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Saturn's Ring Vs A Highway: Ice Sheets Wider Than North America but Thin as a House",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
