@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-06T18:12:42.292659+00:00",
+  "uretim_zamani": "2026-10-06T19:11:33.833077+00:00",
   "haberler": [
     {
-      "baslik": "Titan Vs Earth: The Liquid World Where You Could Fly Like A Bird",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "baslik": "Umbriel Vs Titania: The Darkest Moons of Ice and Stone",
+      "url": "https://en.wikipedia.org/wiki/Titania_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Enceladus's Secret: A Hidden Ocean Warmer Than The Ice Above It",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Triton: The Ice Moon That Orbits Backwards and Freezes Faster Than Pluto",
-      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
