@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-05T23:11:49.530641+00:00",
+  "uretim_zamani": "2026-10-06T18:12:42.292659+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*: The Hidden Monster at the Heart of the Milky Way",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Titan Vs Earth: The Liquid World Where You Could Fly Like A Bird",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Enceladus's Secret: A Hidden Ocean Warmer Than The Ice Above It",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Triton: The Ice Moon That Orbits Backwards and Freezes Faster Than Pluto",
+      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
