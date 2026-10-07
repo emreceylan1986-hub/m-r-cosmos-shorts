@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-06T23:11:20.155541+00:00",
+  "uretim_zamani": "2026-10-07T02:05:57.640123+00:00",
   "haberler": [
     {
-      "baslik": "Umbriel's Secret: A Bright Cosmic Halo Shining in Uranus's Deep Shadow",
-      "url": "https://en.wikipedia.org/wiki/Umbriel",
+      "baslik": "Sombrero Galaxy spans fifty thousand light years across space",
+      "url": "https://en.wikipedia.org/wiki/Sombrero_Galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Whirlpool Galaxy pulls its smaller neighbor with tidal forces three times stronger than normal galactic interactions",
+      "url": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Coma Cluster contains over one thousand galaxies bound by dark matter",
+      "url": "https://en.wikipedia.org/wiki/Coma_Cluster",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
