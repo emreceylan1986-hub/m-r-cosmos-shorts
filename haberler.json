@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-10-07T02:05:57.640123+00:00",
+  "uretim_zamani": "2026-10-07T18:13:10.546662+00:00",
   "haberler": [
     {
-      "baslik": "Sombrero Galaxy spans fifty thousand light years across space",
-      "url": "https://en.wikipedia.org/wiki/Sombrero_Galaxy",
+      "baslik": "Bootes Void: The Hole in the Universe That Can Fit Two Thousand Milky Ways",
+      "url": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_void",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Whirlpool Galaxy pulls its smaller neighbor with tidal forces three times stronger than normal galactic interactions",
-      "url": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
+      "baslik": "Great Attractor Pulls Our Galaxy Toward It Faster Than Forty Million Miles Per Hour",
+      "url": "https://en.wikipedia.org/wiki/Great_Attractor",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Coma Cluster contains over one thousand galaxies bound by dark matter",
-      "url": "https://en.wikipedia.org/wiki/Coma_Cluster",
+      "baslik": "Cartwheel Galaxy Collision Created a Ripple of Starbirth One Hundred Thousand Light Years Wide",
+      "url": "https://en.wikipedia.org/wiki/Cartwheel_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
