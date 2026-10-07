@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-10-07T18:13:10.546662+00:00",
+  "uretim_zamani": "2026-10-07T19:12:32.042990+00:00",
   "haberler": [
     {
-      "baslik": "Bootes Void: The Hole in the Universe That Can Fit Two Thousand Milky Ways",
-      "url": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_void",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Great Attractor Pulls Our Galaxy Toward It Faster Than Forty Million Miles Per Hour",
-      "url": "https://en.wikipedia.org/wiki/Great_Attractor",
+      "baslik": "Bullet Cluster: Dark Matter Passes Right Through Normal Matter Like Ghosts",
+      "url": "https://en.wikipedia.org/wiki/Bullet_Cluster",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Cartwheel Galaxy Collision Created a Ripple of Starbirth One Hundred Thousand Light Years Wide",
-      "url": "https://en.wikipedia.org/wiki/Cartwheel_Galaxy",
+      "baslik": "Whirlpool Galaxy: Two Spiral Arms Pulling Each Other Across Space",
+      "url": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
