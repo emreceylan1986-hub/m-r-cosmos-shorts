@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-10-07T19:12:32.042990+00:00",
+  "uretim_zamani": "2026-10-07T21:11:23.242920+00:00",
   "haberler": [
     {
-      "baslik": "Bullet Cluster: Dark Matter Passes Right Through Normal Matter Like Ghosts",
-      "url": "https://en.wikipedia.org/wiki/Bullet_Cluster",
+      "baslik": "Hubble Deep Field: The Secret Galaxy Web Bigger Than a Million Suns",
+      "url": "https://en.wikipedia.org/wiki/Hubble_Deep_Field",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rogue Galaxies Drift Alone in Cosmic Deserts Far From Any Sister Star",
+      "url": "https://en.wikipedia.org/wiki/Intergalactic_star",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Whirlpool Galaxy: Two Spiral Arms Pulling Each Other Across Space",
-      "url": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
+      "baslik": "Dark Matter Web Vs The Milky Way: A Cosmic Gravity Battle",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter_halo",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
