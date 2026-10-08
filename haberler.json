@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-08T18:13:07.856352+00:00",
+  "uretim_zamani": "2026-10-08T19:13:06.159215+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 581 d: The Cold World Receiving Less Than Thirty Percent of Our Sunlight",
-      "url": "https://en.wikipedia.org/wiki/Gliese_581_d",
+      "baslik": "WASP-19b: A Scorching Gas Giant Hotter Than Molten Steel",
+      "url": "https://en.wikipedia.org/wiki/WASP-19b",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "WASP-39: A Yellow Star Spinning Three Times Slower Than Our Sun",
+      "url": "https://en.wikipedia.org/wiki/WASP-39",
+      "kaynak": "gemini-fallback",
+      "skor": 990,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "K2-141: The Fast-Spinning Star Twenty Times More Active Than Our Sun",
+      "url": "https://en.wikipedia.org/wiki/K2-141",
+      "kaynak": "gemini-fallback",
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
