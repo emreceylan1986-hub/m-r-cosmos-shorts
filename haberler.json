@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-07T21:11:23.242920+00:00",
+  "uretim_zamani": "2026-10-08T02:29:00.499212+00:00",
   "haberler": [
     {
-      "baslik": "Hubble Deep Field: The Secret Galaxy Web Bigger Than a Million Suns",
-      "url": "https://en.wikipedia.org/wiki/Hubble_Deep_Field",
+      "baslik": "TRAPPIST-1c Vs Venus: The Boiling Atmosphere Battle",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1c",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rogue Galaxies Drift Alone in Cosmic Deserts Far From Any Sister Star",
-      "url": "https://en.wikipedia.org/wiki/Intergalactic_star",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Dark Matter Web Vs The Milky Way: A Cosmic Gravity Battle",
-      "url": "https://en.wikipedia.org/wiki/Dark_matter_halo",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
