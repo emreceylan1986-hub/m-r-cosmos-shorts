@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-09T18:15:40.170850+00:00",
+  "uretim_zamani": "2026-10-09T19:12:52.804984+00:00",
   "haberler": [
     {
-      "baslik": "Stephenson 2-18: The Impossible Star That Can Swallow Ten Billion Suns",
-      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
+      "baslik": "Betelgeuse: The Impossible Secret of a Star Dying Faster Than We Thought",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "WOH G64: The Dying Star That Exhales a Dust Cloud Nine Times Wider Than Our Solar System",
-      "url": "https://en.wikipedia.org/wiki/WOH_G64",
+      "baslik": "Neutron Star Vs Sun: A Teaspoon of Star Weighs More Than Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rigel Vs The Sun: A Star Shining Brighter Than Forty Thousand Suns",
+      "baslik": "Rigel: A Star Shining Brighter Than Forty Thousand Suns Combined",
       "url": "https://en.wikipedia.org/wiki/Rigel",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
