@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-10-08T21:13:13.979339+00:00",
+  "uretim_zamani": "2026-10-09T02:45:22.638567+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 581c: The Super-Earth That Pulls You Five Times Harder Than Home",
-      "url": "https://en.wikipedia.org/wiki/Gilese_581c",
+      "baslik": "MyCn 18—The Hourglass Nebula's Secret: A Dying Star 10 Times Hotter Than the Sun",
+      "url": "https://en.wikipedia.org/wiki/Engraved_Hourglass_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "LTT 1445 Ab: The Rocky World Seeing Three Red Suns Brighter Than Our Sky",
-      "url": "https://en.wikipedia.org/wiki/LTT_1445_Ab",
-      "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
