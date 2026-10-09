@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-09T02:45:22.638567+00:00",
+  "uretim_zamani": "2026-10-09T18:15:40.170850+00:00",
   "haberler": [
     {
-      "baslik": "MyCn 18—The Hourglass Nebula's Secret: A Dying Star 10 Times Hotter Than the Sun",
-      "url": "https://en.wikipedia.org/wiki/Engraved_Hourglass_Nebula",
+      "baslik": "Stephenson 2-18: The Impossible Star That Can Swallow Ten Billion Suns",
+      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "WOH G64: The Dying Star That Exhales a Dust Cloud Nine Times Wider Than Our Solar System",
+      "url": "https://en.wikipedia.org/wiki/WOH_G64",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rigel Vs The Sun: A Star Shining Brighter Than Forty Thousand Suns",
+      "url": "https://en.wikipedia.org/wiki/Rigel",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
