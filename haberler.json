@@ -1,8 +1,8 @@
 {
-  "uretim_zamani": "2026-10-09T19:12:52.804984+00:00",
+  "uretim_zamani": "2026-10-09T21:11:19.322381+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse: The Impossible Secret of a Star Dying Faster Than We Thought",
+      "baslik": "Betelgeuse: The Red Giant Swelling Beyond the Orbit of Jupiter",
       "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
       "skor": 1000,
@@ -10,7 +10,7 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Neutron Star Vs Sun: A Teaspoon of Star Weighs More Than Mount Everest",
+      "baslik": "Neutron Star Vs Sun: A Teaspoon of Matter Weighs More Than Mount Everest",
       "url": "https://en.wikipedia.org/wiki/Neutron_star",
       "kaynak": "gemini-fallback",
       "skor": 999,
@@ -18,10 +18,10 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rigel: A Star Shining Brighter Than Forty Thousand Suns Combined",
-      "url": "https://en.wikipedia.org/wiki/Rigel",
+      "baslik": "Pistol Star: A Cosmic Firework Shining One Million Times Brighter Than the Sun",
+      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
