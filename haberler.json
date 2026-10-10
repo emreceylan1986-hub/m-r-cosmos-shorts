@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-10T19:11:16.223871+00:00",
+  "uretim_zamani": "2026-10-10T21:07:57.784463+00:00",
   "haberler": [
     {
-      "baslik": "Boomerang Nebula's Secret: The Coldest Place in the Universe",
-      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
+      "baslik": "Wolf 1061c Vs Earth: Life in a Gravitational Lock",
+      "url": "https://en.wikipedia.org/wiki/Wolf_1061c",
       "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Proxima Centauri b Secret: Earth-Sized World Right Next Door",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gliese 667 Cg: Ice World Colder Than Antarctica",
-      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cg",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
