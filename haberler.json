@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-10T18:11:15.279519+00:00",
+  "uretim_zamani": "2026-10-10T19:11:16.223871+00:00",
   "haberler": [
     {
-      "baslik": "Triton's Hidden Sea Vs Earth's Oceans: A Cold Battle",
-      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "LHS 1140 b holds a liquid ocean wider than North America",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Boomerang Nebula's Secret: Frozen Colder Than Outer Space",
+      "baslik": "Boomerang Nebula's Secret: The Coldest Place in the Universe",
       "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
       "kaynak": "gemini-fallback",
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Proxima Centauri b Secret: Earth-Sized World Right Next Door",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "kaynak": "gemini-fallback",
       "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gliese 667 Cg: Ice World Colder Than Antarctica",
+      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cg",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
