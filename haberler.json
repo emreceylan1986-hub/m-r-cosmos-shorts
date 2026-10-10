@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-09T21:11:19.322381+00:00",
+  "uretim_zamani": "2026-10-10T02:03:38.351349+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse: The Red Giant Swelling Beyond the Orbit of Jupiter",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "baslik": "TRAPPIST-1e: An Ocean World Holding More Water Than Earth",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Neutron Star Vs Sun: A Teaspoon of Matter Weighs More Than Mount Everest",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Pistol Star: A Cosmic Firework Shining One Million Times Brighter Than the Sun",
-      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
