@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-11T00:40:19.086242+00:00",
+  "uretim_zamani": "2026-10-11T18:11:37.704330+00:00",
   "haberler": [
     {
-      "baslik": "Ceres: The Hidden Ice World Bigger Than Great Britain",
-      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Psyche 16 Vs Earth's Gold: A Asteroid Worth Billions",
-      "url": "https://en.wikipedia.org/wiki/16_Psyche",
+      "baslik": "Oumuamua's Secret: Interstellar Visitor Accelerates Faster Than A Comet",
+      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Oumuamua's Secret: The Interstellar Visitor Moving Faster Than Any Rocket",
-      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
+      "baslik": "Phaethon Asteroid: The Secret Rock Comet Warmer Than Molten Lava",
+      "url": "https://en.wikipedia.org/wiki/3200_Phaethon",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Asteroid Ceres: Secret Ice Volcanoes Erupt Water Cold Than Antarctic Snow",
+      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
