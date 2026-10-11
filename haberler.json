@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-10T21:07:57.784463+00:00",
+  "uretim_zamani": "2026-10-11T00:40:19.086242+00:00",
   "haberler": [
     {
-      "baslik": "Wolf 1061c Vs Earth: Life in a Gravitational Lock",
-      "url": "https://en.wikipedia.org/wiki/Wolf_1061c",
+      "baslik": "Ceres: The Hidden Ice World Bigger Than Great Britain",
+      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Psyche 16 Vs Earth's Gold: A Asteroid Worth Billions",
+      "url": "https://en.wikipedia.org/wiki/16_Psyche",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Oumuamua's Secret: The Interstellar Visitor Moving Faster Than Any Rocket",
+      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
