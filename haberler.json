@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-11T18:11:37.704330+00:00",
+  "uretim_zamani": "2026-10-11T19:11:33.944751+00:00",
   "haberler": [
     {
-      "baslik": "Oumuamua's Secret: Interstellar Visitor Accelerates Faster Than A Comet",
-      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
+      "baslik": "Sagittarius A*: The Hidden Monster at the Heart of Our Galaxy",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Phaethon Asteroid: The Secret Rock Comet Warmer Than Molten Lava",
-      "url": "https://en.wikipedia.org/wiki/3200_Phaethon",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Asteroid Ceres: Secret Ice Volcanoes Erupt Water Cold Than Antarctic Snow",
-      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
