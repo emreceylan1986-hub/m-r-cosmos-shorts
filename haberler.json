@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-11T19:11:33.944751+00:00",
+  "uretim_zamani": "2026-10-11T21:11:50.660366+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*: The Hidden Monster at the Heart of Our Galaxy",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Black Hole Vs Light Speed: Who Wins?",
+      "url": "https://en.wikipedia.org/wiki/Supermassive_black_hole",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Asteroid Psyche 16 Contains Metal Worth More Than Earth's Entire Economy",
+      "url": "https://en.wikipedia.org/wiki/16_Psyche",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Oort Cloud's Impossible Secret: Billions of Comets Extending Further Than Pluto",
+      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
