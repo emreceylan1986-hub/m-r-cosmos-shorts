@@ -1,16 +1,16 @@
 {
-  "uretim_zamani": "2026-10-12T18:11:43.100709+00:00",
+  "uretim_zamani": "2026-10-12T19:12:18.015064+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Moon Callisto: Europa's Secret Ocean Twin Has More Water Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
+      "baslik": "Ganymede's Ocean: Hidden Water Deep Beyond Earth's Reach",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Titan Vs Earth: A Moon With Rivers Three Times Deeper Than Amazon",
+      "baslik": "Titan Vs Earth: The Cold Methane Sea Battle",
       "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 999,
@@ -18,8 +18,8 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Io's Secret: Jupiter's Volcano Moon Blast Plumes Hotter Than Earth's Mantle",
-      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
+      "baslik": "Rings of Saturn: A Ice Belt Wider Than Ninety Earths",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
