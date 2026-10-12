@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-10-12T20:11:08.243434+00:00",
+  "uretim_zamani": "2026-10-12T21:11:26.562496+00:00",
   "haberler": [
     {
-      "baslik": "Pillars of Creation's Secret: Star Towers Trillion Times Taller Than Mount Everest",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Titan's Secret Ocean: Ten Times Deeper Than Earth's Mariana Trench",
+      "baslik": "Titan Vs Earth: A Moon With Rivers Hotter Than Frozen Nitrogen",
       "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pallasite Meteorites Hold Crystals Older Than Planet Earth",
-      "url": "https://en.wikipedia.org/wiki/Pallasite",
+      "baslik": "Callisto's Secret: Jupiter's Moon Holds an Ocean Under Crust",
+      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
