@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-10-11T21:11:50.660366+00:00",
+  "uretim_zamani": "2026-10-12T00:57:26.758984+00:00",
   "haberler": [
     {
-      "baslik": "Black Hole Vs Light Speed: Who Wins?",
-      "url": "https://en.wikipedia.org/wiki/Supermassive_black_hole",
+      "baslik": "Enceladus Vs Earth: Ice Geysers Shoot Water Hundred Miles High",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pillars of Creation: The Secret Star Nursery Four Light Years Wide",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Asteroid Psyche 16 Contains Metal Worth More Than Earth's Entire Economy",
-      "url": "https://en.wikipedia.org/wiki/16_Psyche",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Oort Cloud's Impossible Secret: Billions of Comets Extending Further Than Pluto",
-      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
