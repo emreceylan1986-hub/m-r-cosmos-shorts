@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-10-12T22:11:10.778060+00:00",
+  "uretim_zamani": "2026-10-12T23:11:56.406955+00:00",
   "haberler": [
     {
-      "baslik": "Saturn's Ring Vs Earth: Saturn's Main Rings Are One Hundred Times Thinner Than A Paper Sheet",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "baslik": "Jupiter Vs Saturn: The Gravity Battle That Shapes Our System",
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Callisto's Hidden Secret: Jupiter's Moon Hides An Ocean Deeper Than Earth's Marianas Trench",
-      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
+      "baslik": "Pillars of Creation: The Secret Behind Stars Three Times Larger Than the Sun",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
