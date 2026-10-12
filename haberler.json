@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-12T19:12:18.015064+00:00",
+  "uretim_zamani": "2026-10-12T20:11:08.243434+00:00",
   "haberler": [
     {
-      "baslik": "Ganymede's Ocean: Hidden Water Deep Beyond Earth's Reach",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Pillars of Creation's Secret: Star Towers Trillion Times Taller Than Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Titan Vs Earth: The Cold Methane Sea Battle",
+      "baslik": "Titan's Secret Ocean: Ten Times Deeper Than Earth's Mariana Trench",
       "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Rings of Saturn: A Ice Belt Wider Than Ninety Earths",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "baslik": "Pallasite Meteorites Hold Crystals Older Than Planet Earth",
+      "url": "https://en.wikipedia.org/wiki/Pallasite",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
