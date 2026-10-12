@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-10-12T00:57:26.758984+00:00",
+  "uretim_zamani": "2026-10-12T18:11:43.100709+00:00",
   "haberler": [
     {
-      "baslik": "Enceladus Vs Earth: Ice Geysers Shoot Water Hundred Miles High",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Jupiter's Moon Callisto: Europa's Secret Ocean Twin Has More Water Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Titan Vs Earth: A Moon With Rivers Three Times Deeper Than Amazon",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pillars of Creation: The Secret Star Nursery Four Light Years Wide",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "Io's Secret: Jupiter's Volcano Moon Blast Plumes Hotter Than Earth's Mantle",
+      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
