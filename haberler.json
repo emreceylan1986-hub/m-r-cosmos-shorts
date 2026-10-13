@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-10-12T23:11:56.406955+00:00",
+  "uretim_zamani": "2026-10-13T00:07:31.490889+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter Vs Saturn: The Gravity Battle That Shapes Our System",
-      "url": "https://en.wikipedia.org/wiki/Jupiter",
+      "baslik": "Could Neptune's Moon Triton Harbor Life Beneath Its Icy Shell?",
+      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pillars of Creation: The Secret Behind Stars Three Times Larger Than the Sun",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "Titan's Methane Lakes Hold Hundreds of Times More Liquid Than Earth's Oil Reserves",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
