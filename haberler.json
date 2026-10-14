@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-14T01:35:27.944502+00:00",
+  "uretim_zamani": "2026-10-14T18:12:57.286077+00:00",
   "haberler": [
     {
-      "baslik": "Pillars of Creation: The Secret Nursery Four Times Larger Than Solar System",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "Whirlpool Galaxy bridge reaches out twenty thousand light years to swallow its tiny neighbor",
+      "url": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Vera C. Rubin Observatory: The Secret Camera Watching Four Billion Galaxies",
-      "url": "https://en.wikipedia.org/wiki/Vera_C._Rubin_Observatory",
+      "baslik": "Cartwheel Galaxy shockwave ripples across one hundred fifty thousand light years after a galactic crash",
+      "url": "https://en.wikipedia.org/wiki/Cartwheel_Galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Comet Tail Vs Solar Wind: The Cosmic Collision",
-      "url": "https://en.wikipedia.org/wiki/Comet_tail",
+      "baslik": "Andromeda Galaxy approaches Earth at three hundred kilometers per second for a future planetary collision",
+      "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
