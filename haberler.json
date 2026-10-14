@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-10-14T19:11:16.365942+00:00",
+  "uretim_zamani": "2026-10-14T21:11:28.459296+00:00",
   "haberler": [
     {
-      "baslik": "Andromeda Galaxy holds one trillion stars shining brighter than our Milky Way",
-      "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+      "baslik": "Magellanic Clouds bridge of stars stretches seventy-five thousand light-years across our southern sky",
+      "url": "https://en.wikipedia.org/wiki/Magellanic_Clouds",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
