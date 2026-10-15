@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-15T00:17:47.329360+00:00",
+  "uretim_zamani": "2026-10-15T18:12:33.127423+00:00",
   "haberler": [
     {
-      "baslik": "Proxima Centauri b Vs Earth: An Alien Habitability Battle",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "baslik": "TOI-715 b super-Earth orbits in its star's habitable zone twice as close as Mercury",
+      "url": "https://en.wikipedia.org/wiki/TOI-715_b",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "WASP-76b Vs Earth: A Nightside Iron Rain Battle",
-      "url": "https://en.wikipedia.org/wiki/WASP-76b",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "HD 209458 b Secret: A Giant Atmosphere Losing Gas to Space",
-      "url": "https://en.wikipedia.org/wiki/HD_209458_b",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
