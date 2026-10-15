@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-14T21:11:28.459296+00:00",
+  "uretim_zamani": "2026-10-15T00:17:47.329360+00:00",
   "haberler": [
     {
-      "baslik": "Magellanic Clouds bridge of stars stretches seventy-five thousand light-years across our southern sky",
-      "url": "https://en.wikipedia.org/wiki/Magellanic_Clouds",
+      "baslik": "Proxima Centauri b Vs Earth: An Alien Habitability Battle",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "WASP-76b Vs Earth: A Nightside Iron Rain Battle",
+      "url": "https://en.wikipedia.org/wiki/WASP-76b",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "HD 209458 b Secret: A Giant Atmosphere Losing Gas to Space",
+      "url": "https://en.wikipedia.org/wiki/HD_209458_b",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
