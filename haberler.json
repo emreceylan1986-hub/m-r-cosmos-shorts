@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-15T19:11:32.590907+00:00",
+  "uretim_zamani": "2026-10-15T21:11:51.130360+00:00",
   "haberler": [
     {
-      "baslik": "Ganymede's Hidden Secret: An Ocean Deep Beyond Earth",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "LHS 1140 b: An Alien Water World Heavier Than Five Earths",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Proxima Centauri b Vs Sun: Radiation Survival Battle",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "baslik": "WASP-76b Vs Earth: Metal Rain Battle",
+      "url": "https://en.wikipedia.org/wiki/WASP-76b",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Callisto's Unseen Secret: Hidden Ocean Beneath Ancient Ice",
-      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
+      "baslik": "GJ 1002 b: Habitable Zone World Just Sixteen Light Years From Earth",
+      "url": "https://en.wikipedia.org/wiki/GJ_1002",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
