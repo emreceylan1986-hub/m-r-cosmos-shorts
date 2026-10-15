@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-15T18:12:33.127423+00:00",
+  "uretim_zamani": "2026-10-15T19:11:32.590907+00:00",
   "haberler": [
     {
-      "baslik": "TOI-715 b super-Earth orbits in its star's habitable zone twice as close as Mercury",
-      "url": "https://en.wikipedia.org/wiki/TOI-715_b",
+      "baslik": "Ganymede's Hidden Secret: An Ocean Deep Beyond Earth",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Proxima Centauri b Vs Sun: Radiation Survival Battle",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Callisto's Unseen Secret: Hidden Ocean Beneath Ancient Ice",
+      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
