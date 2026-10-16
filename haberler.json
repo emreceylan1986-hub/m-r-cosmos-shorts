@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-16T18:13:52.551787+00:00",
+  "uretim_zamani": "2026-10-16T19:11:17.095179+00:00",
   "haberler": [
     {
-      "baslik": "VY Canis Majoris is two thousand times wider than the sun",
-      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
+      "baslik": "Epsilon Aurigae: The Star Eclipse That Lasts Two Earth Years",
+      "url": "https://en.wikipedia.org/wiki/Epsilon_Aurigae",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "S2 Star: Racing Around a Black Hole Twenty Times Faster Than Light Speed",
+      "url": "https://en.wikipedia.org/wiki/S2_(star)",
+      "kaynak": "gemini-fallback",
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
