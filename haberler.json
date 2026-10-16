@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-10-16T19:11:17.095179+00:00",
+  "uretim_zamani": "2026-10-16T21:11:10.140735+00:00",
   "haberler": [
     {
-      "baslik": "Epsilon Aurigae: The Star Eclipse That Lasts Two Earth Years",
-      "url": "https://en.wikipedia.org/wiki/Epsilon_Aurigae",
+      "baslik": "SS 433: The Impossible Cosmic Jet Launching Plasma At A Quarter Speed Of Light",
+      "url": "https://en.wikipedia.org/wiki/SS_433",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "S2 Star: Racing Around a Black Hole Twenty Times Faster Than Light Speed",
-      "url": "https://en.wikipedia.org/wiki/S2_(star)",
+      "baslik": "V1309 Scorpii Vs Two Stars: A Collision Ten Thousand Times Brighter Than Before",
+      "url": "https://en.wikipedia.org/wiki/V1309_Scorpii",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
