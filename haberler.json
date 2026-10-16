@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-10-16T23:11:11.348591+00:00",
+  "uretim_zamani": "2026-10-16T23:18:50.627220+00:00",
   "haberler": [
     {
-      "baslik": "U Yuyuan's Secret: A Hypergiant Star Swallowing Three Hundred Suns",
-      "url": "https://en.wikipedia.org/wiki/Hypergiant",
+      "baslik": "Rigel supergiant star shines brighter than forty thousand suns",
+      "url": "https://en.wikipedia.org/wiki/Rigel",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "VV Cephei A: The Red Supergiant Swelling Eight Hundred Times Wider Than the Sun",
-      "url": "https://en.wikipedia.org/wiki/VV_Cephei",
+      "baslik": "Antares red supergiant is so massive it would swallow the orbit of Mars",
+      "url": "https://en.wikipedia.org/wiki/Antares",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Neutron star teaspoon weighs as much as Mount Everest on Earth",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
