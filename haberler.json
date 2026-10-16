@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-10-16T21:11:10.140735+00:00",
+  "uretim_zamani": "2026-10-16T23:11:11.348591+00:00",
   "haberler": [
     {
-      "baslik": "SS 433: The Impossible Cosmic Jet Launching Plasma At A Quarter Speed Of Light",
-      "url": "https://en.wikipedia.org/wiki/SS_433",
+      "baslik": "U Yuyuan's Secret: A Hypergiant Star Swallowing Three Hundred Suns",
+      "url": "https://en.wikipedia.org/wiki/Hypergiant",
       "kaynak": "gemini-fallback",
       "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "V1309 Scorpii Vs Two Stars: A Collision Ten Thousand Times Brighter Than Before",
-      "url": "https://en.wikipedia.org/wiki/V1309_Scorpii",
+      "baslik": "VV Cephei A: The Red Supergiant Swelling Eight Hundred Times Wider Than the Sun",
+      "url": "https://en.wikipedia.org/wiki/VV_Cephei",
       "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
