@@ -1,28 +1,28 @@
 {
-  "uretim": "2026-10-15T21:13:41+00:00",
+  "uretim": "2026-10-16T18:17:05+00:00",
   "kanal": "CosmoBytes",
-  "abone": 265,
-  "toplam_video": 446,
-  "toplam_izlenme_yaşam_boyu": 119765,
-  "son_90g_izlenme": 81446,
-  "son_14g_izlenme": 8076,
-  "gunluk_izlenme_tahmin": 576.9,
+  "abone": 266,
+  "toplam_video": 447,
+  "toplam_izlenme_yaşam_boyu": 120390,
+  "son_90g_izlenme": 80255,
+  "son_14g_izlenme": 7716,
+  "gunluk_izlenme_tahmin": 551.1,
   "early_tier": {
     "abone_hedef": 500,
-    "abone_yuzde": 53.0,
-    "abone_kalan": 235,
+    "abone_yuzde": 53.2,
+    "abone_kalan": 234,
     "shorts_hedef_90g": 3000000,
-    "shorts_yuzde_90g": 2.71,
-    "shorts_kalan_90g": 2918554,
-    "tahmini_gun_shorts": 5059
+    "shorts_yuzde_90g": 2.68,
+    "shorts_kalan_90g": 2919745,
+    "tahmini_gun_shorts": 5298
   },
   "full_tier": {
     "abone_hedef": 1000,
-    "abone_yuzde": 26.5,
-    "abone_kalan": 735,
+    "abone_yuzde": 26.6,
+    "abone_kalan": 734,
     "shorts_hedef_90g": 10000000,
-    "shorts_yuzde_90g": 0.81,
-    "shorts_kalan_90g": 9918554,
-    "tahmini_gun_shorts": 17194
+    "shorts_yuzde_90g": 0.8,
+    "shorts_kalan_90g": 9919745,
+    "tahmini_gun_shorts": 17999
   }
 }

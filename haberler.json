@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-15T21:11:51.130360+00:00",
+  "uretim_zamani": "2026-10-16T18:13:52.551787+00:00",
   "haberler": [
     {
-      "baslik": "LHS 1140 b: An Alien Water World Heavier Than Five Earths",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "baslik": "VY Canis Majoris is two thousand times wider than the sun",
+      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "WASP-76b Vs Earth: Metal Rain Battle",
-      "url": "https://en.wikipedia.org/wiki/WASP-76b",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "GJ 1002 b: Habitable Zone World Just Sixteen Light Years From Earth",
-      "url": "https://en.wikipedia.org/wiki/GJ_1002",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
