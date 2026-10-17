@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-17T18:11:15.030673+00:00",
+  "uretim_zamani": "2026-10-17T19:11:14.803823+00:00",
   "haberler": [
     {
-      "baslik": "Teegarden b Vs Earth: An Alien World Receiving Almost Same Light",
-      "url": "https://en.wikipedia.org/wiki/Teegarden%27s_Star_b",
+      "baslik": "Kepler-186f: A Habitable World Receiving Less Sunlight Than Mars",
+      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Luyten b receives 6 percent more light than Earth from its red dwarf star",
+      "url": "https://en.wikipedia.org/wiki/Luyten_b",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kepler-1649c receives 75 percent as much light as Earth gets from the Sun",
+      "url": "https://en.wikipedia.org/wiki/Kepler-1649c",
+      "kaynak": "gemini-fallback",
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
