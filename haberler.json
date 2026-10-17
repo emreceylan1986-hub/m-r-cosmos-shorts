@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-17T19:11:14.803823+00:00",
+  "uretim_zamani": "2026-10-17T21:11:08.141110+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-186f: A Habitable World Receiving Less Sunlight Than Mars",
-      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
+      "baslik": "GJ 1002 b: A Potentially Habitable World Ten Times Closer Than Mercury",
+      "url": "https://en.wikipedia.org/wiki/GJ_1002_b",
       "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Luyten b receives 6 percent more light than Earth from its red dwarf star",
-      "url": "https://en.wikipedia.org/wiki/Luyten_b",
-      "kaynak": "gemini-fallback",
-      "skor": 992,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kepler-1649c receives 75 percent as much light as Earth gets from the Sun",
-      "url": "https://en.wikipedia.org/wiki/Kepler-1649c",
-      "kaynak": "gemini-fallback",
-      "skor": 991,
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
