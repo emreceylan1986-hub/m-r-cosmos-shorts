@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-10-18T18:11:05.461057+00:00",
+  "uretim_zamani": "2026-10-18T19:11:07.763475+00:00",
   "haberler": [
     {
-      "baslik": "Oort Cloud's Secret: A Sphere Four Thousand Times Wider Than Pluto's Orbit",
-      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
+      "baslik": "Comet Hale-Bopp's Secret: Brighter Than Thousand Suns in the Night Sky",
+      "url": "https://en.wikipedia.org/wiki/Comet_Hale%22Bopp",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
