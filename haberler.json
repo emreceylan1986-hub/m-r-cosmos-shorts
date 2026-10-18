@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-17T23:11:30.267280+00:00",
+  "uretim_zamani": "2026-10-18T00:37:35.186751+00:00",
   "haberler": [
     {
-      "baslik": "TOI-700 d rocky world receives forty percent of the starlight Earth gets",
-      "url": "https://en.wikipedia.org/wiki/TOI-700_d",
+      "baslik": "Kuiper Belt's Secret: Arrokoth Shapes Like a Snowman Beyond Neptune",
+      "url": "https://en.wikipedia.org/wiki/486958_Arrokoth",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sun vs Jupiter: Gravitational Pull Battle",
+      "url": "https://en.wikipedia.org/wiki/Barycenter",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Asteroid Ryugu: Primitive Space Rock Older Than the Sun",
+      "url": "https://en.wikipedia.org/wiki/162173_Ryugu",
+      "kaynak": "gemini-fallback",
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
