@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-18T00:37:35.186751+00:00",
+  "uretim_zamani": "2026-10-18T18:11:05.461057+00:00",
   "haberler": [
     {
-      "baslik": "Kuiper Belt's Secret: Arrokoth Shapes Like a Snowman Beyond Neptune",
-      "url": "https://en.wikipedia.org/wiki/486958_Arrokoth",
+      "baslik": "Oort Cloud's Secret: A Sphere Four Thousand Times Wider Than Pluto's Orbit",
+      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
       "kaynak": "gemini-fallback",
-      "skor": 995,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sun vs Jupiter: Gravitational Pull Battle",
-      "url": "https://en.wikipedia.org/wiki/Barycenter",
-      "kaynak": "gemini-fallback",
-      "skor": 994,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Asteroid Ryugu: Primitive Space Rock Older Than the Sun",
-      "url": "https://en.wikipedia.org/wiki/162173_Ryugu",
-      "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
