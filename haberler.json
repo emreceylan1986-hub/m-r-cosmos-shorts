@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-10-19T00:47:22.974470+00:00",
+  "uretim_zamani": "2026-10-19T18:11:18.859866+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A* Secret: Swallows 100 Moons Every Single Day",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Jupiter's Core Secret: Dense Metallic Ice Core Weighs Twenty Times Earth",
+      "url": "https://en.wikipedia.org/wiki/Jupiter%27s_interior",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Jupiter Vs Sun: Gravitational Tug of War",
-      "url": "https://en.wikipedia.org/wiki/Barycenter",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
