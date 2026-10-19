@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-19T19:12:08.675386+00:00",
+  "uretim_zamani": "2026-10-19T21:11:25.994582+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Rings Vs Saturn's Rings: The Billion Year Collision War",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Jupiter",
+      "baslik": "Pillars of Creation Vs Sun: A Cosmic Scale Battle",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Caloris Basin: Mercury's Crater Is Wider Than France",
+      "url": "https://en.wikipedia.org/wiki/Caloris_Basin",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Quasar Vs Pulsar: Brightness War Across The Cosmos",
+      "url": "https://en.wikipedia.org/wiki/Quasar",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
