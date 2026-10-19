@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-10-18T21:11:03.750213+00:00",
+  "uretim_zamani": "2026-10-19T00:47:22.974470+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Secret: Great Red Spot Is Deeper Than Earth's Oceans",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "baslik": "Sagittarius A* Secret: Swallows 100 Moons Every Single Day",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Mercury Vs Sun: Solar Winds Strip Its Atmosphere",
-      "url": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+      "baslik": "Jupiter Vs Sun: Gravitational Tug of War",
+      "url": "https://en.wikipedia.org/wiki/Barycenter",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sun Vs Earth: Core Pressure Is Three Hundred Billion Times Greater",
-      "url": "https://en.wikipedia.org/wiki/Solar_core",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
