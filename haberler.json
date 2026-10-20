@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-20T21:11:44.064898+00:00",
+  "uretim_zamani": "2026-10-20T21:18:07.181116+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A* Vs Sun: The Hidden Monster at Our Core",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Orcus's Secret: Anti-Pluto World Houses Cryovolcanoes of Pure Ice",
+      "url": "https://en.wikipedia.org/wiki/90482_Orcus",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Callisto's Ocean: Hidden Water Deep Beneath A Frozen Crust",
-      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Dione's Secret: Saturn's Moon Hides A Deep Global Ocean",
-      "url": "https://en.wikipedia.org/wiki/Dione_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
