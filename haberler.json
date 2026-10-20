@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-10-20T19:11:12.659232+00:00",
+  "uretim_zamani": "2026-10-20T21:11:44.064898+00:00",
   "haberler": [
     {
-      "baslik": "Europa's Secret: A Hidden Ocean Deeper Than Earth's Marianas Trench",
-      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
+      "baslik": "Sagittarius A* Vs Sun: The Hidden Monster at Our Core",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Callisto's Secret: A Hidden Ocean Older Than the Solar System",
+      "baslik": "Callisto's Ocean: Hidden Water Deep Beneath A Frozen Crust",
       "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Ganymede Vs The Moon: The Largest Ocean World in Our Solar System",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Dione's Secret: Saturn's Moon Hides A Deep Global Ocean",
+      "url": "https://en.wikipedia.org/wiki/Dione_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
