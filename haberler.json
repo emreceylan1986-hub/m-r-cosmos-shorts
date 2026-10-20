@@ -1,30 +1,27 @@
 {
-  "uretim_zamani": "2026-10-20T00:59:39.829709+00:00",
+  "uretim_zamani": "2026-10-20T18:11:46.675758+00:00",
   "haberler": [
     {
-      "baslik": "The observable universe is 93 billion light years across",
-      "url": "https://en.wikipedia.org/wiki/Observable_universe",
-      "ozet": "And that's just what we can see",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Titan's Kraken Mare: Secret Methane Sea Deeper Than Earth's Empire State Building",
+      "url": "https://en.wikipedia.org/wiki/Kraken_Mare",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Jupiter's Great Red Spot is a storm bigger than Earth",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
-      "ozet": "Raging for over 350 years",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Callisto's Unseen Abyss: Hidden Ocean Plunges Ten Times Deeper Than Mariana Trench",
+      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "The Sun makes up 99.8% of the Solar System's mass",
-      "url": "https://en.wikipedia.org/wiki/Sun",
-      "ozet": "Everything else is a rounding error",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Saturn's Ring Vs Bathtub: Saturn's Rings Are One Hundred Times Thinner Than Paper",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
