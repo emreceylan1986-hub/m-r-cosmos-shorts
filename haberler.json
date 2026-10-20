@@ -1,27 +1,30 @@
 {
-  "uretim_zamani": "2026-10-19T21:11:25.994582+00:00",
+  "uretim_zamani": "2026-10-20T00:59:39.829709+00:00",
   "haberler": [
     {
-      "baslik": "Pillars of Creation Vs Sun: A Cosmic Scale Battle",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
+      "baslik": "The observable universe is 93 billion light years across",
+      "url": "https://en.wikipedia.org/wiki/Observable_universe",
+      "ozet": "And that's just what we can see",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Caloris Basin: Mercury's Crater Is Wider Than France",
-      "url": "https://en.wikipedia.org/wiki/Caloris_Basin",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "baslik": "Jupiter's Great Red Spot is a storm bigger than Earth",
+      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "ozet": "Raging for over 350 years",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Quasar Vs Pulsar: Brightness War Across The Cosmos",
-      "url": "https://en.wikipedia.org/wiki/Quasar",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
+      "baslik": "The Sun makes up 99.8% of the Solar System's mass",
+      "url": "https://en.wikipedia.org/wiki/Sun",
+      "ozet": "Everything else is a rounding error",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
