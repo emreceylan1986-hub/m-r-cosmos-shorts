@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-21T18:11:18.408100+00:00",
+  "uretim_zamani": "2026-10-21T19:12:03.184216+00:00",
   "haberler": [
     {
-      "baslik": "A2667-BC1 Galaxy Traps More Dark Matter Than Fifty Milky Ways Combined",
-      "url": "https://en.wikipedia.org/wiki/Abell_2667",
+      "baslik": "Hubble Deep Field: A Single Grain of Sand Holds Ten Thousand Galaxies",
+      "url": "https://en.wikipedia.org/wiki/Hubble_Deep_Field",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Sombrero Galaxy: A Cosmic Hat Containing Over Eight Hundred Billion Stars",
+      "url": "https://en.wikipedia.org/wiki/Sombrero_Galaxy",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
