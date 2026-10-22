@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-10-22T19:11:08.082944+00:00",
+  "uretim_zamani": "2026-10-22T21:11:28.215996+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 667 C: The Hidden System with Three Habitable Planets",
-      "url": "https://en.wikipedia.org/wiki/Gliese_667_C",
+      "baslik": "TRAPPIST-1e Vs Earth: Life Battle in a Seven-Planet System",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
