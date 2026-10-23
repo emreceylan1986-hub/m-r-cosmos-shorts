@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-10-23T18:11:22.752027+00:00",
+  "uretim_zamani": "2026-10-23T19:11:54.272213+00:00",
   "haberler": [
     {
-      "baslik": "UY Scuti: The Secret Monster Star That Could Swallow Five Billion Suns",
-      "url": "https://en.wikipedia.org/wiki/UY_Scuti",
+      "baslik": "Boomerang Nebula: Coldest Place in the Cosmos is Colder Than Space",
+      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Crab Nebula: The Star Explosion Ancient Humans Saw In Daylight",
-      "url": "https://en.wikipedia.org/wiki/Crab_Nebula",
+      "baslik": "Kepler-22b's Secret: A Ocean World Double the Size of Earth",
+      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pulsar vs Sun: A Cosmic Battle of Energy",
-      "url": "https://en.wikipedia.org/wiki/Pulsar",
+      "baslik": "Supernova Vs Sun: Which Explosion Produces More Energy?",
+      "url": "https://en.wikipedia.org/wiki/Supernova",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
