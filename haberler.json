@@ -1,27 +1,30 @@
 {
-  "uretim_zamani": "2026-10-23T19:11:54.272213+00:00",
+  "uretim_zamani": "2026-10-23T21:11:23.419215+00:00",
   "haberler": [
     {
-      "baslik": "Boomerang Nebula: Coldest Place in the Cosmos is Colder Than Space",
-      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "baslik": "Light from the Sun takes 8 minutes to reach Earth",
+      "url": "https://en.wikipedia.org/wiki/Sunlight",
+      "ozet": "You always see the Sun in the past",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-22b's Secret: A Ocean World Double the Size of Earth",
-      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
+      "baslik": "Saturn's rings are made of billions of ice chunks",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "ozet": "From dust grains to house-sized boulders",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Supernova Vs Sun: Which Explosion Produces More Energy?",
-      "url": "https://en.wikipedia.org/wiki/Supernova",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "baslik": "A neutron star teaspoon would weigh a billion tons",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
+      "ozet": "The densest matter in the universe",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
