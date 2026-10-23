@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-10-23T00:24:01.502189+00:00",
+  "uretim_zamani": "2026-10-23T18:11:22.752027+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse's Secret: A Star So Big It Swallows Mars",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "baslik": "UY Scuti: The Secret Monster Star That Could Swallow Five Billion Suns",
+      "url": "https://en.wikipedia.org/wiki/UY_Scuti",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "KIC 8462852's Secret: The Star That Dims Like a Alien Structure",
-      "url": "https://en.wikipedia.org/wiki/KIC_8462852",
+      "baslik": "Crab Nebula: The Star Explosion Ancient Humans Saw In Daylight",
+      "url": "https://en.wikipedia.org/wiki/Crab_Nebula",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pulsar vs Sun: A Cosmic Battle of Energy",
+      "url": "https://en.wikipedia.org/wiki/Pulsar",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
