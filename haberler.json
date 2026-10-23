@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-10-22T21:11:28.215996+00:00",
+  "uretim_zamani": "2026-10-23T00:24:01.502189+00:00",
   "haberler": [
     {
-      "baslik": "TRAPPIST-1e Vs Earth: Life Battle in a Seven-Planet System",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
+      "baslik": "Betelgeuse's Secret: A Star So Big It Swallows Mars",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "KIC 8462852's Secret: The Star That Dims Like a Alien Structure",
+      "url": "https://en.wikipedia.org/wiki/KIC_8462852",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
