@@ -1,30 +1,19 @@
 {
-  "uretim_zamani": "2026-10-23T21:11:23.419215+00:00",
+  "uretim_zamani": "2026-10-24T18:11:02.455270+00:00",
   "haberler": [
     {
-      "baslik": "Light from the Sun takes 8 minutes to reach Earth",
-      "url": "https://en.wikipedia.org/wiki/Sunlight",
-      "ozet": "You always see the Sun in the past",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "Sagittarius A* Secret: The Unseen Monster Hidden at the Milky Way's Core",
+      "url": "https://en.wikipedia.org/wiki/Galactic_Center",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Saturn's rings are made of billions of ice chunks",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
-      "ozet": "From dust grains to house-sized boulders",
-      "kaynak": "evergreen",
-      "skor": 900,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "A neutron star teaspoon would weigh a billion tons",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
-      "ozet": "The densest matter in the universe",
-      "kaynak": "evergreen",
-      "skor": 900,
+      "baslik": "JWST Vs Hubble: The Battle to Find Alien Water First",
+      "url": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
+      "kaynak": "gemini-fallback",
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
