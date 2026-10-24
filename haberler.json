@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-24T21:11:19.387408+00:00",
+  "uretim_zamani": "2026-10-24T23:11:18.897165+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*: The Hidden Monster at the Heart of Our Galaxy",
+      "baslik": "Sagittarius A*: The Secret Supermassive Black Hole 4 Million Times Heavier Than Our Sun",
       "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Black Hole Vs Light Speed: The Cosmic Battle Where Space Falls Faster Than Light",
+      "url": "https://en.wikipedia.org/wiki/Event_horizon",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
