@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-25T18:11:19.405554+00:00",
+  "uretim_zamani": "2026-10-25T19:11:47.908307+00:00",
   "haberler": [
     {
-      "baslik": "Oort Cloud's Secret: Ice World Orbiting Farther Than Pluto",
-      "url": "https://en.wikipedia.org/wiki/Sedna_(dwarf_planet)",
+      "baslik": "Sagittarius A*: The Hidden Monster at the Heart of Our Galaxy Vs The Sun",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Oumuamua: The Interstellar Visitor Moving Faster Than Any Solar Comet",
+      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
