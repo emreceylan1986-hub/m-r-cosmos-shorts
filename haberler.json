@@ -1,8 +1,8 @@
 {
-  "uretim_zamani": "2026-10-25T19:11:47.908307+00:00",
+  "uretim_zamani": "2026-10-25T21:11:14.358006+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*: The Hidden Monster at the Heart of Our Galaxy Vs The Sun",
+      "baslik": "Sagittarius A*: The Hidden Supermassive Monster at the Heart of Our Galaxy",
       "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
       "kaynak": "gemini-fallback",
       "skor": 1000,
@@ -10,10 +10,18 @@
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Oumuamua: The Interstellar Visitor Moving Faster Than Any Solar Comet",
-      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
+      "baslik": "Mercury Vs Venus: The Solar System's Fiercest Heat Battle",
+      "url": "https://en.wikipedia.org/wiki/Venus",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Enceladus' Secret Plumes: Saturn's Moon Shoots Ocean Jets Higher Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
