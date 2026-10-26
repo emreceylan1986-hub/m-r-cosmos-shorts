@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-10-26T19:11:17.476108+00:00",
+  "uretim_zamani": "2026-10-26T21:11:17.118881+00:00",
   "haberler": [
     {
-      "baslik": "Saturn's Ring Secret: Rings Vs Earth's Atmosphere",
-      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "baslik": "Io's Volcanoes: Lava Jets Shoot Ten Times Higher Than Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Titan's Kraken Mare: Liquid methane sea deeper than Lake Baikal",
-      "url": "https://en.wikipedia.org/wiki/Kraken_Mare",
+      "baslik": "Triton's Ice Geysers: Nitrogen Plumes Tower Five Times Higher Than Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Jupiter Vs Saturn: The Gas Giant Ocean Duel",
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
