@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-25T21:11:14.358006+00:00",
+  "uretim_zamani": "2026-10-26T18:11:51.550810+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*: The Hidden Supermassive Monster at the Heart of Our Galaxy",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mercury Vs Venus: The Solar System's Fiercest Heat Battle",
-      "url": "https://en.wikipedia.org/wiki/Venus",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Enceladus' Secret Plumes: Saturn's Moon Shoots Ocean Jets Higher Than Earth",
+      "baslik": "Enceladus's Hidden Ocean: Saturn's Moon Shoots Geysers Miles Into Space!",
       "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
