@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-26T21:11:17.118881+00:00",
+  "uretim_zamani": "2026-10-26T23:11:22.497854+00:00",
   "haberler": [
     {
-      "baslik": "Io's Volcanoes: Lava Jets Shoot Ten Times Higher Than Mount Everest",
-      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Triton's Ice Geysers: Nitrogen Plumes Tower Five Times Higher Than Mount Everest",
-      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
+      "baslik": "Titan's Kraken Mare Methane Ocean Is Deeper Than Five Statue Of Libertys Stacked",
+      "url": "https://en.wikipedia.org/wiki/Kraken_Mare",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Jupiter Vs Saturn: The Gas Giant Ocean Duel",
-      "url": "https://en.wikipedia.org/wiki/Jupiter",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
