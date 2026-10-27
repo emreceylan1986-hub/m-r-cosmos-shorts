@@ -1,11 +1,30 @@
 {
-  "uretim_zamani": "2026-10-26T23:11:22.497854+00:00",
+  "uretim_zamani": "2026-10-27T01:49:56.002741+00:00",
   "haberler": [
     {
-      "baslik": "Titan's Kraken Mare Methane Ocean Is Deeper Than Five Statue Of Libertys Stacked",
-      "url": "https://en.wikipedia.org/wiki/Kraken_Mare",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "baslik": "Saturn's moon Titan has lakes of liquid methane",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "ozet": "The only other world with surface liquid",
+      "kaynak": "evergreen",
+      "skor": 900,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "A supernova can briefly outshine an entire galaxy",
+      "url": "https://en.wikipedia.org/wiki/Supernova",
+      "ozet": "A dying star's final flash",
+      "kaynak": "evergreen",
+      "skor": 900,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Light from the Sun takes 8 minutes to reach Earth",
+      "url": "https://en.wikipedia.org/wiki/Sunlight",
+      "ozet": "You always see the Sun in the past",
+      "kaynak": "evergreen",
+      "skor": 900,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
