@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-27T18:11:19.187079+00:00",
+  "uretim_zamani": "2026-10-27T19:11:18.727111+00:00",
   "haberler": [
     {
-      "baslik": "Pulsar PSR J1719-1438 b: A Diamond World 2 Times Denser Than Lead",
-      "url": "https://en.wikipedia.org/wiki/PSR_J1719-1438_b",
+      "baslik": "Ganymede's Hidden Ocean: More Water Than All Earth's Oceans Combined",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Enceladus Vs Earth: Which Ocean World Holds More Liquid Water?",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
