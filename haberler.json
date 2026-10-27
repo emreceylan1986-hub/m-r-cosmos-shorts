@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-10-27T19:11:18.727111+00:00",
+  "uretim_zamani": "2026-10-27T21:11:10.417505+00:00",
   "haberler": [
     {
-      "baslik": "Ganymede's Hidden Ocean: More Water Than All Earth's Oceans Combined",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Hydra's Secret Ice Sheet: Pluto's Tiny Moon Covered in Frozen Water",
+      "url": "https://en.wikipedia.org/wiki/Hydra_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Enceladus Vs Earth: Which Ocean World Holds More Liquid Water?",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
