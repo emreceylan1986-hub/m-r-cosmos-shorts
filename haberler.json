@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-27T21:11:10.417505+00:00",
+  "uretim_zamani": "2026-10-28T00:58:30.104393+00:00",
   "haberler": [
     {
-      "baslik": "Hydra's Secret Ice Sheet: Pluto's Tiny Moon Covered in Frozen Water",
-      "url": "https://en.wikipedia.org/wiki/Hydra_(moon)",
+      "baslik": "Tadpole Galaxy's Secret: A Star Trail Wider Than The Milky Way",
+      "url": "https://en.wikipedia.org/wiki/Tadpole_Galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Cartwheel Galaxy Vs Milky Way: A Collision Brighter Than Ten Billion Suns",
+      "url": "https://en.wikipedia.org/wiki/Cartwheel_Galaxy",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Coma Cluster's Hidden Secret: Dark Matter Outweighs Visible Stars Ten To One",
+      "url": "https://en.wikipedia.org/wiki/Coma_Cluster",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
