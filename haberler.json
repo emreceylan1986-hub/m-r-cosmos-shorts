@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-10-28T00:58:30.104393+00:00",
+  "uretim_zamani": "2026-10-28T18:11:03.697427+00:00",
   "haberler": [
     {
-      "baslik": "Tadpole Galaxy's Secret: A Star Trail Wider Than The Milky Way",
-      "url": "https://en.wikipedia.org/wiki/Tadpole_Galaxy",
+      "baslik": "NGC 1052-DF2: The Impossible Galaxy Containing Almost Zero Dark Matter",
+      "url": "https://en.wikipedia.org/wiki/NGC_1052-DF2",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Cartwheel Galaxy Vs Milky Way: A Collision Brighter Than Ten Billion Suns",
-      "url": "https://en.wikipedia.org/wiki/Cartwheel_Galaxy",
+      "baslik": "Rubin's Galaxy Vs Milky Way: The Giant Spiral Twice As Wide As Ours",
+      "url": "https://en.wikipedia.org/wiki/UGC_2885",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Coma Cluster's Hidden Secret: Dark Matter Outweighs Visible Stars Ten To One",
-      "url": "https://en.wikipedia.org/wiki/Coma_Cluster",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
