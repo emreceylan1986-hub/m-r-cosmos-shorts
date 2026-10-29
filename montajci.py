@@ -289,6 +289,35 @@ def _ffmpeg_calistir(args: list[str], cwd: str | None = None) -> None:
     if sonuc.returncode != 0:
         raise RuntimeError(f"ffmpeg hata: {sonuc.stderr.strip()}")
 
+# --- 29 Eki: HOOK PARLAKLIGI -------------------------------------------------
+# OLCUM (31 Akasha videosu, kucuk resim YAVG'si x hook QC skoru):
+#     skor <=4 (hepsi PRIVATE): medyan 40  araligi   5-58
+#     skor  =5                : medyan 128 araligi  69-172
+#     skor >=6                : medyan 128 araligi  69-158
+# TEK BIR ORTUSME YOK: dusen her videonun karesi 59'un ALTINDA, gecen her
+# videonunki 69'un USTUNDE. Hook QC'nin "dark / dimly lit / lacks visual
+# intrigue" gerekcesi olculebilir bir buyuklukmus.
+HOOK_PARLAKLIK_TABANI = 75.0   # bu YAVG'nin altindaki hook yukseltilir
+HOOK_PARLAKLIK_AZAMI_ARTIS = 0.20   # eq=brightness tavani (~51 seviye)
+
+
+def _klip_parlaklik(klip: Path, sure: float = 2.0) -> float:
+    """Klibin ilk saniyelerinin ortalama YAVG'si (0-255). Olculemezse -1."""
+    try:
+        sonuc = subprocess.run(
+            [FFMPEG, "-hide_banner", "-loglevel", "info", "-t", f"{sure:.1f}",
+             "-i", str(klip), "-vf",
+             "scale=240:-2,format=yuv420p,signalstats,"
+             "metadata=print:key=lavfi.signalstats.YAVG",
+             "-f", "null", "-"],
+            capture_output=True, text=True, timeout=60)
+        degerler = [float(p.split("=")[1]) for p in sonuc.stderr.split()
+                    if p.startswith("lavfi.signalstats.YAVG=")]
+        return sum(degerler) / len(degerler) if degerler else -1.0
+    except Exception:
+        return -1.0
+
+
 
 # ---------------------------------------------------------------------------
 # Adımlar
@@ -758,8 +787,18 @@ def main() -> int:
         #       hook QC "Background water video is generic and unrelated to
         #       spirituality" 3/10 → PRIVATE.
         # Kapi kendi sorununu uretiyordu: klibi eliyor, sonra basa koyuyordu.
-        if zayif_hook_mu and zayif_hook_mu[0]:
-            saglam = next((i for i, z in enumerate(zayif_hook_mu) if not z), None)
+        # 29 Eki: artik "ilk saglam" degil, saglamlar arasindan EN PARLAK secilir.
+        parlakliklar = [_klip_parlaklik(k) for k in ham_klipler]
+        for _i, (_k, _p) in enumerate(zip(ham_klipler, parlakliklar), 1):
+            _alt(f"#{_i} parlaklik: {_p:.0f}/255"
+                 + ("  ⚠️ taban altinda" if 0 <= _p < HOOK_PARLAKLIK_TABANI else ""))
+        if zayif_hook_mu and (zayif_hook_mu[0]
+                              or 0 <= parlakliklar[0] < HOOK_PARLAKLIK_TABANI):
+            _adaylar = [i for i, z in enumerate(zayif_hook_mu) if not z]
+            saglam = (max(_adaylar, key=lambda i: parlakliklar[i])
+                      if _adaylar else None)
+            if saglam == 0:
+                saglam = None   # zaten en iyisi basta, takasa gerek yok
             if saglam is not None:
                 ham_klipler[0], ham_klipler[saglam] = ham_klipler[saglam], ham_klipler[0]
                 zayif_hook_mu[0], zayif_hook_mu[saglam] = (
@@ -767,10 +806,12 @@ def main() -> int:
                 if saglam < len(kaynak_foto_mu):
                     kaynak_foto_mu[0], kaynak_foto_mu[saglam] = (
                         kaynak_foto_mu[saglam], kaynak_foto_mu[0])
-                _alt(f"🔄 hook kurtarma: #1 zayifti (fotograf/QC-red) → "
-                     f"#{saglam+1} basa alindi")
+                parlakliklar[0], parlakliklar[saglam] = (
+                    parlakliklar[saglam], parlakliklar[0])
+                _alt(f"🔄 hook kurtarma: #{saglam+1} basa alindi "
+                     f"(parlaklik {parlakliklar[0]:.0f})")
             else:
-                _alt("⚠️ tum klipler zayif (fotograf/QC-red) — hook kurtarilamadi")
+                _alt("⚠️ uygun hook yok — ilk klip kaliyor (CB'de grade yok, yukseltme yapilmaz)")
 
         _adim(5, f"Her klip 1080×1920'a kırpılıp normalize ediliyor...")
         normal_klipler: list[Path] = []
