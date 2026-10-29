@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-29T02:07:55.133948+00:00",
+  "uretim_zamani": "2026-10-29T18:11:11.034266+00:00",
   "haberler": [
     {
-      "baslik": "TOI-2257 b: Oval Orbit Swings Farther Than Neptune's Path",
-      "url": "https://en.wikipedia.org/wiki/TOI-2257_b",
+      "baslik": "K2-18b's Secret: An Alien World Ocean Twice as Wide as Earth",
+      "url": "https://en.wikipedia.org/wiki/K2-18b",
       "kaynak": "gemini-fallback",
-      "skor": 989,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gliese 667 Cc Vs Mars: Which World Could Support Alien Life?",
+      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "James Webb Telescope Vs Hubble: The Deep Space Battle",
+      "url": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
+      "kaynak": "gemini-fallback",
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
