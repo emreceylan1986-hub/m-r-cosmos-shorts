@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-29T18:11:11.034266+00:00",
+  "uretim_zamani": "2026-10-29T19:11:08.716066+00:00",
   "haberler": [
     {
-      "baslik": "K2-18b's Secret: An Alien World Ocean Twice as Wide as Earth",
-      "url": "https://en.wikipedia.org/wiki/K2-18b",
+      "baslik": "Proxima Centauri b: Hidden Secret of Earth's Nearest Ocean World",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
       "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gliese 667 Cc Vs Mars: Which World Could Support Alien Life?",
-      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "James Webb Telescope Vs Hubble: The Deep Space Battle",
-      "url": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
-      "kaynak": "gemini-fallback",
-      "skor": 990,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
