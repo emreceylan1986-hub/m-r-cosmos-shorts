@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-28T21:11:24.644801+00:00",
+  "uretim_zamani": "2026-10-29T02:07:55.133948+00:00",
   "haberler": [
     {
-      "baslik": "Laniakea Supercluster: The Hidden Web Holding One Hundred Thousand Galaxies",
-      "url": "https://en.wikipedia.org/wiki/Laniakea_Supercluster",
+      "baslik": "TOI-2257 b: Oval Orbit Swings Farther Than Neptune's Path",
+      "url": "https://en.wikipedia.org/wiki/TOI-2257_b",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Enceladus' Secret: Ice Moon Hides Oceans More Habitable Than Earth's Seas",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Perseus Cluster's Secret: Dark Matter Mass Equals One Trillion Suns",
-      "url": "https://en.wikipedia.org/wiki/Perseus_Cluster",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 989,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
