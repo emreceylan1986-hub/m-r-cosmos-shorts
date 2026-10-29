@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-29T19:11:08.716066+00:00",
+  "uretim_zamani": "2026-10-29T21:12:05.045192+00:00",
   "haberler": [
     {
-      "baslik": "Proxima Centauri b: Hidden Secret of Earth's Nearest Ocean World",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "baslik": "Stephenson 2-18's Secret: A Star Larger Than Ten Thousand Suns",
+      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Super-Earth Vs Desert Planet: Which Could Host Alien Life?",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
