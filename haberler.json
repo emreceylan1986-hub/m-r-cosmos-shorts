@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-30T19:11:08.979397+00:00",
+  "uretim_zamani": "2026-10-30T21:12:00.644376+00:00",
   "haberler": [
     {
-      "baslik": "SN 1054 Supernova Secret: A Light Eight Times Brighter Than Venus",
-      "url": "https://en.wikipedia.org/wiki/SN_1054",
+      "baslik": "Pillars of Creation: A Hidden Stellar Nursery Where Stars Are Born",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Antares Red Supergiant Star Is Seven Hundred Times Wider Than The Sun",
+      "url": "https://en.wikipedia.org/wiki/Antares",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Neutron Star Vs Sun: A Density Battle Where A Teaspoon Weighs A Billion Tons",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
