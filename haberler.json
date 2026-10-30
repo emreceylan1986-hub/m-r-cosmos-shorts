@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-10-30T02:24:17.829550+00:00",
+  "uretim_zamani": "2026-10-30T18:11:17.065964+00:00",
   "haberler": [
     {
-      "baslik": "Pulsar CP 1919 Secret: Spinning Faster Than A Blender",
-      "url": "https://en.wikipedia.org/wiki/PSR_B1919%2B21",
+      "baslik": "Sagittarius A*'s Secret: Eats More Mass Than Ten Earths Every Second",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Supernova 1987A Shines Brighter Than One Hundred Million Suns",
+      "url": "https://en.wikipedia.org/wiki/SN_1987A",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rigel Vs The Sun: A Giant Star Battle",
+      "url": "https://en.wikipedia.org/wiki/Rigel",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
