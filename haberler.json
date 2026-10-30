@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-10-29T21:12:05.045192+00:00",
+  "uretim_zamani": "2026-10-30T02:24:17.829550+00:00",
   "haberler": [
     {
-      "baslik": "Stephenson 2-18's Secret: A Star Larger Than Ten Thousand Suns",
-      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
+      "baslik": "Pulsar CP 1919 Secret: Spinning Faster Than A Blender",
+      "url": "https://en.wikipedia.org/wiki/PSR_B1919%2B21",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Super-Earth Vs Desert Planet: Which Could Host Alien Life?",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
