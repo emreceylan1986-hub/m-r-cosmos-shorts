@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-30T18:11:17.065964+00:00",
+  "uretim_zamani": "2026-10-30T19:11:08.979397+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*'s Secret: Eats More Mass Than Ten Earths Every Second",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "SN 1054 Supernova Secret: A Light Eight Times Brighter Than Venus",
+      "url": "https://en.wikipedia.org/wiki/SN_1054",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Supernova 1987A Shines Brighter Than One Hundred Million Suns",
-      "url": "https://en.wikipedia.org/wiki/SN_1987A",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rigel Vs The Sun: A Giant Star Battle",
-      "url": "https://en.wikipedia.org/wiki/Rigel",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
