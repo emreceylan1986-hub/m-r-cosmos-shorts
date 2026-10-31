@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-10-30T21:12:00.644376+00:00",
+  "uretim_zamani": "2026-10-31T01:25:50.944697+00:00",
   "haberler": [
     {
-      "baslik": "Pillars of Creation: A Hidden Stellar Nursery Where Stars Are Born",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "LP 890-9 c: Water World Orbits Ten Times Faster Than Earth",
+      "url": "https://en.wikipedia.org/wiki/LP_890-9_c",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Antares Red Supergiant Star Is Seven Hundred Times Wider Than The Sun",
-      "url": "https://en.wikipedia.org/wiki/Antares",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Neutron Star Vs Sun: A Density Battle Where A Teaspoon Weighs A Billion Tons",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
