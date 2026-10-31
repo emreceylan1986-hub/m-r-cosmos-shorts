@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-10-31T18:11:22.811935+00:00",
+  "uretim_zamani": "2026-10-31T19:11:03.103576+00:00",
   "haberler": [
     {
-      "baslik": "Teegarden b: The Earth-Sized Alien World Warmer Than Our Planet",
-      "url": "https://en.wikipedia.org/wiki/Teegarden_b",
+      "baslik": "Sagittarius A*'s Hidden Neighbor: IRS 13 Orbits Faster Than Light",
+      "url": "https://en.wikipedia.org/wiki/IRS_13",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Pistol Star's Secret: A Stellar Beast Brighter Than Three Million Suns",
-      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
