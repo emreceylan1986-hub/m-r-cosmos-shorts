@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-10-31T01:25:50.944697+00:00",
+  "uretim_zamani": "2026-10-31T18:11:22.811935+00:00",
   "haberler": [
     {
-      "baslik": "LP 890-9 c: Water World Orbits Ten Times Faster Than Earth",
-      "url": "https://en.wikipedia.org/wiki/LP_890-9_c",
+      "baslik": "Teegarden b: The Earth-Sized Alien World Warmer Than Our Planet",
+      "url": "https://en.wikipedia.org/wiki/Teegarden_b",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pistol Star's Secret: A Stellar Beast Brighter Than Three Million Suns",
+      "url": "https://en.wikipedia.org/wiki/Pistol_Star",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
