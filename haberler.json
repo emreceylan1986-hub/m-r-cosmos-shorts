@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-01T19:11:10.507235+00:00",
+  "uretim_zamani": "2026-11-01T21:11:08.213288+00:00",
   "haberler": [
     {
-      "baslik": "Galle Crater: The Smiling Face Hidden on Mars",
-      "url": "https://en.wikipedia.org/wiki/Galle_(Martian_crater)",
+      "baslik": "Sun's Core Vs Surface: Heat Battle Inside Our Star",
+      "url": "https://en.wikipedia.org/wiki/Sun",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Asteroid Psyche 16 Contains More Metal Than All Gold Transferred on Earth",
+      "url": "https://en.wikipedia.org/wiki/16_Psyche",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Comet Bernardinelli-Bernstein Spans One Hundred Times Wider Than Typical Comets",
+      "url": "https://en.wikipedia.org/wiki/C/2014_UN271_(Bernardinelli-Bernstein)",
+      "kaynak": "gemini-fallback",
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
