@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-11-01T18:11:09.048559+00:00",
+  "uretim_zamani": "2026-11-01T19:11:10.507235+00:00",
   "haberler": [
     {
-      "baslik": "Vesta's Rheasilvia: The Mountain Three Times Taller Than Everest",
-      "url": "https://en.wikipedia.org/wiki/Rheasilvia",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Pallas: The Metallic Asteroid Bigger Than the State of Texas",
-      "url": "https://en.wikipedia.org/wiki/2_Pallas",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Oumuamua Vs Earth's Orbit: The Interstellar Visitor Speed Battle",
-      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
+      "baslik": "Galle Crater: The Smiling Face Hidden on Mars",
+      "url": "https://en.wikipedia.org/wiki/Galle_(Martian_crater)",
       "kaynak": "gemini-fallback",
       "skor": 997,
       "yas_saat": 0,
