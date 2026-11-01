@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-10-31T21:11:32.743410+00:00",
+  "uretim_zamani": "2026-11-01T18:11:09.048559+00:00",
   "haberler": [
     {
-      "baslik": "K2-18b's Ocean: Has More Liquid Water Than Earth's Entire Crust",
-      "url": "https://en.wikipedia.org/wiki/K2-18b",
+      "baslik": "Vesta's Rheasilvia: The Mountain Three Times Taller Than Everest",
+      "url": "https://en.wikipedia.org/wiki/Rheasilvia",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TRAPPIST-1: The Secret Red Dwarf Holding Seven Earth-Sized Worlds",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1",
+      "baslik": "Pallas: The Metallic Asteroid Bigger Than the State of Texas",
+      "url": "https://en.wikipedia.org/wiki/2_Pallas",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Oumuamua Vs Earth's Orbit: The Interstellar Visitor Speed Battle",
+      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
