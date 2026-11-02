@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-11-02T18:11:33.452093+00:00",
+  "uretim_zamani": "2026-11-02T19:12:02.164381+00:00",
   "haberler": [
     {
-      "baslik": "Quasar Vs Pulsar: Which Cosmic Monster Shines Brighter Than a Trillion Suns?",
-      "url": "https://en.wikipedia.org/wiki/Quasar",
+      "baslik": "Jupiter Vs Saturn: Which Giant Holds More Mass Than All Planets?",
+      "url": "https://en.wikipedia.org/wiki/Gas_giant",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 993,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Great Red Spot Vs Earth: Whose Storms Swallow More Volume?",
+      "url": "https://en.wikipedia.org/wiki/Extraterrestrial_vortices",
+      "kaynak": "gemini-fallback",
+      "skor": 990,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
