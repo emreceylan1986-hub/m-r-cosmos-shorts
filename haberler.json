@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-11-02T21:11:24.200782+00:00",
+  "uretim_zamani": "2026-11-03T00:29:19.187833+00:00",
   "haberler": [
     {
-      "baslik": "Saturn's Hexagon: A Storm Wider Than Four Earths Combined",
-      "url": "https://en.wikipedia.org/wiki/Saturn%27s_hexagon",
+      "baslik": "Europa's Secret: Hidden Ocean Holds Double All Earth's Water",
+      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Enceladus Vs Earth: The Ocean Moon Ice Battle",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Titan's Secret: Global Liquid Ocean Hidden Beneath Solid Ice",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
