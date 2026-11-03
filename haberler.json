@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-11-03T19:11:59.816426+00:00",
+  "uretim_zamani": "2026-11-03T21:12:08.894178+00:00",
   "haberler": [
     {
-      "baslik": "Pillars of Creation Vs Webb Telescope: The Cosmic Battle",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "Enceladus's Secret: An Ocean Hiding Beneath Ice Thinner Than A Mountain",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Triton's Ice Geysers Freeze Ten Times Colder Than Antarctica",
+      "baslik": "Triton's Hidden Ocean: Geysers Blasting Forty Miles Into Deep Space",
       "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pluto Vs Neptune: Which Frozen Ice World Wins?",
+      "url": "https://en.wikipedia.org/wiki/Pluto",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
