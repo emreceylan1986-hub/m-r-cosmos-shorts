@@ -1,25 +1,25 @@
 {
-  "uretim_zamani": "2026-11-03T21:12:08.894178+00:00",
+  "uretim_zamani": "2026-11-04T02:54:25.112074+00:00",
   "haberler": [
     {
-      "baslik": "Enceladus's Secret: An Ocean Hiding Beneath Ice Thinner Than A Mountain",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "baslik": "Hoag's Object: The Secret Galaxy Shaped Like a Ring",
+      "url": "https://en.wikipedia.org/wiki/Hoag%27s_Object",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Triton's Hidden Ocean: Geysers Blasting Forty Miles Into Deep Space",
-      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
+      "baslik": "Bullet Cluster's Hidden Secret: Dark Matter Separated From Normal Gas",
+      "url": "https://en.wikipedia.org/wiki/Bullet_Cluster",
       "kaynak": "gemini-fallback",
       "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pluto Vs Neptune: Which Frozen Ice World Wins?",
-      "url": "https://en.wikipedia.org/wiki/Pluto",
+      "baslik": "Hubble Deep Field: A Coin-Sized Patch of Sky Hiding Ten Thousand Galaxies",
+      "url": "https://en.wikipedia.org/wiki/Hubble_Deep_Field",
       "kaynak": "gemini-fallback",
       "skor": 996,
       "yas_saat": 0,
