@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-04T02:54:25.112074+00:00",
+  "uretim_zamani": "2026-11-04T18:14:00.936572+00:00",
   "haberler": [
     {
-      "baslik": "Hoag's Object: The Secret Galaxy Shaped Like a Ring",
-      "url": "https://en.wikipedia.org/wiki/Hoag%27s_Object",
+      "baslik": "Sombrero Galaxy: A Cosmic Hat Hiding a Billion-Sun Black Hole",
+      "url": "https://en.wikipedia.org/wiki/Sombrero_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Bullet Cluster's Hidden Secret: Dark Matter Separated From Normal Gas",
-      "url": "https://en.wikipedia.org/wiki/Bullet_Cluster",
+      "baslik": "Whirlpool Galaxy bridge connects two galaxies across five hundred thousand light years",
+      "url": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Hubble Deep Field: A Coin-Sized Patch of Sky Hiding Ten Thousand Galaxies",
-      "url": "https://en.wikipedia.org/wiki/Hubble_Deep_Field",
+      "baslik": "Andromeda Galaxy collision course brings one trillion stars crashing toward Earth",
+      "url": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
