@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-04T19:12:11.475985+00:00",
+  "uretim_zamani": "2026-11-04T21:11:24.232496+00:00",
   "haberler": [
     {
-      "baslik": "Hubble Deep Field: The Secret Galaxy Web Hiding Behind a Grain of Sand",
-      "url": "https://en.wikipedia.org/wiki/Hubble_Deep_Field",
+      "baslik": "Elliptical Galaxy Vs Spiral Galaxy: The Ancient Size War",
+      "url": "https://en.wikipedia.org/wiki/Elliptical_galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Cosmic Web Vs Black Hole: Who Controls the Universe?",
-      "url": "https://en.wikipedia.org/wiki/Cosmic_web",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Vera Rubin's Dark Matter Secret: Galaxies Spin Ten Times Faster Than Gravity Allows",
-      "url": "https://en.wikipedia.org/wiki/Dark_matter",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 991,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
