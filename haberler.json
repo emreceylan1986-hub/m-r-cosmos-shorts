@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-04T18:14:00.936572+00:00",
+  "uretim_zamani": "2026-11-04T19:12:11.475985+00:00",
   "haberler": [
     {
-      "baslik": "Sombrero Galaxy: A Cosmic Hat Hiding a Billion-Sun Black Hole",
-      "url": "https://en.wikipedia.org/wiki/Sombrero_Galaxy",
+      "baslik": "Hubble Deep Field: The Secret Galaxy Web Hiding Behind a Grain of Sand",
+      "url": "https://en.wikipedia.org/wiki/Hubble_Deep_Field",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Whirlpool Galaxy bridge connects two galaxies across five hundred thousand light years",
-      "url": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
+      "baslik": "Cosmic Web Vs Black Hole: Who Controls the Universe?",
+      "url": "https://en.wikipedia.org/wiki/Cosmic_web",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Andromeda Galaxy collision course brings one trillion stars crashing toward Earth",
-      "url": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision",
+      "baslik": "Vera Rubin's Dark Matter Secret: Galaxies Spin Ten Times Faster Than Gravity Allows",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
