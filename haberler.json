@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-05T19:12:17.002073+00:00",
+  "uretim_zamani": "2026-11-05T21:11:53.746371+00:00",
   "haberler": [
     {
-      "baslik": "Bootes Void: The Secret Hole in Space That Could Swallow 10,000 Milky Ways",
-      "url": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_void",
+      "baslik": "TRAPPIST-1 e Secret: An Ocean World 40 Light Years Away",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "K2-18b Secret: The Ocean Planet Hiding Atmospheric Water",
+      "url": "https://en.wikipedia.org/wiki/K2-18b",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Proxima Centauri b receives 60 percent of Earth's solar energy",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
