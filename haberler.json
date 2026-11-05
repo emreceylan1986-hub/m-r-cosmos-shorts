@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-11-04T21:11:24.232496+00:00",
+  "uretim_zamani": "2026-11-05T18:11:58.791279+00:00",
   "haberler": [
     {
-      "baslik": "Elliptical Galaxy Vs Spiral Galaxy: The Ancient Size War",
-      "url": "https://en.wikipedia.org/wiki/Elliptical_galaxy",
+      "baslik": "TOI-178 System Vs Solar System: Six Planets Locked In Harmonic Rhythm",
+      "url": "https://en.wikipedia.org/wiki/TOI-178",
       "kaynak": "gemini-fallback",
       "skor": 991,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "51 Pegasi b's Secret: The Impossible World 100 Times Closer Than Jupiter",
+      "url": "https://en.wikipedia.org/wiki/51_Pegasi_b",
+      "kaynak": "gemini-fallback",
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
