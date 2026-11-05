@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-11-05T23:11:22.486641+00:00",
+  "uretim_zamani": "2026-11-05T23:15:55.164337+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 667 Cc's Secret: Alien World With Three Suns",
-      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
+      "baslik": "Betelgeuse's Secret: A Giant Star Swelling Beyond the Orbit of Mars",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kepler-22b Vs Earth: Life Battle on an Ocean World",
+      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
