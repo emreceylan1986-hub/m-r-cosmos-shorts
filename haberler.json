@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-11-05T18:11:58.791279+00:00",
+  "uretim_zamani": "2026-11-05T19:12:17.002073+00:00",
   "haberler": [
     {
-      "baslik": "TOI-178 System Vs Solar System: Six Planets Locked In Harmonic Rhythm",
-      "url": "https://en.wikipedia.org/wiki/TOI-178",
+      "baslik": "Bootes Void: The Secret Hole in Space That Could Swallow 10,000 Milky Ways",
+      "url": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_void",
       "kaynak": "gemini-fallback",
-      "skor": 991,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "51 Pegasi b's Secret: The Impossible World 100 Times Closer Than Jupiter",
-      "url": "https://en.wikipedia.org/wiki/51_Pegasi_b",
-      "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
