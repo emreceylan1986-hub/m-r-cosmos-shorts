@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-11-06T19:11:15.615311+00:00",
+  "uretim_zamani": "2026-11-06T21:11:10.935777+00:00",
   "haberler": [
     {
-      "baslik": "Boomerang Nebula: The Secret Coldest Place in the Universe",
-      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "UY Scuti Vs Sun: The Ultimate Size Battle",
-      "url": "https://en.wikipedia.org/wiki/UY_Scuti",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rigel Star Vs Sun: A Battle of Stellar Power",
-      "url": "https://en.wikipedia.org/wiki/Rigel",
+      "baslik": "Hypervelocity Stars Escape Galaxies Faster Than Light Speed",
+      "url": "https://en.wikipedia.org/wiki/Stellar_kinematics#Hypervelocity_stars",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
