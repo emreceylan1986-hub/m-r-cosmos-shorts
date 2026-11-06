@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-11-05T23:15:55.164337+00:00",
+  "uretim_zamani": "2026-11-06T18:11:14.193754+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse's Secret: A Giant Star Swelling Beyond the Orbit of Mars",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kepler-22b Vs Earth: Life Battle on an Ocean World",
-      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
+      "baslik": "NML Cygni's Secret: A Star So Huge It Could Swallow Five Hundred Suns",
+      "url": "https://en.wikipedia.org/wiki/NML_Cygni",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
