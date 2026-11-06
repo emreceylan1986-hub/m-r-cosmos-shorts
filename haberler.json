@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-06T18:11:14.193754+00:00",
+  "uretim_zamani": "2026-11-06T19:11:15.615311+00:00",
   "haberler": [
     {
-      "baslik": "NML Cygni's Secret: A Star So Huge It Could Swallow Five Hundred Suns",
-      "url": "https://en.wikipedia.org/wiki/NML_Cygni",
+      "baslik": "Boomerang Nebula: The Secret Coldest Place in the Universe",
+      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "UY Scuti Vs Sun: The Ultimate Size Battle",
+      "url": "https://en.wikipedia.org/wiki/UY_Scuti",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rigel Star Vs Sun: A Battle of Stellar Power",
+      "url": "https://en.wikipedia.org/wiki/Rigel",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
