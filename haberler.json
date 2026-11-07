@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-11-06T23:11:18.009699+00:00",
+  "uretim_zamani": "2026-11-07T02:32:43.963402+00:00",
   "haberler": [
     {
-      "baslik": "Pulsar Wind Nebulae Vs Supernova Remnants: Energy Battle",
-      "url": "https://en.wikipedia.org/wiki/Pulsar_wind_nebula",
+      "baslik": "Wolf 1069 b: Earth-Sized Secret with 13-Day Years",
+      "url": "https://en.wikipedia.org/wiki/Wolf_1069_b",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Cygnus Loop's Unseen Secret: Veil Ribbons Expanding Faster Than Light Echoes",
-      "url": "https://en.wikipedia.org/wiki/Cygnus_Loop",
+      "baslik": "LHS 1140 b Vs Earth: An Alien Ocean World Battle",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
       "kaynak": "gemini-fallback",
-      "skor": 988,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "TRAPPIST-1: Secret System Holding Seven Earth-Sized Worlds",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
