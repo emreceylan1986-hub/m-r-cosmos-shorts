@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-07T02:32:43.963402+00:00",
+  "uretim_zamani": "2026-11-07T18:11:05.150113+00:00",
   "haberler": [
     {
-      "baslik": "Wolf 1069 b: Earth-Sized Secret with 13-Day Years",
-      "url": "https://en.wikipedia.org/wiki/Wolf_1069_b",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "LHS 1140 b Vs Earth: An Alien Ocean World Battle",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "baslik": "K2-18b's Secret: Ocean World Vs Gas Giant",
+      "url": "https://en.wikipedia.org/wiki/K2-18b",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "TRAPPIST-1: Secret System Holding Seven Earth-Sized Worlds",
-      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1",
+      "baslik": "Proxima Centauri b: Earth-Sized Neighbor Vs Red Dwarf Flares",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ross 128 b: A Quiet Earth-Sized World Vs Deadly Solar Wind",
+      "url": "https://en.wikipedia.org/wiki/Ross_128_b",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
