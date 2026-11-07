@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-07T18:11:05.150113+00:00",
+  "uretim_zamani": "2026-11-07T19:11:08.981290+00:00",
   "haberler": [
     {
-      "baslik": "K2-18b's Secret: Ocean World Vs Gas Giant",
-      "url": "https://en.wikipedia.org/wiki/K2-18b",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Proxima Centauri b: Earth-Sized Neighbor Vs Red Dwarf Flares",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "baslik": "Gliese 12 b: Earth-sized World Lies Closer Than Venus",
+      "url": "https://en.wikipedia.org/wiki/Gliese_12_b",
       "kaynak": "gemini-fallback",
       "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ross 128 b: A Quiet Earth-Sized World Vs Deadly Solar Wind",
-      "url": "https://en.wikipedia.org/wiki/Ross_128_b",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
