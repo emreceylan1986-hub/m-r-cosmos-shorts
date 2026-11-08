@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-08T18:13:16.849006+00:00",
+  "uretim_zamani": "2026-11-08T19:11:18.120139+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse's Secret: A Star So Big It Swallows Jupiter's Orbit",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "baslik": "Ceres Secret: An Ice Volcano Taller Than Mount Blanc",
+      "url": "https://en.wikipedia.org/wiki/Ahuna_Mons",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Stephenson 2-18: The Hidden Monster Star Ten Thousand Times Brighter Than the Sun",
-      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Comet Bernardinelli-Bernstein Packs a Ice Core Fifty Times Larger Than Halley",
-      "url": "https://en.wikipedia.org/wiki/C/2014_UN271_(Bernardinelli-Bernstein)",
-      "kaynak": "gemini-fallback",
-      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
