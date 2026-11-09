@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-11-08T21:11:06.626836+00:00",
+  "uretim_zamani": "2026-11-09T01:25:33.820040+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse's Secret: A Star Swallowing Mars In Broad Daylight",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Sun Vs Neutron Star: A Massive Density Battle",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
+      "baslik": "Saturn's Rings Vs A Bathtub: A Density Battle",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
