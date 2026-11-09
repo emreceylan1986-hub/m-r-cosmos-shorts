@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-11-09T19:11:50.995030+00:00",
+  "uretim_zamani": "2026-11-09T20:11:49.420722+00:00",
   "haberler": [
     {
-      "baslik": "Titan's Secret: A Methane Sea Deeper Than Earth's Oceans",
-      "url": "https://en.wikipedia.org/wiki/Kraken_Mare",
+      "baslik": "Jupiter's Moon Io: Hundreds of Volcanoes Blast Lava Higher Than Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Titan Vs Earth: A Battle of Liquid Worlds",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "baslik": "Titan's Atmosphere Vs Earth's Atmosphere: A Planetary Density Battle",
+      "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Titan",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ganymede's Secret: A Ocean Hidden Beneath Ice Packing More Water Than Earth",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
