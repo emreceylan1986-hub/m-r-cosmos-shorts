@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-09T20:11:49.420722+00:00",
+  "uretim_zamani": "2026-11-09T21:11:13.293517+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Moon Io: Hundreds of Volcanoes Blast Lava Higher Than Mount Everest",
-      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Titan's Atmosphere Vs Earth's Atmosphere: A Planetary Density Battle",
-      "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Titan",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ganymede's Secret: A Ocean Hidden Beneath Ice Packing More Water Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Saturn's Moon Mimas: A Hidden Ocean Beneath a Crater Bigger Than Death Valley",
+      "url": "https://en.wikipedia.org/wiki/Mimas_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Neptune's Moon Triton Features Ice Geysers Five Miles High",
+      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Jupiter Vs Sun: The Giant Planet Is One Thousandth the Mass of Our Star",
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
