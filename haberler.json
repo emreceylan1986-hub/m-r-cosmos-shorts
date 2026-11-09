@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-11-09T22:11:23.875520+00:00",
+  "uretim_zamani": "2026-11-09T23:11:18.719711+00:00",
   "haberler": [
     {
-      "baslik": "Saturn's Rings Vs A Bathtub: Why It Would Float",
-      "url": "https://en.wikipedia.org/wiki/Saturn",
+      "baslik": "Titan's Ocean: Hidden Liquid Water Beneath Saturn's Frozen Crust",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Stephenson 2-18: The Hidden Monster Bigger Than Our Sun",
-      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
