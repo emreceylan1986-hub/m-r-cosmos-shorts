@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-11-10T01:09:45.496895+00:00",
+  "uretim_zamani": "2026-11-10T18:11:16.377460+00:00",
   "haberler": [
     {
-      "baslik": "Ganymede's Ocean: Hidden Sea Deep Under Icy Crust",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Enceladus Geysers: Ocean Plumes Blasting 600 Miles Beyond Its Crust",
+      "url": "https://en.wikipedia.org/wiki/Geysers_on_Enceladus",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
