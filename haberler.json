@@ -1,16 +1,24 @@
 {
-  "uretim_zamani": "2026-11-11T18:11:16.169765+00:00",
+  "uretim_zamani": "2026-11-11T19:11:23.712036+00:00",
   "haberler": [
     {
-      "baslik": "Stephenson 2-18: The Hidden Star That Could Fit Ten Billion Sun Volumes",
-      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
+      "baslik": "Cosmic Web: The Hidden Structure Connecting Billions of Galaxies",
+      "url": "https://en.wikipedia.org/wiki/Galaxy_filament",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Laniakea Supercluster's Secret: A Web Holding More Water Than A Trillion Oceans",
+      "baslik": "Dark Matter Vs Cosmic Web: What Holds The Universe Together?",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Laniakea Supercluster: Our Cosmic Home Spans 100,000 Galaxies",
       "url": "https://en.wikipedia.org/wiki/Laniakea_Supercluster",
       "kaynak": "gemini-fallback",
       "skor": 998,
