@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-11T19:11:23.712036+00:00",
+  "uretim_zamani": "2026-11-11T21:11:17.222449+00:00",
   "haberler": [
     {
-      "baslik": "Cosmic Web: The Hidden Structure Connecting Billions of Galaxies",
-      "url": "https://en.wikipedia.org/wiki/Galaxy_filament",
+      "baslik": "Black Hole Jets Vs Galaxy Size: Ejections Reaching Further Than Star Systems",
+      "url": "https://en.wikipedia.org/wiki/Astrophysical_jet",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Dark Matter Vs Cosmic Web: What Holds The Universe Together?",
-      "url": "https://en.wikipedia.org/wiki/Dark_matter",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Laniakea Supercluster: Our Cosmic Home Spans 100,000 Galaxies",
-      "url": "https://en.wikipedia.org/wiki/Laniakea_Supercluster",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
