@@ -1,19 +1,11 @@
 {
-  "uretim_zamani": "2026-11-12T19:11:27.736678+00:00",
+  "uretim_zamani": "2026-11-12T21:11:27.563263+00:00",
   "haberler": [
     {
-      "baslik": "Proxima Centauri b: The Hidden Alien World Next Door",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "baslik": "K2-187 b orbits its star ten times closer than Mercury",
+      "url": "https://en.wikipedia.org/wiki/K2-187b",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "LHS 1140 b Vs Earth: Which Ocean World Is More Habitable?",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
