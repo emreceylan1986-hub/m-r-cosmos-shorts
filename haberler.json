@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-12T21:11:27.563263+00:00",
+  "uretim_zamani": "2026-11-12T23:11:51.257036+00:00",
   "haberler": [
     {
-      "baslik": "K2-187 b orbits its star ten times closer than Mercury",
-      "url": "https://en.wikipedia.org/wiki/K2-187b",
+      "baslik": "TOI-715 b exoplanet is one and a half times wider than Earth and sits in its star's conservative habitable zone",
+      "url": "https://en.wikipedia.org/wiki/TOI-715_b",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "LHS 1140 b super Earth is nearly two times larger than Earth with a deep liquid ocean potential",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kepler-22b orbits a sunlike star twenty two percent wider than Earth in an alien water world setup",
+      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
