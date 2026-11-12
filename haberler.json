@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-11-12T18:13:50.853610+00:00",
+  "uretim_zamani": "2026-11-12T19:11:27.736678+00:00",
   "haberler": [
     {
-      "baslik": "Super-puff Planets Vs Lead: Exoplanets Lighter Than Cotton Candy",
-      "url": "https://en.wikipedia.org/wiki/Super-puff",
+      "baslik": "Proxima Centauri b: The Hidden Alien World Next Door",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "LHS 1140 b Vs Earth: Which Ocean World Is More Habitable?",
+      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
