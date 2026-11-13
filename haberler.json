@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-12T23:16:09.569957+00:00",
+  "uretim_zamani": "2026-11-13T18:11:42.771222+00:00",
   "haberler": [
     {
-      "baslik": "WASP-121b exoplanet rains liquid iron down its permanent night side",
-      "url": "https://en.wikipedia.org/wiki/WASP-121b",
+      "baslik": "VY Canis Majoris: A Star So Big It Could Fit Three Billion Suns",
+      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Rigel Star Secret: Shines Forty Thousand Times Brighter Than the Sun",
+      "url": "https://en.wikipedia.org/wiki/Rigel",
       "kaynak": "gemini-fallback",
       "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "WOH G64 Secret: Hypergiant Swallows Space Past Jupiter's Orbit",
+      "url": "https://en.wikipedia.org/wiki/WOH_G64",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
