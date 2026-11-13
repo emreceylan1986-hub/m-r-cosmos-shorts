@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-13T23:11:54.483680+00:00",
+  "uretim_zamani": "2026-11-13T23:18:34.008498+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A* Secret: The Dark Monster Holding Our Galaxy Together",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Algol's Secret: The Demon Star Stealing Matter From Its Partner",
+      "url": "https://en.wikipedia.org/wiki/Algol",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rigel Star Vs Sun: A Cosmic Brightness Battle",
-      "url": "https://en.wikipedia.org/wiki/Rigel",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Mira's Secret: The Dying Star Dragging a Tail Thirteen Light Years Long",
-      "url": "https://en.wikipedia.org/wiki/Mira",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 988,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
