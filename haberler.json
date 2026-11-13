@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-13T19:11:15.775642+00:00",
+  "uretim_zamani": "2026-11-13T21:12:11.414072+00:00",
   "haberler": [
     {
-      "baslik": "Supernova Vs Gamma-Ray Burst: The Cosmos' Deadliest Explosion",
-      "url": "https://en.wikipedia.org/wiki/Gamma-ray_burst",
+      "baslik": "Stephenson 2-18: The Secret Giant Bigger Than Ten Million Suns",
+      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Neutron Star Vs The Sun: A Cosmic Density Battle",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "V838 Monocerotis Secret: The Star Light Echo Brighter Than Earth's Orbit",
+      "url": "https://en.wikipedia.org/wiki/V838_Monocerotis",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
