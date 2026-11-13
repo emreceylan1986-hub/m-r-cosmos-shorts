@@ -1,25 +1,9 @@
 {
-  "uretim_zamani": "2026-11-13T18:11:42.771222+00:00",
+  "uretim_zamani": "2026-11-13T19:11:15.775642+00:00",
   "haberler": [
     {
-      "baslik": "VY Canis Majoris: A Star So Big It Could Fit Three Billion Suns",
-      "url": "https://en.wikipedia.org/wiki/VY_Canis_Majoris",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Rigel Star Secret: Shines Forty Thousand Times Brighter Than the Sun",
-      "url": "https://en.wikipedia.org/wiki/Rigel",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "WOH G64 Secret: Hypergiant Swallows Space Past Jupiter's Orbit",
-      "url": "https://en.wikipedia.org/wiki/WOH_G64",
+      "baslik": "Supernova Vs Gamma-Ray Burst: The Cosmos' Deadliest Explosion",
+      "url": "https://en.wikipedia.org/wiki/Gamma-ray_burst",
       "kaynak": "gemini-fallback",
       "skor": 996,
       "yas_saat": 0,
