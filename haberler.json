@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-11-14T21:14:26.998639+00:00",
+  "uretim_zamani": "2026-11-14T23:11:13.238968+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*: The Unseen Monster Eating Our Galaxy's Core",
+      "baslik": "Sagittarius A*: The Hidden Monster Four Million Times Heavier Than Our Sun",
       "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-1606b: Super-Earth Hides an Ocean Wider Than Our Pacific",
-      "url": "https://en.wikipedia.org/wiki/Kepler-1606b",
+      "baslik": "Rigel Vs Sun: A Cosmic Brightness Battle",
+      "url": "https://en.wikipedia.org/wiki/Rigel",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
