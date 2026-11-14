@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-11-14T19:12:31.710832+00:00",
+  "uretim_zamani": "2026-11-14T21:14:26.998639+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-22b Vs Earth: Battle of the Cosmic Twin",
-      "url": "https://en.wikipedia.org/wiki/Kepler-22b",
+      "baslik": "Sagittarius A*: The Unseen Monster Eating Our Galaxy's Core",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kepler-1606b: Super-Earth Hides an Ocean Wider Than Our Pacific",
+      "url": "https://en.wikipedia.org/wiki/Kepler-1606b",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
