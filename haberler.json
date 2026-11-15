@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-15T01:32:52.972550+00:00",
+  "uretim_zamani": "2026-11-15T18:12:11.244493+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*: The Hidden Monster Powering Our Galaxy",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Sun's Core Vs Surface: The Hidden Heat Paradox",
+      "url": "https://en.wikipedia.org/wiki/Sun",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Oumuamua Vs Asteroids: The Interstellar Visitor That Baffled Scientists",
-      "url": "https://en.wikipedia.org/wiki/%27Oumuamua",
+      "baslik": "Oumuamua's Secret: The Interstellar Visitor Faster Than Any Asteroid",
+      "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Jupiter's Great Red Spot Is Deeper Than Earth's Deepest Ocean",
+      "baslik": "Jupiter's Great Red Spot's Secret: A Storm Wider Than Earth",
       "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
