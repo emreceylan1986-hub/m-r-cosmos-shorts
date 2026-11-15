@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-15T19:11:18.918706+00:00",
+  "uretim_zamani": "2026-11-15T21:11:26.281627+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Secret: Great Red Spot is Deeper Than Earth's Ocean",
-      "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "baslik": "Oort Cloud: The Hidden Ice Shell Encircling Our Entire Solar System",
+      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
       "kaynak": "gemini-fallback",
       "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Olympus Mons Vs Earth Volcanoes: A Solar System Mountain Battle",
+      "url": "https://en.wikipedia.org/wiki/Olympus_Mons",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Asteroid Psyche 16 contains more precious metal than all Earth's reserves",
+      "url": "https://en.wikipedia.org/wiki/16_Psyche",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
