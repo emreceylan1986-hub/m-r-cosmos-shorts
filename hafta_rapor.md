@@ -1,23 +1,23 @@
 # 📊 CosmoBytes — Haftalık Rapor
-_2026-11-09T01:26+00:00_
+_2026-11-16T01:34+00:00_
 
 ## Özet
-- **Abone:** 283 (+1 bu hafta)
-- **Toplam view:** 133,378 (+3,028 bu hafta)
-- **Toplam video:** 529
-- **Son 7 gün:** 28 video, 2,509 izl, ort 89/video
-- **<50 izl video sayısı:** 19/28 (kalite_temizleyici aday)
+- **Abone:** 288 (+5 bu hafta)
+- **Toplam view:** 135,351 (+1,973 bu hafta)
+- **Toplam video:** 552
+- **Son 7 gün:** 29 video, 980 izl, ort 33/video
+- **<50 izl video sayısı:** 21/29 (kalite_temizleyici aday)
 
 ## 🚀 Top 3 (son 7 gün)
-- **1,064v** · 15👍 · 1💬 — Bootes Void spans 330 million light years with only sixty galaxies
-- **542v** · 19👍 · 3💬 — Wolf 1069 b is an Earth-sized planet where a year lasts thirteen days
-- **141v** · 1👍 · 1💬 — Earth 315b completes one full orbit around its star in three days
+- **135v** · 2👍 · 1💬 — Sagittarius A weighs four million suns at the center of the Milky Way
+- **100v** · 1👍 · 1💬 — NGC 1300 galaxy spans 110000 light years with a spiral inside its core
+- **94v** · 3👍 · 1💬 — Jupiter's moon Ganymede holds more liquid water than Earth
 
 ## 🪦 Alt 3 (son 7 gün)
-- **0v** · 0👍 · 0💬 — Ceres ice volcano Ahuna Mons stands taller than Mont Blanc
-- **0v** · 0👍 · 0💬 — Betelgeuse is large enough to swallow Jupiter at Sun distance
-- **0v** · 0👍 · 0💬 — K2-18b exoplanet is eight times heavier than Earth with an ocean
+- **0v** · 0👍 · 0💬 — Oort Cloud icy shell stretches one light-year from our Sun
+- **0v** · 0👍 · 0💬 — Exoplanet K2-187 b orbits ten times closer than Mercury
+- **0v** · 0👍 · 0💬 — Cosmic web filaments span millions of light years like brain neurons
 
 ## Karar verileri
-- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **283 abone / 89 ort**
+- Faz 1 hedef: 500+ abone + günde 1000+ ort view → şu an: **288 abone / 33 ort**
 - Aşıldı mı: ❌ Henüz aşılmadı
