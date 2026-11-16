@@ -1,11 +1,11 @@
 {
-  "uretim_zamani": "2026-11-16T19:12:19.214812+00:00",
+  "uretim_zamani": "2026-11-16T21:12:07.613034+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A* Secret: Why Our Supermassive Black Hole Vs A Teaspoon of Water Holds Endless Wonder",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Saturn's Rings Vs Earth's Oceans: A Volume Battle",
+      "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
