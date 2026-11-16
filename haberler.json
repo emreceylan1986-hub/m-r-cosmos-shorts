@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-15T21:11:26.281627+00:00",
+  "uretim_zamani": "2026-11-16T02:33:38.394360+00:00",
   "haberler": [
     {
-      "baslik": "Oort Cloud: The Hidden Ice Shell Encircling Our Entire Solar System",
-      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
+      "baslik": "Sagittarius A* Secret: The Supermassive Black Hole Vs Earth",
+      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Olympus Mons Vs Earth Volcanoes: A Solar System Mountain Battle",
-      "url": "https://en.wikipedia.org/wiki/Olympus_Mons",
+      "baslik": "Callisto's Secret Ocean: Underground Water Deep Under Jupiter's Moon",
+      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Asteroid Psyche 16 contains more precious metal than all Earth's reserves",
-      "url": "https://en.wikipedia.org/wiki/16_Psyche",
+      "baslik": "Pillars of Creation Vs Deep Space: The Iconic Star Nursery Unseen Secrets",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
