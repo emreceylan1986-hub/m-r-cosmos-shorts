@@ -1,17 +1,9 @@
 {
-  "uretim_zamani": "2026-11-17T18:12:42.000490+00:00",
+  "uretim_zamani": "2026-11-17T19:20:52.473148+00:00",
   "haberler": [
     {
-      "baslik": "Enceladus shoots water geysers ten times higher than Mount Everest",
-      "url": "https://en.wikipedia.org/wiki/Enceladus",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ganymede's icy crust hides a saltwater ocean deeper than any sea on Earth",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Mimas moon conceals a subsurface ocean twelve miles beneath its cratered ice crust",
+      "url": "https://en.wikipedia.org/wiki/Mimas_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
