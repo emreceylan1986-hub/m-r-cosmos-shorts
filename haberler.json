@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-11-17T19:20:52.473148+00:00",
+  "uretim_zamani": "2026-11-17T21:11:21.372423+00:00",
   "haberler": [
     {
-      "baslik": "Mimas moon conceals a subsurface ocean twelve miles beneath its cratered ice crust",
-      "url": "https://en.wikipedia.org/wiki/Mimas_(moon)",
+      "baslik": "Titan Vs Earth: Methane Lakes Bigger Than The Caspian Sea",
+      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Pillars of Creation: Hidden Stars Four Times Larger Than The Sun",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
