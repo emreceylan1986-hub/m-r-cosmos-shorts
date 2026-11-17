@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-11-17T01:32:42.184913+00:00",
+  "uretim_zamani": "2026-11-17T18:12:42.000490+00:00",
   "haberler": [
     {
-      "baslik": "Titan's Methane Lakes Hold More Fuel Than Earth",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "baslik": "Enceladus shoots water geysers ten times higher than Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ganymede's icy crust hides a saltwater ocean deeper than any sea on Earth",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
