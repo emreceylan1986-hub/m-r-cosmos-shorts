@@ -794,9 +794,20 @@ def main() -> int:
                  + ("  ⚠️ taban altinda" if 0 <= _p < HOOK_PARLAKLIK_TABANI else ""))
         if zayif_hook_mu and (zayif_hook_mu[0]
                               or 0 <= parlakliklar[0] < HOOK_PARLAKLIK_TABANI):
+            # 17 Kas 2026 OLCUM (AKASHA 29 kosu): takas yapilan kosularda gizlenme
+            # 6/9 = %67, takassizlarda 1/20 = %5. Gizlenme gerekceleri KARANLIK degil
+            # SIKICI: "Generic bokeh", "Generic beach landscape", "Boring shot of a bird".
+            # Sebep: Query 1 = INSAN/duygu, Query 2 = ATMOSFER/DOGA (peyzaj), Query 3 =
+            # SEMBOL. "En parlak" secmek peyzaji basa aliyordu — montajci talimatinin
+            # ("yakin cekim insan yuzu > genis peyzaj") tam tersi.
+            # Artik ALAKA onceligi: taban ustu adaylar arasindan EN DUSUK INDEKS.
+            # Hicbiri taban ustu degilse eski davranis (en parlak) korunur.
             _adaylar = [i for i, z in enumerate(zayif_hook_mu) if not z]
-            saglam = (max(_adaylar, key=lambda i: parlakliklar[i])
-                      if _adaylar else None)
+            _yeterli = [i for i in _adaylar
+                        if parlakliklar[i] >= HOOK_PARLAKLIK_TABANI]
+            saglam = (_yeterli[0] if _yeterli
+                      else (max(_adaylar, key=lambda i: parlakliklar[i])
+                            if _adaylar else None))
             if saglam == 0:
                 saglam = None   # zaten en iyisi basta, takasa gerek yok
             if saglam is not None:
