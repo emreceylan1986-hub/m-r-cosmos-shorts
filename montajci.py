@@ -792,8 +792,17 @@ def main() -> int:
         for _i, (_k, _p) in enumerate(zip(ham_klipler, parlakliklar), 1):
             _alt(f"#{_i} parlaklik: {_p:.0f}/255"
                  + ("  ⚠️ taban altinda" if 0 <= _p < HOOK_PARLAKLIK_TABANI else ""))
-        if zayif_hook_mu and (zayif_hook_mu[0]
-                              or 0 <= parlakliklar[0] < HOOK_PARLAKLIK_TABANI):
+        # 🔴 19 Kas 2026 OLCUM (23 video, QC skoru + gercek #1 YAVG + canli gizlilik):
+        #   KARANLIK (<75): n=10  QC ort 7,0  ·  TABAN USTU (>=75): n=13  QC ort 5,6
+        #   #1 parlaklik ↔ Hook QC korelasyonu: r = -0,19  (ILISKI YOK, hafif TERS)
+        #   CB'de karanlik 9 video → GIZLENEN 0. CB'de gizlenen tek video 109/255
+        #   (taban USTU): "ordinary Earth clouds instead of space" = ALAKA sorunu.
+        #   Takas etkisi: CB takassiz QC 7,1 → takasli 6,0 (AK'de 6,0 → 5,2).
+        # 29 Eki'nin 75 tabani KUCUK RESIM YAVG'sine dayaniyordu; kucuk resim videonun
+        # ORTASINDAN aliniyor, hook'un karesi orada yok → taban yanlis temele oturmus.
+        # Uzay icerigi zaten karanliktir (41/255 → 8/10 ornekleri var).
+        # Artik takas yalniz #1 GERCEKTEN kullanilamazsa (QC-red / fotograf).
+        if zayif_hook_mu and zayif_hook_mu[0]:
             # 17 Kas 2026 OLCUM (AKASHA 29 kosu): takas yapilan kosularda gizlenme
             # 6/9 = %67, takassizlarda 1/20 = %5. Gizlenme gerekceleri KARANLIK degil
             # SIKICI: "Generic bokeh", "Generic beach landscape", "Boring shot of a bird".
@@ -822,7 +831,7 @@ def main() -> int:
                 _alt(f"🔄 hook kurtarma: #{saglam+1} basa alindi "
                      f"(parlaklik {parlakliklar[0]:.0f})")
             else:
-                _alt("⚠️ uygun hook yok — ilk klip kaliyor (CB'de grade yok, yukseltme yapilmaz)")
+                _alt("⚠️ uygun hook yok — ilk klip kaliyor")
 
         _adim(5, f"Her klip 1080×1920'a kırpılıp normalize ediliyor...")
         normal_klipler: list[Path] = []
