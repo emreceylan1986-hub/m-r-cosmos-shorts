@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-11-17T21:11:21.372423+00:00",
+  "uretim_zamani": "2026-11-18T00:33:12.615474+00:00",
   "haberler": [
     {
-      "baslik": "Titan Vs Earth: Methane Lakes Bigger Than The Caspian Sea",
-      "url": "https://en.wikipedia.org/wiki/Titan_(moon)",
+      "baslik": "Sombrero Galaxy dust lane is twice as wide as the distance to Andromeda",
+      "url": "https://en.wikipedia.org/wiki/Sombrero_Galaxy",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Andromeda Galaxy approaches Earth at a speed of seven miles per second",
+      "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Pillars of Creation: Hidden Stars Four Times Larger Than The Sun",
-      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "baslik": "Whirlpool Galaxy spiral arms span twice the width of our entire Milky Way",
+      "url": "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
