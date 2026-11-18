@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-18T18:14:24.520037+00:00",
+  "uretim_zamani": "2026-11-18T19:11:14.360461+00:00",
   "haberler": [
     {
-      "baslik": "Hubble Deep Field view captures ten thousand galaxies in a sky patch the size of a grain of sand",
-      "url": "https://en.wikipedia.org/wiki/Hubble_Deep_Field",
+      "baslik": "Rubin's Galaxy: Spanning Four Times Wider Than Our Milky Way",
+      "url": "https://en.wikipedia.org/wiki/Rubin%27s_Galaxy",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Bootes Void spans three hundred thirty million light years and holds sixty times fewer galaxies than expected",
-      "url": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_void",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Andromeda Galaxy approaches the Milky Way at two hundred fifty thousand miles per hour for a collision course",
-      "url": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
