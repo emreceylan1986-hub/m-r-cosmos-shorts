@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-11-18T21:14:47.706122+00:00",
+  "uretim_zamani": "2026-11-19T18:11:54.664642+00:00",
   "haberler": [
     {
-      "baslik": "Bootes Void is an Empty Bubble Empty Enough to Hold Two Thousand Milky Ways",
-      "url": "https://en.wikipedia.org/wiki/Boötes_void",
+      "baslik": "L 98-59 b exoplanet world is half as heavy as Venus orbiting its red dwarf star",
+      "url": "https://en.wikipedia.org/wiki/L_98-59",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "HR 8799 b giant exoplanet glows with forty times the infrared heat of Jupiter",
+      "url": "https://en.wikipedia.org/wiki/HR_8799_b",
+      "kaynak": "gemini-fallback",
+      "skor": 992,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
