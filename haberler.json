@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-11-19T19:12:50.209676+00:00",
+  "uretim_zamani": "2026-11-19T21:11:50.425303+00:00",
   "haberler": [
     {
-      "baslik": "LHS 1140 b super-Earth has a global liquid ocean deeper than Earth's deepest trenches",
-      "url": "https://en.wikipedia.org/wiki/LHS_1140_b",
+      "baslik": "TRAPPIST-1e Vs Earth: Life Battle in Deep Space",
+      "url": "https://en.wikipedia.org/wiki/TRAPPIST-1e",
       "kaynak": "gemini-fallback",
       "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gliese 667 Cc: Alien Super-Earth Gets Half the Sunlight of Earth",
+      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
