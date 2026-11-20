@@ -1,19 +1,19 @@
 {
-  "uretim_zamani": "2026-11-20T00:17:26.174266+00:00",
+  "uretim_zamani": "2026-11-20T18:14:50.766906+00:00",
   "haberler": [
     {
-      "baslik": "Rigel's Secret: A Star Shining Brighter Than Forty Thousand Suns",
-      "url": "https://en.wikipedia.org/wiki/Rigel",
+      "baslik": "UDFy-38135539's Secret: The Ancient Light Older Than Earth Itself",
+      "url": "https://en.wikipedia.org/wiki/UDFy-38135539",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Arcturus Vs Sun: The Giant Star 170 Times Brighter Than Our Sun",
-      "url": "https://en.wikipedia.org/wiki/Arcturus",
+      "baslik": "Hypernova Vs Supernova: The Cosmic Blast 100 Times Deadlier Than A Normal Star Death",
+      "url": "https://en.wikipedia.org/wiki/Superluminous_supernova",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 986,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
