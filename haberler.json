@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-11-19T23:11:31.626614+00:00",
+  "uretim_zamani": "2026-11-20T00:17:26.174266+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 12 b: Earth-Sized Alien World Cooler Than Venus",
-      "url": "https://en.wikipedia.org/wiki/Gliese_12_b",
+      "baslik": "Rigel's Secret: A Star Shining Brighter Than Forty Thousand Suns",
+      "url": "https://en.wikipedia.org/wiki/Rigel",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Arcturus Vs Sun: The Giant Star 170 Times Brighter Than Our Sun",
+      "url": "https://en.wikipedia.org/wiki/Arcturus",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
