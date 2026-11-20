@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-11-20T18:14:50.766906+00:00",
+  "uretim_zamani": "2026-11-20T19:11:41.397499+00:00",
   "haberler": [
     {
-      "baslik": "UDFy-38135539's Secret: The Ancient Light Older Than Earth Itself",
-      "url": "https://en.wikipedia.org/wiki/UDFy-38135539",
+      "baslik": "UY Scuti's Secret: A Star Larger Than Eight Hundred Suns",
+      "url": "https://en.wikipedia.org/wiki/UY_Scuti",
       "kaynak": "gemini-fallback",
-      "skor": 996,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Hypernova Vs Supernova: The Cosmic Blast 100 Times Deadlier Than A Normal Star Death",
-      "url": "https://en.wikipedia.org/wiki/Superluminous_supernova",
+      "baslik": "Eta Carinae Shines Brighter Than Five Million Suns",
+      "url": "https://en.wikipedia.org/wiki/Eta_Carinae",
       "kaynak": "gemini-fallback",
-      "skor": 986,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "R136a1 Vs The Sun: The Stellar Mass Battle",
+      "url": "https://en.wikipedia.org/wiki/R136a1",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
