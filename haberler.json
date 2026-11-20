@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-20T19:11:41.397499+00:00",
+  "uretim_zamani": "2026-11-20T21:11:43.063021+00:00",
   "haberler": [
     {
-      "baslik": "UY Scuti's Secret: A Star Larger Than Eight Hundred Suns",
-      "url": "https://en.wikipedia.org/wiki/UY_Scuti",
+      "baslik": "Betelgeuse's Secret: A Star Swelling Beyond the Orbit of Mars",
+      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Eta Carinae Shines Brighter Than Five Million Suns",
-      "url": "https://en.wikipedia.org/wiki/Eta_Carinae",
+      "baslik": "Arcturus Star vs Sun: A Giant 170 Times Brighter Than Our Solar Core",
+      "url": "https://en.wikipedia.org/wiki/Arcturus",
       "kaynak": "gemini-fallback",
-      "skor": 997,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "R136a1 Vs The Sun: The Stellar Mass Battle",
-      "url": "https://en.wikipedia.org/wiki/R136a1",
+      "baslik": "V838 Monocerotis's Secret: A Stellar Explosion Wider Than Eight Earth Orbits",
+      "url": "https://en.wikipedia.org/wiki/V838_Monocerotis",
       "kaynak": "gemini-fallback",
-      "skor": 995,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
