@@ -1,27 +1,19 @@
 {
-  "uretim_zamani": "2026-11-21T18:13:08.847927+00:00",
+  "uretim_zamani": "2026-11-21T19:15:24.435920+00:00",
   "haberler": [
     {
-      "baslik": "Kepler-1606b is an ocean world double the size of Earth",
-      "url": "https://en.wikipedia.org/wiki/Kepler-1606b",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ross 128 b receives twenty percent more stellar energy than Earth",
+      "baslik": "Ross 128 b Vs Earth: A Battle For Alien Life",
       "url": "https://en.wikipedia.org/wiki/Ross_128_b",
       "kaynak": "gemini-fallback",
-      "skor": 994,
+      "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Kepler-452b Vs Earth: The Super-Earth Clash",
-      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
+      "baslik": "Gliese 667 Cc gets four times more red light than Earth gets from the Sun",
+      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
       "kaynak": "gemini-fallback",
-      "skor": 993,
+      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
