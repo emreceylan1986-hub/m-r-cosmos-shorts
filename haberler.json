@@ -1,19 +1,27 @@
 {
-  "uretim_zamani": "2026-11-21T19:15:24.435920+00:00",
+  "uretim_zamani": "2026-11-21T21:11:09.727576+00:00",
   "haberler": [
     {
-      "baslik": "Ross 128 b Vs Earth: A Battle For Alien Life",
-      "url": "https://en.wikipedia.org/wiki/Ross_128_b",
+      "baslik": "Gliese 667 Cc Vs Sun: Life Around a Red Dwarf",
+      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Gliese 667 Cc gets four times more red light than Earth gets from the Sun",
-      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
+      "baslik": "Kepler-452b: Earth's Older Cousin Is Five Times More Massive",
+      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Gliese 581g: The Secret Tidally Locked World Near Earth",
+      "url": "https://en.wikipedia.org/wiki/Gliese_581g",
+      "kaynak": "gemini-fallback",
+      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
