@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-21T21:11:09.727576+00:00",
+  "uretim_zamani": "2026-11-21T23:11:07.663566+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 667 Cc Vs Sun: Life Around a Red Dwarf",
-      "url": "https://en.wikipedia.org/wiki/Gliese_667_Cc",
+      "baslik": "Wolf 1069 b's Secret: A Habitable World Near Earth",
+      "url": "https://en.wikipedia.org/wiki/Wolf_1069",
       "kaynak": "gemini-fallback",
       "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Kepler-452b: Earth's Older Cousin Is Five Times More Massive",
-      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
-      "kaynak": "gemini-fallback",
-      "skor": 997,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Gliese 581g: The Secret Tidally Locked World Near Earth",
-      "url": "https://en.wikipedia.org/wiki/Gliese_581g",
-      "kaynak": "gemini-fallback",
-      "skor": 995,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
