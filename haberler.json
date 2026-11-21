@@ -1,27 +1,27 @@
 {
-  "uretim_zamani": "2026-11-20T21:11:43.063021+00:00",
+  "uretim_zamani": "2026-11-21T18:13:08.847927+00:00",
   "haberler": [
     {
-      "baslik": "Betelgeuse's Secret: A Star Swelling Beyond the Orbit of Mars",
-      "url": "https://en.wikipedia.org/wiki/Betelgeuse",
+      "baslik": "Kepler-1606b is an ocean world double the size of Earth",
+      "url": "https://en.wikipedia.org/wiki/Kepler-1606b",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Arcturus Star vs Sun: A Giant 170 Times Brighter Than Our Solar Core",
-      "url": "https://en.wikipedia.org/wiki/Arcturus",
+      "baslik": "Ross 128 b receives twenty percent more stellar energy than Earth",
+      "url": "https://en.wikipedia.org/wiki/Ross_128_b",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 994,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "V838 Monocerotis's Secret: A Stellar Explosion Wider Than Eight Earth Orbits",
-      "url": "https://en.wikipedia.org/wiki/V838_Monocerotis",
+      "baslik": "Kepler-452b Vs Earth: The Super-Earth Clash",
+      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 993,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
