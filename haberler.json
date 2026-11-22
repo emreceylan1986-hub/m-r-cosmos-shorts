@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-22T18:11:31.726734+00:00",
+  "uretim_zamani": "2026-11-22T19:11:48.290126+00:00",
   "haberler": [
     {
-      "baslik": "Olympus Mons: A Volcano Three Times Taller Than Mount Everest",
-      "url": "https://en.wikipedia.org/wiki/Olympus_Mons",
+      "baslik": "Vesta Asteroid's Peak: Rheasilvia Is Twice As Tall As Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/Rheasilvia",
       "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Mercury's Core Secret: Iron Heart Occupies Larger Ratio Than Earth's Core",
+      "url": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ceres' Secret Ocean: Dwarf Planet Hides Water Reservoirs Below Ice",
+      "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
