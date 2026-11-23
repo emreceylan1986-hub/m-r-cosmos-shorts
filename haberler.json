@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-11-22T21:11:27.126480+00:00",
+  "uretim_zamani": "2026-11-23T18:15:44.029436+00:00",
   "haberler": [
     {
-      "baslik": "Sagittarius A*'s Secret: Earth's Core Hotter Than Its Invisible Edge",
-      "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "baslik": "Jupiter's Magnetic Field Is Twenty Thousand Times Stronger Than Earth's",
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Oort Cloud Vs Kuiper Belt: The Outer Solar System Battle",
-      "url": "https://en.wikipedia.org/wiki/Oort_cloud",
+      "baslik": "Io Moon Volcanoes Shoot Plumes Two Hundred Miles High Into Space",
+      "url": "https://en.wikipedia.org/wiki/Io_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Ganymede Moon Possesses Twice As Much Water As All Earth Oceans",
+      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
