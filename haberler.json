@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-23T18:15:44.029436+00:00",
+  "uretim_zamani": "2026-11-23T19:18:07.156112+00:00",
   "haberler": [
     {
-      "baslik": "Jupiter's Magnetic Field Is Twenty Thousand Times Stronger Than Earth's",
-      "url": "https://en.wikipedia.org/wiki/Jupiter",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Io Moon Volcanoes Shoot Plumes Two Hundred Miles High Into Space",
+      "baslik": "Jupiter's moon Io volcanic plumes shoot four hundred miles higher than Mount Everest",
       "url": "https://en.wikipedia.org/wiki/Io_(moon)",
       "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Ganymede Moon Possesses Twice As Much Water As All Earth Oceans",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
