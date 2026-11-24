@@ -1,25 +1,17 @@
 {
-  "uretim_zamani": "2026-11-24T03:47:56.916305+00:00",
+  "uretim_zamani": "2026-11-24T18:12:08.018691+00:00",
   "haberler": [
     {
-      "baslik": "Europa's Secret: A Ocean Hidden Beneath Ice Deeper Than Earth's Seas",
-      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
-      "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Neutron Star Vs Sun: A Density Battle Where A Teaspoon Weighs More Than Mount Everest",
-      "url": "https://en.wikipedia.org/wiki/Neutron_star",
+      "baslik": "Enceladus Vs Earth: Which Ocean Holds More Life Potential?",
+      "url": "https://en.wikipedia.org/wiki/Enceladus",
       "kaynak": "gemini-fallback",
       "skor": 999,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Triton's Hidden Ocean: Geysers Shooting Nitrogen Higher Than Commercial Jets",
-      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
+      "baslik": "Pillars of Creation's Secret: Massive Stars Destroying Cosmic Towers",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
