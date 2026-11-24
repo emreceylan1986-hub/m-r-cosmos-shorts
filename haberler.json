@@ -1,9 +1,25 @@
 {
-  "uretim_zamani": "2026-11-23T23:12:14.263630+00:00",
+  "uretim_zamani": "2026-11-24T03:47:56.916305+00:00",
   "haberler": [
     {
-      "baslik": "Callisto's Hidden Secret: The Ocean Hiding Under Deep Ice",
-      "url": "https://en.wikipedia.org/wiki/Callisto_(moon)",
+      "baslik": "Europa's Secret: A Ocean Hidden Beneath Ice Deeper Than Earth's Seas",
+      "url": "https://en.wikipedia.org/wiki/Europa_(moon)",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Neutron Star Vs Sun: A Density Battle Where A Teaspoon Weighs More Than Mount Everest",
+      "url": "https://en.wikipedia.org/wiki/Neutron_star",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Triton's Hidden Ocean: Geysers Shooting Nitrogen Higher Than Commercial Jets",
+      "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
