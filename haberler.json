@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-25T19:11:41.211343+00:00",
+  "uretim_zamani": "2026-11-25T21:12:43.080170+00:00",
   "haberler": [
     {
-      "baslik": "Stephenson 2-18: The Hidden Monster Star Wider Than Saturn's Orbit",
-      "url": "https://en.wikipedia.org/wiki/Stephenson_2-18",
+      "baslik": "Vera C. Rubin's Dark Matter Discovery: Why Galaxies Spin Faster Than the Sun",
+      "url": "https://en.wikipedia.org/wiki/Vera_Rubin",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "IC 1101: The Cosmic Monster Star City Wider Than Fifty Milky Ways",
+      "url": "https://en.wikipedia.org/wiki/IC_1101",
+      "kaynak": "gemini-fallback",
+      "skor": 998,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Black Hole Vs Cosmic Ray: Which Accelerates Particles Faster?",
+      "url": "https://en.wikipedia.org/wiki/Cosmic_ray",
+      "kaynak": "gemini-fallback",
+      "skor": 997,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
