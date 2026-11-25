@@ -1,11 +1,19 @@
 {
-  "uretim_zamani": "2026-11-24T21:11:42.396999+00:00",
+  "uretim_zamani": "2026-11-25T01:54:02.076743+00:00",
   "haberler": [
     {
-      "baslik": "Ganymede Vs Earth: Moon With Its Own Magnetic Shield",
-      "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "baslik": "Dune World Arrakis Real Planet: HD 269810 Shines Solar Energy Five Times Hotter Than Earth",
+      "url": "https://en.wikipedia.org/wiki/HD_269810",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 992,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "GJ 9827 d: Steamy Atmosphere Packaged in World Twice as Big as Earth",
+      "url": "https://en.wikipedia.org/wiki/GJ_9827_d",
+      "kaynak": "gemini-fallback",
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
