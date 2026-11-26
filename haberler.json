@@ -1,9 +1,17 @@
 {
-  "uretim_zamani": "2026-11-26T18:12:49.339868+00:00",
+  "uretim_zamani": "2026-11-26T19:15:34.561734+00:00",
   "haberler": [
     {
-      "baslik": "Rogue Planet CFBDSIR 2149 Drifts Alone Beyond our Solar System",
-      "url": "https://en.wikipedia.org/wiki/CFBDSIR_2149-0403",
+      "baslik": "TOI-715 b ocean world orbits in its star's zone forty-two light years away",
+      "url": "https://en.wikipedia.org/wiki/TOI-715_b",
+      "kaynak": "gemini-fallback",
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Proxima Centauri b rocky exoplanet receives twice as much starlight energy as Earth",
+      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
