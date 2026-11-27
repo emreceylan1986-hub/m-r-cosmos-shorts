@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-27T18:13:45.994860+00:00",
+  "uretim_zamani": "2026-11-27T19:11:53.598574+00:00",
   "haberler": [
     {
-      "baslik": "Antares Star Vs Mars Orbit: A Cosmic Size Battle",
-      "url": "https://en.wikipedia.org/wiki/Antares",
+      "baslik": "Pillars of Creation: The Hidden Secret Inside Star Factories",
+      "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
       "kaynak": "gemini-fallback",
       "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Eta Carinae's Secret: The Star That Survived Its Own Explosion",
-      "url": "https://en.wikipedia.org/wiki/Eta_Carinae",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "KIC 8462852's Hidden Secret: The Dimming Star Scientists Couldn't Explain",
-      "url": "https://en.wikipedia.org/wiki/KIC_8462852",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
