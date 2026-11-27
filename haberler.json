@@ -1,17 +1,25 @@
 {
-  "uretim_zamani": "2026-11-27T01:30:02.440404+00:00",
+  "uretim_zamani": "2026-11-27T18:13:45.994860+00:00",
   "haberler": [
     {
-      "baslik": "Boomerang Nebula's Secret: The Coldest Place in the Cosmos is Colder Than Space Itself",
-      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
+      "baslik": "Antares Star Vs Mars Orbit: A Cosmic Size Battle",
+      "url": "https://en.wikipedia.org/wiki/Antares",
       "kaynak": "gemini-fallback",
       "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Quasar Vs Pulsar: Which Cosmic Engine Shines Brighter Than a Trillion Suns?",
-      "url": "https://en.wikipedia.org/wiki/Quasar",
+      "baslik": "Eta Carinae's Secret: The Star That Survived Its Own Explosion",
+      "url": "https://en.wikipedia.org/wiki/Eta_Carinae",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "KIC 8462852's Hidden Secret: The Dimming Star Scientists Couldn't Explain",
+      "url": "https://en.wikipedia.org/wiki/KIC_8462852",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
