@@ -1,17 +1,17 @@
 {
-  "uretim_zamani": "2026-11-26T21:19:35.549364+00:00",
+  "uretim_zamani": "2026-11-27T01:30:02.440404+00:00",
   "haberler": [
     {
-      "baslik": "Proxima Centauri b Vs Earth: An Alien Sun Battle",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+      "baslik": "Boomerang Nebula's Secret: The Coldest Place in the Cosmos is Colder Than Space Itself",
+      "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
       "kaynak": "gemini-fallback",
-      "skor": 999,
+      "skor": 1000,
       "yas_saat": 0,
       "yorum_sayisi": 0
     },
     {
-      "baslik": "Gliese 581g: The Tidally Locked World Halfway In Eternal Ice",
-      "url": "https://en.wikipedia.org/wiki/Gliese_581g",
+      "baslik": "Quasar Vs Pulsar: Which Cosmic Engine Shines Brighter Than a Trillion Suns?",
+      "url": "https://en.wikipedia.org/wiki/Quasar",
       "kaynak": "gemini-fallback",
       "skor": 998,
       "yas_saat": 0,
