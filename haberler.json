@@ -1,27 +1,11 @@
 {
-  "uretim_zamani": "2026-11-28T18:15:02.216783+00:00",
+  "uretim_zamani": "2026-11-28T19:11:03.265647+00:00",
   "haberler": [
     {
-      "baslik": "K2-18b alien sky hides a water vapor atmosphere three times thicker than Earth",
-      "url": "https://en.wikipedia.org/wiki/K2-18b",
+      "baslik": "Gliese 180 d receives half the light of Earth from its cool parent star",
+      "url": "https://en.wikipedia.org/wiki/Gliese_180",
       "kaynak": "gemini-fallback",
-      "skor": 1000,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "TOI-849 b is a naked planetary core twice as massive as Neptune",
-      "url": "https://en.wikipedia.org/wiki/TOI-849_b",
-      "kaynak": "gemini-fallback",
-      "skor": 999,
-      "yas_saat": 0,
-      "yorum_sayisi": 0
-    },
-    {
-      "baslik": "Proxima Centauri c exoplanet takes five years to orbit its parent star",
-      "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_c",
-      "kaynak": "gemini-fallback",
-      "skor": 998,
+      "skor": 987,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
