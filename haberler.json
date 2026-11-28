@@ -1,11 +1,27 @@
 {
-  "uretim_zamani": "2026-11-28T19:11:03.265647+00:00",
+  "uretim_zamani": "2026-11-28T21:14:07.623152+00:00",
   "haberler": [
     {
-      "baslik": "Gliese 180 d receives half the light of Earth from its cool parent star",
-      "url": "https://en.wikipedia.org/wiki/Gliese_180",
+      "baslik": "K2-72e's Secret: A Habitable World Receiving Twice As Much Starlight As Mars",
+      "url": "https://en.wikipedia.org/wiki/K2-72e",
       "kaynak": "gemini-fallback",
-      "skor": 987,
+      "skor": 1000,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kepler-186f Vs Earth: Could Alien Life Live In A Red Sun's Glow?",
+      "url": "https://en.wikipedia.org/wiki/Kepler-186f",
+      "kaynak": "gemini-fallback",
+      "skor": 999,
+      "yas_saat": 0,
+      "yorum_sayisi": 0
+    },
+    {
+      "baslik": "Kepler-452b Vs Sun: Earth's Bigger Cousin Orbits A Star 20 Percent Brighter",
+      "url": "https://en.wikipedia.org/wiki/Kepler-452b",
+      "kaynak": "gemini-fallback",
+      "skor": 996,
       "yas_saat": 0,
       "yorum_sayisi": 0
     }
